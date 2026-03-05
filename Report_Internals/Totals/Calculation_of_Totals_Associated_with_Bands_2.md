@@ -237,14 +237,14 @@ Calculation of totals with condition
 Sometimes, when calculating totals, it is necessary to consider certain values. In this case, the condition is set to function of calculating the totals. For example, it is necessary to sum the values that are greater than zero. To add a condition to the function of calculating the totals, you should to add a suffix If (the Latin alphabet) to the function name, and add an additional argument with the condition:
 
 
-{SumIf (Products.UnitsInStock, Products.UnitsInStock> 1)}. In this case, the amount of Products.UnitsInStock values will be calculated, which is greater than 1.
+{SumIf (Products.UnitsInStock, Products.UnitsInStock&gt; 1)}. In this case, the amount of Products.UnitsInStock values will be calculated, which is greater than 1.
 
 {CountIf (Products.UnitsInStock == 0)}. In this case, the number of rows with a zero value in the column is calculated UnitsInStock
 
 
 > **Information**
 >
-> Notice: If you want to make a calculation using a Double or Int64, you must first add the Latin letter D or I, and then the word If. For example: {SumDIf(Products.UnitsInStock,Products.UnitsInStock> 0)}.
+> Notice: If you want to make a calculation using a Double or Int64, you must first add the Latin letter D or I, and then the word If. For example: {SumDIf(Products.UnitsInStock,Products.UnitsInStock&gt; 0)}.
 
 
 Totals and automatic changing the size of the component

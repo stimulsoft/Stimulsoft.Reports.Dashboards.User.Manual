@@ -34,7 +34,7 @@ Printing resolution
 
 Very high density
 
-< 4 mils
+&lt; 4 mils
 
 High density
 
@@ -50,7 +50,7 @@ Low density
 
 Very low density
 
-> 20 mils
+&gt; 20 mils
 
 The above classification is approximate and depends on the type of barcode. For example, a PDF417 10 mils barcode may be considered a high-density barcode; however, a 10 mils line code can be recognized as a medium density barcode.
 

@@ -1,8 +1,8 @@
-## HTML <sup> Tag
+## HTML &lt;sup&gt; Tag
 
-The <sup> tag is used to define a superscripted text. Superscript text appears half a character above the baseline. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
+The &lt;sup&gt; tag is used to define a superscripted text. Superscript text appears half a character above the baseline. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
 
-Test <sup>Test</sup> Test
+Test &lt;sup&gt;Test&lt;/sup&gt; Test
 
 then after calculation the result appearing in the report will be:
 

@@ -5,7 +5,7 @@ The tag is used to add style, size, and color to a text expression. If there is 
 
 Syntax:
 
-<font face="FontName" color="#rrggbb" size="n"> </font>
+&lt;font face="FontName" color="#rrggbb" size="n"&gt; &lt;/font&gt;
 
 Parameters:
 
@@ -21,6 +21,6 @@ Example:
 
 If you enter the following expression:
 
-Test <font color="red" face="Courier" size="18">Test</font> Test
+Test &lt;font color="red" face="Courier" size="18"&gt;Test&lt;/font&gt; Test
 
 then after calculation the result appearing in the report will be:

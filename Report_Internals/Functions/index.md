@@ -457,7 +457,7 @@ In arguments, the condition is specified, the value if the condition is true (tr
 In the inventory report, you need to track the number of items. The logistician's task is that, when the quantity of goods is coming to 0 (less than 6), it is necessary to order these goods. To highlight critical positions in the report visually, you can use the function {IIF (,,)}
 
 
-{IIF(DataSource.Column1 > 6,"Minimum","Normal")}, 
+{IIF(DataSource.Column1 &gt; 6,"Minimum","Normal")}, 
 where DataSource.Column1 - the column with the values of the quantity of goods, 6 - the extreme quantity of goods, Minimum - the value that will be displayed if the stock of goods is less than 6, Normal - the value to be displayed if the stock of goods is 6 or more.
 
 {Switch()}
@@ -723,7 +723,7 @@ Trims the spaces at the beginning or end of the line:
  The value is specified in arguments (the string type)
  Returns the value of the string type
 
-{Trim("   <1 dollars>   ")} - the result in this case is <1 dollars>".
+{Trim("   &lt;1 dollars&gt;   ")} - the result in this case is &lt;1 dollars&gt;".
 {Trim(DataSource.Column1)} - the spaces before each value and after each value will be truncated.
 
 {TryParseDecimal()}

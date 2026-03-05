@@ -14,7 +14,7 @@ For other inquiries, please use the e-mail address: [info@stimulsoft.com](mailto
 
 If you have issues with our products, you may contact us through our feedback form at [http://www.stimulsoft.com/support.aspx](<%LINK_CAPTION%>)
 
-It is possible to send questions from the standard UI of the report designer. To do this, select the Help menu -> Support.
+It is possible to send questions from the standard UI of the report designer. To do this, select the Help menu -&gt; Support.
 
 
 ![](../images/topics/Introduction.Technical_Support_2.png)

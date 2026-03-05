@@ -12,7 +12,7 @@ When you print a report, it is common to encounter situations where the printer 
 > **Information:** Borders in the created report are not displayed. The page consists of the print area and margins.
 
 
-Generally, text and other report elements are placed in the print area. However, you can also place elements on the margins. For instance, you can use the text component to display the page number. The size of the fields can be adjusted by selecting one of the preset options or by setting them according to your preferences. You can choose preset field options by navigating to the **Page** tab -> **Margins** menu. Alternatively, custom fields can be defined using the **Margins** report property.
+Generally, text and other report elements are placed in the print area. However, you can also place elements on the margins. For instance, you can use the text component to display the page number. The size of the fields can be adjusted by selecting one of the preset options or by setting them according to your preferences. You can choose preset field options by navigating to the **Page** tab -&gt; **Margins** menu. Alternatively, custom fields can be defined using the **Margins** report property.
 
 
 ![](../../images/topics/Report_Internals.Pages.Margins_2.png)

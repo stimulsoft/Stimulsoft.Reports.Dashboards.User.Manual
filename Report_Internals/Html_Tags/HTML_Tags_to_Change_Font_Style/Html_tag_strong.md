@@ -1,8 +1,8 @@
-## HTML <strong> Tag
+## HTML &lt;strong&gt; Tag
 
-The <strong> tag indicates strong emphasis. It has an end tag. A text within this tag is more important than a flat text. It is usually rendered in bold font style. The example below shows how the <strong> tag works:
+The &lt;strong&gt; tag indicates strong emphasis. It has an end tag. A text within this tag is more important than a flat text. It is usually rendered in bold font style. The example below shows how the &lt;strong&gt; tag works:
 
-Text <strong>Text</strong> Text
+Text &lt;strong&gt;Text&lt;/strong&gt; Text
 
 The result of output:
 

@@ -5,16 +5,16 @@ The face attribute defines the name of the font of the text within the font elem
 
 The sample below shows how to use the face attribute:
 
-<font face="Arial" ...>
+&lt;font face="Arial" ...&gt;
 
 
 Alternative Attributes
 
 Instead of the "face" attribute the attributes "name" and "family" can be used. All these attributes are identical. For example:
 
-<font face="Courier" ...>
-<font name="Courier" ...>
-<font family="Courier" ...>
+&lt;font face="Courier" ...&gt;
+&lt;font name="Courier" ...&gt;
+&lt;font family="Courier" ...&gt;
 
 
 All the text expressions above specify the same font.
@@ -23,4 +23,4 @@ Alterative Tags
 
 The tag is the same as the tag with the face attribute. For example:
 
-<font-face="Arial">
+&lt;font-face="Arial"&gt;

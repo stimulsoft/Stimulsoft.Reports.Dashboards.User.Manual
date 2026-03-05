@@ -16,7 +16,7 @@ Pay attention to the report header. As can be seen from the picture above, infor
 
 3. Go back to the report template;
 
-4. Add parameters to the report template. The parameters in the report are implemented using variables (a variable may have different values​). To add a variable, in the tab Dictionary -> the menu item New Item -> select New Variable.... The picture below shows the New Item:
+4. Add parameters to the report template. The parameters in the report are implemented using variables (a variable may have different values​). To add a variable, in the tab Dictionary -&gt; the menu item New Item -&gt; select New Variable.... The picture below shows the New Item:
 
 
 ![](../images/topics/Getting_Started.Invoice_Report_with_parameters_2.png)

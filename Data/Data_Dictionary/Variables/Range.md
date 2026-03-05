@@ -20,7 +20,7 @@ After clicking OK, the variable will be created. Here is an example of this type
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Range_2.png)
 
 
-If you want to display information about orders, which were processed in 2008, then use the variable created in the report. To do this, add a filter in the DataBand with the expression **Orders.ShippedDate** > **Variable1.FromDate** & & **Orders.ShippedDate** < **Variable1.ToDate**. When rendering a report, you will see only the information about orders that were processed in 2008. Below is a report with orders in 2008:
+If you want to display information about orders, which were processed in 2008, then use the variable created in the report. To do this, add a filter in the DataBand with the expression **Orders.ShippedDate** &gt; **Variable1.FromDate** & & **Orders.ShippedDate** &lt; **Variable1.ToDate**. When rendering a report, you will see only the information about orders that were processed in 2008. Below is a report with orders in 2008:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Range_3.png)

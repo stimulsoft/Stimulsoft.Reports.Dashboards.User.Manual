@@ -1,19 +1,19 @@
-## HTML <ul> Tag
+## HTML &lt;ul&gt; Tag
 
-The <ul> tag inserts an unordered list, which is a block level element consisting of a sequence of items, usually displayed with a bullet on the left margin.
+The &lt;ul&gt; tag inserts an unordered list, which is a block level element consisting of a sequence of items, usually displayed with a bullet on the left margin.
 
 
-<p>How it works!</p>
+&lt;p&gt;How it works!&lt;/p&gt;
 
-<ul>
+&lt;ul&gt;
 
-<li>How</li>
+&lt;li&gt;How&lt;/li&gt;
 
-<li>it</li>
+&lt;li&gt;it&lt;/li&gt;
 
-<li>works.</li>
+&lt;li&gt;works.&lt;/li&gt;
 
-</ul>
+&lt;/ul&gt;
 
 
 The result of output:

@@ -260,11 +260,11 @@ Functions that can be added from the data dictionary or entered manually
 
 CountIf(,)
 
-It allows you to calculate the number of values in the current data field by a condition. For example, CountIf(DataSource.Column1, DataSource.ColumnID > 5).
+It allows you to calculate the number of values in the current data field by a condition. For example, CountIf(DataSource.Column1, DataSource.ColumnID &gt; 5).
 
 SumIf(,)
 
-It shows the result of the sum of values in the current data field by a certain condition. For example, SumIf (DataSource.Column1, DataSource.ColumnID > 5).
+It shows the result of the sum of values in the current data field by a certain condition. For example, SumIf (DataSource.Column1, DataSource.ColumnID &gt; 5).
 
 Mode()
 

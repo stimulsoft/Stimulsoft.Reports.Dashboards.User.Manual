@@ -57,7 +57,7 @@ Do the following steps to create a report with columns in DataBand:
 ![](../images/topics/Getting_Started.Report_with_Columns_in_Data_Band_5.png)
 
 
-1. Set the columns direction of data output using the Column Direction property. Read about this property in section Report Internals -> Columns.
+1. Set the columns direction of data output using the Column Direction property. Read about this property in section Report Internals -&gt; Columns.
 2. Click the Preview button or invoke the Viewer, clicking the Preview menu item. After rendering all references to data fields will be changed on data form specified fields. Data will be output in consecutive order from the database that was defined for this report. The amount of copies of the DataBand in the rendered report will be the same as the amount of data rows in the database. The picture below shows samples of reports with columns rendered using different values of the Column Direction property.
 
 

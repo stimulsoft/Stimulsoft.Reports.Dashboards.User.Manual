@@ -21,7 +21,7 @@ Add a new conditional formatting for the cell. Make three changes in the conditi
 Change the value of the Field Is field on the Expression (marked with blue). Specify the required expression (marked with red):
 
 
-value <20
+value &lt;20
 
 
 The value variable contains the total value of the summary cell. And change the text color of cells to red (marked with green). An example of report rendering is shown on the picture below.

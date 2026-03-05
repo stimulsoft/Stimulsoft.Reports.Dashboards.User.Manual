@@ -8,7 +8,7 @@ The fifth word is bold
 
 HTML tags can help achieve this. The output shown above could be generated using the following expression:
 
-The fifth word is <b>bold</b>
+The fifth word is &lt;b&gt;bold&lt;/b&gt;
 
 
 It is possible to get a similar result without using HTML by using the Rich text component, but there are some difficulties and the Rich text component works very slowly, so using HTML tags is often the best way to achieve the desired result.
@@ -23,20 +23,20 @@ HTML tags can be included only in the text part of expression, in other words th
 
 For example, the following expressions are correct:
 
-This is a simple <i>expression {1+2}</i>
-This is a simple <i>expression</i> {1+2}
-This is a simple expression <i>{1+2}</i>
+This is a simple &lt;i&gt;expression {1+2}&lt;/i&gt;
+This is a simple &lt;i&gt;expression&lt;/i&gt; {1+2}
+This is a simple expression &lt;i&gt;{1+2}&lt;/i&gt;
 
 These expressions however are incorrect:
 
 
-The is a simple <i>expression {1</i>+2}
+The is a simple &lt;i&gt;expression {1&lt;/i&gt;+2}
 
 
-The is a simple <i>expression {1+2</i>}
+The is a simple &lt;i&gt;expression {1+2&lt;/i&gt;}
 
 
-The is a simple expression {<i>1+2}</i>
+The is a simple expression {&lt;i&gt;1+2}&lt;/i&gt;
 
 In the examples above the HTML tags are placed within the body of an expression that will be calculated by C# or VB.Net, shown by the curly braces, so they are impossible to process.
 
@@ -57,18 +57,18 @@ There are few limitations  - most valid HTML style tags can be inserted, with th
 HTML tags can be nested to an unlimited depth. For example:
 
 
-This is a <b>simple <i>expression {1+2}</i></b>
+This is a &lt;b&gt;simple &lt;i&gt;expression {1+2}&lt;/i&gt;&lt;/b&gt;
 
 
 If a tag is not closed, then the tag works to the end of the text line.
 
 
-If HTML tags are used in a text expression then any line breaks in that expression are ignored. If you need to enforce a line break in your text, use the <br> tag.
+If HTML tags are used in a text expression then any line breaks in that expression are ignored. If you need to enforce a line break in your text, use the &lt;br&gt; tag.
 
 
 > **Information**
 >
-> Use the <br> tag to break a line when using HTML tags.
+> Use the &lt;br&gt; tag to break a line when using HTML tags.
 
 Activating HTML Tags
 
@@ -89,129 +89,129 @@ The list of HTML tags, which are supported in the Stimulsoft software
 
 Font tags**:**
 
-<font color="#rrggbb" face="FontName" size="1..n"> </font>
+&lt;font color="#rrggbb" face="FontName" size="1..n"&gt; &lt;/font&gt;
 
 Defines the color, font and size of a text. [Learn More.](Font_Tag/index.md)
 
-<font-face="FontName"> </font-face>
+&lt;font-face="FontName"&gt; &lt;/font-face&gt;
 
 Defines the font of a text. [Learn More.](Font_Tag/Face_Parameter.md)
 
-<font-name="FontName"> </font-name>
+&lt;font-name="FontName"&gt; &lt;/font-name&gt;
 
 Defines the font of a text. [Learn More.](Font_Tag/Face_Parameter.md)
 
-<font-family="FontName"> </font-family>
+&lt;font-family="FontName"&gt; &lt;/font-family&gt;
 
 Defines the font of a text. [Learn More.](Font_Tag/Face_Parameter.md)
 
-<font-size="1..n"> </font-size>
+&lt;font-size="1..n"&gt; &lt;/font-size&gt;
 
 Defines the size of a text. [Learn More.](Font_Tag/Size_Parameter.md)
 
-<font-color="#rrggbb"> </font-color>
+&lt;font-color="#rrggbb"&gt; &lt;/font-color&gt;
 
 Defines the color of a text. [Learn More.](Font_Tag/Color_Parameter.md)
 
 
 Font style tags**:**
 
-<b> </b>
+&lt;b&gt; &lt;/b&gt;
 
 Makes a text bold. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_b.md)
 
-<i> </i>
+&lt;i&gt; &lt;/i&gt;
 
 Makes a text italicized. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_i.md)
 
-<u> </u>
+&lt;u&gt; &lt;/u&gt;
 
 Underlines a text. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_u.md)
 
-<s> </s>
+&lt;s&gt; &lt;/s&gt;
 
-Displays an underlined text. It is a shorthand note of the <strike> tag. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_s.md)
+Displays an underlined text. It is a shorthand note of the &lt;strike&gt; tag. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_s.md)
 
-<sub> </sub>
+&lt;sub&gt; &lt;/sub&gt;
 
 Displays a text as a subscript. The text will be located below the base text line and its size will be reduced. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_sub.md)
 
-<sup> </sup>
+&lt;sup&gt; &lt;/sup&gt;
 
 Displays a text as a superscript. The text will be located above the base text line and its size will be reduced. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_sup.md)
 
-<strong> </strong>
+&lt;strong&gt; &lt;/strong&gt;
 
 Accentuates a text, i.e determines the importance of the text and makes it in bold in the browser.  [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_strong.md)
 
-<em> </em>
+&lt;em&gt; &lt;/em&gt;
 
 Accentuates a text, in other words determines the importance of the text, and highlights it in a browser in the italic font style. [Learn More.](HTML_Tags_to_Change_Font_Style/HTML_Tag_em.md)
 
-<strike> </strike>
+&lt;strike&gt; &lt;/strike&gt;
 
-Displays an underlined text, it's analogous to the <s> tag. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_s.md)
+Displays an underlined text, it's analogous to the &lt;s&gt; tag. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_s.md)
 
 
 Spacing tags**:**
 
-<letter-spacing="0"> </letter-spacing>
+&lt;letter-spacing="0"&gt; &lt;/letter-spacing&gt;
 
 Defines a spacing between symbols within an element, in units of a font height. [Learn More.](Letter_Spacing.md)
 
-<word-spacing="0"> </word-spacing>
+&lt;word-spacing="0"&gt; &lt;/word-spacing&gt;
 
 Sets a spacing between words, in units of a font height. [Learn More.](Html_tag_word-spacing.md)
 
-<line-height="1"> </line-height>
+&lt;line-height="1"&gt; &lt;/line-height&gt;
 
 Sets a line spacing of a text. [Learn More.](Html_tag_line-height.md)
 
-<text-align="left"> </text-align>
+&lt;text-align="left"&gt; &lt;/text-align&gt;
 
 Changes the horizontal alignment of a text - **left**, **right**, **center** and **justify**.  [Learn More.](Html_tag_text_align.md)
 
 
 Paragraph tags**:**
 
-<br> , <br />
+&lt;br&gt; , &lt;br /&gt;
 
-Inserts a line break. Unlike the <p> tag, it doesn`t add a blank indent before a line. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_br.md)
+Inserts a line break. Unlike the &lt;p&gt; tag, it doesn`t add a blank indent before a line. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_br.md)
 
-<p> </p>
+&lt;p&gt; &lt;/p&gt;
 
 Defines a text paragraph. The tag is a block element, a blank line is always added before it, and paragraphs of a text following each other are separated by vertical space. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_p.md)
 
 
 Tags of lists**:**
 
-<ul> </ul>
+&lt;ul&gt; &lt;/ul&gt;
 
-Sets a bulleted list. Each element of the list should start with the **<li>** tag. [Learn More.](HTML_Tags_to_Change_Font_Style/HTML_ul_Tag.md)
+Sets a bulleted list. Each element of the list should start with the **&lt;li&gt;** tag. [Learn More.](HTML_Tags_to_Change_Font_Style/HTML_ul_Tag.md)
 
-<ol> </ol>
+&lt;ol&gt; &lt;/ol&gt;
 
-Sets a numbered list. Each element of the list should start with the **<li>** tag. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_ol.md)
+Sets a numbered list. Each element of the list should start with the **&lt;li&gt;** tag. [Learn More.](HTML_Tags_to_Change_Font_Style/Html_tag_ol.md)
 
-<li> </li>
+&lt;li&gt; &lt;/li&gt;
 
 Defines a separate item of a bulleted or a numbered list.
 
 
 URL tags**:**
 
-<a href="...">…</a>
+&lt;a href="..."&gt;…&lt;/a&gt;
 
 Sets a URL address to insert, when clicking on a text which is enclosed between opening and closing tags
 
 
 Color and background tags**:**
 
-<color="#rrggbb"> </color>
+&lt;color="#rrggbb"&gt; &lt;/color&gt;
 
 Defines the color of a text.
 
-<background-color="#rrggbb"> </background-color>
+&lt;background-color="#rrggbb"&gt; &lt;/background-color&gt;
 
 Defines the color of a text background.
 
@@ -256,11 +256,11 @@ vertical-align: baseline, sub, super
 
 Defines the vertical alignment:
 
-baseline is analogous to the </sub> or the </super> tags.
+baseline is analogous to the &lt;/sub&gt; or the &lt;/super&gt; tags.
 
-sub. An element is displayed as a subscript. And font size won't be changed. It is analogous to the <sup> tag.
+sub. An element is displayed as a subscript. And font size won't be changed. It is analogous to the &lt;sup&gt; tag.
 
-super. An element is displayed as superscript. This will not change the font size. Similar to the <sup> tag.
+super. An element is displayed as superscript. This will not change the font size. Similar to the &lt;sup&gt; tag.
 
 letter-spacing: normal, x.x
 
@@ -300,11 +300,11 @@ justify - align an element to the width
 
 margin-top, margin-bottom
 
-Sets the amount of an indent from the top and the bottom edge of an element. It is relevant only for the <p> tag.
+Sets the amount of an indent from the top and the bottom edge of an element. It is relevant only for the &lt;p&gt; tag.
 
 margin
 
-Sets the amount of an indent from the top and the bottom edge of an element. It is relevant only for the <p> tag.
+Sets the amount of an indent from the top and the bottom edge of an element. It is relevant only for the &lt;p&gt; tag.
 
 
 Color formats:
@@ -330,11 +330,11 @@ Displays the ampersand - &. [Learn More.](Special_Characters.md)
 
 &lt;
 
-Displays the sign less than - <. [Learn More.](Special_Characters.md)
+Displays the sign less than - &lt;. [Learn More.](Special_Characters.md)
 
 &gt;
 
-Displays the sign greater than - >. [Learn More.](Special_Characters.md)
+Displays the sign greater than - &gt;. [Learn More.](Special_Characters.md)
 
 &quot;
 

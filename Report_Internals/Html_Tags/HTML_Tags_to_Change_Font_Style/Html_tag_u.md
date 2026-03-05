@@ -1,8 +1,8 @@
-## HTML <u> Tag
+## HTML &lt;u&gt; Tag
 
-The <u> tag is used to define underlined text. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
+The &lt;u&gt; tag is used to define underlined text. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
 
-Test <u>Test</u> Test
+Test &lt;u&gt;Test&lt;/u&gt; Test
 
 then after calculation the result appearing in the report will be:
 

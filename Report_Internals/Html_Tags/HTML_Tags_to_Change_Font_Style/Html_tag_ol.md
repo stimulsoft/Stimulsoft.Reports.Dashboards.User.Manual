@@ -1,6 +1,6 @@
-## HTML <ol> Tag
+## HTML &lt;ol&gt; Tag
 
-The <ol> tag inserts an ordered list, which is a block level element consisting of a sequence of numbered items, usually displayed with a number on the left margin.
+The &lt;ol&gt; tag inserts an ordered list, which is a block level element consisting of a sequence of numbered items, usually displayed with a number on the left margin.
 
 
 ```
@@ -23,7 +23,7 @@ How it works!
 3. works.
 ```
 
-For the <ol> tag, you can specify the initial value using the start attribute.
+For the &lt;ol&gt; tag, you can specify the initial value using the start attribute.
 
 
 ```

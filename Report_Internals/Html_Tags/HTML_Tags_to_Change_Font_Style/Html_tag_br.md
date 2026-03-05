@@ -1,8 +1,8 @@
-## HTML <br> Tag
+## HTML &lt;br&gt; Tag
 
-The <br> tag inserts a single line break. It has no end tag. The example below shows how the <br> tag works:
+The &lt;br&gt; tag inserts a single line break. It has no end tag. The example below shows how the &lt;br&gt; tag works:
 
-How it<br> works.
+How it&lt;br&gt; works.
 
 The result of output:
 

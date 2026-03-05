@@ -1,8 +1,8 @@
-## HTML <b> Tag
+## HTML &lt;b&gt; Tag
 
-The <b> tag is used to define bold text. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
+The &lt;b&gt; tag is used to define bold text. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
 
-Test <b>Test</b> Test
+Test &lt;b&gt;Test&lt;/b&gt; Test
 
 then after calculation the result appearing in the report will be:
 

@@ -1,8 +1,8 @@
-## HTML <em> Tag
+## HTML &lt;em&gt; Tag
 
-The <em> tag is used for indicating emphasis. The text inside this tag is more important than flat text. The text displayed using the <em> tag looks italic. The example below shows how the <em> tag works:
+The &lt;em&gt; tag is used for indicating emphasis. The text inside this tag is more important than flat text. The text displayed using the &lt;em&gt; tag looks italic. The example below shows how the &lt;em&gt; tag works:
 
-Emphasis <em>Emphasis</em> Emphasis
+Emphasis &lt;em&gt;Emphasis&lt;/em&gt; Emphasis
 
 then after calculation the result appearing in the report will be:
 

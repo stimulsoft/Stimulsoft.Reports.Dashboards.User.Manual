@@ -7,7 +7,7 @@ The Cross Table condition editor has several differences from the standard condi
 The value variable contains the value of the cross table cell and can be used to calculate a condition:
 
 
-tag > 50
+tag &gt; 50
 
 
 In other words, if the value of the cell of a cross table is greater than 50, then the condition is true and formatting that was set to condition will be applied to the cell.

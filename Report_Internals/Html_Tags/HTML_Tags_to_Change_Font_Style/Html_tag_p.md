@@ -1,8 +1,8 @@
-## HTML <p> Tag
+## HTML &lt;p&gt; Tag
 
-The <p> tag defines a paragraph. It has an end tag. The example below shows how the <p> tag works:
+The &lt;p&gt; tag defines a paragraph. It has an end tag. The example below shows how the &lt;p&gt; tag works:
 
-<p>This is a text in a paragraph.</p>This is a text after the paragraph.
+&lt;p&gt;This is a text in a paragraph.&lt;/p&gt;This is a text after the paragraph.
 
 The result of output:
 
