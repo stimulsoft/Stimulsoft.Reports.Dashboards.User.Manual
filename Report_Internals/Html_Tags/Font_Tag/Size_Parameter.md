@@ -7,7 +7,7 @@ The size attribute defines the size of the text in the font element in points. F
 
 If the expression is incorrectly formulated then the attribute is ignored.
 
-Alternative Tags
+**Alternative Tags**
 
 The font size can also defined separately using the tag. For example:
 

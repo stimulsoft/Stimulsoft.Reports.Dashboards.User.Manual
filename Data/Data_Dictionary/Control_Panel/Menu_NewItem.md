@@ -1,6 +1,6 @@
 ## New Item Menu
 
-Commands using which it is possible to add new items to the data dictionary of a report can be found in the New Item menu. The picture below shows the New Item drop down list:
+Commands using which it is possible to add new items to the data dictionary of a report can be found in the **New Item** menu. The picture below shows the **New Item** drop down list:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Control_Panel.Menu_NewItem_1.png)

@@ -23,7 +23,7 @@ How it works!
 3. works.
 ```
 
-For the &lt;ol&gt; tag, you can specify the initial value using the start attribute.
+**For the** **&lt;ol&gt;** **tag, you can specify the initial value using the** **start** **attribute.**
 
 
 ```

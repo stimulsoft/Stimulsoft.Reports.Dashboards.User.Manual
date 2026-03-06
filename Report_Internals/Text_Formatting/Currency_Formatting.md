@@ -34,39 +34,39 @@ Sometimes there were some disadvantages in both cases. For example, when using l
 ![](../../images/topics/Report_Internals.Text_Formatting.Currency_Formatting_3.png)
 
 
-![](../../images/img_1.png) Group separator
+![](../../images/img_1.png) **Group separator**
 
 When the Group Separator is used then currency values will be separated into number positions.
 
-![](../../images/img_2.png) Local setting
+![](../../images/img_2.png) **Local setting**
 
 When using the Local settings, currency values are formatted according to the current OS installations.
 
-![](../../images/img_3.png) Decimal digits
+![](../../images/img_3.png) **Decimal digits**
 
 Number of decimal digits, which are used to format currency values.
 
-![](../../images/img_4.png) Decimal separator
+![](../../images/img_4.png) **Decimal separator**
 
 Used as a decimal separator to separate currency values in formatting.
 
-![](../../images/img_5.png) Group separator
+![](../../images/img_5.png) **Group separator**
 
 Used as a group separator when currency values formatting.
 
-![](../../images/img_6.png) Group size
+![](../../images/img_6.png) **Group size**
 
 The number of digits in each group in currency values formatting.
 
-![](../../images/img_7.png) Positive pattern
+![](../../images/img_7.png) **Positive pattern**
 
 This pattern is used to format positive values.
 
-![](../../images/img_8.png) Negative pattern
+![](../../images/img_8.png) **Negative pattern**
 
 This pattern is used to format negative values.
 
-![](../../images/img_9.png) Currency symbol
+![](../../images/img_9.png) **Currency symbol**
 
 This symbol is used to define the currency name.
 

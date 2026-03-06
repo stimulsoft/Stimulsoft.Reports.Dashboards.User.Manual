@@ -100,19 +100,19 @@ In this editor, every action is represented as a separate group of parameters wi
 
 * **Open Hyperlink** - when you click on the value of the dashboard item, the follow by the hyperlink will occur. Also, when this type of action is selected, the **Hyperlink** parameter will be displayed, in the value field of which you should specify a hyperlink.
 
-* Show Dashboard. When clicking on the value of a dashboard element, another specified dashboard will open.
+* **Show Dashboard**. When clicking on the value of a dashboard element, another specified dashboard will open.
 
-* Drill Down. When clicking on the value of an element, a transition to the lower level of the data hierarchy will occur. You should enable the data drill down mode using the Allow User Drill Down option.
-
-
-![](../images/img_3.png) The On Data Manipulation group of parameters is used to customize the data management of the current item.
-
-* The Allow User Sorting parameter is used to enable/disable interactive sorting when viewing dashboards.
-
-* The Allow User Drill Down parameter is an item of the dashboard that enables data drill down mode.
+* **Drill Down**. When clicking on the value of an element, a transition to the lower level of the data hierarchy will occur. You should enable the data drill down mode using the Allow User Drill Down option.
 
 
-![](../images/img_4.png) This group of parameters can be used to enable or disable the Full Screen, View Data and Save buttons in the viewer or in the preview panel for the current dashboard element.
+![](../images/img_3.png) The **On Data Manipulation** group of parameters is used to customize the data management of the current item.
+
+* The **Allow User Sorting** parameter is used to enable/disable interactive sorting when viewing dashboards.
+
+* The **Allow User Drill Down** parameter is an item of the dashboard that enables data drill down mode.
+
+
+![](../images/img_4.png) This group of parameters can be used to enable or disable the **Full Screen**, **View Data** and **Save** buttons in the viewer or in the preview panel for the current dashboard element.
 
 
 **Information**
@@ -126,7 +126,7 @@ In the **Table** element, you can configure interaction both for each column of 
 
 For a column of the **Table** element you can:
 
-* Specify a hyperlink for all values of this column. Only for the fields of the Dimension type. You should define a hyperlink in the Table element having set a check next to the Show Hyperlink parameter and having set an address in an appropriate field.
+* Specify a hyperlink for all values of this column. Only for the fields of the **Dimension** type. You should define a hyperlink in the **Table** element having set a check next to the **Show Hyperlink** parameter and having set an address in an appropriate field.
 
 * Display a tool tip or a hyperlink when you hover over a column value;
 
@@ -177,9 +177,9 @@ You can configure Interactive actions for every data field. To do this, select t
 
 **Apply Filter** - when you click on the value of the data field, the data of the dashboard will be filtered through [the interrelation of its elements](Data_Filtering/Items_Correlation.md).
 
-* The Show Dashboard, i.e when clicking on a data field value another dashboard will be displayed. Also, the parameters can be transferred.
+* The **Show Dashboard**, i.e when clicking on a data field value another dashboard will be displayed. Also, the parameters can be transferred.
 
-Tooltips
+**Tooltips**
 A tooltip is a message that appears when you hover over the value of an item. The following types of tooltips are available for dashboard elements:
 
 * Value or text, and combinations of them. To do this, set the Mode property to the Show tooltip value.
@@ -203,13 +203,13 @@ The editor will open and you may configure the tooltip.
 
 ![](../images/img_3.png) Text alignment options - left, center, right, justify.
 
-![](../images/img_4.png) The Insert Symbol command calls the menu with a set of various icons, which can be inserted to a tool tip text.
+![](../images/img_4.png) The **Insert Symbol** command calls the menu with a set of various icons, which can be inserted to a tool tip text.
 
 ![](../images/img_5.png) Command is used to delete text of a tooltip.
 
 ![](../images/img_6.png) The function menu contains variables. Each variable is an element data field and contains a list of values ​​for this data field. Adding a variable to the tooltip for the item value, the tooltip will display the corresponding value from a specific data field.
 
-![](../images/img_7.png) The Insert Link allows you to insert an URL address. In the hyperlink editor you should specify an URL address and the text that wil be displayed instead of this address.
+![](../images/img_7.png) The **Insert Link** allows you to insert an URL address. In the hyperlink editor you should specify an URL address and the text that wil be displayed instead of this address.
 
 ![](../images/img_8.png) Tooltip template. In the current example, the tooltip uses the text and variables of the [Chart element](Chart.md).
 
@@ -244,9 +244,9 @@ Then do the following:
 
 In the Interaction editor, you should:
 
-* Set the Mode parameter to Show Dashboard;
+* Set the Mode parameter to **Show Dashboard**;
 
-* Select the dashboard with product statistics as the value of the Drill-Down Page parameter.
+* Select the dashboard with product statistics as the value of the **Drill-Down Page** parameter.
 
 * Create and configure [drill-down parameters](#Parameters).
 
@@ -271,31 +271,31 @@ As you can on the picture, a parameter was passed (in the current example, the c
 **Parameters**
 A parameter is a value transmitted from the main dashboard to the drill down dashboard. To create a parameter, you should:
 
-* The Mode parameter should be set to Show Dashboard in the interaction editor;
+* The Mode parameter should be set to **Show Dashboard** in the interaction editor;
 
-* Press the New Parameter button;
+* Press the **New Parameter** button;
 
-* Specify the parameter name in the Name field;
+* Specify the parameter name in the **Name** field;
 
-* Specify the parameter value in the Value field.
+* Specify the parameter value in the **Value** field.
 ![](../images/topics/Dashboards.Interaction_15.png)
 
 As a parameter value you can specify:
 
 * Any constant - number, text, etc.;
 
-* Variable, for example, {Variable1};
+* Variable, for example, **{Variable1}**;
 
-* Link to the item field. In this case, the parameter value will be the value from the specified field of the element. For example, if a chart refers to the Arguments field, the parameter value will be the argument value of the selected graphic element of the chart.
+* Link to the item field. In this case, the parameter value will be the value from the specified field of the element. For example, if a chart refers to the **Arguments** field, the parameter value will be the argument value of the selected graphic element of the chart.
 
 
 > **Information**
 >
 > Each element of the dashboard has its own fields. To indicate a link to an element field, you should:
 >
-> * Click the Edit button in the Value field of the [Interaction editor](#InteractionEditor);
+> * Click the **Edit** button in the **Value** field of the [Interaction editor](#InteractionEditor);
 >
-> * In the Hyperlink editor, click the Insert Expression button;
+> * In the **Hyperlink** editor, click the **Insert Expression** button;
 >
 > * Select what you need from the list of element fields.
 >
@@ -312,7 +312,7 @@ After the parameter has been created, you should specify the filtering condition
 
 * Set the logical operation of the condition;
 
-* Specify the parameter as the second value of the filter value. If the parameter is passed directly without using a variable in the data dictionary, then this["ParameterName"] must be specified. If a variable is used, then you must specify a link to this variable - {Variable1} in the expression field.
+* Specify the parameter as the second value of the filter value. If the parameter is passed directly without using a variable in the data dictionary, then **this["ParameterName"]** must be specified. If a variable is used, then you must specify a link to this variable - **{Variable1}** in the expression field.
 
 
 ![](../images/topics/Dashboards.Interaction_18.png)
@@ -327,15 +327,15 @@ The picture above shows an example of a data hierarchy - the first chart shows s
 
 
 Drill down of element data can be done in the following modes:
-* [With filters](#DrillDownWithFilters). In this case, when choosing element values, data will be filtered for all connected elements of the dashboard panel. To drill down the element data, you will need to click the Drill Down button on the current element.
+* [With filters](#DrillDownWithFilters). In this case, when choosing element values, data will be filtered for all connected elements of the dashboard panel. To drill down the element data, you will need to click the **Drill Down** button on the current element.
 
-* [Without filters](#DrillDownWithOutFilters). In this case, when choosing the element value, you will go to the lower level in the data hierarchy of this element. To drill down to multiple values, you will need to click the Drill Down button on the current element.
+* [Without filters](#DrillDownWithOutFilters). In this case, when choosing the element value, you will go to the lower level in the data hierarchy of this element. To drill down to multiple values, you will need to click the **Drill Down** button on the current element.
 
 > **Information**
 >
 > When drill down element data, the data of other elements of the dashboard does not change. Data drill down applies only to the current item.
 
-Drill down with filtering
+**Drill down with filtering**
 
 To view hierarchical data within a single element of the dashboard, you can apply drill down on element data. To do this you should:
 
@@ -345,14 +345,14 @@ To view hierarchical data within a single element of the dashboard, you can appl
 
 * Press the call button of the [interaction editor](#InteractionEditor);
 
-* Enable the Allow User Drill Down parameter.
+* Enable the **Allow User Drill Down** parameter.
 
 
 ![](../images/topics/Dashboards.Interaction_20.png)
 
 Now, when you choose chart values, the data of all interconnected elements of the dashboard will be filtered, and to drill down to the data of the current element, you should:
 
-* Click the Drill Down button on the dashboard element;
+* Click the **Drill Down** button on the dashboard element;
 
 
 ![](../images/topics/Dashboards.Interaction_21.png)
@@ -360,17 +360,17 @@ Now, when you choose chart values, the data of all interconnected elements of th
 
 * Select the element values for which you want to display detail;
 
-* Click the Drill Down Selected button;
+* Click the **Drill Down Selected** button;
 
 
 ![](../images/topics/Dashboards.Interaction_23.png)
 
-After that, detailed data of the selected element values will be displayed. click the Drill Up button to return to the previous level in the data hierarchy.
+After that, detailed data of the selected element values will be displayed. click the **Drill Up** button to return to the previous level in the data hierarchy.
 
 
 ![](../images/topics/Dashboards.Interaction_24.png)
 
-Drill down without filtering
+**Drill down without filtering**
 
 Using this option, it will be impossible to filter data for related elements of the dashboard using the current element, and when you select the element value, it will be drilled down. To do this:
 
@@ -380,9 +380,9 @@ Using this option, it will be impossible to filter data for related elements of 
 
 * Press the button to invoke the [Interaction editor](#InteractionEditor);
 
-* Enable the Allow User Drill Down parameter.
+* Enable the **Allow User Drill Down** parameter.
 
-* Set the Drill Down mode.
+* Set the **Drill Down** mode.
 
 
 ![](../images/topics/Dashboards.Interaction_25.png)
@@ -394,7 +394,7 @@ Now, when you select the value of an element, its drill down will be implemented
 
 To drill down to multiple values, you should:
 
-* Click the Drill down button in the dashboard element;
+* Click the **Drill down** button in the dashboard element;
 
 
 ![](../images/topics/Dashboards.Interaction_27.png)
@@ -402,17 +402,17 @@ To drill down to multiple values, you should:
 
 * Select the element values for which you want to display detail;
 
-* Click the Drill Down Selected button;
+* Click the **Drill Down Selected** button;
 
 
 ![](../images/topics/Dashboards.Interaction_29.png)
 
-The drill down data of the selected element values will be displayed. Click the Drill Up button to return to the previous level in the data hierarchy.
+The drill down data of the selected element values will be displayed. Click the **Drill Up** button to return to the previous level in the data hierarchy.
 
 
 ![](../images/topics/Dashboards.Interaction_30.png)
 
-Drill down order for data fields
+**Drill down order for data fields**
 
 The order of the data fields in the chart arguments displays the drill-down hierarchy in a top-down direction. In other words, the top field is processed as the top level of the hierarchy, and each subsequent field is treated as the next level in the item hierarchy.
 So, by changing the order of the data fields in the arguments, the hierarchy of the item drill down changes, but the data hierarchy does not change. To correctly displaying the data hierarchy in an element, you should follow the order of the data fields in the arguments: Up is the main data field, then the detailed data fields.
@@ -442,10 +442,10 @@ The numbers indicate the drill down levels of the dashboard element:
 
 * 3 - sales volume by categories for the products selected on the previous level.
 
-Table of interaction parameters
+**Table of interaction parameters**
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
 | On Data Manipulation: |  |
 | Allow User Sorting | It allows you to select a data column of an element in the viewer by the values of which element data sorting will be carried out. If a box checked next to this parameter, when hovering the cursor over an element, the sorting button will be displayed. If a box unchecked, the sorting button will not be displayed when hovering the cursor over an element. |

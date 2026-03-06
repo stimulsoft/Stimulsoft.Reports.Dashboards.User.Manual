@@ -2,10 +2,10 @@
 
 The list contains export options supported for the [dashboards](#DashboardExports) and [reports](#ReportExports) in Stimulsoft viewers.
 
-Table of Dashboard Exports
+**Table of Dashboard Exports**
 
 
-| Name | WinForms | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript)** |
+| **Name** | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript)** |
 | --- | --- | --- | --- |
 | [Report Snapshot](../../Exports/Dashboards.md#reportsnapshot) | + | + |  |
 | [PDF](../../Exports/Dashboards.md#pdfexportsettings) | + | + | + |
@@ -31,18 +31,18 @@ Table of Dashboard Exports
 
 > **Information**
 >
-> ![](../../images/img_1.png) The types of data file exports are available only for the Table element of the dashboard.
+> ![](../../images/img_1.png) The types of data file exports are available only for the **Table** element of the dashboard.
 
-Table of Report Exports
+**Table of Report Exports**
 
 
-| Name | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript, PHP)** | **HTML5** **(Java)** | **JavaViewer** | **WPF** |
+| **Name** | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript, PHP)** | **HTML5** **(Java)** | **JavaViewer** | **WPF** |
 | --- | --- | --- | --- | --- | --- | --- |
-| Internal Formats**:** |  |  |  |  |  |  |
+| **Internal Formats****:** |  |  |  |  |  |  |
 | MDC | + | + | + | + | + | + |
 | MDZ | + | + | + | + |  | + |
 | MDX | + | + | + | + |  | + |
-| Formats with fixed page layout**:** |  |  |  |  |  |  |
+| **Formats with fixed page layout****:** |  |  |  |  |  |  |
 | [PDF](../../Exports/Formats_with_Fixed_Page_Layout/PDF/index.md) | + | + | + | + | + | + |
 | Exporting Images | + | + | + | + | + | + |
 | Embedded fonts | + | + | + | + | + | + |
@@ -51,7 +51,7 @@ Table of Report Exports
 | [Microsoft XPS](../../Exports/Formats_with_Fixed_Page_Layout/XPS.md) | + | + |  |  |  | + |
 | Exporting Images | + | + |  |  |  | + |
 | [Microsoft PowerPoint](../../Exports/Formats_with_Fixed_Page_Layout/Microsoft_Power_Point_2007_2010.md) | + | + |  |  |  | + |
-| Web documents**:** |  |  |  |  |  |  |
+| **Web documents****:** |  |  |  |  |  |  |
 | [HTML](../../Exports/Web_Documents/index.md) | + | + | + | + | + | + |
 | [HTML5](../../Exports/Web_Documents/index.md) | + | + | + | + | + | + |
 | [MHT](../../Exports/Web_Documents/index.md) | + | + |  |  |  | + |
@@ -60,7 +60,7 @@ Table of Report Exports
 | [RTF](../../Exports/Text_Formats/RTF/index.md) | + | + |  | + | + | + |
 | [Microsoft Word 2007/2010](../../Exports/Text_Formats/Word2007_2010/index.md) | + | + | + | + | + | + |
 | [OpenDocument Text](../../Exports/Text_Formats/Word2007_2010/ODT.md) | + | + |  | + |  | + |
-| Spreadsheets**:** |  |  |  |  |  |  |
+| **Spreadsheets****:** |  |  |  |  |  |  |
 | [Microsoft Excel](../../Exports/Spreadsheets/index.md) | + | + |  | + | + | + |
 | [Microsoft Excel XML](../../Exports/Spreadsheets/index.md) | + | + |  | + | + | + |
 | [Microsoft Excel 2007/2010](../../Exports/Spreadsheets/index.md) | + | + | + | + | + | + |
@@ -79,7 +79,7 @@ Table of Report Exports
 | [PCX](../../Exports/Images/PCX.md) | + | + |  | + | + | + |
 | [PNG](../../Exports/Images/PNG.md) | + | + |  | + | + | + |
 | [TIFF](../../Exports/Images/TIFF.md) | + | + |  |  |  | + |
-| Vector images**:** |  |  |  |  |  |  |
+| **Vector images****:** |  |  |  |  |  |  |
 | [EMF](../../Exports/Images/EMF.md) | + | + |  |  |  | + |
 | [SVG](../../Exports/Images/SVG.md) | + | + | + | + | + | + |
 | [Compressed SVG](../../Exports/Images/Compressed_SVG.md) | + | + |  | + | + | + |

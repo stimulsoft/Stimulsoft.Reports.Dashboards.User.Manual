@@ -13,7 +13,7 @@ By default, it displays the date and time. Set dates for the various formats. To
 ![](../../images/topics/Report_Internals.Text_Formatting.Date_Formatting_2.png)
 
 
-![](../../images/img_1.png) Date format
+![](../../images/img_1.png) **Date format**
 
 The list of formatting types.
 

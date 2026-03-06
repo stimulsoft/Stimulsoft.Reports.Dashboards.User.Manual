@@ -48,19 +48,19 @@ In the **Text** editor you can change the content of this element. You can custo
 
 ![](../images/img_3.png) Commands for horizontal text alignment in the Text element area - left, center, right, justify.
 
-![](../images/img_4.png) Insert Symbol. It calls the menu with a set of various symbols, which can be inserted to a text.
+![](../images/img_4.png) **Insert Symbol****.** It calls the menu with a set of various symbols, which can be inserted to a text.
 
 ![](../images/img_5.png) Text field clear command.
 
-![](../images/img_6.png) The Insert Link allows you to insert a URL address. In the editor of a hyperlink you should specify a URL address and the text, which will be displayed instead of this address.
+![](../images/img_6.png) The **Insert Link** allows you to insert a URL address. In the editor of a hyperlink you should specify a URL address and the text, which will be displayed instead of this address.
 
 ![](../images/img_7.png) Text or expression input field. An expression is specified in curly brackets. For example, {DataSource.DataColumn}.
 
 > **Information**
 >
-> Similar commands to work with text ![](../images/img1.png) - ![](../images/img_3.png), are located on the Home tab of the Ribbon panel in the report designer. Select the **Text** element and change its font settings, text color, text alignment. In addition, on the Ribbon panel on the Home tab, you can align text vertically - top, bottom, center.
+> Similar commands to work with text ![](../images/img1.png) - ![](../images/img_3.png), are located on the **Home** tab of the Ribbon panel in the report designer. Select the **Text** element and change its font settings, text color, text alignment. In addition, on the Ribbon panel on the Home tab, you can align text vertically - top, bottom, center.
 
-Also, the text element can change the Back Color and the borders of the element. In more detail can be found in the chapter [Appearance](Appearance.md).
+Also, the text element can change the **Back Color** and the borders of the element. In more detail can be found in the chapter [Appearance](Appearance.md).
 
 **List of properties**
 
@@ -72,13 +72,13 @@ The list shows the name and description of the properties of the **Text** elemen
 | Cross-Filtering | It allows you to enable or disable the cross-filtering mode for the current element. |
 | Text | Specifies text in a Table element. When you click the **Browse** button, the editor of the element will be opened, in which you can add or delete text, as well as customize its appearance. |
 | Group | It allows you to add the current element to a definite group of elements. |
-| Size Mode | It allows you to define text behavior in the current element: The Fit value allows you to scale element content, i.e. change text size to fit it within the element. The Trimming value allows you not to scale element content, i.e. not to change text size. At the same time, if the text doesn't fit within the element, it will be trimmed by the borders of the element. The Word wrap value allows you not to scale element content, i.e. not to change text size. At the same time, if the text doesn't fit within the element, it will be wrapped to the next row. In cases, if the number of rows is greater than element height, the rows will be trimmed in the element height. |
+| Size Mode | It allows you to define text behavior in the current element: The **Fit** value allows you to scale element content, i.e. change text size to fit it within the element. The **Trimming** value allows you not to scale element content, i.e. not to change text size. At the same time, if the text doesn't fit within the element, it will be trimmed by the borders of the element. The **Word wrap** value allows you not to scale element content, i.e. not to change text size. At the same time, if the text doesn't fit within the element, it will be wrapped to the next row. In cases, if the number of rows is greater than element height, the rows will be trimmed in the element height. |
 | Right ro Left | Allows enabling right-to-left text display mode. |
 | Back Color | Changes the background color of the element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style. |
 | Border | A group of properties that allows you to customize the borders of a  table - color, sides, size, and style. |
-| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
+| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
 | Fore Color | Specifies the color of the values of the element. By default, this property is set to **From Style**, i.e. the color of the values will be obtained from the settings of the current element style. |
-| Shadow | A group of properties that allows configuring the shadow of an element: The Color property allows you to specify the color that will be used to display the shadow of the element. The properties in the Location group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The Size property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The Visible property allows you to enable or disable the display of the element's shadow on the indicator panel. |
+| Shadow | A group of properties that allows configuring the shadow of an element: The **Color** property allows you to specify the color that will be used to display the shadow of the element. The properties in the **Location** group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The **Size** property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The **Visible** property allows you to enable or disable the display of the element's shadow on the indicator panel. |
 | Style | Selects a style for the current element. The default it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard. |
 | Enabled | Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer. |
 | Interaction | Sets [interaction](Interaction.md) of the current element. |

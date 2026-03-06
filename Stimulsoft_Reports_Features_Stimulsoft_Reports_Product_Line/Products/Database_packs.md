@@ -26,15 +26,15 @@ The table shows the list of supported database adapters. The loading of adapters
 | dot Connect Universal | + | + | + |  |  | + | + | + |  | + |  |  |  |
 | **NoSQL:** |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | MongoDB | + | + | + |  |  | + | + | + | + | + |  |  |  |
-| Azure: |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **Azure:** |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Azure SQL | + |  | + |  |  | + |  | + |  | + |  |  |  |
 | Azure Table Storage | + | + | + |  |  | + | + | + | + | + |  |  |  |
 | Azure Blob Storage | + |  | + |  |  | + |  | + | + | + |  |  |  |
 | Cosmos DB | + | + | + |  |  | + | + | + | + | + |  |  |  |
-| Google: |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **Google:** |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Firebase | + | + | + |  |  | + | + | + | + | + |  |  |  |
 | BigQuery | + | + | + |  |  | + | + | + |  | + |  |  |  |
-| Online Service: |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **Online Service:** |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Data.World | + | + | + | + | + | + | + | + |  | + | + |  | + |
 | QuickBooks | + | + | + | + | + | + | + | + |  | + | + |  | + |
 | **File:** |  |  |  |  |  |  |  |  |  |  |  |  |  |

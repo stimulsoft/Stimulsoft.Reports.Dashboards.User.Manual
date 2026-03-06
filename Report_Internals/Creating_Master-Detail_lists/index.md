@@ -2,9 +2,9 @@
 
 > **Information**
 >
-> You should consider the value of the Multiple Initialization property when creating sub-lists. It's enabling to initialize the data source for each container and detail section. For example, Filters will be applied for each detail section even if Relation is not assigned.
+> You should consider the value of the **Multiple Initialization** property when creating sub-lists. It's enabling to initialize the data source for each container and detail section. For example, Filters will be applied for each detail section even if Relation is not assigned.
 
-The previous topic describes how to create a report using data as a table. And data are not connected to each other. Three bands were used: Data, Header, and Footer. But sometimes it is required to create reports and output data which are organized in some levels and connected to each other. For example, invoice and a list of goods, clients and goods delivery to them etc. In this case Master-Detail reports are used. These are reports in which the output value of the Master data source, corresponds to the number of values (from 0 and greater) from the Detail data source. On the picture below the example of the Master-Detail report is shown:
+The previous topic describes how to create a report using data as a table. And data are not connected to each other. Three bands were used: **Data**, **Header,** and **Footer**. But sometimes it is required to create reports and output data which are organized in some levels and connected to each other. For example, invoice and a list of goods, clients and goods delivery to them etc. In this case **Master-Detail** reports are used. These are reports in which the output value of the Master data source, corresponds to the number of values (from 0 and greater) from the Detail data source. On the picture below the example of the Master-Detail report is shown:
 
 
 ![](../../images/topics/Report_Internals.Creating_Master-Detail_lists_1.png)

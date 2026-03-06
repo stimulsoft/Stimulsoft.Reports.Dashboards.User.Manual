@@ -1,6 +1,6 @@
 ## HTML &lt;s&gt; Tag
 
-The &lt;s&gt; tag is used to define strikethrough text, that is text with a horizontal line through the center. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
+The **&lt;s&gt;** tag is used to define strikethrough text, that is text with a horizontal line through the center. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
 
 Test &lt;u&gt;Test&lt;/u&gt; Test
 

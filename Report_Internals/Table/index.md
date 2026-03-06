@@ -1,7 +1,7 @@
 ## Table
 
 
-The Table component is used to output data in a report. This component is similar to spreadsheets. The table consist of rows and columns in what data can be placed. See on a picture below a Table component with 5 columns and 5 rows.
+The **Table** component is used to output data in a report. This component is similar to spreadsheets. The table consist of rows and columns in what data can be placed. See on a picture below a Table component with 5 columns and 5 rows.
 
 
 ![](../../images/topics/Report_Internals.Table_1.png)

@@ -1,13 +1,13 @@
 ## Data Sorting
 
 
-Frequently data, which are used for the report rendering, are sorted in order that does not to meet your requirements. In this case, it is possible to sort data using by abilities of Stimulsoft Reports. Sorting can be set for each Data band separately. To set sorting it is necessary to use the Sort property of the Data band. Using this property it is possible to call the editor of the Data band.
+Frequently data, which are used for the report rendering, are sorted in order that does not to meet your requirements. In this case, it is possible to sort data using by abilities of Stimulsoft Reports. Sorting can be set for each **Data** band separately. To set sorting it is necessary to use the **Sort** property of the **Data** band. Using this property it is possible to call the editor of the **Data** band.
 
 
 ![](../../images/topics/Report_Internals.Creating_Lists.Data_Sorting_1.png)
 
 
-Also it is possible to call the editor by double-click on the band. The Sort bookmark is responsible for sorting in the band editor. The picture below shows structure of the bookmark of sorting.
+Also it is possible to call the editor by double-click on the band. The **Sort** bookmark is responsible for sorting in the band editor. The picture below shows structure of the bookmark of sorting.
 
 
 ![](../../images/topics/Report_Internals.Creating_Lists.Data_Sorting_2.png)

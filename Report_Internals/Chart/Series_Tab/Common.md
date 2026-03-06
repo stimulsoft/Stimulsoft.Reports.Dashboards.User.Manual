@@ -11,7 +11,7 @@ Common series settings are properties available in the Chart component editor un
 Below is a table of the main series properties and their descriptions:
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
 | Value Data Column | Specifies the column from the data source whose values will be used as the series values. |
 | Value | Defines an expression whose result will be used as the value of the current series. |

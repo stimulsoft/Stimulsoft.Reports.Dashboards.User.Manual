@@ -1,11 +1,11 @@
 ## Preview
 
-Stimulsoft Designer allows previewing a report before printing, exporting, sending via Email or any other action, to identify possible errors. Clicking the Preview tab it is possible to preview a report or dashboard.
+Stimulsoft Designer allows previewing a report before printing, exporting, sending via Email or any other action, to identify possible errors. Clicking the **Preview** tab it is possible to preview a report or dashboard.
 
 ![](../../images/topics/Reports_Designer.File_Menu.Preview_1.png)
 
 
-You can also preview the report in the separate window by using the F5 shortcut key or selecting Preview from the File menu.
+You can also preview the report in the separate window by using the **F5** shortcut key or selecting **Preview** from the **File** menu.
 ![](../../images/topics/Reports_Designer.File_Menu.Preview_3.png)
 
 

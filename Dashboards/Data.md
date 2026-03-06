@@ -30,7 +30,7 @@ All data sources of dashboard elements form a virtual data table for the current
 >
 > When designing a dashboard, data from various sources can be used in the elements. In this case, for correct analysis and comparison of data between these sources, relationships should be established. Otherwise, interactive actions with the elements of the dashboard may lead to incorrect data processing and incorrect displaying of the result.
 
-You can view the virtual table of a dashboard by selecting the View Query command in the context menu of the dashboard header.
+You can view the virtual table of a dashboard by selecting the **View Query** command in the context menu of the dashboard header.
 
 
 ![](../images/topics/Dashboards.Data_1.png)
@@ -114,7 +114,7 @@ In the elements of the dashboard, you can enter one value for the current data f
 
 * Create a new data field;
 
-* In the Expression field you should enter the value for the current data field;
+* In the **Expression** field you should enter the value for the current data field;
 
 * In addition to this data, which entered manually.
 
@@ -126,15 +126,15 @@ To enter a list of values, you should to the following:
 
 * Create a new data field;
 
-* In the Expression field you should enter the **List()** or **Array()** function with the list of values with the "," separator.
+* In the **Expression** field you should enter the **List()** or **Array()** function with the list of values with the "," separator.
 ![](../images/topics/Dashboards.Data_8.png)
 
-Enter data manually
+**Enter data manually**
 
 There is the mode of element data manual input for the following elements: [Chart](Chart.md), [Indicator](Indicator.md), [Progress](Progress.md), and [Gauge](Gauge.md). In this mode, each element data field is a column with cells. You can specify one value of an element in each cell. A list of entered values in various columns will form a data table for this element. The number of element data rows is not limited.
 
 
-To go to the manual value input mode, you should click the Enter Data Manually control. After that, the grid of value input, where you should specify element data will be displayed. You can specify expressions in the cells. For example, specify a link to the - {Variable1}. In this case, the result of the expression processing will be a value for the current cell.
+To go to the manual value input mode, you should click the **Enter Data Manually** control. After that, the grid of value input, where you should specify element data will be displayed. You can specify expressions in the cells. For example, specify a link to the - **{Variable1}**. In this case, the result of the expression processing will be a value for the current cell.
 
 
 ![](../images/topics/Dashboards.Data_9.png)
@@ -142,7 +142,7 @@ To go to the manual value input mode, you should click the Enter Data Manually c
 
 > **Information**
 >
-> When you enter data manually, this element is not interconnected with the others and it`s a stand-alone analytical element. The data manually entered are not displayed in the View Query menu of a dashboard too.
+> When you enter data manually, this element is not interconnected with the others and it`s a stand-alone analytical element. The data manually entered are not displayed in the **View Query** menu of a dashboard too.
 
 The commands of row control are placed in the context menu and allow you to:
 
@@ -164,7 +164,7 @@ Pay attention to the fact that:
 * You can select entirely the grid of manual input having clicked the upper left cell, which is located at the intersection of row and column headers.
 
 
-To go back to the data from columns mode, you should click the Use Data Fields in the element editor.
+To go back to the data from columns mode, you should click the **Use Data Fields** in the element editor.
 
 
 Links to data columns can be specified in a dashboard element and entered manually. However, the analysis and display of data depends on the mode you select (manual or data fields) in the element editor.
@@ -183,9 +183,9 @@ Links to data columns can be specified in a dashboard element and entered manual
 
 If the manual mode is enabled you can:
 
-* Delete rows from a table. To do this, you should select the rows or cells in the rows that should be deleted and select the Delete command from the context menu of the value input grid.
+* Delete rows from a table. To do this, you should select the rows or cells in the rows that should be deleted and select the **Delete** command from the context menu of the value input grid.
 
-* Also, you should clear the content of the cells. To do this, you should select the cells that should be cleared and click the Delete key on the keyboard.
+* Also, you should clear the content of the cells. To do this, you should select the cells that should be cleared and click the **Delete** key on the keyboard.
 
 
 **List of functions**

@@ -47,12 +47,12 @@ When clicking the Submit button, the report generator will filter data and displ
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Three_Modes_of_Variable_Functioning_6.png)
 
 
-The Reset button resets the current value and sets the first top value from the variable list.
+The **Reset** button resets the current value and sets the first top value from the variable list.
 
 
-User (with inputting values)
+**User (with inputting values)**
 
-This mode of the variable will be applied if the Request from User and ​Allow Users Values is enabled. When using this mode, selecting or entering values ​​in the variable field will require from the user. Create a variable type of List with the name UNN, and specify the column CategoryID as keys and values. The picture below shows an example the rendered report:
+This mode of the variable will be applied if the **Request from User** and ​**Allow Users Values** is enabled. When using this mode, selecting or entering values ​​in the variable field will require from the user. Create a variable type of **List** with the name **UNN**, and specify the column **CategoryID** as keys and values. The picture below shows an example the rendered report:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Three_Modes_of_Variable_Functioning_7.png)
@@ -73,10 +73,10 @@ Add a filter in the **DataBand**, where as the filter condition, specify the exp
 ![](../../../images/img_4.png) The **Close** button. Closes this menu saving items and input keys.
 
 
-After that, click the Submit button. Now the report generator will filter data and display the data which the CategoryID is equal to keys specified in the fields in the list of the variable values. The picture below shows the filtered report:
+After that, click the **Submit** button. Now the report generator will filter data and display the data which the **CategoryID** is equal to keys specified in the fields in the list of the variable values. The picture below shows the filtered report:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Three_Modes_of_Variable_Functioning_9.png)
 
 
-The Reset button, in this case, resets the current list of values ​​to the original one.
+The **Reset** button, in this case, resets the current list of values ​​to the original one.

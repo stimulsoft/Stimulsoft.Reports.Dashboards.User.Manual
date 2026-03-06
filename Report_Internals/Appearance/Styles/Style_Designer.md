@@ -2,14 +2,14 @@
 
 The style designer is a tool designed for creating and editing styles for report components and dashboard elements. Styles can be grouped into collections, and all created styles and their collections can be saved to a file. Using styles and their collections, the visual formatting of the report is achieved.
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_2.png)
-In order to open the Style Designer, you should:
+In order to open the **Style Designer**, you should:
 
-* Click on the Style Designer button on the Home ribbon tab in the report designer.
+* Click on the **Style Designer** button on the **Home** ribbon tab in the report designer.
 
-* Select Edit Styles from the Style property value list of the selected report component or dashboard element.
+* Select **Edit Styles** from the **Style** property value list of the selected report component or dashboard element.
 
 
-The Style Designer consists of:
+The **Style Designer** consists of:
 
 * Toolbar, which contains menus and commands for managing styles.
 
@@ -19,19 +19,19 @@ The Style Designer consists of:
 Style customization is performed using its properties on the panel in the report designer.
 
 
-Actions Menu
+**Actions Menu**
 This menu contains the main commands for managing styles and style collections.
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_4.png)
-![](../../../images/img_1.png) The Open... command allows you to open a previously saved *.sts file containing styles and their collections.
+![](../../../images/img_1.png) The **Open...** command allows you to open a previously saved *.sts file containing styles and their collections.
 
-![](../../../images/img_2.png) The Save As... command allows you to save the current list of styles and collections to a *.sts file.
+![](../../../images/img_2.png) The **Save As...** command allows you to save the current list of styles and collections to a *.sts file.
 
-![](../../../images/img_3.png) The Create Style Collection... command allows you to create a style collection automatically.
+![](../../../images/img_3.png) The **Create Style Collection...** command allows you to create a style collection automatically.
 
 
-Add Style Menu
+**Add Style Menu**
 This menu contains commands for creating new styles.
 
 
@@ -59,7 +59,7 @@ This menu contains commands for creating new styles.
 
 ![](../../../images/img_11.png) The [Watermark](Creating_Watermark_Style.md) Style type is applied to the report template page, dashboard, and to the Panel element on the dashboard.
 
-Get Style from Selected Components Command
+**Get Style from Selected Components Command**
 The **Get Style from Selected Components** command allows creating a style with formatting settings of a selected report component (or multiple components) or a dashboard element (or multiple elements). To do this, follow these steps:
 
 * Select a report component or a dashboard element.
@@ -68,7 +68,7 @@ The **Get Style from Selected Components** command allows creating a style with 
 
 * Click the **Get Style from Selected Components** button on the toolbar of the style designer.
 After that, a style of a specific type with formatting settings of the selected component or element will be created.
-Filtering and sorting of styles
+**Filtering and sorting of styles**
 While working in the style designer, you have the option to disable the display of styles belonging to specific types. To do this, follow these steps:
 
 * Click on the Settings button in the style designer.
@@ -89,34 +89,34 @@ In the settings menu, you can also define the sorting mode for styles and collec
 
 * Sorting is disabled. In this case, styles and collections are not sorted, and they can be dragged and dropped in the list, changing the order.
 
-Search Styles
+**Search Styles**
 
 The style designer has a search feature that allows you to search for styles. To do this, enter the name of the style or a part of its name in the Search field, and the list of styles will be automatically filtered.
 
-Context Menu
+**Context Menu**
 
-The context menu contains duplicate commands from the toolbar, commands for working with the clipboard, and others. Depending on the selected object - style or collection, the commands in the context menu may differ. For example, the Style context menu in the style designer contains commands for creating styles of different types, a command for automatically creating a style collection, commands for working with the clipboard, as well as a command for creating a copy of the style.
+The context menu contains duplicate commands from the toolbar, commands for working with the clipboard, and others. Depending on the selected object - style or collection, the commands in the context menu may differ. For example, the **Style** context menu in the style designer contains commands for creating styles of different types, a command for automatically creating a style collection, commands for working with the clipboard, as well as a command for creating a copy of the style.
 
 
 > **Information**
 >
-> The Duplicate Style command allows you to create a copy of a style with its formatting settings. The copy of the style will be created in the same style collection as the original style. The name of the copied style will be created with the name of the original style + the suffix "Copy" and the ordinal number of the copy.
+> The **Duplicate Style** command allows you to create a copy of a style with its formatting settings. The copy of the style will be created in the same style collection as the original style. The name of the copied style will be created with the name of the original style + the suffix "Copy" and the ordinal number of the copy.
 
-Color Collection Editor
+**Color Collection Editor**
 
 When creating styles for charts, maps, progress bars, and maps, it is necessary to define a collection of colors for the style. The colors in this collection will be applied to the graphical objects of the report components or dashboard elements. To open the color editor, you should click on the Browse button in the field value of the corresponding property.
 
 
-![](../../../images/img_1.png) The Add button allows you to add a new color to the color list.
+![](../../../images/img_1.png) The **Add** button allows you to add a new color to the color list.
 
-![](../../../images/img_2.png) The Remove button allows you to delete the selected color from the list.
+![](../../../images/img_2.png) The **Remove** button allows you to delete the selected color from the list.
 
 ![](../../../images/img_3.png) The buttons for moving the selected color in the color list determine the order in which the colors are applied to the geographic objects of the component or element. The color that is higher in the list will be applied first.
 
 ![](../../../images/img_4.png) The current style's color list can be modified by clicking the Browse button next to the color and selecting a new color from the drop-down list.
 
 
-Style Collections
+**Style Collections**
 
-All created styles in the style designer can be grouped into collections. Whether a style belongs to a collection is determined using the Collection Name style property. Each unique value specified as the value of this property forms a new style collection. Therefore, all styles with the same value of the Collection Name property belong to the same style collection.
+All created styles in the style designer can be grouped into collections. Whether a style belongs to a collection is determined using the **Collection Name** style property. Each unique value specified as the value of this property forms a new style collection. Therefore, all styles with the same value of the **Collection Name** property belong to the same style collection.
 [Learn more about style collections.](Style_Collections.md)

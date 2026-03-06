@@ -49,16 +49,16 @@ The editor is setting up data filters. Every filter is a data field, a logical o
 
 ![](../../images/img_3.png) This parameter is used to determine the [logical operation](#OperationsOfTable) in the data filtering condition.
 
-![](../../images/img_4.png) The parameter is used to determine the logical operation of adding And or Or filters. This parameter is displayed only if several different data columns are specified. The AND operation means that data will be displayed that matches all of the enabled filters. If the OR operation is selected, this means that data will be displayed that match at least one filter from the list of all enabled filters.
+![](../../images/img_4.png) The parameter is used to determine the logical operation of adding **And** or **Or** filters. This parameter is displayed only if several different data columns are specified. The **AND** operation means that data will be displayed that matches all of the enabled filters. If the **OR** operation is selected, this means that data will be displayed that match at least one filter from the list of all enabled filters.
 
 ![](../../images/img_5.png) This field indicates the value of the filter condition.
 
 ![](../../images/img_6.png) The parameter defines the algorithm of processing the value of the filtering condition. If a checkbox is set, the value of the filtering condition will be processed as an expression. The result of calculation this expression will be the value of the filtering condition. If a checkbox is not set, the value of the filter condition will be processed as a normal value.
 
-![](../../images/img_7.png) The parameter defines whether the current filter is enabled or disabled. If the Filter On parameter is set to True value, the filter is enabled and takes part in data processing for the current item. If the current parameter is set to False value this filter is disabled and does not take part in data processing for the current element.
+![](../../images/img_7.png) The parameter defines whether the current filter is enabled or disabled. If the **Filter On** parameter is set to **True** value, the filter is enabled and takes part in data processing for the current item. If the current parameter is set to **False** value this filter is disabled and does not take part in data processing for the current element.
 
 
-An example of setting the filters of an element
+**An example of setting the filters of an element**
 
 Suppose there are three elements on the dashboard:
 
@@ -72,19 +72,19 @@ Suppose there are three elements on the dashboard:
 Set up filtering of data in a chart. Display products only from a certain category, the price of which is in the required range.
 
 
-Step 1: Select the **Chart** element in the report designer;
+**Step 1**: Select the **Chart** element in the report designer;
 
 
-Step 2: Click the **Filters** button to open the Filter editor;
+**Step 2**: Click the **Filters** button to open the Filter editor;
 
 
-Step 3: Add a data field with a list of product categories;
+**Step 3**: Add a data field with a list of product categories;
 
 
-Step 4: Define a [logical filter operation](#OperationsOfTable). In this case, select the **equal to** operation.
+**Step 4**: Define a [logical filter operation](#OperationsOfTable). In this case, select the **equal to** operation.
 
 
-Step 5: Select or enter the value of the filter condition. In this example, the category **Condiments** will be selected.
+**Step 5**: Select or enter the value of the filter condition. In this example, the category **Condiments** will be selected.
 
 
 ![](../../images/topics/Dashboards.Data_Filtering.Filters_8.png)
@@ -92,18 +92,18 @@ Step 5: Select or enter the value of the filter condition. In this example, the 
 Products related to the category **Condiments** will be displayed. The relationship of categories and products is defined in the data dictionary. Now add a second filter. We display products from the category **Condiments**, which prices are in a certain range.
 
 
-Step 6: Add a data field with product prices to the Filter editor;
+**Step 6**: Add a data field with product prices to the Filter editor;
 
 
-Step 7: Select this data field and select a [logical operation](#OperationsOfTable) **between**;
+**Step 7**: Select this data field and select a [logical operation](#OperationsOfTable) **between**;
 
 
-Step 8: Select or set the price range values.
+**Step 8**: Select or set the price range values.
 
 
 > **Information**
 >
-> Pay your attention to the fact that the filter addition operation is set to And value. A chart displays the products which data matches the conditions of all filters.
+> Pay your attention to the fact that the filter addition operation is set to **And** value. A chart displays the products which data matches the conditions of all filters.
 
 
 ![](../../images/topics/Dashboards.Data_Filtering.Filters_9.png)

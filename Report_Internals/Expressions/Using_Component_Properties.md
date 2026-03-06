@@ -3,9 +3,9 @@
 When creating expressions, you can use the properties of any component contained within a report.
 
 
-Syntax
+**Syntax**
 
-The syntax is the same whether the report language is C# or VB.NET. You enter the name of the component and the property name separated by a decimal point or full-stop character, surrounded by curly braces:
+The syntax is the same whether the report language is **C#** or **VB.NET**. You enter the name of the component and the property name separated by a decimal point or full-stop character, surrounded by curly braces:
 
 
 ```

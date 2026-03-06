@@ -22,9 +22,9 @@ The image can be placed anywhere on the dashboard. Setting up the source for the
 
 * Double-click on the Image element;
 
-* Select the Image item, and select the Design command in the context menu;
+* Select the **Image** item, and select the **Design** command in the context menu;
 
-* Select the Image item, and, on the property panel, click the **Browse** button of the Image, Hyperlink properties of the image.
+* Select the **Image** item, and, on the property panel, click the **Browse** button of the Image, **Hyperlink** properties of the image.
 
 To resize an image element you should:
 
@@ -41,7 +41,7 @@ In the editor you can indicate the source of the image for the current element. 
 
 * In the **Image** field you can upload an image from the local storage.
 
-* In the Icon field, you can select an icon for the Image element and the color of this icon.
+* In the **Icon** field, you can select an icon for the Image element and the color of this icon.
 
 * In the **Hyperlink** field, the link to the graphic object is indicated. This can be either a URL or a link to a report resource (resource://logo). In addition, you can specify a link to the datacolumn://DataSource.DataColumn data column which contains an image in the base64 encoding or variable - variable://variablename.
 
@@ -82,8 +82,8 @@ The list shows the name and description of the properties of the element which y
 | Vertical alignment | Changes the vertical alignment of the image in the current element. |
 | Back Color | Changes the background color of the element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style. |
 | Border | A group of properties that allows you to customize the borders of the element - color, sides, size, and style. |
-| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
-| Shadow | A group of properties that allows configuring the shadow of an element: The Color property allows you to specify the color that will be used to display the shadow of the element. The properties in the Location group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The Size property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The Visible property allows you to enable or disable the display of the element's shadow on the indicator panel. |
+| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
+| Shadow | A group of properties that allows configuring the shadow of an element: The **Color** property allows you to specify the color that will be used to display the shadow of the element. The properties in the **Location** group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The **Size** property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The **Visible** property allows you to enable or disable the display of the element's shadow on the indicator panel. |
 | Style | Selects a style for the current element. The default it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard. |
 | Enabled | Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer. |
 | Interaction | Sets [interaction](Interaction.md) of the current element. |

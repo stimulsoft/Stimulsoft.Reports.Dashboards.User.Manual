@@ -1,7 +1,7 @@
 ## Columns on Page
 
 
-It is possible to output data on a page in columns using the Columns property. By default this property is set to 0. Setting the value to 2 or more will cause the data to be output in columns. You will also need to set the ColumnWidth and ColumnGaps properties.
+It is possible to output data on a page in columns using the **Columns** property. By default this property is set to 0. Setting the value to 2 or more will cause the data to be output in columns. You will also need to set the **ColumnWidth** and **ColumnGaps** properties.
 
 
 ![](../../images/topics/Report_Internals.Columns.Columns_On_Page_1.png)
@@ -29,7 +29,7 @@ In columnar output mode the page is separated vertically and the report is logic
 
 **Example**
 
-Suppose that you need a report with two columns. Set the Columns property to 2 (this means that two columns will be output on each page). Set the ColumnWidth to a suitable width for one column and in the ColumnGaps property set the space between columns. Put two bands on a page: a Header band and a Data band. The data headers will be output on the Header band and data itself will be output on the Data band.
+Suppose that you need a report with two columns. Set the **Columns** property to 2 (this means that two columns will be output on each page). Set the **ColumnWidth** to a suitable width for one column and in the **ColumnGaps** property set the space between columns. Put two bands on a page: a Header band and a Data band. The data headers will be output on the Header band and data itself will be output on the Data band.
 
 
 * **Note:** Column borders are indicated by the red line.

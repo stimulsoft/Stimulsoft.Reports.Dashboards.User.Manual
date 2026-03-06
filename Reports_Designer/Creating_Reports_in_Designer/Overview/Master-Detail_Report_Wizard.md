@@ -1,6 +1,6 @@
 ## Wizard Master-Detail Report
 
-| Important |
+| **Important** |
 | --- |
 | Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Template/Calculation_Mode.md). |
 

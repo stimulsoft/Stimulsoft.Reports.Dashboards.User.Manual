@@ -8,7 +8,7 @@ Please see the clear and transparent list of the main differences across [Stimul
 ** The subscription is included with our developer products. If needed, feel free to switch to an alternative Stimulsoft Cloud tariff plan.
 
 
-| Name | Trial* | Developer** | Single | Team | Enterprise | Description |
+| **Name** | **Trial*** | **Developer**** | **Single** | **Team** | **Enterprise** | **Description** |
 | --- | --- | --- | --- | --- | --- | --- |
 | Creators | 1 (For Review) | 1 | 1 | 4 | 15 | A creator is a person who has an account on the server, has access from the client-side, registered as an editor, and uses the product to work with report templates and dashboards - create, edit, view, delete, etc. |
 | Items | 20 | Unlim | Unlim | Unlim | Unlim | An item is any file uploaded or created in a workspace of your account — these are report and dashboard templates, rendered documents, file data, exported documents, images, etc. |

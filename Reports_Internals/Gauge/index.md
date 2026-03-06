@@ -1,9 +1,9 @@
 ## Gauge
 
-Gauge is a graphical component used to display progress, metrics, or status in the form of a scale or circular.
+**Gauge** is a graphical component used to display progress, metrics, or status in the form of a scale or circular.
 
 
-Gauges in reports can be used to display:
+**Gauges in reports can be used to display:**
 
 * Progress measurement: the degree of task or plan completion, such as 75% of a project being finished.
 

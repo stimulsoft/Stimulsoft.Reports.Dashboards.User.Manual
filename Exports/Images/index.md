@@ -1,7 +1,7 @@
 ## Images
 
 
-Export groups to graphic formats. All graphic formats can be divided in to types: bitmapped images and vector formats. Notice. On the current moment the export of monochrome image is supported only to BMP, GIF, PCX, PNG, TIFF format. So the DitheringType property works only for these exports.
+Export groups to graphic formats. All graphic formats can be divided in to types: bitmapped images and vector formats. Notice. On the current moment the export of monochrome image is supported only to **BMP**, **GIF**, **PCX**, **PNG**, **TIFF** format. So the **DitheringType** property works only for these exports.
 
 
 *Export options in* *Image*

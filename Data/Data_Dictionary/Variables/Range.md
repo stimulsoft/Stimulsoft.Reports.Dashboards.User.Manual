@@ -1,7 +1,7 @@
 ## Range
 
 
-If using a variable of this type in the report, you can work with ranges of values. In this case, the variable will store a range of values​​. The picture below shows the New Variable dialog of the Range type:
+If using a variable of this type in the report, you can work with ranges of values. In this case, the variable will store a range of values​​. The picture below shows the New Variable dialog of the **Range** type:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Range_1.png)
@@ -14,7 +14,7 @@ If using a variable of this type in the report, you can work with ranges of valu
 ![](../../../images/img_3.png) The **To** field. Specifies the ending value of the range. The value in this field is included into the values range. In our case the date **12/31/2008; 23:59:59** is specified.
 
 
-After clicking OK, the variable will be created. Here is an example of this type of the variable in the report. Suppose there is a report that contains information about orders: country, name and date of delivery. The picture below shows a report page:
+After clicking **OK**, the variable will be created. Here is an example of this type of the variable in the report. Suppose there is a report that contains information about orders: country, name and date of delivery. The picture below shows a report page:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Range_2.png)
@@ -26,4 +26,4 @@ If you want to display information about orders, which were processed in 2008, t
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Range_3.png)
 
 
-It is worth noting that when referring to the start/end range value, if the DateTime data type is used, then to avoid additional changes, you can address to the VariableName.FromDate (or VariableName.FromTime if the TimeSpan data type is used) and VariableName.ToDate (or VariableName.ToTime if the TimeSpan data type is used).
+It is worth noting that when referring to the start/end range value, if the **DateTime** data type is used, then to avoid additional changes, you can address to the **VariableName.FromDate** (or **VariableName.FromTime** if the **TimeSpan** data type is used) and **VariableName.ToDate** (or **VariableName.ToTime** if the **TimeSpan** data type is used).

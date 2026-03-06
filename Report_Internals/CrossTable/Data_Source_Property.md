@@ -4,7 +4,7 @@
 Data are the base for cross table rendering. So the cross table rendering should be started from selecting the data source. The data source can be selected using the Data source.
 
 
-It is necessary to specify the data source that will be used. There are several ways how to do this. The first way. You may use either the DataSource property or the Table editor.
+It is necessary to specify the data source that will be used. There are several ways how to do this. The first way. You may use either the **DataSource** property or the Table editor.
 
 
 ![](../../images/topics/Report_Internals.CrossTable.Data_Source_Property_1.png)

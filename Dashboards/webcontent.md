@@ -1,6 +1,6 @@
 ## Web content
 
-Web Content is an element through which you can display various types of content from the Internet, including videos, web pages, animated images, and more, on the indicator panel within the viewer. To exhibit content in Stimulsoft Designer, the WebView2 environment is utilized. Consequently, the dashboard can showcase everything that a web browser can display.
+**Web** **Content** is an element through which you can display various types of content from the Internet, including videos, web pages, animated images, and more, on the indicator panel within the viewer. To exhibit content in Stimulsoft Designer, the WebView2 environment is utilized. Consequently, the dashboard can showcase everything that a web browser can display.
 ![](../images/topics/Dashboards.webcontent_2.png)
 
 This chapter will cover the following questions:
@@ -9,27 +9,27 @@ This chapter will cover the following questions:
 
 * [List of properties](#propertiestable).
 
-The Web Content can be positioned anywhere on the dashboard. Setting the content source is accomplished in the element editor. To access the editor:
+The **Web Content** can be positioned anywhere on the dashboard. Setting the content source is accomplished in the element editor. To access the editor:
 
-* Double-click the Web Content element.
+* Double-click the **Web Content** element.
 
-* Select the Web Content element and choose the Design command from the context menu.
+* Select the **Web Content** element and choose the **Design** command from the context menu.
 
-* Choose the Web Content element and click the Design button.
+* Choose the **Web Content** element and click the **Design** button.
 
-To resize the Web Content element:
+To resize the **Web Content** element:
 
 * Select it on the indicator panel.
 
 * Adjust the size vertically, horizontally, or diagonally as needed.
-Web Content editor
+**Web Content editor**
 The editor specifies the source URL for the content to be displayed or the embed code. Within one element, you can display content from only one source - either via a link or by using an embed code.
 
 ![](../images/topics/Dashboards.webcontent_4.png)
 
-* In the URL field, you can specify a link to web content.
+* In the **URL** field, you can specify a link to web content.
 
-* In the Embed Code field, you can specify a code to embed the content.
+* In the **Embed Code** field, you can specify a code to embed the content.
 
 
 **List of properties**
@@ -40,8 +40,8 @@ The list shows the name and description of the properties of the element which y
 | --- | --- |
 | Back Color | Changes the background color of the element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style. |
 | Border | A group of properties that allows you to customize the borders of the element - color, sides, size, and style. |
-| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
-| Shadow | A group of properties that allows configuring the shadow of an element: The Color property allows you to specify the color that will be used to display the shadow of the element. The properties in the Location group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The Size property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The Visible property allows you to enable or disable the display of the element's shadow on the indicator panel. |
+| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
+| Shadow | A group of properties that allows configuring the shadow of an element: The **Color** property allows you to specify the color that will be used to display the shadow of the element. The properties in the **Location** group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The **Size** property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The **Visible** property allows you to enable or disable the display of the element's shadow on the indicator panel. |
 | Enabled | Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer. |
 | Margin | A group of properties that allows you to define indents (left, top, right, bottom) of the value area from the border of this element. |
 | Padding | A group of properties that allows you to define indents (left, top, right, bottom) of the columns from the range of values. |

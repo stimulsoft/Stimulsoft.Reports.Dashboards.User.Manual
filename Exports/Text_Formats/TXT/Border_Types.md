@@ -1,7 +1,7 @@
 ## Border Types
 
 
-The border in the text mode can be drawn using simple symbols or using pseudographics. Using the BorderType property it is possible to choose the mode of border drawing. It may have the following modes:
+The border in the text mode can be drawn using simple symbols or using pseudographics. Using the **BorderType** property it is possible to choose the mode of border drawing. It may have the following modes:
 
 * Simple - drawing a border using simple symbols such as  "+", "-", and "|";
 

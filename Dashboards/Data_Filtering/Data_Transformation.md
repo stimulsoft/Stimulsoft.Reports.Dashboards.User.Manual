@@ -19,7 +19,7 @@ This chapter will cover the following:
 
 * [Replace value](#ReplaceValue);
 
-* [Filtering by type of values](#TypeFilter);
+* [Filtering by type of values](#TypeFilter)**;**
 
 * [Custom filter](#CustomFilter);
 
@@ -68,7 +68,7 @@ All data transformation settings are located in the command menu. To call this m
 
 Consider the commands that can be applied to the values of the data column.
 
-Data sorting
+**Data sorting**
 
 By data sorting we mean the order of the element values in a certain direction.
 
@@ -152,7 +152,7 @@ To replace the value in the Data Transformation editor:
 * In the editor that opens, you should specify the value to be replaced and the value to be replaced. Also, you can configure the replacement of several values at once.
 
 
-Filtering by type of values
+**Filtering by type of values**
 
 By filtering data we mean the selection of data by any condition. For example, the statistics of visits for the last day, or sales in a certain category, etc.
 
@@ -170,7 +170,7 @@ Data filtering in data conversion can be done the following way:
 * Then, an editor will be opened in which you need to specify a value for the [logical operation](Filters.md#OperationsOfTable). When this filter is triggered, fulfilling a certain logical condition, the values will be displayed.
 
 
-Custom filter
+**Custom filter**
 
 A custom filter can be applied to any data column of an element.
 ![](../../images/topics/Dashboards.Data_Filtering.Data_Transformation_11.png)
@@ -184,7 +184,7 @@ To add a custom filter, you should:
 * The filter editor will be called. You should add filters, define a [logical operation](Filters.md#OperationsOfTable) and value. When this filter is triggered, the values will be displayed.
 
 
-Selecting values
+**Selecting values**
 
 Also, you can filter the data simply by selecting values.
 

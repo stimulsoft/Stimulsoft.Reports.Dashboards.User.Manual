@@ -5,23 +5,23 @@ The calculated data column is calculated on the base of an expression that can b
 
 ![](../../../images/topics/Data.Data_Dictionary.DataSources.Calculated_Data_Column_1.png)
 
-To create a new calculated column you should call the New Calculated Column dialog and fill in the dialogue form. The dialog can be called from the context menu of data source or from the Actions menu. The picture below shows the New Calculated Column dialog:
+To create a new calculated column you should call the **New Calculated Column** dialog and fill in the dialogue form. The dialog can be called from the context menu of data source or from the **Actions** menu. The picture below shows the **New Calculated Column** dialog:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.DataSources.Calculated_Data_Column_2.png)
 
 
-![](../../../images/img_1.png) The Name column is used to call this calculated column in the report. Enter in the Name.
+![](../../../images/img_1.png) The **Name** column is used to call this calculated column in the report. Enter in the **Name**.
 
-![](../../../images/img_2.png) The Alias column is used as a prompt. Enter in the Alias.
+![](../../../images/img_2.png) The **Alias** column is used as a prompt. Enter in the **Alias**.
 
-![](../../../images/img_3.png) The Type field provides the ability to choose the data type that will contain the new calculated column.
+![](../../../images/img_3.png) The **Type** field provides the ability to choose the data type that will contain the new calculated column.
 
-![](../../../images/img_4.png) The Dictionary button contains a drop-down menu that displays the structure of the data dictionary. In this menu you can select data columns, business objects, or system variables that will be added to the calculation of expression of the calculated data column.
+![](../../../images/img_4.png) The **Dictionary** button contains a drop-down menu that displays the structure of the data dictionary. In this menu you can select data columns, business objects, or system variables that will be added to the calculation of expression of the calculated data column.
 
-![](../../../images/img_5.png) The Value field is used to define an expression for calculating the values ​​of the new calculated data column.
+![](../../../images/img_5.png) The **Value** field is used to define an expression for calculating the values ​​of the new calculated data column.
 
-In this example, the calculation expression will contain data columns Year2000 and Year2009 from the data source Auto, and the type of data in a new calculated column will be double. After the column is created, you should place a text component with a reference to this data column. In this example, the text component will contain a link {Auto.NewCalculatedColumn1}. As the result of calculations is necessary to be displayed in the percentage, then this text component should change the format, i.e. set the Percentage format. Below is a report with the calculated data column:
+In this example, the calculation expression will contain data columns Year2000 and Year2009 from the data source Auto, and the type of data in a new calculated column will be double. After the column is created, you should place a text component with a reference to this data column. In this example, the text component will contain a link **{Auto.NewCalculatedColumn1}**. As the result of calculations is necessary to be displayed in the percentage, then this text component should change the format, i.e. set the **Percentage** format. Below is a report with the calculated data column:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.DataSources.Calculated_Data_Column_3.png)

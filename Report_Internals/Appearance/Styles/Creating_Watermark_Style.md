@@ -1,10 +1,10 @@
 ## Watermark Style
 
-The Watermark style is applied to report template pages, dashboards, and also to the [Panel](../../../Dashboards/Panel.md) element. Do the next steps to create a component style:
-* In the style designer, click the Add Style button and select the Watermark style.
+The **Watermark** style is applied to report template pages, dashboards, and also to the [Panel](../../../Dashboards/Panel.md) element. Do the next steps to create a component style:
+* In the style designer, click the **Add Style** button and select the **Watermark** style.
 
 * Use the style properties to customize the formatting.
-* Apply the style by setting it as the value of the Watermark Style property for the template pages, dashboard, or Panel element on the dashboard.
+* Apply the style by setting it as the value of the **Watermark Style** property for the template pages, dashboard, or **Panel** element on the dashboard.
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Creating_Watermark_Style_1.png)
@@ -14,10 +14,10 @@ Below is a list of properties that are used to set the watermark style.
 
 > **Information**
 >
-> To apply the appearance settings, you should consider values of the Allow Use... properties.
+> To apply the appearance settings, you should consider values of the **Allow Use...** properties.
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
 | Name | Sets the name of the current style. |
 | Description | Specifies a description for the current style. |
@@ -39,7 +39,7 @@ Below is a list of properties that are used to set the watermark style.
 | Image Stretch | Stretches an image to fit the entire page, dashboard, or panel on a dashboard. |
 | Image Tiling | Enables the mode to fill the entire page, dashboard or panel with repeated images. |
 | Image Transparency | Sets the coefficient (between 0 and 1) for the transparency of an image, where 0 is an opaque image and 1 is a completely transparent one. |
-| The following style properties are only relevant for the dashboard and the Panel element on the dashboard panel. They do not apply to report pages. |  |
+| The following style properties are only relevant for the dashboard and the **Panel** element on the dashboard panel. They do not apply to report pages. |  |
 | Weave Angle | Defines the rotation angle of weave icons. |
 | Weave Distance | Defines the spacing between weave icons. |
 | Weave Enabled | Enables or disables weave in the watermark. |

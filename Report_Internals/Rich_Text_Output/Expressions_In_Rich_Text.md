@@ -1,7 +1,7 @@
 ## Expressions In Rich Text
 
 
-The RTF text is an expression in the RichText component. There are no significant differences between working with expressions in the RichText component and other text components.
+The RTF text is an expression in the **RichText** component. There are no significant differences between working with expressions in the **RichText** component and other text components.
 
 
 The syntax and use of expressions is similar to the syntax and use of expressions in text components, but there is one particular issue to consider - any applied formatting must be applied to the full code insertion and not just part of it.

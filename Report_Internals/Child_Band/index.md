@@ -7,7 +7,7 @@ The **Child** band can be used in tandem with other bands. It can be placed afte
 * **Note:** The **Child** band can be used in combination with any other bands placed on a page.
 
 
-Using The Child Band With Data Bands
+**Using The Child Band With Data Bands**
 
 The Child band allows you to output two bands on one data row. To use the child band in this way you would create a new report, put a Data band on the page, and then put a Child band after the Data band.
 

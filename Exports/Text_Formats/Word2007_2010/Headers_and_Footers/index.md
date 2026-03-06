@@ -1,7 +1,7 @@
 ## Headers and Footers
 
 
-Depending on the value of the Use Page Headers and Footers property a report is exported in the following way:
+Depending on the value of the **Use Page Headers and Footers** property a report is exported in the following way:
 
 * the value is false - a report is exported "as is" and looks as in preview;
 

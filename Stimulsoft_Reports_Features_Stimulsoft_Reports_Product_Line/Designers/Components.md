@@ -5,7 +5,7 @@ Components in Stimulsoft Reports are divided into 3 groups. See the table below 
 
 | **Components** | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript, PHP)** | **HTML5** **(Java)** | **WPF** |
 | --- | --- | --- | --- | --- | --- |
-| Dashboard Elements |  |  |  |  |  |
+| **Dashboard Elements** |  |  |  |  |  |
 | [Table](../../Dashboards/Table.md) | + | + | + |  |  |
 | [Chart](../../Dashboards/Chart.md) | + | + | + |  |  |
 | Cards | + | + | + |  |  |
@@ -27,7 +27,7 @@ Components in Stimulsoft Reports are divided into 3 groups. See the table below 
 | Button | + | + | + |  |  |
 | [Text](../../Dashboards/Text.md) | + | + | + |  |  |
 | [Shape](../../Dashboards/Shape.md) | + | + | + |  |  |
-| Bands |  |  |  |  |  |
+| **Bands** |  |  |  |  |  |
 | [Report Title](../../Report_Internals/Report_Bands/ReportTitleBand.md) | + | + | + | + | + |
 | [Report Summary](../../Report_Internals/Report_Bands/ReportSummaryBand.md) | + | + | + | + | + |
 | [Page Header](../../Report_Internals/Page_Bands/PageHeader_Band.md) | + | + | + | + | + |
@@ -44,13 +44,13 @@ Components in Stimulsoft Reports are divided into 3 groups. See the table below 
 | [Empty](../../Report_Internals/Empty_Band/index.md) | + | + | + | + | + |
 | [Overlay](../../Report_Internals/Watermarks/index.md) | + | + | + | + | + |
 | Table of Contents | + | + | + |  | + |
-| Cross-Bands |  |  |  |  |  |
+| **Cross-Bands** |  |  |  |  |  |
 | [Cross-Group](../../Report_Internals/Bands/Band_Types/Cross-Bands.md) | + | + | + | + | + |
 | [Cross-Footer](../../Report_Internals/Bands/Band_Types/Cross-Bands.md) | + | + | + | + | + |
 | [Cross-Header](../../Report_Internals/Bands/Band_Types/Cross-Bands.md) | + | + | + | + | + |
 | [Cross-Footer](../../Report_Internals/Bands/Band_Types/Cross-Bands.md) | + | + | + | + | + |
 | [Cross-Data](../../Report_Internals/Bands/Band_Types/Cross-Bands.md) | + | + | + | + | + |
-| Components |  |  |  |  |  |
+| **Components** |  |  |  |  |  |
 | [Text](../../Report_Internals/Output_Text_Parameters/index.md) | + | + | + | + | + |
 | Text in Cells | + | + | + |  | + |
 | [Rich text](../../Report_Internals/Rich_Text_Output/index.md) | + |  |  |  | + |
@@ -64,7 +64,7 @@ Components in Stimulsoft Reports are divided into 3 groups. See the table below 
 | [Cross-Tab](../../Report_Internals/CrossTable/index.md) | + | + | + | + | + |
 | Sparkline | + | + | + |  | + |
 | Math Formula | + | + |  |  | + |
-| Other Components |  |  |  |  |  |
+| **Other Components** |  |  |  |  |  |
 | [Bar Codes](../../Report_Internals/BarCodes/index.md) | + | + | + | + | + |
 | [Shape](../../Report_Internals/Primitives/index.md) | + | + | + | + | + |
 | [Charts](../../Report_Internals/Charts/index.md) | + | + | + | + | + |

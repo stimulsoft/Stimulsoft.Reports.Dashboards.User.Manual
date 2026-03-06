@@ -12,12 +12,12 @@ You can transform data using different ways:
 * Create a storage procedure and more.
 
 
-However, you can use the Data Transformation tool in the report designer. Using this tool, you can create a description of data as a table. After that, you will be able to render some reports in the report designer based on this table.
+However, you can use the **Data Transformation** tool in the report designer. Using this tool, you can create a description of data as a table. After that, you will be able to render some reports in the report designer based on this table.
 
 
 ![](../../images/topics/Data.Data_Transformation_1.png)
 
-To call the Data Transformation you should select the New Data Transformation command in the New Item menu of the data dictionary.
+To call the **Data Transformation** you should select the **New Data Transformation** command in the **New Item** menu of the data dictionary.
 
 
 ![](../../images/topics/Data.Data_Transformation_2.png)

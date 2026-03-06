@@ -5,12 +5,12 @@ Filtering series values involves selecting values based on a specific condition.
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_2.png)
 
 To apply filters to series values, follow these steps:
-* In the component editor, go to the Series tab and select the Filters section;
-* Click Add Filter;
+* In the component editor, go to the **Series** tab and select the **Filters** section;
+* Click **Add Filter**;
 * Configure the filtering condition using the filter editor.
 
 
-Filter Editor
+**Filter Editor**
 The filter editor defines the selection criteria for series values.
 
 
@@ -18,20 +18,20 @@ The filter editor defines the selection criteria for series values.
 
 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_4.png)
- Field Is determines the source of the values: Values, Arguments, or an Expression;
+ **Field Is** determines the source of the values: **Values**, **Arguments**, or an **Expression**;
 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_5.png)
- Data Type defines the data type of both the source value and the filtering value;
+ **Data Type** defines the data type of both the source value and the filtering value;
 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_6.png)
- Condition specifies the filtering operation (see the table below);
+ **Condition** specifies the filtering operation (see the table below);
 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_8.png)
- Value specifies the filtering value, i.e., the value for which the filter condition will be true.
+ **Value** specifies the filtering value, i.e., the value for which the filter condition will be true.
 
 > **Information**
 >
-> For some operations, multiple filtering values may be required. For example, if using the between operation, both a starting and ending value must be specified to define a range.
+> For some operations, multiple filtering values may be required. For example, if using the **between** operation, both a starting and ending value must be specified to define a range.
 
 The list of available operations depends on the data type. Each operation defines a logical condition between the source value and the filtering value.
 

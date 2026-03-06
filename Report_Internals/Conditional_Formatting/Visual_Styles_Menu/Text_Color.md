@@ -7,7 +7,7 @@ Using conditional formatting it is possible to apply the color for the text comp
 ![](../../../images/topics/Report_Internals.Conditional_Formatting.Visual_Styles_Menu.Text_Color_1.png)
 
 
-For example, you can change a text color of entries which ends with an o letter in the Country column. Select a text component with the {Customers.Country} expression, in the DataBand and call the Conditions editor. Then, you should set a condition: select the Customers.Country data column, as the first value, and indicate the o letter, as a second value. Also set the Operation comparison to the ending with value. Change the formatting parameters, in this case, change the text color. The picture below shows the Conditions editor dialog box:
+For example, you can change a text color of entries which ends with an **o** letter in the **Country** column. Select a text component with the **{Customers.Country}** expression, in the **DataBand** and call the **Conditions** editor. Then, you should set a condition: select the **Customers.Country** data column, as the first value, and indicate the **o** letter, as a second value. Also set the **Operation comparison** to the **ending with** value. Change the formatting parameters, in this case, change the text color. The picture below shows the **Conditions** editor dialog box:
 
 
 ![](../../../images/topics/Report_Internals.Conditional_Formatting.Visual_Styles_Menu.Text_Color_2.png)
@@ -19,4 +19,4 @@ After making changes in the report template, the report engine will perform cond
 ![](../../../images/topics/Report_Internals.Conditional_Formatting.Visual_Styles_Menu.Text_Color_3.png)
 
 
-As can be seen in the picture above, lines of text components of the Country column which ends with the o letter are red.
+As can be seen in the picture above, lines of text components of the **Country** column which ends with the **o** letter are red.

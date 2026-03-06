@@ -13,11 +13,11 @@ Now let's set the format mask for each text component. To do this, select the te
 ![](../../images/topics/Report_Internals.Text_Formatting.Custom_Formatting_2.png)
 
 
-![](../../images/img_1.png) Mask
+![](../../images/img_1.png) **Mask**
 
 A string or an expression that set formatting mask.
 
-![](../../images/img_2.png) Predefined values
+![](../../images/img_2.png) **Predefined values**
 
 The list of predefined values to format a string.
 

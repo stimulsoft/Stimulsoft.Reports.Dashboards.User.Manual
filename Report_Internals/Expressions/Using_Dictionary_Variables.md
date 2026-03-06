@@ -16,9 +16,9 @@ Value = 5
 ```
 
 
-Calculating with Variables
+**Calculating with Variables**
 
-Variables can also be used in calculations. For example, if the value of MyVariable is 15, and you enter the following expression:
+Variables can also be used in calculations. For example, if the value of **MyVariable** is 15, and you enter the following expression:
 
 
 ```

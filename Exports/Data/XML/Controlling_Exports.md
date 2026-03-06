@@ -12,10 +12,10 @@ The following elements can be specified in the Tag property to control export to
 Several elements should be separated with the semicolon. The “DataType" element should be only one and should be placed first, other elements – if necessary.
 
 
-Values of the "DataType" element are shown in the table below. If the data type is not set, then the string data type is taken by default.
+Values of the "DataType" element are shown in the table below. If the data type is not set, then the **string** data type is taken by default.
 
 
-| Data type | Description |
+| **Data type** | **Description** |
 | --- | --- |
 | int | Numeric |
 | long | Numeric |

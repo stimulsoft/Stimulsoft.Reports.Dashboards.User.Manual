@@ -51,16 +51,16 @@ You may set up data sorting for the following items:
 >
 > * Call the Interaction editor;
 >
-> * Enable the interactive sort button, or uncheck the box to disable the interactive sort button for the Allow User Sorting option.
+> * Enable the interactive sort button, or uncheck the box to disable the interactive sort button for the **Allow User Sorting** option.
 
-Sorting in a Table
+**Sorting in a Table**
 
 Sorting data in a Table is the ordering of table rows by the values of a specific column. You can sort the data in the Table by one or more data columns. In this case, the sorting will be performed by the first column, then by the second, etc. Sort commands are located in the column header menu.
 ![](../images/topics/Dashboards.Sorting_3.png)
 
 In the column title menu, you may select the sort direction for the values of the current. If None is selected, then sorting by the values of the current column will not happen.
 
-Sorting in a Chart
+**Sorting in a Chart**
 
 Sorting data can be performed for each data field that is used in the Chart. To specify sorting in the Chart, you should:
 
@@ -76,9 +76,9 @@ Sorting data can be performed for each data field that is used in the Chart. To 
 
 > **Information**
 >
-> Please note that sorting in the Indicator, Progress, Gauge is possible only if Series of elements are specified.
+> Please note that sorting in the Indicator, Progress, Gauge is possible only if **Series** of elements are specified.
 
-Sorting in an Indicator
+**Sorting in an Indicator**
 
 Sorting data can be performed for each data field that is used in the Indicator. To set the sorting in the Indicator, you should:
 
@@ -90,7 +90,7 @@ Sorting data can be performed for each data field that is used in the Indicator.
 
 ![](../images/topics/Dashboards.Sorting_5.png)
 
-Sort in a Progress
+**Sort in a Progress**
 
 Sorting data can be performed for each data field that is used in the Progress. To specify sorting in the Progress, you should:
 
@@ -102,7 +102,7 @@ Sorting data can be performed for each data field that is used in the Progress. 
 
 ![](../images/topics/Dashboards.Sorting_6.png)
 
-Sort in a Gauge
+**Sort in a Gauge**
 
 Sorting data can be performed for each data field that is used in the Gauge. To specify sorting in the Gauge, you should:
 

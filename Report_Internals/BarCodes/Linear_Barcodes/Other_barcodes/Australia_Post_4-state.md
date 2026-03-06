@@ -1,12 +1,12 @@
 ## Australia Post 4-State
 
-The Australia Post 4-Stage barcode is used in Australia for the purposes of sorting and directing letters.
+The **Australia Post 4-Stage** barcode is used in Australia for the purposes of sorting and directing letters.
 
 
-| Valid symbols: | 0123456789 |
+| **Valid symbols:** | 0123456789 |
 | --- | --- |
-| Length: | FCC - fixed, 2 characters, DPID - fixed, 8 characters, CustomerInfo variable |
-| Check digit: | Four, ReedSolomon algorithm |
+| **Length:** | FCC - fixed, 2 characters, DPID - fixed, 8 characters, CustomerInfo variable |
+| **Check digit:** | Four, ReedSolomon algorithm |
 
 The barcode consists of 4 elements (4 conditions), each has its own name, value and display. Each element consists of two bars and two spaces. Each barcode contains 4 check symbols, calculated by the ReedSolomon algorithm. The value of these symbols are usually printed after the text of the barcode.
 
@@ -33,4 +33,4 @@ If FCC = 62, 44 then the CustomerInfo may contain 15 digits or 10 letters/digits
 ![](../../../../images/topics/Report_Internals.BarCodes.Linear_Barcodes.Other_barcodes.Australia_Post_4-state_1.png)
 
 
-A "Australia Post 4-state" barcode. "1138797520" is a number encoded in the barcode.
+**A "Australia Post 4-state" barcode. "1138797520" is a number encoded in the barcode.**

@@ -1,12 +1,12 @@
 ## Special Characters
 
-Sometimes it is necessary to use a phrase, for example, in French or German on the website page or to display an example of HTML code on the page. For this purpose, the braces characters, opening "&lt;" and closing "&gt;" are used. They define the first and last character of the tag. For example, to display the "greater-than" sign or the opening "&lt;" brace, the "&lt;" character is used. Each character has its &-ASCII code, which has a specific &#**** format, where **** is a numeric character. Pointing a &-ASCII code, the appropriate symbol will be output on the page. Also, some characters have &-Name codes, which have the &**** formats where **** is an alphabetic names of characters. Below are the tables with the most frequently used characters:
+Sometimes it is necessary to use a phrase, for example, in French or German on the website page or to display an example of HTML code on the page. For this purpose, the braces characters, opening "&lt;" and closing "&gt;" are used. They define the first and last character of the tag. For example, to display the "greater-than" sign or the opening "&lt;" brace, the "**&lt**;" character is used. Each character has its **&-ASCII** code, which has a specific **&#****** format, where **** is a numeric character. Pointing a **&-ASCII** code, the appropriate symbol will be output on the page. Also, some characters have **&-Name** codes, which have the **&****** formats where **** is an alphabetic names of characters. Below are the tables with the most frequently used characters:
 
 
-Special Characters
+**Special Characters**
 
 
-| Common Name | ISO Latin-1 Numeric Entity | &-ASCII | &-Name |
+| **Common Name** | **ISO Latin-1 Numeric Entity** | **&-ASCII** | **&-Name** |
 | --- | --- | --- | --- |
 | Quotation mark | " | &#034; | &quot; |
 | Ampersand | & | &#038; | &amp; |
@@ -43,10 +43,10 @@ Special Characters
 | Fraction three-fourths | ¾ | &#190; | &frac34; |
 | Inverted question mark | ¿ | &#191; | &iquest; |
 
-UPPERCASE LATIN-1 CHARACTERS
+**UPPERCASE LATIN-1 CHARACTERS**
 
 
-| Name | Character | &-ASCII | &-Name |
+| **Name** | **Character** | **&-ASCII** | **&-Name** |
 | --- | --- | --- | --- |
 | Capital A, grave accent | À | &#192; | &Agrave; |
 | Capital A, acute accent | Á | &#193; | &Aacute; |
@@ -81,10 +81,10 @@ UPPERCASE LATIN-1 CHARACTERS
 | Capital Thorn | Þ | &#222; | &THORN; |
 | German sz ligature | ß | &#223; | &szlig; |
 
-LOWERCASE LATIN-1 CHARACTERS
+**LOWERCASE LATIN-1 CHARACTERS**
 
 
-| Name | Character | &-ASCII | &-Name |
+| **Name** | **Character** | **&-ASCII** | **&-Name** |
 | --- | --- | --- | --- |
 | Lowercase a, grave accent | à | &#224; | &agrave; |
 | Lowercase a, acute accent | á | &#225; | &aacute; |

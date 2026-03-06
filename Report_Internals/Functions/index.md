@@ -7,9 +7,9 @@ The data dictionary has the **Functions** category. This category contains the e
 >
 > Please note that when processing number values in reports, a data type of the result depends on a data type of arguments. In dashboards, all arguments are converted to the highest possible type. As a rule, it's either double or decimal. Accordingly, the result of function calculation will mostly have decimal or double data type.
 
-View the Functions:
+**View the Functions:**
 
-| Function | Description | Sample |
+| **Function** | **Description** | **Sample** |
 | --- | --- | --- |
 | Date: |  |  |
 | {DateDiff(,)} | Calculates the distance between the specified dates Arguments should be of the DateTime type Returns the TimeSpan value | {DateDiff(DateSerial(2022,1,30),DateSerial(2022,1,1))} - the result is 29.00:00:00, that means 29 days. {DateDiff(DataSource.Column1,DataSource.Column2)} - the result will be calculated for each value in Column1 |

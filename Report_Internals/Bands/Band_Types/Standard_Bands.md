@@ -6,10 +6,10 @@ Standard bands are the fundamental elements of any report. Please refer to the l
 
 > **Video**
 >
-> * NOTE: This article lists the bands that are used to create reports. To familiarize yourself with how they are processed during the report rendering, please read the article [Rendering Order of Bands](../Order_Render.md).
+> * **NOTE**: This article lists the bands that are used to create reports. To familiarize yourself with how they are processed during the report rendering, please read the article [Rendering Order of Bands](../Order_Render.md).
 
 
-| Icon | Band Name | Description |
+| **Icon** | **Band Name** | **Description** |
 | --- | --- | --- |
 | ![](../../../images/img_ReportTitleBand.png) | Report Title | This band is printed in the beginning of a report |
 | ![](../../../images/img_ReportSummaryBand.png) | Report Summary | This band is printed in the end of a report |

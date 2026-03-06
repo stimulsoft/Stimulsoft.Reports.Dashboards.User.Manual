@@ -4,7 +4,7 @@
 >
 > Please see [how to change the Skill level in the report designer](../../Getting_Started/Install_and_First_Run.md#chooseyourskilllevel).
 
-The Skill level in our reporting system is a set of report components, elements and their settings, additional tools and commands in the report designer. Below is a list with the names of options, components, and properties that will be available, depending on the skill level selected in the report designer.
+The **Skill level** in our reporting system is a set of report components, elements and their settings, additional tools and commands in the report designer. Below is a list with the names of options, components, and properties that will be available, depending on the skill level selected in the report designer.
 
 
 This chapter will cover the following:
@@ -33,12 +33,12 @@ This chapter will cover the following:
 
 * [Table of dashboard elements Properties](#dashboardelementspropertiestable).
 
-Tools Table.
+**Tools Table.**
 
 This is a list of the report designer tools that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
 | Publish |  |  | + |
 | Actions |  |  | + |
@@ -47,14 +47,14 @@ This is a list of the report designer tools that are available depending on the 
 >
 > All other options are displayed in the report designer, regardless of the selected skill level.
 
-Table of the components and their groups.
+**Table of the components and their groups.**
 
 This is a list of report components and their groups that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
-| Bands: | + | + | + |
+| **Bands:** | + | + | + |
 | Report Title | + | + | + |
 | Report Summary | + | + | + |
 | Page Header | + | + | + |
@@ -70,8 +70,8 @@ This is a list of report components and their groups that are available dependin
 | Child |  | + | + |
 | Empty Data |  | + | + |
 | Overlay |  | + | + |
-| Cross | + | + | + |
-| Components: | + | + | + |
+| **Cross** | + | + | + |
+| **Components:** | + | + | + |
 | Text | + | + | + |
 | Text in Cells |  | + | + |
 | Rich Text | + | + | + |
@@ -84,23 +84,23 @@ This is a list of report components and their groups that are available dependin
 | Table |  | + | + |
 | Cross-tab | + | + | + |
 | Sparkline | + | + | + |
-| Barcode | + | + | + |
-| Shapes | + | + | + |
-| Chart | + | + | + |
-| Gauge |  | + | + |
-| Map |  | + | + |
+| **Barcode** | + | + | + |
+| **Shapes** | + | + | + |
+| **Chart** | + | + | + |
+| **Gauge** |  | + | + |
+| **Map** |  | + | + |
 
 
 > **Information**
 >
 > All dashboard elements are displayed in the report designer regardless of the selected skill level.
 
-Table of Components Common Properties.
+**Table of Components Common Properties**.
 
 This is a list of general properties of report components that are available depending on the selected skill level. All of the properties listed below are present in any report component.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
 | **Common Properties:** |  |  |  |
 | Alias |  | + | + |
@@ -108,32 +108,32 @@ This is a list of general properties of report components that are available dep
 | Locked |  |  | + |
 | Linked |  |  | + |
 
-Table of Bands Properties.
+**Table of Bands Properties.**
 
-This is a list of Bands properties that are available depending on the selected skill level.
+This is a list of **Bands** properties that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
-| Common Bands Properties: |  |  |  |
+| **Common Bands Properties**: |  |  |  |
 | Max Height |  | + | + |
 | Min Height |  | + | + |
 | Use Parent Styles |  | + | + |
 | Interaction |  | + | + |
 | Reset Page Number |  | + | + |
-| Report Title: |  |  |  |
+| **Report Title**: |  |  |  |
 | Print if Empty |  | + | + |
-| Report Summary: |  |  |  |
+| **Report Summary**: |  |  |  |
 | Skip First |  | + | + |
 | Keep Report Summary |  | + | + |
 | Print at Bottom |  | + | + |
 | Print if Empty |  | + | + |
-| Page Header: |  |  |  |
+| **Page Header**: |  |  |  |
 | Print on Even Odd Pages |  | + | + |
-| Page Footer: |  |  |  |
+| **Page Footer**: |  |  |  |
 | Print On |  | + | + |
 | Print on Even Odd Pages |  | + | + |
-| Group Header: |  |  |  |
+| **Group Header**: |  |  |  |
 | Summary Sort Direction |  | + | + |
 | Summary Expression |  | + | + |
 | Summary Type |  | + | + |
@@ -143,13 +143,13 @@ This is a list of Bands properties that are available depending on the selected 
 | Keep Group Header Together |  | + | + |
 | Keep Group Together |  | + | + |
 | Print on All Pages |  | + | + |
-| Group Footer: |  |  |  |
+| **Group Footer:** |  |  |  |
 | Break if less than |  |  | + |
 | Skip First |  | + | + |
 | Keep Group Footer Together |  | + | + |
 | Print at Bottom |  | + | + |
 | Print on |  | + | + |
-| Header: |  |  |  |
+| **Header:** |  |  |  |
 | Break if less than |  |  | + |
 | Skip First |  | + | + |
 | Keep Header Together |  | + | + |
@@ -158,14 +158,14 @@ This is a list of Bands properties that are available depending on the selected 
 | Print on |  | + | + |
 | Print on All Pages |  | + | + |
 | Print on Even Odd Pages |  | + | + |
-| Footer: |  |  |  |
+| **Footer:** |  |  |  |
 | Break if less than |  |  | + |
 | Skip First |  | + | + |
 | Keep Footer Together |  | + | + |
 | Print at Bottom |  | + | + |
 | Print if Empty |  | + | + |
 | Print on |  | + | + |
-| Column Header: |  |  |  |
+| **Column Header:** |  |  |  |
 | Break if less than |  |  | + |
 | Skip First |  | + | + |
 | Keep Header Together |  | + | + |
@@ -174,7 +174,7 @@ This is a list of Bands properties that are available depending on the selected 
 | Print on |  | + | + |
 | Print on All Pages |  | + | + |
 | Print on Even Odd Pages |  | + | + |
-| Column Footer: |  |  |  |
+| **Column Footer:** |  |  |  |
 | Break if less than |  |  | + |
 | Skip First |  | + | + |
 | Keep Footer Together |  | + | + |
@@ -183,7 +183,7 @@ This is a list of Bands properties that are available depending on the selected 
 | Print on |  | + | + |
 | Print on All Pages |  | + | + |
 | Print on Even Odd Pages |  | + | + |
-| Data: |  |  |  |
+| **Data:** |  |  |  |
 | Data Relation |  |  | + |
 | Master Component |  |  | + |
 | Count Data |  |  | + |
@@ -202,7 +202,7 @@ This is a list of Bands properties that are available depending on the selected 
 | Print if Detail Empty |  | + | + |
 | Print On |  | + | + |
 | Print on Even Odd Pages |  | + | + |
-| Hierarchical Data: |  |  |  |
+| **Hierarchical Data:** |  |  |  |
 | Key Data Column |  | + | + |
 | Master Key Data Column |  | + | + |
 | Parent Value |  | + | + |
@@ -227,33 +227,33 @@ This is a list of Bands properties that are available depending on the selected 
 | Print if Detail Empty |  | + | + |
 | Print On |  | + | + |
 | Print on Even Odd Pages |  | + | + |
-| Child: |  |  |  |
+| **Child:** |  |  |  |
 | Break if less than |  |  | + |
 | Skip First |  | + | + |
 | Keep Child Together |  | + | + |
 | Print at Bottom |  | + | + |
 | Print if Parent Disabled |  | + | + |
 | Print On |  | + | + |
-| Empty Data: |  |  |  |
+| **Empty Data:** |  |  |  |
 | Print On |  | + | + |
 | Size Mode |  | + | + |
-| Overlay: |  |  |  |
+| **Overlay:** |  |  |  |
 | Vertical Alignment |  | + | + |
 | Print On |  | + | + |
 
-Table of Cross Bands Properties.
+**Table of Cross Bands Properties.**
 
-This is a list of Cross bands properties that are available depending on the selected skill level.
+This is a list of **Cross** bands properties that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
-| Common Cross Properties: |  |  |  |
+| **Common Cross Properties:** |  |  |  |
 | Min Width |  | + | + |
 | Max Width |  | + | + |
 | Use Parent Styles |  | + | + |
 | Interaction |  | + | + |
-| Cross-Group Header: |  |  |  |
+| **Cross-Group Header:** |  |  |  |
 | Summary Sort Direction |  | + | + |
 | Summary Expression |  | + | + |
 | Summary Type |  | + | + |
@@ -261,19 +261,19 @@ This is a list of Cross bands properties that are available depending on the sel
 | Keep Group Together |  | + | + |
 | Can Break |  |  | + |
 | Print On |  | + | + |
-| Cross-Group Footer: |  |  |  |
+| **Cross-Group Footer:** |  |  |  |
 | Keep Group Footer Together |  | + | + |
 | Can Break |  |  | + |
 | Print On |  | + | + |
-| Cross-Header: |  |  |  |
+| **Cross-Header:** |  |  |  |
 | Keep Header Together |  | + | + |
 | Can Break |  |  | + |
 | Print On |  | + | + |
-| Cross-Footer: |  |  |  |
+| **Cross-Footer:** |  |  |  |
 | Keep Footer Together |  | + | + |
 | Can Break |  |  | + |
 | Print On |  | + | + |
-| Cross-Data: |  |  |  |
+| **Cross-Data:** |  |  |  |
 | Data Relation |  |  | + |
 | Master Component |  |  | + |
 | Count Data |  |  | + |
@@ -288,14 +288,14 @@ This is a list of Cross bands properties that are available depending on the sel
 | Keep Details |  | + | + |
 | Print if Detail Empty |  | + | + |
 
-Table of report items properties in the Components group.
+**Table of report items properties in the Components group.**
 
-This is a list of properties of report items in the Components group that are available depending on the selected skill level.
+This is a list of properties of report items in the **Components** group that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
-| Common Components Properties: |  |  |  |
+| **Common Components Properties:** |  |  |  |
 | Use Parent Styles |  | + | + |
 | Min Size[1] |  | + | + |
 | Max Size[1] |  | + | + |
@@ -322,7 +322,7 @@ This is a list of properties of report items in the Components group that are av
 | Globalized Name |  |  | + |
 | Excel Value |  |  | + |
 | Export as Image |  |  | + |
-| Text in Cells: |  |  |  |
+| **Text in Cells:** |  |  |  |
 | Cell Width |  | + | + |
 | Cell Height |  | + | + |
 | Horizontal Spacing |  | + | + |
@@ -333,7 +333,7 @@ This is a list of properties of report items in the Components group that are av
 | Process at |  |  | + |
 | Globalized Name |  |  | + |
 | Export as Image |  |  | + |
-| Rich text: |  |  |  |
+| **Rich text:** |  |  |  |
 | Data Column |  | + | + |
 | Data URL |  | + | + |
 | Detect URLs |  | + | + |
@@ -346,7 +346,7 @@ This is a list of properties of report items in the Components group that are av
 | Right to Left |  | + | + |
 | Word Wrap |  | + | + |
 | Wysiwyg |  |  | + |
-| Image: |  |  |  |
+| **Image:** |  |  |  |
 | Image Data |  |  | + |
 | Multiple Factor |  | + | + |
 | Margins |  | + | + |
@@ -354,7 +354,7 @@ This is a list of properties of report items in the Components group that are av
 | Processing Duplicates |  | + | + |
 | Smoothing |  |  | + |
 | (Globalized) |  |  | + |
-| Panel: |  |  |  |
+| **Panel:** |  |  |  |
 | Can Break |  | + | + |
 | Check Box: |  |  |  |
 | Check Style for True |  | + | + |
@@ -364,11 +364,11 @@ This is a list of properties of report items in the Components group that are av
 | Contour Color |  | + | + |
 | Editable |  | + | + |
 | Excel Value |  | + | + |
-| Sub-Report: |  |  |  |
+| **Sub-Report:** |  |  |  |
 | Keep Sub-Report Together |  | + | + |
-| Zip code: |  |  |  |
+| **Zip code:** |  |  |  |
 | Space Ratio |  | + | + |
-| Table: |  |  |  |
+| **Table:** |  |  |  |
 | Data Relation |  |  | + |
 | Master Component |  |  | + |
 | Count Data |  |  | + |
@@ -386,29 +386,29 @@ This is a list of properties of report items in the Components group that are av
 | Print if Detail Empty |  | + | + |
 | Print on All Pages |  | + | + |
 | Reset Page Number |  | + | + |
-| Cross-Tab: |  |  |  |
+| **Cross-Tab:** |  |  |  |
 | Data Relation |  |  | + |
 | Filter On |  |  | + |
 | Filters |  |  | + |
 | Filter Engine |  |  | + |
 | Filters Operation |  |  | + |
 | Sort |  |  | + |
-| Sparkline: |  |  |  |
+| **Sparkline:** |  |  |  |
 | Data Relation |  |  | + |
 
 
 > **Information**
 >
-> [1] Properties that are not present in the Table component.
+> [1] Properties that are not present in the **Table** component.
 >
-> [2] Properties that are not present in the Table and Cross-tab components.
+> [2] Properties that are not present in the **Table** and **Cross-tab** components.
 
-Table of Barcode Properties.
+**Table of Barcode Properties.**
 
-This is a list of Barcode properties that are available depending on the selected skill level.
+This is a list of **Barcode** properties that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
 | Horizontal Alignment |  | + | + |
 | Vertical Alignment |  | + | + |
@@ -426,12 +426,12 @@ This is a list of Barcode properties that are available depending on the selecte
 | Print On |  | + | + |
 | Shift Mode |  | + | + |
 
-Table of Shapes Properties.
+**Table of Shapes Properties.**
 
-This is a list of Shapes properties that are available depending on the selected skill level.
+This is a list of **Shapes** properties that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
 | Min Size |  | + | + |
 | Max Size |  | + | + |
@@ -443,12 +443,12 @@ This is a list of Shapes properties that are available depending on the selected
 | Print On |  | + | + |
 | Shift Mode |  | + | + |
 
-Table of Chart Properties.
+**Table of Chart Properties.**
 
-This is a list of Chart properties that are available depending on the selected skill level.
+This is a list of **Chart** properties that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
 | Area |  | + | + |
 | Labels |  | + | + |
@@ -476,12 +476,12 @@ This is a list of Chart properties that are available depending on the selected 
 | Print On |  | + | + |
 | Shift Mode |  | + | + |
 
-Table of Gauge Properties.
+**Table of Gauge Properties.**
 
-This is a list of **G**auge properties that are available depending on the selected skill level.
+This is a list of **G****auge** properties that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
 | Min Size |  | + | + |
 | Max Size |  | + | + |
@@ -494,12 +494,12 @@ This is a list of **G**auge properties that are available depending on the selec
 | Shift Mode |  | + | + |
 | Value Format |  | + | + |
 
-Table of Map Properties.
+**Table of Map Properties.**
 
-This is a list of Map properties that are available depending on the selected skill level.
+This is a list of **Map** properties that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
 | Min Size |  | + | + |
 | Max Size |  | + | + |
@@ -511,14 +511,14 @@ This is a list of Map properties that are available depending on the selected sk
 | Print On |  | + | + |
 | Shift Mode |  | + | + |
 
-Table of Dashboard Elements.
+**Table of Dashboard Elements.**
 
 This is a list of dashboard elements properties that are available depending on the selected skill level.
 
 
-| Name | Basic | Standard | Professional |
+| **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
-| Common Properties: |  | + | + |
+| **Common Properties:** |  | + | + |
 | Data Transformation |  | + | + |
 | Group |  | + | + |
 | Interaction |  | + | + |
@@ -526,7 +526,7 @@ This is a list of dashboard elements properties that are available depending on 
 | Restriction |  |  | + |
 | Locked |  |  | + |
 | Linked |  |  | + |
-| Chart: |  |  |  |
+| **Chart:** |  |  |  |
 | Area |  | + | + |
 | Constant Lines |  | + | + |
 | Labels |  | + | + |
@@ -536,21 +536,21 @@ This is a list of dashboard elements properties that are available depending on 
 | Conditions |  | + | + |
 | Argument Format |  | + | + |
 | Value Format |  | + | + |
-| Gauge: |  |  |  |
+| **Gauge:** |  |  |  |
 | Labels |  | + | + |
 | Value Format |  | + | + |
-| Indicator: |  |  |  |
+| **Indicator:** |  |  |  |
 | Icon Alignment |  | + | + |
 | Target Mode |  | + | + |
 | Conditions |  | + | + |
 | Font Size Mode |  | + | + |
 | Text Format |  | + | + |
-| Progress: |  |  |  |
+| **Progress:** |  |  |  |
 | Conditions |  | + | + |
 | Text Format |  | + | + |
-| Region Map: |  |  |  |
+| **Region Map:** |  |  |  |
 | Short Value |  | + | + |
-| Online Map: |  |  |  |
+| **Online Map:** |  |  |  |
 | GIS Settings |  | + | + |
-| Filters: |  |  |  |
+| **Filters:** |  |  |  |
 | Text Format |  | + | + |

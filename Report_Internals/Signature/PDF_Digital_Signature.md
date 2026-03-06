@@ -1,18 +1,18 @@
 ## PDF Digital Signature
 
-The PDF Digital Signature component is an area in a report where, after the report has been converted to PDF, a digital signature can be placed. This component can be placed anywhere. After exporting the report to PDF, in Acrobat Reader, click on this component and follow the instructions - create or load a certificate to sign the document.
+The **PDF Digital Signature** component is an area in a report where, after the report has been converted to PDF, a digital signature can be placed. This component can be placed anywhere. After exporting the report to PDF, in Acrobat Reader, click on this component and follow the instructions - create or load a certificate to sign the document.
 
 
 ![](../../images/topics/Report_Internals.Signature.PDF_Digital_Signature_1.png)
 
 **Table of Properties**
 
-See below the list of properties of the PDF Digital Signature component.
+See below the list of properties of the **PDF Digital Signature** component.
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
-| Placeholder | Defines a placeholder for the PDF Digital Signature component. |
+| Placeholder | Defines a placeholder for the **PDF Digital Signature** component. |
 | Left | Defines the left padding of the component of the report page borders. The value is defined in the units of the report. |
 | Top | Defines the indent of the component from the top of the report page borders. The value is defined in the units of the report. |
 | Width | Defines the width of a component in a report. The value is defined in the units of the report. |
@@ -37,5 +37,5 @@ See below the list of properties of the PDF Digital Signature component.
 | Name | Changes the name of the current component. |
 | Alias | Changes the alias of the current component. |
 | Restrictions | Configures the permissions for using the current component: The **Allow Change** option enables or disables changes of the component. If checked, the current item can be changed. The **Allow Delete** option enables or disables the deletion of a component. The **Allow Move** option allows or prohibits moving a component. The **Allow Resize** option enables or disables resizing of a component. The **Allow Select** option enables or disables the component selection. |
-| Locked | Enables or disables resizing and moving the current component. If the property is set to True, then the current component cannot be moved or resized. If this property is set to False, then this component can be moved and resized. |
-| Linked | Binds the current location to a report page or other component. If the property is set to True, then the current component is linked to the current location. If this property is set to False, then this component is not linked to the current location. |
+| Locked | Enables or disables resizing and moving the current component. If the property is set to **True**, then the current component cannot be moved or resized. If this property is set to **False**, then this component can be moved and resized. |
+| Linked | Binds the current location to a report page or other component. If the property is set to **True**, then the current component is linked to the current location. If this property is set to **False**, then this component is not linked to the current location. |

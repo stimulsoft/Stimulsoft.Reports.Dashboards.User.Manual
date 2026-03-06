@@ -7,6 +7,6 @@ The conditions editor of text components has differences from other components. 
 ![](../../images/topics/Report_Internals.Conditional_Formatting.Conditional_Formatting_and_Text_Components_1.png)
 
 
-![](../../images/img_1.png) Assign expression. This flag controls whether or not a text expression is used in the condition. If it is disabled then the expression is not used.
+![](../../images/img_1.png) **Assign expression.** This flag controls whether or not a text expression is used in the condition. If it is disabled then the expression is not used.
 
-![](../../images/img_2.png) Text expression. The text expression that will be assigned to a text component if the condition is true.
+![](../../images/img_2.png) **Text expression.** The text expression that will be assigned to a text component if the condition is true.

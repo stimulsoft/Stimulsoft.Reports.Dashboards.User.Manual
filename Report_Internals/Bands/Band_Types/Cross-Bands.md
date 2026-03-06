@@ -10,7 +10,7 @@ Cross-bands must be placed on a standard band, and thus cannot be directly place
 Please refer to the list below to see all the cross-bands available in Stimulsoft Reports.
 
 
-| Icon | Name | Description |
+| **Icon** | **Name** | **Description** |
 | --- | --- | --- |
 | ![](../../../images/img_CrossGroupHeaderBand.png) | Cross-Group Header | This band is printed in the beginning of a group |
 | ![](../../../images/img_CrossGroupFooterBand.png) | Cross-Group Footer | This band is printed in the end of a group |

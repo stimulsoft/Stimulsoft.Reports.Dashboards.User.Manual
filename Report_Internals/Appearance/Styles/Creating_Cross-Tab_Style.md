@@ -1,7 +1,7 @@
 ## Cross-Tab Style
 
-The Cross-Tab style is applied to the [Cross-Tab](../../CrossTable/index.md) component and [Pivot Table](../../../Dashboards/Pivot_Table.md) element. To create a cross-tab style you should do the following:
-* In the style designer, click the Add Style button and select the Cross-Tab style.
+The **Cross-Tab** style is applied to the [Cross-Tab](../../CrossTable/index.md) component and [Pivot Table](../../../Dashboards/Pivot_Table.md) element. To create a cross-tab style you should do the following:
+* In the style designer, click the **Add Style** button and select the **Cross-Tab** style.
 
 * Use the style properties to customize the formatting.
 
@@ -12,20 +12,20 @@ The Cross-Tab style is applied to the [Cross-Tab](../../CrossTable/index.md) com
 
 > **Information**
 >
-> It is not possible to edit the preset Cross-Tab styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
+> It is not possible to edit the preset **Cross-Tab** styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
 >
-> * Assign the preset style to the Cross-Tab component or element and select that component.
+> * Assign the preset style to the **Cross-Tab** component or element and select that component.
 >
 > * Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
 > * Adjust the obtained style using its properties.
 >
-> * Assign this custom style to the Cross-Tab component or Pivot Table element.
+> * Assign this custom style to the **Cross-Tab** component or **Pivot Table** element.
 
 Below is a table of properties that are used to customize the crosstab style.
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
 | Name | Sets the name of the current style. |
 | Description | Specifies a description for the current style. |

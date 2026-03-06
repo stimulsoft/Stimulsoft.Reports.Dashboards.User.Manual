@@ -12,10 +12,10 @@ The following elements can be specified in the Tag property to control export:
 Several elements should be separated with the semicolon. The “DataType" element should be only one and should be placed first, other elements – if necessary.
 
 
-Values of the "DataType" element are shown in the table below. If the data type is not set, then the string data type is taken by default. The "FieldLength" element sets fixed width of a data field. If the field width is not set, then the width is taken from the table. For the string type the default width is the longest string. The "DecimalPartLength" element sets the number of characters after comma. If it is not set, then the default number is taken.
+Values of the "DataType" element are shown in the table below. If the data type is not set, then the **string** data type is taken by default. The "FieldLength" element sets fixed width of a data field. If the field width is not set, then the width is taken from the table. For the **string** type the default width is the longest string. The "DecimalPartLength" element sets the number of characters after comma. If it is not set, then the default number is taken.
 
 
-| Data type | DBF data type (default size) | Description |
+| **Data type** | **DBF data type** (default size) | **Description** |
 | --- | --- | --- |
 | int | Numeric (15 : 0) | Numeric |
 | long | Numeric (25 : 0) | Numeric |
@@ -28,7 +28,7 @@ Values of the "DataType" element are shown in the table below. If the data type 
 Sample of using elements are shown in the table below.
 
 
-| Type | Description |
+| **Type** | **Description** |
 | --- | --- |
 | string : 25 | set the column width (25 characters) and cuts all long strings |
 | float | converts decimal digit with the length 15 characters, 5 characters after comma |

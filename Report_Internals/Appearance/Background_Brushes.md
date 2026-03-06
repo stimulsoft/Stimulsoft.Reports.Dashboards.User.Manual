@@ -12,20 +12,20 @@ To change a brush you should:
 
 When setting design of components, the following brushes are available:
 
-* Empty;
+* **Empty**;
 
-* Solid;
+* **Solid**;
 
-* Hatch;
+* **Hatch**;
 
-* Gradient;
+* **Gradient**;
 
-* Glare;
+* **Glare**;
 
-* Glass.
+* **Glass**.
 
 
-Below you can see examples of the Brush.
+Below you can see examples of the **Brush**.
 
 
 ![](../../images/topics/Report_Internals.Appearance.Background_Brushes_1.png)

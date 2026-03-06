@@ -7,9 +7,9 @@ When you choose to use an Expression condition you define a text expression that
 ![](../../images/topics/Report_Internals.Conditional_Formatting.Expression_Condition_1.png)
 
 
-![](../../images/img_1.png) Field Is. Field is used to select the type of conditions.
+![](../../images/img_1.png) **Field Is.** Field is used to select the type of conditions.
 
-![](../../images/img_2.png) Expression. This field is used to define an expression that should return a boolean value.
+![](../../images/img_2.png) **Expression.** This field is used to define an expression that should return a boolean value.
 
 
 For example, a suitable expression in **C#**:

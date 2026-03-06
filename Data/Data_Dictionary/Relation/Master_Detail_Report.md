@@ -8,16 +8,16 @@
 
 Suppose you want to compare each category from the list to the list of products. To do this, follow these steps:
 
-![](../../../images/fly.png) Add DataBand2 to the report template;
+![](../../../images/fly.png) Add **DataBand2** to the report template;
 
 ![](../../../images/fly.png) Specify a data source that contains a list of products and the relation between data sources;
 
 ![](../../../images/fly.png) Select the Master component;
 
-![](../../../images/fly.png) Put a text component with reference to a data column from the selected data source in the DataBand2. For example, on a data column that contains the name of the product.
+![](../../../images/fly.png) Put a text component with reference to a data column from the selected data source in the **DataBand2**. For example, on a data column that contains the name of the product.
 
 
-And then, when rendering a report, each Master entry will be compared to a list of Detail entries. The picture below shows a diagram of a Master-Detail report:
+And then, when rendering a report, each **Master** entry will be compared to a list of **Detail** entries. The picture below shows a diagram of a **Master-Detail** report:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Relation.Master_Detail_Report_2.png)

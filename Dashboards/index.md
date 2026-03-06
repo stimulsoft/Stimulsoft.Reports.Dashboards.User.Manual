@@ -17,7 +17,7 @@ This chapter covers the following:
 
 * [Other dashboard elements](#OtherElement);
 
-* [Actions with the dashboard](#ActionsWithDashboard);
+* [Actions with the dashboard](#ActionsWithDashboard)**;**
 
 * [Adding items to the dashboard](#AddingItems);
 
@@ -49,16 +49,16 @@ When creating the dashboard in the designer, its size has a working area that lo
 ![](../images/topics/Dashboards_6.png)
 
 
-When you change the size of the working area of the dashboard in the report designer, the elements can stretch (shrink) or keep their size unchanged. It depends on the Scale Content parameter. If this option is enabled, then, when resizing the dashboard, all elements will also be stretched or shrunk. If this parameter is disabled, only the size of the working area of the dashboard will increase, while the size of the elements will remain unchanged.
+When you change the size of the working area of the dashboard in the report designer, the elements can stretch (shrink) or keep their size unchanged. It depends on the **Scale Content** parameter. If this option is enabled, then, when resizing the dashboard, all elements will also be stretched or shrunk. If this parameter is disabled, only the size of the working area of the dashboard will increase, while the size of the elements will remain unchanged.
 
 
-The Content Alignment parameter allows you to define the indicator panel mode in the view area. Depending on the parameter value you select, a dashboard will be stretched in the view area, or remain unchanged. For the Content Alignment parameter, one of the following values can be set:
+The **Content Alignment** parameter allows you to define the indicator panel mode in the view area. Depending on the parameter value you select, a dashboard will be stretched in the view area, or remain unchanged. For the Content Alignment parameter, one of the following values can be set:
 
-* Left, Right, Center. In this case, a dashboard will not be stretched in the viewer. The value defines only the horizontal alignment of the dashboard in the viewer area.
+* **Left**, **Right**, **Center**. In this case, a dashboard will not be stretched in the viewer. The value defines only the horizontal alignment of the dashboard in the viewer area.
 
-* Stretch X. In this case, a dashboard will be stretched horizontally across the entire viewer area. The height of the current dashboard can also be changed so as the aspect ratio of the dashboard will be kept.
+* **Stretch X**. In this case, a dashboard will be stretched horizontally across the entire viewer area. The height of the current dashboard can also be changed so as the aspect ratio of the dashboard will be kept.
 
-* Stretch XY. In this case, a dashboard will be stretched (or shirked) across the entire area of the viewer horizontally and vertically.
+* **Stretch XY**. In this case, a dashboard will be stretched (or shirked) across the entire area of the viewer horizontally and vertically.
 
 
 > **Information**
@@ -98,7 +98,7 @@ All elements of the dashboard are grouped into the following categories accordin
 
 * [Button](Button.md).
 
-Actions with the dashboard
+**Actions with the dashboard**
 
 * [View the dashboard](../Viewer/Dashboards.md);
 
@@ -116,13 +116,13 @@ Do the following to add an element to the dashboard:
 
 * Select items on the **Toolbox** or the **Insert** tab and left-click in the dashboard panel.
 
-Changing the item type
+**Changing the item type**
 
 You can change the type of the element without redesigning it. To do this:
 
 * Select an element that needs to be changed on the dashboard;
 
-* Left-click on the Change Type button;
+* Left-click on the **Change Type** button;
 
 * In the menu that opens, select the element to which you want to convert the current one.
 

@@ -43,7 +43,7 @@ To change the style of the dashboard, you should:
 
 * Left-click on the empty area of the dashboard;
 
-* Select the dashboard style on the Home tab, in the styles menu.
+* Select the dashboard style on the **Home** tab, in the styles menu.
 
 ![](../images/topics/Dashboards.Appearance_2.png)
 
@@ -51,7 +51,7 @@ To change the style of an element in the dashboard, you should:
 
 * Select an dashboard element;
 
-* Select the desired element style on the Home tab, in the style menu.
+* Select the desired element style on the **Home** tab, in the style menu.
 
 > **Information**
 >
@@ -59,13 +59,13 @@ To change the style of an element in the dashboard, you should:
 
 In addition, you can create custom styles for the elements of the dashboard. To do this, call the [Style Designer](../Report_Internals/Appearance/Styles/index.md) and create styles for the elements. You can also assign the created style using the style menu on the Home tab or using the Style property of the element.
 
-Background
+**Background**
 
 One of the settings for the design is to set the background color of the element. By default, the background color is used from the assigned style. To change the background color of the dashboard or its elements you should:
 
 * Select the dashboard or element;
 
-* Change the value of the Back Color property in the property panel.
+* Change the value of the **Back Color** property in the property panel.
 
 * After that, select the background color from the drop-down list.
 
@@ -74,42 +74,42 @@ Also, you can change the background color of the element on the Home tab in the 
 
 * Select the dashboard or element;
 
-* Use the Background tool to select a background color from the palette or specify a custom color.
+* Use the **Background** tool to select a background color from the palette or specify a custom color.
 ![](../images/topics/Dashboards.Appearance_4.png)
 
 
-Text color
+**Text color**
 
 When customizing the design, you can change the text color of a specific item. To do this:
 
 * Select an element;
 
-* Select the required color from the drop-down list in the Fore Color property.
+* Select the required color from the drop-down list in the **Fore Color** property.
 
 > **Information**
 >
-> The [Table](Table.md) element also has its own color for each column. To do this, select the data field in the Table element editor and change the text color.
+> The [Table](Table.md) element also has its own color for each column. To do this, select the data field in the **Table** element editor and change the text color.
 
-Margin and padding
+**Margin and padding**
 
 Each element in the dashboard can define the margin and padding of the element. To do this:
 
 * Select an item on the dashboard;
 
-* Change the values of the Margins and Padding property groups on the property panel.
+* Change the values of the **Margins** and **Padding** property groups on the property panel.
 
 
 You can also customize the type, borders, size and color of the borders of the element. To do this:
 
 * Select an item on the dashboard;
 
-* Change the type, size, sides, borders color using the Border property group on the property panel, or tools on the Home tab in the report designer.
+* Change the type, size, sides, borders color using the **Border** property group on the property panel, or tools on the **Home** tab in the report designer.
 
 ![](../images/topics/Dashboards.Appearance_5.png)
 
-Element titles
+**Element titles**
 
-The titles of elements on the dashboard can be created in various ways. For example, using the Text element. However, elements also have the ability to enable and configure an element title. To include the title:
+The titles of elements on the dashboard can be created in various ways. For example, using the **Text** element. However, elements also have the ability to enable and configure an element title. To include the title:
 
 * Move the cursor to the top of the element;
 
@@ -117,7 +117,7 @@ The titles of elements on the dashboard can be created in various ways. For exam
 
 ![](../images/topics/Dashboards.Appearance_7.png)
 
-* You can also enable or disable displaying of the title by setting the Visible property from the Title group on the property panel to true or false.
+* You can also enable or disable displaying of the title by setting the **Visible** property from the **Title** group on the property panel to **true** or **false**.
 
 To change the title text you should do the following:
 
@@ -132,7 +132,7 @@ You can also change the title on the property panel:
 
 * Select an item;
 
-* In the Title property group, change the Text property value.
+* In the **Title** property group, change the **Text** property value.
 
 In addition, text of the title can also be changed:
 
@@ -143,13 +143,13 @@ In addition, text of the title can also be changed:
 * The color of the text and its font.
 
 
-Text formatting
+**Text formatting**
 
 You can apply formatting to the elements of the dashboard. You should do the following steps:
 
 * Select an item on the dashboard;
 
-* Using the Text Format tool on the Home tab of the ribbon panel, apply the format to the element values.
+* Using the **Text Format** tool on the **Home** tab of the ribbon panel, apply the format to the element values.
 
 
 ![](../images/topics/Dashboards.Appearance_11.png)
@@ -159,17 +159,17 @@ Also, you should remember that for the Table and Pivot Table elements you can se
 
 * In the [Table](Table.md) or [Pivot Table](Pivot_Table.md) element editor, select the data field;
 
-* Select a format using the Text Format tool on the Home tab of the ribbon panel.
+* Select a format using the **Text Format** tool on the **Home** tab of the ribbon panel.
 For charts, you can specify the formatting of the chart axis values. To do this:
 
 * Select a chart on a dashboard panel;
 
-* Click the Browse button of the Argument Format or Value Format property and respectively set up the formatting of the arguments or chart values.
+* Click the **Browse** button of the **Argument Format** or **Value Format** property and respectively set up the formatting of the arguments or chart values.
 
 
 > **Information**
 >
-> Please note that the Text element on the Dashboard doesn't support the Text Format tool. However, to format data of the DateTime type, you can use the Format function. For example:
+> Please note that the **Text** element on the Dashboard doesn't support the **Text Format** tool. However, to format data of the DateTime type, you can use the Format function. For example:
 >
 > {Format("{0:MM/dd/yyyy}", Today)} - the result of this will be the current date in the following format: "Month/Day/Year";
 >

@@ -12,12 +12,12 @@ This band is used to output report summary.
 
 On the picture above shows how bands can be placed on a page.  Here one can see the top-down order of bands:
 
-![](../../images/fly.png) The Report Title band;
+![](../../images/fly.png) The **Report Title** band;
 
-![](../../images/fly.png) The Header band;
+![](../../images/fly.png) The **Header** band;
 
-![](../../images/fly.png) The Data band;
+![](../../images/fly.png) The **Data** band;
 
-![](../../images/fly.png) The Footer band;
+![](../../images/fly.png) The **Footer** band;
 
-![](../../images/fly.png) The Report Summary band.
+![](../../images/fly.png) The **Report Summary** band.

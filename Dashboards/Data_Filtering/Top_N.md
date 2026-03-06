@@ -45,10 +45,10 @@ You can specify the top values for the elements of the dashboard panel:
 
 > **Information**
 >
-> The Top values for the Pivot element are configured in the editor of this element.
+> The Top values for the **Pivot** element are configured in the editor of this element.
 
 
-Top N editor
+**Top N editor**
 
 In the Top N editor you may define the type of the values (maximum or minimum), the number of the best values, actions with the rest of the element data.
 
@@ -91,19 +91,19 @@ For example, we have a table and a chart that display the sales volume for every
 Let's show three products with maximum sales on the chart:
 
 
-Step 1: Select a chart in the dashboard panel in the report designer;
+**Step 1**: Select a chart in the dashboard panel in the report designer;
 
 
-Step 2: Click the **Browse** button on the **Top N** property on the property panel;
+**Step 2**: Click the **Browse** button on the **Top N** property on the property panel;
 
 
-Step 3: Select the **Top** mode in the **Top N** editor;
+**Step 3**: Select the **Top** mode in the **Top N** editor;
 
 
-Step 4: Set the number to 3;
+**Step 4**: Set the number to 3;
 
 
-Step 5: Uncheck the box next to **Show others**.
+**Step 5**: Uncheck the box next to **Show others**.
 
 
 ![](../../images/topics/Dashboards.Data_Filtering.Top_N_5.png)
@@ -111,16 +111,16 @@ Step 5: Uncheck the box next to **Show others**.
 As you can see in the picture, three products with maximum sales will be displayed in the chart. In this case, this filtering does not affect the lists of values of other elements.
 
 
-Step 6: Go back to the report designer;
+**Step 6**: Go back to the report designer;
 
 
-Step 7: Click the **Browse** button on the **Top N** property on the property panel;
+**Step 7**: Click the **Browse** button on the **Top N** property on the property panel;
 
 
-Step 8: Check the box next to **Show other**.
+**Step 8**: Check the box next to **Show other**.
 
 
-Step 9: Define text for general value. For example, Another Products.
+**Step 9**: Define text for general value. For example, Another Products.
 
 
 ![](../../images/topics/Dashboards.Data_Filtering.Top_N_7.png)
@@ -128,7 +128,7 @@ Step 9: Define text for general value. For example, Another Products.
 
 Now, the chart will display three products with maximum sales. All other values will be summed up and displayed on the chart as a separate graphic element, with the Another Products argument.
 
-An example of minimum Top values
+**An example of minimum Top values**
 
 For example, in the dashboard panel, a table and a chart are displayed with the sales volume for every product.
 
@@ -138,19 +138,19 @@ For example, in the dashboard panel, a table and a chart are displayed with the 
 Let's show three products on the chart with minimal sales volumes:
 
 
-Step 1: Select a chart in the dashboard panel in the report designer;
+**Step 1**: Select a chart in the dashboard panel in the report designer;
 
 
-Step 2: Click the **Browse** button on the **Top N** property on the property panel;
+**Step 2**: Click the **Browse** button on the **Top N** property on the property panel;
 
 
-Step 3: Select the **Bottom** mode in the **Top N** editor;
+**Step 3**: Select the **Bottom** mode in the **Top N** editor;
 
 
-Step 4: Set the number to 3;
+**Step 4**: Set the number to 3;
 
 
-Step 5: Uncheck the box next to **Show other**.
+**Step 5**: Uncheck the box next to **Show other**.
 
 
 ![](../../images/topics/Dashboards.Data_Filtering.Top_N_9.png)
@@ -158,16 +158,16 @@ Step 5: Uncheck the box next to **Show other**.
 As can be seen in the picture, three products with minimal sales volumes will be displayed on the chart. In this case, this filtering does not affect the lists of values of other elements.
 
 
-Step 6: Return to the report designer;
+**Step 6**: Return to the report designer;
 
 
-Step 7: Click the **Browse** button on the **Top N** property on the property panel;
+**Step 7**: Click the **Browse** button on the **Top N** property on the property panel;
 
 
-Step 8: Check the box next to **Show other**.
+**Step 8**: Check the box next to **Show other**.
 
 
-Step 9: Define text for a general value. For example, **Another Products**.
+**Step 9**: Define text for a general value. For example, **Another Products**.
 
 
 ![](../../images/topics/Dashboards.Data_Filtering.Top_N_10.png)

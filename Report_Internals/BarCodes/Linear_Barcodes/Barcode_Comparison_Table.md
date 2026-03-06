@@ -4,7 +4,7 @@ The table below shows the list of linear barcodes supported by Stimulsoft Report
 
 -
 
-| Type | Length | Check symbols | Checksum algorithm | 0-9 | A-Z | a-z | other symbols |
+| **Type** | **Length** | **Check** **symbols** | **Checksum** **algorithm** | **0-9** | **A-Z** | **a-z** | **other symbols** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | UPC-A | 12 | 1 | modulo-10 | + |  |  |  |
 | UPC-E | 8 | 1 | modulo-10 | + |  |  |  |
@@ -51,7 +51,7 @@ Explanation:
 ![](../../../images/fly.png) "other symbols" - this column indicates other characters that can be encoded by the barcode, and which are not included in the previous three ranges.
 
 
-Barcode Sizes
+**Barcode Sizes**
 
 Below is a comparison of barcodes of variable length, which can encode the numbers from 0 to 9. All barcodes have the same input data - the row of numbers "0123456789» ("ABCDEFGHIJK"), and the same module 20, other parameters set by default.
 
@@ -60,7 +60,7 @@ Below is a comparison of barcodes of variable length, which can encode the numbe
 
 The image shows: if you need to select a barcode with the minimum size, then when encoding only numbers, 2of5Interleaved and Code128 barcodes are more suitable.
 
-Coding English Uppercase Letters
+**Coding English Uppercase Letters**
 
 Below is a comparison of the barcodes of variable length which can encode uppercase English letters. All barcodes have the same input data - the row has "ABCDEFGHIJK", and the same module 20, other parameters set by default. The image shows: if you need to select a barcode with the minimum size, then when encoding numbers and capital English letters, Code 93 and Code128a / Code128b barcodes are more suitable.
 
@@ -68,7 +68,7 @@ Below is a comparison of the barcodes of variable length which can encode upperc
 ![](../../../images/topics/Report_Internals.BarCodes.Linear_Barcodes.Barcode_Comparison_Table_2.png)
 
 
-Coding English Lowercase Letters
+**Coding English Lowercase Letters**
 
 Below is a comparison of the barcodes of variable length, which can encode lowercase English letters. All barcodes have the same input data - the row has "abcdefghijk", and the same module 20, other parameters set by default.
 

@@ -1,8 +1,8 @@
 ## Report Template
 
-| Attention |
+| **Attention** |
 | --- |
-| Scripts can pose a security risk. Therefore, [colculation mode](Calculation_Mode.md) are disabled in Interpretation mode. If you are confident in the security of the scripts, you can use them in Compilation mode. |
+| Scripts can pose a security risk. Therefore, [colculation mode](Calculation_Mode.md) are disabled in **Interpretation** mode. If you are confident in the security of the scripts, you can use them in **Compilation** mode. |
 
 
 A report or dashboard is a way of processing data presented by any structure. The report engine processes the data of the report or dashboard, and its structure is created in the report template. A report template is an area in the report designer in which a report structure or analytical panel is created using components or elements, respectively.
@@ -17,9 +17,9 @@ You can create the structure, a position of components or elements:
 The report template has its settings that affect both the process of building a report or dashboard and its result. For example, in the properties of a report template, the expression processing mode is determined - compilation or interpretation. Also, using the settings of the report template, you can configure the preview panel, report update time, report culture, and more.
 The following ways exit to change the report template settings:
 
-* Click on the report template area (outside the page or dashboard), and set the property values on the Property panel in the report designer.
+* Click on the report template area (outside the page or dashboard), and set the property values on the **Property** panel in the report designer.
 
-* Double-click the left mouse button in the report template area (outside the page or dashboard) to call the Report Options window.
+* Double-click the left mouse button in the report template area (outside the page or dashboard) to call the **Report Options** window.
 
 
 ![](../../images/topics/Reports_Designer.Template_3.png)
@@ -27,12 +27,12 @@ The following ways exit to change the report template settings:
 
 > **Information**
 >
-> The Report Options window contains duplicate properties of the report template. A complete list is provided on the Property panel.
+> The **Report Options** window contains duplicate properties of the report template. A complete list is provided on the **Property** panel.
 
 The table below shows the properties of the report template.
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
 | Report Name | It is used to change the name of the report. |
 | Report Alias | It is used to change the report alias. |
@@ -47,14 +47,14 @@ The table below shows the properties of the report template.
 | Collate | It is used to shuffle the pages of a rendered report. If the property is set to greater than 1, then all pages of the rendered report will be split into groups, and then one page from each group will be sequentially added to the new page collection. If the property is set to 1, then the report pages will not be shuffled. |
 | Culture | It is used to change the report culture. You can [learn more about the report culture](Report_Culture.md) in this section. |
 | Engine Version | It is used to select the version of the report engine that will be used to build reports. |
-| Globalization Strings | It is used to customize globalization strings in a report. Click the Browse button in the value field to open the [Globalization editor](Globalization_Editor.md). |
+| Globalization Strings | It is used to customize globalization strings in a report. Click the **Browse** button in the value field to open the [Globalization editor](Globalization_Editor.md). |
 | Number of Pass | It is used to select the number of passes when rendering the report - Single Pass, Double Pass. |
 | Preview Mode | It is used to define the preview mode – [Standard](../../Viewer/Reports/index.md), Standard and Dot-Matrix, and [Dot-Matrix](../../Viewer/Reports/Dot-Matrix_Mode.md). |
-| Preview Settings | It is used to customize the preview panel of reports and dashboards. Click the Browse button in the value field to open the [preview settings editor](Preview_Settings.md). |
+| Preview Settings | It is used to customize the preview panel of reports and dashboards. Click the **Browse** button in the value field to open the [preview settings editor](Preview_Settings.md). |
 | Printer Settings | A group of properties that is used to specify print settings - select a printer, set the duplex mode, determine the number of copies, etc. |
-| Referenced Assemblies | It is used to edit the list of used assemblies. Click the Browse button in the value field to open the row collection editor, in which you must add or remove the necessary assemblies. |
+| Referenced Assemblies | It is used to edit the list of used assemblies. Click the **Browse** button in the value field to open the row collection editor, in which you must add or remove the necessary assemblies. |
 | Refresh Time | It is used to determine the time of rebuilding a report or dashboard. You can [learn more about the refresh time](Refresh_Time.md) in this chapter. |
-| Report Cache Mode | It is used to choose the mode of report caching. The next values are available On, Off, and Auto. If the current property is set to Auto, the report caching will be activated automatically if the number of report pages is more than 200. |
+| Report Cache Mode | It is used to choose the mode of report caching. The next values are available On, Off, and Auto. If the current property is set to **Auto**, the report caching will be activated automatically if the number of report pages is more than 200. |
 | Report Unit | It is used to select the units in the report- Centimeters, Inches, Hundredths, and Millimeters. |
 | Retrieve Only Used Data | It is used to request only the necessary data or all dictionary data. You can [learn more about requesting only the necessary data](Retrieve_Only_Used_Data.md) in this chapter. |
 | Parameters Orientation | It is used to select the orientation of the toolbox panel when viewing a report - Vertical or Horizontal. |

@@ -23,7 +23,7 @@ You may setup the **Date Picker** element in the editor. To call the editor, you
 
 * Double-click on the **Date Picker** element;
 
-* Select the **Date Picker** and choose the Design command in the context menu.
+* Select the **Date Picker** and choose the Design command in the context menu**.**
 
 
 **The Date Picker editor**
@@ -51,11 +51,11 @@ In this editor you can add elements with data, set up the mode for selecting val
 
 * The **Initial Selection** parameter is available only if **Range** is selected. You can specify the default element range. For example, you can select the previous week. Then when you open the dashboard in the viewer, the range of the **Date Picker** item will be set to the previous week.
 
-![](../../images/img_5.png) The View Mode parameter provides the ability to set the operating mode of the filtering element. The following values can be selected:
+![](../../images/img_5.png) The **View Mode** parameter provides the ability to set the operating mode of the filtering element. The following values can be selected:
 
-* Date Picker. A mode in which the user selects the start and end dates using a calendar, and the data is displayed within the specified time range.
+* **Date Picker.** A mode in which the user selects the start and end dates using a calendar, and the data is displayed within the specified time range.
 
-* Slider. A mode in which the user sets the start and end dates by moving markers along a timeline, and the data is displayed within the selected range.
+* **Slider.** A mode in which the user sets the start and end dates by moving markers along a timeline, and the data is displayed within the selected range.
 
 
 Get acquainted with the step-by-step instruction in the [Dashboards with Date Picker](../../Getting_Started/Dashboard_with_Date_Picker.md) chapter.
@@ -70,10 +70,10 @@ The list shows the name and description of the properties of the element which y
 | Group | Adds the current item to a specific [group of items](../Groups.md). |
 | Back Color | Changes the background color of the element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style. |
 | Border | A group of properties that allows you to customize the borders of the element - color, sides, size, and style. |
-| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
+| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
 | Font | A group of properties defines the font family, its style, and size for the values of the element. |
 | Fore Color | Specifies the color of the values of the element. By default, this property is set to **From Style**, i.e. the color of the values will be obtained from the settings of the current element style. |
-| Shadow | A group of properties that allows configuring the shadow of an element: The Color property allows you to specify the color that will be used to display the shadow of the element. The properties in the Location group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The Size property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The Visible property allows you to enable or disable the display of the element's shadow on the indicator panel. |
+| Shadow | A group of properties that allows configuring the shadow of an element: The **Color** property allows you to specify the color that will be used to display the shadow of the element. The properties in the **Location** group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The **Size** property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The **Visible** property allows you to enable or disable the display of the element's shadow on the indicator panel. |
 | Style | Selects a style for the current element. The default it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard. |
 | Enabled | Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer. |
 | Fixed Height | Allows setting the mode of fixed or change height. |

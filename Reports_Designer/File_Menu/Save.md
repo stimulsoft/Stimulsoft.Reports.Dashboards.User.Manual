@@ -1,6 +1,6 @@
 ## Save and Save As
 
-The Save and Save As options in the File menu allow users to save changes to a report. Selecting Save applies changes to the current report. If the report has not been saved before, the Save As command will be triggered. Save As provides multiple options for saving the report file.
+The **Save** and **Save** **As** options in the **File** menu allow users to save changes to a report. Selecting Save applies changes to the current report. If the report has not been saved before, the **Save** **As** command will be triggered. **Save As** provides multiple options for saving the report file.
 
 
 ![](../../images/topics/Reports_Designer.File_Menu.Save_1.png)

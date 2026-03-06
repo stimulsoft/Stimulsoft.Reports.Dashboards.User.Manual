@@ -1,6 +1,6 @@
 ## HTML &lt;em&gt; Tag
 
-The &lt;em&gt; tag is used for indicating emphasis. The text inside this tag is more important than flat text. The text displayed using the &lt;em&gt; tag looks italic. The example below shows how the &lt;em&gt; tag works:
+The &lt;**em**&gt; tag is used for indicating emphasis. The text inside this tag is more important than flat text. The text displayed using the &lt;**em**&gt; tag looks italic. The example below shows how the &lt;**em**&gt; tag works:
 
 Emphasis &lt;em&gt;Emphasis&lt;/em&gt; Emphasis
 

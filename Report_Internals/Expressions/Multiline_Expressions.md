@@ -29,6 +29,6 @@ In other words, the text output will contain two lines.
 >
 > An expression may contain any number of lines.
 
-Using Code in Multi-line Expressions
+**Using Code in Multi-line Expressions**
 
 Multi-line expressions do not have limitations on using code to calculate values other than those for Single-line expressions.

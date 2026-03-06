@@ -1,7 +1,7 @@
 ## Print If Empty Property
 
 
-There is a property in a report generator that allows you to display a report header and/or report footer when the DataBand is not on a page or data of a report. This is the Print If Empty property, which have both the Report Title band, and the Report Summary band.
+There is a property in a report generator that allows you to display a report header and/or report footer when the DataBand is not on a page or data of a report. This is the **Print If Empty** property, which have both the **Report Title** **band**, and the **Report Summary** **band**.
 
 
 ![](../../images/topics/Report_Internals.Report_Bands.Print_If_Empty_Property_1.png)

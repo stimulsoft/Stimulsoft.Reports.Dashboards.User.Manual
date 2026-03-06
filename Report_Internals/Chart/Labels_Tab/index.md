@@ -1,6 +1,6 @@
 ## Labels
 
-Labels are a visual representation of values, arguments, tags, series names, and their combinations on or near the graphical elements of series. Labels are similar to series titles but can be applied to all series in a chart, not just the current one.
+**Labels** are a visual representation of values, arguments, tags, series names, and their combinations on or near the graphical elements of series. Labels are similar to series titles but can be applied to all series in a chart, not just the current one.
 
 
 ![](../../../images/topics/Report_Internals.Chart.Labels_Tab_1.png)
@@ -13,4 +13,4 @@ To configure chart labels, follow these steps:
 
 > **Information**
 >
-> Depending on the chart series, the type and number of labels may vary. Additionally, if labels are not needed, select the None type.
+> Depending on the chart series, the type and number of labels may vary. Additionally, if labels are not needed, select the **None** type.

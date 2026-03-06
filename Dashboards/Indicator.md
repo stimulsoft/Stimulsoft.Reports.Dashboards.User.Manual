@@ -56,24 +56,24 @@ In the value field, you can specify only one data field. All values of this fiel
 
 > **Information**
 >
-> In the Indicator element, you can specify only the value. In this case, the aggregated value of the data field will be displayed with a specific graphic element, without a growth rate.
+> In the **Indicator** element, you can specify only the value. In this case, the aggregated value of the data field will be displayed with a specific graphic element, without a growth rate.
 
 **Target value**
 
-To use the indicator to display the growth rate, besides the value in the indicator, it is necessary to indicate the target value. The target value is the aggregated value of the data field specified in the Target field of the indicator. In the Target field, you can specify only one data field. By default, the summation function for numeric values is applied to the data field in the Target field. If a data field with non-numeric values is added, then, by default, the function of counting the number of rows in this data field is applied to it.
+To use the indicator to display the growth rate, besides the value in the indicator, it is necessary to indicate the target value. The target value is the aggregated value of the data field specified in the **Target** field of the indicator. In the **Target** field, you can specify only one data field. By default, the summation function for numeric values is applied to the data field in the **Target** field. If a data field with non-numeric values is added, then, by default, the function of counting the number of rows in this data field is applied to it.
 ![](../images/topics/Dashboards.Indicator_7.png)
 
 > **Information**
 >
-> If only the target value is specified in the Indicator element but the value of this indicator is not indicated, then the growth rate in the indicator will be -100 percent.
+> If only the target value is specified in the **Indicator** element but the value of this indicator is not indicated, then the growth rate in the indicator will be -100 percent.
 
-The target value is not displayed in the indicator, but it is involved in the calculation of the Variation value. The variation value is expressed as a percentage and can display either the percentage of the value from the target value or the variation of the value from the target value. The variation display mode depends on the value of the Target Mode property.
+The target value is not displayed in the indicator, but it is involved in the calculation of the **Variation** value. The variation value is expressed as a percentage and can display either the percentage of the value from the target value or the variation of the value from the target value. The variation display mode depends on the value of the **Target Mode** property.
 
 **Indicator series**
 
 The indicator series is a separate indicator for a specific segment of values selected by a specific condition. The condition in this case will be the values of the data element that is specified in the **Series** field.
 
-For example, in the Value field on the indicator, a data field with the number of orders issued is set, and in the Target field you set the planned number of orders. Without a series, only one indicator will be displayed. The indicator value will be the aggregated value of the data field specified in the Value field. All data field values form the Target field will also be aggregated. Based on the value and the target value, the indicator will be displayed with the growth rate.
+For example, in the **Value** field on the indicator, a data field with the number of orders issued is set, and in the Target field you set the planned number of orders. Without a series, only one indicator will be displayed. The indicator value will be the aggregated value of the data field specified in the Value field. All data field values form the **Target** field will also be aggregated. Based on the value and the target value, the indicator will be displayed with the growth rate.
 
 ![](../images/topics/Dashboards.Indicator_8.png)
 
@@ -106,19 +106,19 @@ When creating an indicator for a value, you can select a graphic element. To do 
 If rows and target value are specified in an indicator, you can`t specify an icon for the indicator. However, if values and rows are specified in an indicator, you can specify a set of icons for indicators or ranges of values for each icon. Let's have a look at the example.
 
 
-Let`s specify rows for an indicator. In this case, you can select a set of icons for the indicator. The minimum value of the indicator will be assigned to the first icon from the set, the maximum - to the last one. The value range will be divided into the number of icons in the set, and depending on which part of the value range the value of the row belongs to, one or another icon from the set will be assigned. By default, the Mode property is set to the Auto value, i.e. the calculation of the range of values by parts is performed automatically.
+Let`s specify rows for an indicator. In this case, you can select a set of icons for the indicator. The minimum value of the indicator will be assigned to the first icon from the set, the maximum - to the last one. The value range will be divided into the number of icons in the set, and depending on which part of the value range the value of the row belongs to, one or another icon from the set will be assigned. By default, the **Mode** property is set to the **Auto** value, i.e. the calculation of the range of values by parts is performed automatically.
 
 
 ![](../images/topics/Dashboards.Indicator_13.png)
 
-Also, you can divide the range of values manually, and for each part of the range, you can assign a different icon. To do this, you should set the Mode property to the Custom value. This will display additional controls that can be used to customize each part of the indicator values range. You should click the Add Range button, define its numerical boundaries, select an icon for each part of the range. It is worth considering that parts of the range can be defined as absolute or relative. This depends on the range type parameter - Percentage or Value.
+Also, you can divide the range of values manually, and for each part of the range, you can assign a different icon. To do this, you should set the **Mode** property to the **Custom** value. This will display additional controls that can be used to customize each part of the indicator values range. You should click the **Add Range** button, define its numerical boundaries, select an icon for each part of the range. It is worth considering that parts of the range can be defined as absolute or relative. This depends on the range type parameter - **Percentage** or **Value**.
 
 
-If you select a type as Percentage, the boundaries of the value range part is the percentage size of the current part from the relative value of the range. For example, from 0 to 50 percent means that it will be a part from the beginning to the average number of the range values. If you select a type as Value, the range part boundaries are absolute range boundaries. For example, from 0 to 50 means that it will be the portion from the numeric value 0 to the numeric value 50.
+If you select a type as **Percentage**, the boundaries of the value range part is the percentage size of the current part from the relative value of the range. For example, from 0 to 50 percent means that it will be a part from the beginning to the average number of the range values. If you select a type as **Value**, the range part boundaries are absolute range boundaries. For example, from 0 to 50 means that it will be the portion from the numeric value 0 to the numeric value 50.
 
 **Glyph Color**
 
-By default, icon color is assigned from the element style. You can change it using the Glyph Color property of the indicator. When using a set of icons for indicator series, the color of these icons will be the same. However, you can change the color of the icon depending on the value using [Conditional Formatting](Conditions.md#conditionparametersofindicator).
+By default, icon color is assigned from the element style. You can change it using the **Glyph Color** property of the indicator. When using a set of icons for indicator series, the color of these icons will be the same. However, you can change the color of the icon depending on the value using [Conditional Formatting](Conditions.md#conditionparametersofindicator).
 
 **List of properties**
 
@@ -130,16 +130,16 @@ The list shows the name and description of the properties of the element which y
 | Cross-Filtering | It allows you to enable or disable the cross-filtering mode for the current element. |
 | Data Transformation | Customizes the data transformation of the current element. |
 | Group | Adds the current item to a specific [group of items](Groups.md). |
-| Target Mode | It allows you to calculate target indicator: Variation or Percentage. |
+| Target Mode | It allows you to calculate target indicator: **Variation** or **Percentage**. |
 | Back Color | Changes the background color of the element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style. |
 | Border | A group of properties that allows you to customize the borders of the element - color, sides, size, and style. |
 | Conditions | Customizes the [conditions element of the indicator](Conditions.md#conditionparametersofindicator). |
-| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
+| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
 | Font | A group of properties defines the font family, its style, and size for the values of the element. |
-| Font Size Mode | It allows you to define mode, size for the font of an indicator value or deviation value. The following values are available: Auto. In this case, the font size of an indicator values is automatically changed depending on the size of the current element; Value. In this case, you can change the size of an indicator value using the Size property from the Font group of properties; Target. In this case, you can change the size of an indicator deviation value using the Size property from the Font group of properties. |
+| Font Size Mode | It allows you to define mode, size for the font of an indicator value or deviation value. The following values are available: **Auto**. In this case, the font size of an indicator values is automatically changed depending on the size of the current element; **Value**. In this case, you can change the size of an indicator value using the **Size** property from the **Font** group of properties; **Target**. In this case, you can change the size of an indicator deviation value using the **Size** property from the **Font** group of properties. |
 | Fore Color | Specifies the color of the values of the element. By default, this property is set to **From Style**, i.e. the color of the values will be obtained from the settings of the current element style. |
 | Glyph Color | Changes the color of the glyph. |
-| Shadow | A group of properties that allows configuring the shadow of an element: The Color property allows you to specify the color that will be used to display the shadow of the element. The properties in the Location group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The Size property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The Visible property allows you to enable or disable the display of the element's shadow on the indicator panel. |
+| Shadow | A group of properties that allows configuring the shadow of an element: The **Color** property allows you to specify the color that will be used to display the shadow of the element. The properties in the **Location** group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The **Size** property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The **Visible** property allows you to enable or disable the display of the element's shadow on the indicator panel. |
 | Style | Selects a style for the current element. The default it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard. |
 | Enabled | Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer. |
 | Icon Alignment | Changes alignment of the element icon. |

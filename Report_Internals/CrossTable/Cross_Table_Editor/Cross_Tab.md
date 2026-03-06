@@ -11,7 +11,7 @@ The Cross-Tab tab defines the structure of the Cross-Tab component. It specifies
 
 ![](../../../images/img_2.png) A list of data columns that will form the cross-tab row.
 
-![](../../../images/img_3.png) The button to delete the selected item from the field Rows, Columns, Summary.
+![](../../../images/img_3.png) The button to delete the selected item from the field **Rows**, **Columns**, **Summary**.
 
 ![](../../../images/img_4.png) If more than one element was added into the fields of the cross-tab (rows, columns, summary) then the buttons will be available to move the selected item in the list.
 

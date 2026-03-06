@@ -15,7 +15,7 @@ The following components to display the text are:
 
 > **Information**
 >
-> Please note that horizontal alignment of the content for the Text in cells component is applied only when the Continuous Text property is set as the False value. By default, the Continuous Text property is set as True value, i.e. some text in the Text in cells component is always aligned by the left edge.
+> Please note that horizontal alignment of the content for the **Text in cells** component is applied only when the **Continuous Text** property is set as the **False** value. By default, the **Continuous Text** property is set as **True** value, i.e. some text in the **Text in cells** component is always aligned by the left edge.
 
 The text component can contain a simple text, and expression. Whether it is a calculation of an expression, or just a reference to a data column. Text components can be placed on other components, or directly on the report page. But no other components can be put into the text component.
 

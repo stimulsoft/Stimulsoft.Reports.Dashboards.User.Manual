@@ -1,23 +1,23 @@
 ## Text Quality
 
-The StiText component and components, inherited from it, have the TextQuality property. This property allows selecting/displaying the quality of the text. The property may have one of three values​​:
+The StiText component and components, inherited from it, have the **TextQuality** property. This property allows selecting/displaying the quality of the text. The property may have one of three values​​:
 
 
-* Standard.
+* **Standard.**
 
-* Typographic.
+* **Typographic.**
 
-* Wysiwyg.
+* **Wysiwyg.**
 
-In the Standard and Typographic modes, text displaying is performed using a GDI + system library. The difference between these modes is that in the Typographic mode, a text is output with antialiasing and looks fine, but the rendering is slow. In the Wysiwyg mode a text is displaying using the GDI system library. The text in this mode may not look as beautiful as in the other two modes.
-
-
-Why do we need GDI, if GDI +  exists and it is more beautiful and easy to use? To answer this question, lets turn to the definition of the WYSIWYG.
-
-WYSIWYG (acronym for "What You See Is What You Get") is a way of editing, in which the content in the process of editing looks very similar to the final output. With regard to the reporting tool, this means that the report should look the same when editing a template, and viewing the finished report printed on paper. However, in practice, it is not so simple. Many methods can display a text in different ways on different monitors and in different ways to print it on different printers. This is particularly evident in a large text: when viewing in the preview with different zoom modes and printing, line breaks can be located in different places. This occurs due to many reasons. In the GDI + system library, most of these problems have been solved, but not all, and sometimes inaccurate displaying still occur. To solve the remaining problems one need full control of the text output. GDI + does not provide such control. Therefore, the Wysiwyg mode was added. In this mode a text is output using the GDI. GDI methods allow you to control the output of each character of a text. This can eliminate almost all the problems. Thus, the Wysiwyg mode displays the text not as pretty as the other two methods, but more accurately.
+In the **Standard** and **Typographic** modes, text displaying is performed using a **GDI +** system library. The difference between these modes is that in the **Typographic** mode, a text is output with antialiasing and looks fine, but the rendering is slow. In the **Wysiwyg** mode a text is displaying using the GDI system library. The text in this mode may not look as beautiful as in the other two modes.
 
 
-There is another difference between these two modes: as a text in each mode is displayed in different ways, then the measurement of length of a line is done in different ways. For example, we have three text boxes with the "Test string" text; set the TextQuality to Standard for the first text box, to Typographic for the second one, and to Wysiwyg for the third. Set the AutoWidth property to true for all the text boxes. In the design mode of the report we get the following:
+Why do we need GDI, if GDI +  exists and it is more beautiful and easy to use? To answer this question, lets turn to the definition of the **WYSIWYG**.
+
+**WYSIWYG** (acronym for "What You See Is What You Get") is a way of editing, in which the content in the process of editing looks very similar to the final output. With regard to the reporting tool, this means that the report should look the same when editing a template, and viewing the finished report printed on paper. However, in practice, it is not so simple. Many methods can display a text in different ways on different monitors and in different ways to print it on different printers. This is particularly evident in a large text: when viewing in the preview with different zoom modes and printing, line breaks can be located in different places. This occurs due to many reasons. In the GDI + system library, most of these problems have been solved, but not all, and sometimes inaccurate displaying still occur. To solve the remaining problems one need full control of the text output. GDI + does not provide such control. Therefore, the **Wysiwyg** mode was added. In this mode a text is output using the GDI. GDI methods allow you to control the output of each character of a text. This can eliminate almost all the problems. Thus, the **Wysiwyg** mode displays the text not as pretty as the other two methods, but more accurately.
+
+
+There is another difference between these two modes: as a text in each mode is displayed in different ways, then the measurement of length of a line is done in different ways. For example, we have three text boxes with the "Test string" text; set the **TextQuality** to **Standard** for the first text box, to **Typographic** for the second one, and to **Wysiwyg** for the third. Set the **AutoWidth** property to true for all the text boxes. In the design mode of the report we get the following:
 
 
 ![](../../images/TextQuality1.gif)

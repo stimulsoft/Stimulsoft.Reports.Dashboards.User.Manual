@@ -1,6 +1,6 @@
 ## PDF Element
 
-The PDF Element is a component that, when exporting a report to a PDF file, places a standard digital signature for the PDF document at its location. The signature is applied using a certificate, which must be selected in the export settings.
+The **PDF Element** is a component that, when exporting a report to a PDF file, places a standard digital signature for the PDF document at its location. The signature is applied using a certificate, which must be selected in the export settings.
 
 
 > **Information**
@@ -15,7 +15,7 @@ Stimulsoft's export to the PDF format supports signing a document with only one 
 
 ![](../../images/topics/Report_Internals.Signature.PDF_Element_1.png)
 
-Configuration of the PDF Element is performed through:
+Configuration of the **PDF Element** is performed through:
 
 * The component editor, where the type of signature and its parameters can be selected;
 
@@ -23,35 +23,35 @@ Configuration of the PDF Element is performed through:
 
 
 To open the editor:
-* Double-click on the PDF Element component;
-* Select the PDF Element component and choose the Design command from the context menu.
+* Double-click on the **PDF Element** component;
+* Select the **PDF Element** component and choose the **Design** command from the context menu.
 
-Component Editor
+**Component Editor**
 
-The editor contains the signature type selector Type and a group of Labels parameters, which determine what information from the certificate will be added to the PDF document's digital signature. Additionally, depending on the type of signature, an optional Objects field may be available.
+The editor contains the signature type selector **Type** and a group of **Labels** parameters, which determine what information from the certificate will be added to the PDF document's digital signature. Additionally, depending on the type of signature, an optional **Objects** field may be available.
 
 
 ![](../../images/topics/Report_Internals.Signature.PDF_Element_2.png)
 
 
-* The Objects field is available only if the signature type is set to Image or Draw.
+* The **Objects** field is available only if the signature type is set to **Image** or **Draw**.
 
-* If the type is Image, the Objects field allows you to upload an image using the Open control or delete it using the Remove command.
+* If the type is **Image**, the **Objects** field allows you to upload an image using the **Open** control or delete it using the **Remove** command.
 
-* If the type is Draw, the Objects field lets you draw a signature. To draw, press and hold the left mouse button and create the graphical signature.
+* If the type is **Draw**, the **Objects** field lets you draw a signature. To draw, press and hold the left mouse button and create the graphical signature.
 
 
-* The Labels group contains parameters that determine what information from the certificate will be added to the digital signature. If a parameter checkbox is selected, the corresponding information from the certificate will be added to the digital signature. If no parameters are selected, no textual information will be added to the signature.
+* The **Labels** group contains parameters that determine what information from the certificate will be added to the digital signature. If a parameter checkbox is selected, the corresponding information from the certificate will be added to the digital signature. If no parameters are selected, no textual information will be added to the signature.
 
-Properties Table
+**Properties Table**
 
 The table provides a list of the components properties.
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
-| Appearance | Provides the ability to set the type of the element: None, Text, Draw, or Image. |
-| Right to Left | Allows enabling the Right-to-Left mode for the component. If the property is set to True, the Right-to-Left mode will be applied to this component when building the report. If set to False, the Left-to-Right mode will be used. |
+| Appearance | Provides the ability to set the type of the element: **None**, **Text**, **Draw**, or **Image**. |
+| Right to Left | Allows enabling the **Right-to-Left** mode for the component. If the property is set to **True**, the **Right-to-Left** mode will be applied to this component when building the report. If set to **False**, the **Left-to-Right** mode will be used. |
 | Left | Enables specifying the left margin of the component from the report page boundaries. The value is defined in the report's measurement units. |
 | Top | Enables specifying the top margin of the component from the report page boundaries. The value is defined in the report's measurement units. |
 | Width | Allows defining the width of the component in the report. The value is defined in the report's measurement units. |
@@ -75,6 +75,6 @@ The table provides a list of the components properties.
 | Shift Mode | Allows setting the component's offset mode based on the behavior of the component above it. |
 | Name | Enables changing the name of the current component. |
 | Alias | Allows changing the alias of the current component. |
-| Restrictions | Provides the ability to configure the usage permissions for the current component: The Allow Change parameter allows enabling or disabling the ability to modify the component. If checked, the component can be changed. If unchecked, it can't be modified. The Allow Delete parameter allows enabling or disabling the ability to delete the component. If checked, the component can be deleted. If unchecked, it can't be deleted. The Allow Move parameter allows enabling or disabling the ability to move the component. If checked, the component can be moved. If unchecked, it can’t be moved. The Allow Resize parameter allows enabling or disabling the ability to resize the component. If the checkbox is selected, the size of the current component can be changed. If it isn’t selected, the size of the component can’t be modified. The Allow Select parameter allows enabling or disabling the ability to select the component. If the checkbox is selected, the current component can be chosen. If it isn’t selected, the component can’t be selected. |
-| Locked | Provides the ability to prohibit or allow resizing and moving the current component. If the property is set to True, the component can’t be moved or resized. If set to False, the component can be moved and resized. |
-| Linked | Provides the ability to bind the current location to the report page or another component. If the property is set to True, the component is locked to its current location. If set to False, the component isn’t locked to its current location. |
+| Restrictions | Provides the ability to configure the usage permissions for the current component: The **Allow Change** parameter allows enabling or disabling the ability to modify the component. If checked, the component can be changed. If unchecked, it can't be modified. The **Allow Delete** parameter allows enabling or disabling the ability to delete the component. If checked, the component can be deleted. If unchecked, it can't be deleted. The **Allow Move** parameter allows enabling or disabling the ability to move the component. If checked, the component can be moved. If unchecked, it can’t be moved. The **Allow Resize** parameter allows enabling or disabling the ability to resize the component. If the checkbox is selected, the size of the current component can be changed. If it isn’t selected, the size of the component can’t be modified. The **Allow Select** parameter allows enabling or disabling the ability to select the component. If the checkbox is selected, the current component can be chosen. If it isn’t selected, the component can’t be selected. |
+| Locked | Provides the ability to prohibit or allow resizing and moving the current component. If the property is set to **True**, the component can’t be moved or resized. If set to **False**, the component can be moved and resized. |
+| Linked | Provides the ability to bind the current location to the report page or another component. If the property is set to **True**, the component is locked to its current location. If set to **False**, the component isn’t locked to its current location. |

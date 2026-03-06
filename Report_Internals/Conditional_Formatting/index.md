@@ -8,12 +8,12 @@ Conditional formatting allows you to change the design of components, depending 
 
 
 ![](../../images/topics/Report_Internals.Conditional_Formatting_2.png)
- Add condition
+ **Add condition**
 
 This button adds a new conditional formatting to component conditions.
 
 ![](../../images/topics/Report_Internals.Conditional_Formatting_3.png)
- Remove condition
+ **Remove condition**
 
 This button removes a new conditional formatting from component conditions. It is necessary to select the conditional formatting.
 
@@ -21,12 +21,12 @@ This button removes a new conditional formatting from component conditions. It i
  The buttons are used to move the selected level of conditions in the list. The higher the level is in the list, the higher is the priority of processing.
 
 ![](../../images/topics/Report_Internals.Conditional_Formatting_5.png)
- Break if True
+ **Break if True**
 
 By default, all the conditions of the levels are processed sequentially from top to bottom. Depending on the result, these or that format settings are applied. If you want to stop the processing of conditions so that the processing of the condition stopped when returning true, you should check this setting. In this case, the levels will be processed sequentially until to return the value **true**. Thereafter, subsequent processing of conditions (levels below) will be terminated.
 
 ![](../../images/topics/Report_Internals.Conditional_Formatting_6.png)
- Add level
+ **Add level**
 
 This button adds one level of the condition parameter.
 
@@ -39,4 +39,4 @@ Specify parameters of condition on this panel.
 Specify parameters of the appearance of the component on this panel.
 
 
-There are two types of conditions - Value and Expression. How to set a condition is reviewed on next topics.
+There are two types of conditions - **Value** and **Expression**. How to set a condition is reviewed on next topics.

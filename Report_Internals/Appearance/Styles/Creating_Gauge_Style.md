@@ -1,8 +1,8 @@
 ## Gauge Style
 
-The Gauge Style is applied to the gauge component and element in the report and on the dashboard panel. To create a gauge style, follow these steps:
+The **Gauge Style** is applied to the gauge component and element in the report and on the dashboard panel. To create a gauge style, follow these steps:
 
-* In the style designer, click the Add Style button and select the Gauge style.
+* In the style designer, click the **Add Style** button and select the **Gauge** style.
 
 * Use the style properties to customize the formatting.
 
@@ -13,20 +13,20 @@ The Gauge Style is applied to the gauge component and element in the report and 
 
 > **Information**
 >
-> It is not possible to edit the preset Gauge styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
+> It is not possible to edit the preset **Gauge** styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
 >
-> * Assign the preset style to the Gauge component or element and select that component.
+> * Assign the preset style to the **Gauge** component or element and select that component.
 >
 > * Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
 > * Adjust the obtained style using its properties.
 >
-> * Assign this custom style to the Gauge component or element.
+> * Assign this custom style to the **Gauge** component or element.
 
 Below is a list of the properties used to configure the style of the chart.
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
 | Name | Sets the name of the current style. |
 | Description | Specifies a description for the current style. |
@@ -36,9 +36,9 @@ Below is a list of the properties used to configure the style of the chart.
 | Border Width | Sets the width of borders of elements. |
 | Brush | Changes the brush and fill color of the background of a component or element. |
 | Fore Color | Specifies the text color for the titles of an element row. |
-| Linear Bar Border Brush | A group of properties that changes the brush and stroke color of the linear scale. Actual if the value of the Border Width property is enabled. |
-| Linear Bar Brush | A group of properties that changes the brush and fill color of the linear scale background for the Bullet type. |
-| Linear Bar Empty Border Brush | A group of properties that changes the brush and stroke color of the unfilled area of the linear scale. Actual if the value of the Border Width property is enabled. |
+| Linear Bar Border Brush | A group of properties that changes the brush and stroke color of the linear scale. Actual if the value of the **Border Width** property is enabled. |
+| Linear Bar Brush | A group of properties that changes the brush and fill color of the linear scale background for the **Bullet** type. |
+| Linear Bar Empty Border Brush | A group of properties that changes the brush and stroke color of the unfilled area of the linear scale. Actual if the value of the **Border Width** property is enabled. |
 | Linear Bar Empty Brush | A group of properties that changes the brush and background fill color of the unfilled area of a linear scale. |
 | Linear Scale Brush | A group of properties that change the brush and fill color of the linear scale. |
 | Marker Brush | A group of properties that change the brush and fill color of the marker on a linear scale. |

@@ -1,6 +1,6 @@
 ## Using Functions in Expressions
 
-Built-In Functions
+**Built-In Functions**
 
 Stimulsoft Reports has a large number of built-in functions available for you to use. You can access these functions directly from the data dictionary and within the Expression Editor. Examples of built-in functions and their usage would be:
 
@@ -18,9 +18,9 @@ or
 ```
 
 
-In each case, the use of the Trim function removes leading and trailing spaces from the result shown in the report.
+In each case, the use of the **Trim** function removes leading and trailing spaces from the result shown in the report.
 
-.NET Framework Methods
+**.NET Framework Methods**
 
 In addition to the built-in functions, you can use any available .Net Framework methods. For string expressions, you could use any of the following examples:
 

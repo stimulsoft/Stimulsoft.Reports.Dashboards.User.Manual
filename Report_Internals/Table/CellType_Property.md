@@ -13,7 +13,7 @@ There are different types of cells can be placed In the Table component. They ar
 ![](../../images/fly.png) Rich text is a cell will be output as a rich text. Cell settings are the same as the settings of a Rich Text component.
 
 
-The CellType property is used to indicate a cell type.
+The **CellType** property is used to indicate a cell type.
 
 
 ![](../../images/topics/Report_Internals.Table.CellType_Property_1.png)

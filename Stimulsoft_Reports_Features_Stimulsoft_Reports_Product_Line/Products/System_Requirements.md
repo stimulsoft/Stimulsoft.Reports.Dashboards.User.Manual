@@ -3,7 +3,7 @@
 The table helps you to check which system parameters are necessary for using Stimulsoft Reports.
 
 
-| System Requirements | **Stimulsoft Ultimate** | **Dashboards.WEB** | **Dashboards.WIN** | **Dashboards.JS** | **Dashboards.PHP** | **Reports.NET** | **Reports.WEB******* | **Reports.ANGULAR** | **Reports.BLAZOR** | **Reports.WPF** | **Reports.JS** | **Reports.JAVA** | **Reports.PHP** |
+| **System Requirements** | **Stimulsoft Ultimate** | **Dashboards.WEB** | **Dashboards.WIN** | **Dashboards.JS** | **Dashboards.PHP** | **Reports.NET** | **Reports.WEB******* | **Reports.ANGULAR** | **Reports.BLAZOR** | **Reports.WPF** | **Reports.JS** | **Reports.JAVA** | **Reports.PHP** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | .NET Framework 1.1 (version 2008.1) | + |  |  |  |  | + (version 2008.1) |  |  |  |  |  |  |  |
 | .NET Framework 2.0 | + |  |  |  |  | + (up to version 2014.1) | + (up to version 2014.1) |  |  |  |  |  |  |
@@ -28,11 +28,11 @@ The table helps you to check which system parameters are necessary for using Sti
 | Microsoft Visual Studio 2017 | + | + | + | + |  | + | + |  |  | + | + |  |  |
 | Microsoft Visual Studio 2019 | + | + | + | + |  | + | + |  |  | + | + |  |  |
 | Microsoft Expression Blend | + |  |  |  |  |  |  |  |  |  |  |  |  |
-| Product Architecture |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **Product Architecture** |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | x86 | + | + | + | + |  | + | + |  |  | + | + | + | + |
 | x64 | + | + | + | + |  | + | + |  |  | + | + | + | + |
 | ARM | + |  |  |  |  |  |  |  |  |  |  |  |  |
-| Component Type |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **Component Type** |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | ASP.NET | + | + | + |  |  | + | + |  |  |  |  |  |  |
 | ASP.NET MVC | + | + |  |  |  |  | + | + |  |  |  |  |  |
 | ASP.NET Core | + | + |  |  |  |  | + | + |  |  |  |  |  |
@@ -42,7 +42,7 @@ The table helps you to check which system parameters are necessary for using Sti
 | PHP | + |  |  |  |  |  |  |  |  |  |  |  | + |
 | Java SE 1.8+ | + |  |  |  |  |  |  |  |  |  |  | + |  |
 | JavaScript | + |  |  | + |  |  |  |  |  |  | + |  |  |
-| Supported OS |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **Supported OS** |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Windows 7 | + | + | + | + |  | + | + |  |  | + | + | + | + |
 | Windows 8 | + |  |  |  |  | + | + |  |  |  | + | + | + |
 | Windows 8 ARM | + |  |  |  |  |  |  |  |  |  | + | + | + |

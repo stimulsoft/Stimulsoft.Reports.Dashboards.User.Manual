@@ -1,6 +1,6 @@
 ## Actions Menu
 
-In the Actions menu the main commands to control the data dictionary are located. The picture below shows this menu item:
+In the **Actions** menu the main commands to control the data dictionary are located. The picture below shows this menu item:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Control_Panel.Menu_Actions_1.png)

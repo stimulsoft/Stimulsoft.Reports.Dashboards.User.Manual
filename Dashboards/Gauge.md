@@ -25,7 +25,7 @@ You may adjust the **Gauge** element in its editor. To call the editor, you shou
 
 * Select the **Gauge** element, and, on the property panel, click the **Browse** button of the **Value** or **Series** properties.
 
-Gauge Editor
+**Gauge Editor**
 
 In the this editor adjusts the gauge.
 
@@ -112,7 +112,7 @@ To change the type of a gauge, you should:
 
 > **Information**
 >
-> Within the limits of one gauge element it is possible to use only one type of a gauge. Even in the case of multiple series, the type of the gauge will be the same for all values.
+> Within the limits of one **gauge** element it is possible to use only one type of a gauge. Even in the case of multiple series, the type of the gauge will be the same for all values.
 
 **Gauge range of values**
 
@@ -167,14 +167,14 @@ The list shows the name and description of the properties of the element which y
 | Cross-Filtering | It allows you to enable or disable the cross-filtering mode for the current element. |
 | Data Transformation | Customizes the data transformation of the current item. |
 | Group | Adds the current item to a specific [group of items](Groups.md). |
-| Labels | The group of properties that allows you to set labels of values: The Visible property allows you to enable or disable the display of the value labels in the gauge; The Placement property allows you to change the placement of labels relative to the gauge scale – Inside or Outside. |
-| Target | The group of properties, which allows you to customize the display of target value in an element: The Show Label property allows you to enable or disable the display of target value signature in an element; The Placement property allows you to define the placement of target value signature in an element - Inside or Outside. |
+| Labels | The group of properties that allows you to set labels of values: The **Visible** property allows you to enable or disable the display of the value labels in the gauge; The **Placement** property allows you to change the placement of labels relative to the gauge scale – **Inside** or **Outside**. |
+| Target | The group of properties, which allows you to customize the display of target value in an element: The **Show Label** property allows you to enable or disable the display of target value signature in an element; The **Placement** property allows you to define the placement of target value signature in an element - **Inside** or **Outside****.** |
 | Back Color | Changes the background color of the element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style. |
 | Border | A group of properties that allows you to customize the borders of the element - color, sides, size, and style. |
-| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
+| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
 | Font | A group of properties defines the font family, its style, and size for the values of the element. |
 | Fore Color | Specifies the color of the values of the element. By default, this property is set to **From Style**, i.e. the color of the values will be obtained from the settings of the current element style. |
-| Shadow | A group of properties that allows configuring the shadow of an element: The Color property allows you to specify the color that will be used to display the shadow of the element. The properties in the Location group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The Size property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The Visible property allows you to enable or disable the display of the element's shadow on the indicator panel. |
+| Shadow | A group of properties that allows configuring the shadow of an element: The **Color** property allows you to specify the color that will be used to display the shadow of the element. The properties in the **Location** group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The **Size** property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The **Visible** property allows you to enable or disable the display of the element's shadow on the indicator panel. |
 | Style | Selects a style for the current element. The default it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard. |
 | Enabled | Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer. |
 | Interaction | Sets [interaction](Interaction.md) of the current element. |

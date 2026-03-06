@@ -1,6 +1,6 @@
 ## Area
 
-The Area is the space within a chart component where graphical elements of the chart are displayed. The settings for the area elements are grouped, with each group represented by a separate tab.
+The **Area** is the space within a chart component where graphical elements of the chart are displayed. The settings for the area elements are grouped, with each group represented by a separate tab.
 
 ![](../../../images/topics/Report_Internals.Chart.Area_Tab_2.png)
 Depending on the chart type, the area type can be:
@@ -10,9 +10,9 @@ Depending on the chart type, the area type can be:
 
 > **Information**
 >
-> Depending on whether the area has axes or not, the number of setting tabs in the Area tab may vary.
+> Depending on whether the area has axes or not, the number of setting tabs in the **Area** tab may vary.
 
-The Area tab contains a preview panel and may include the following setting tabs:
+The **Area** tab contains a preview panel and may include the following setting tabs:
 * Common provides general settings for the chart area;
 * X-Axis contains settings for the argument axis in the chart area;
 * Y-Axis contains settings for the value axis in the chart area;

@@ -7,7 +7,7 @@ Operators enable you to define the circumstances in which a condition is deemed 
 The table below shows a list of operators and the data with which they can be used:
 
 
-| String | Numerical | Date | Logic | Expression |
+| **String** | **Numerical** | **Date** | **Logic** | **Expression** |
 | --- | --- | --- | --- | --- |
 | equal to |  |  |  |  |
 | not equal to |  |  |  |  |

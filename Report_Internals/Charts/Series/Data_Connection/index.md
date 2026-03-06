@@ -7,4 +7,4 @@ One of the main settings of the series is specifying the way of obtaining data. 
 
 * To specify an expression;
 
-* Manually specify values for the series as a list, through the ';' separator.
+* Manually specify values for the series as a list, through the '**;**' separator.

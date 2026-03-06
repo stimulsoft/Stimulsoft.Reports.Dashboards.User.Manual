@@ -42,47 +42,47 @@ This section describes how to get information about the latest news and announce
 
 * Find us is social networks and messengers:
 
-X:
+**X:**
 
 [https://x.com/stimulsoft](https://twitter.com/stimulsoft)
 
-Linked in:
+**Linked in:**
 
 [https://www.linkedin.com/company/stimulsoft](https://www.linkedin.com/company/stimulsoft)
 
 
-Facebook:
+**Facebook:**
 
 [https://www.facebook.com/Stimulsoft](https://www.facebook.com/Stimulsoft)
 
-RSS:
+**RSS:**
 
 [https://www.stimulsoft.com/en/rss](https://www.stimulsoft.com/en/rss)
 
 
-GitHub:
+**GitHub:**
 
 [https://github.com/stimulsoft](https://github.com/stimulsoft)
 
-YouTube:
+**YouTube:**
 
 [https://www.youtube.com/user/StimulsoftVideos](https://www.youtube.com/user/StimulsoftVideos)
 
 
-Telegram:
+**Telegram:**
 
 [https://t.me/stimulsoft](https://t.me/stimulsoft)
 
-Teams:
+**Teams:**
 
 [Teams - stimulsoft](https://teams.microsoft.com/l/chat/0/0?users=stimulsoft@gmail.com)
 
 
-WhatsApp:
+**WhatsApp:**
 
 [WhatsApp - Stimulsoft](https://wa.me/48690104472)
 
-Instagram:
+**Instagram:**
 
 [https://www.instagram.com/stimulsoft/](https://www.instagram.com/stimulsoft/)
 

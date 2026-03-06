@@ -7,9 +7,9 @@ Using the expression, it is possible to form a rather complex structure of bookm
 %\name1\name2...\nameN
 
 
-where name1 is the name of the highest level bookmark;
+where **name1** is the name of the highest level bookmark;
 
-nameN is the name of the lowest level bookmark.
+**nameN** is the name of the lowest level bookmark.
 
 
 The picture below shows the expression hierarchy of a common type:
@@ -18,7 +18,7 @@ The picture below shows the expression hierarchy of a common type:
 ![](../../../images/topics/Report_Internals.Interaction.Bookmarks.Creating_Bookmarks_Using_Expression_1.png)
 
 
-In the name of the bookmark, the following things can be specified: function, expression, data source column, system variables, random names, aliases, and more. To make a flat report with the hierarchy of bookmarks, create a single Data band, place the band on a text component with the Company Name data source column. The picture below shows an example of a report template:
+In the name of the bookmark, the following things can be specified: function, expression, data source column, system variables, random names, aliases, and more. To make a flat report with the hierarchy of bookmarks, create a single **Data** band, place the band on a text component with the **Company Name** data source column. The picture below shows an example of a report template:
 
 ![](../../../images/topics/Report_Internals.Interaction.Bookmarks.Creating_Bookmarks_Using_Expression_2.png)
 

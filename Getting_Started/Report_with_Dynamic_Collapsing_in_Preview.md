@@ -56,23 +56,23 @@ To expand or collapse the group, select the **GroupHeaderBand** in the rendered 
 
 
 1. Go back to the report template;
-2. Select DataBand;
-3. Change values of Even style and Odd style properties. If values of these properties are not set, then select the Edit Styles in the list of values of these properties and, using Style Designer, create a new style. The picture below shows the Style Designer:
+2. Select **DataBand**;
+3. Change values of **Even style** and **Odd style** properties. If values of these properties are not set, then select the **Edit Styles** in the list of values of these properties and, using **Style Designer**, create a new style. The picture below shows the **Style Designer**:
 
 
 ![](../images/topics/Getting_Started.Report_with_Dynamic_Collapsing_in_Preview_7.png)
 
 
-Click the Add Style button to start creating a style. Select Component from the drop down list. Set the Brush.Color property to change the background color of a row. The picture below shows a sample of the Style Designer with the list of values of the Brush.Color property:
+Click the **Add Style** button to start creating a style. Select **Component** from the drop down list. Set the **Brush.Color** property to change the background color of a row. The picture below shows a sample of the **Style Designer** with the list of values of the **Brush.Color** property:
 
 
 ![](../images/topics/Getting_Started.Report_with_Dynamic_Collapsing_in_Preview_8.png)
 
 
-Click Close. Then a new value in the list of Even style and Odd style properties (a style of a list of odd and even rows) will appear.
+Click **Close**. Then a new value in the list of **Even style** and **Odd style** properties (a style of a list of odd and even rows) will appear.
 
 
-4. To render the report, click the Preview button or invoke the Viewer, clicking the Preview menu item.
+4. To render the report, click the **Preview** button or invoke the **Viewer**, clicking the **Preview** menu item.
 
 
 ![](../images/topics/Getting_Started.Report_with_Dynamic_Collapsing_in_Preview_9.png)

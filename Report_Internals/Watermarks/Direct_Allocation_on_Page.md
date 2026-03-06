@@ -10,8 +10,8 @@ The picture above shows the "watermark" by means of the direct placement a text 
 
 Direct placement on a page allows showing an inscription on the background but at any of the working space.
 
-There is the Linked property. This Linked property may have two values: true and false.
+There is the **Linked** property. This **Linked** property may have two values: **true** and **false**.
 
-If the property is set to false, then the relation with "owner" is not fixed. In other words the "owner" is the report template item on which the TextBox component is placed.
+If the property is set to **false**, then the relation with "owner" is not fixed. In other words the "owner" is the report template item on which the **TextBox** component is placed.
 
-If the property is set to true, then the relation with "owner" is fixed. In other words the TextBox component may change the position but it will be referred to the item on what it is fixed.
+If the property is set to **true**, then the relation with "owner" is fixed. In other words the **TextBox** component may change the position but it will be referred to the item on what it is fixed.

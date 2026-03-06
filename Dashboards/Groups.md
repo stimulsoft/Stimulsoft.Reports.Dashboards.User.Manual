@@ -30,7 +30,7 @@ To add an element to a group, you should do the following:
 
 * Select an element in the dashboard;
 
-* In the Group property, specify the group value that is the same as for other elements in this group.
+* In the **Group** property, specify the group value that is the same as for other elements in this group.
 
 
 **Removing elements from the group**

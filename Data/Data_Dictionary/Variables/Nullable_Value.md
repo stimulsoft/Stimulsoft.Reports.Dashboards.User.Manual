@@ -1,7 +1,7 @@
 ## Nullable Value
 
 
-The Nullable Value variable provides the ability to place simple values​ and values ​​equal to null. If it is necessary to return a null value in the report, then when using a variable of another type, the report compilation error occurs. The picture below shows the New Variable dialog of the Nullable Value:
+The **Nullable Value** variable provides the ability to place simple values​ and values ​​equal to **null**. If it is necessary to return a **null** value in the report, then when using a variable of another type, the report compilation error occurs. The picture below shows the **New Variable** dialog of the **Nullable Value**:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Variables.Nullable_Value_1.png)

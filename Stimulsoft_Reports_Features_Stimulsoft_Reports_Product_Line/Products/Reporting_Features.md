@@ -1,13 +1,13 @@
 ## Reporting Features
 
-| Important |
+| **Important** |
 | --- |
 | Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Reports_Designer/Template/Calculation_Mode.md). |
 
 Stimulsoft Reports supports a great many features for dashboards and reports. Here is the list of them.
 
 
-| Dashboard Features | Stimulsoft Ultimate | Dashboards.WEB | Dashboards.WIN | Dashboards.JS | Dashboards.PHP |
+| **Dashboard Features** | **Stimulsoft Ultimate** | **Dashboards.WEB** | **Dashboards.WIN** | **Dashboards.JS** | **Dashboards.PHP** |
 | --- | --- | --- | --- | --- | --- |
 | Table (list, data bars, indicators, color scale, sparklines) | + | + | + | + | + |
 | Charts | + | + | + | + | + |
@@ -42,7 +42,7 @@ Stimulsoft Reports supports a great many features for dashboards and reports. He
 | Report Snapshot | + | + | + | + | + |
 
 
-| Reporting Features | Stimulsoft Ultimate | Reports.NET | Reports.WEB | Reports.ANGULAR | Reports.BLAZOR | Reports.WPF | Reports.JS | Reports.JAVA | Reports.PHP |
+| **Reporting Features** | **Stimulsoft Ultimate** | **Reports.NET** | **Reports.WEB** | **Reports.ANGULAR** | **Reports.BLAZOR** | **Reports.WPF** | **Reports.JS** | **Reports.JAVA** | **Reports.PHP** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Alpha blending | + | + | + | + | + | + | + | + | + |
 | Data aggregation | + | + | + | + | + | + | + | + | + |

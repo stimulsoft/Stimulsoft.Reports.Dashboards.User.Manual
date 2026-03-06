@@ -3,7 +3,7 @@
 The table shows which user interface and their themes are supported.
 
 
-| **User Interface** | Stimulsoft Ultimate | Dashboards.WEB | Dashboards.WIN | Dashboards.JS | Dashboards.PHP | Reports.NET | Reports.WEB | Reports.ANGULAR | Reports.BLAZOR | Reports.WPF | Reports.JS | Reports.JAVA | Reports.PHP |
+| **User Interface** | **Stimulsoft Ultimate** | **Dashboards.WEB** | **Dashboards.WIN** | **Dashboards.JS** | **Dashboards.PHP** | **Reports.NET** | **Reports.WEB** | **Reports.ANGULAR** | **Reports.BLAZOR** | **Reports.WPF** | **Reports.JS** | **Reports.JAVA** | **Reports.PHP** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Office 2000 | + | + | + (up to version 2019.3) |  |  | + (up to version 2019.3.3) | + |  |  | + |  |  |  |
 | Office XP | + | + | + (up to version 2019.3) |  |  | + (up to version 2019.3.3) | + |  |  | + |  |  |  |

@@ -14,4 +14,4 @@ Today, several names are used to describe this new class of symbology: Bidirecti
 A common barcode has "vertical redundancy", which means that the same information is repeated vertically. This allows the barcode to have print defects. The height of the strokes can be reduced without loss of information. The two-dimensional code contains information both horizontally and vertically, and there is no vertical redundancy. To prevent errors in readability and speed of reading two-dimensional codes, special checksums are used to check the reliability of the information entered.
 
 
-Many different 2D barcode symbols have been developed today. Stimulsoft Reports implements two of the most popular codes: PDF417, Datamatrix, QR Code.
+Many different 2D barcode symbols have been developed today. Stimulsoft Reports implements two of the most popular codes: **PDF417**, **Datamatrix**, **QR Code**.

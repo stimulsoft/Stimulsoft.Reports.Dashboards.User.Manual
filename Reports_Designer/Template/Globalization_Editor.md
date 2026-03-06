@@ -34,14 +34,14 @@ If a property is not filled, then when you select a specific culture, the result
 
 > **Infomation**
 >
-> The report culture does not depend on the localized GUI of the report designer. The culture of the report depends on the value of the Culture property. The list of values for this property depends on the list of cultures supported by the operating system. By default, the report uses the current culture of the operating system.
+> The report culture does not depend on the localized GUI of the report designer. The culture of the report depends on the value of the **Culture** property. The list of values for this property depends on the list of cultures supported by the operating system. By default, the report uses the current culture of the operating system.
 
-To call the Globalization Editor, you should go to the report properties and click in the report template area.
+To call the **Globalization Editor**, you should go to the report properties and click in the report template area.
 
 
 ![](../../images/topics/Reports_Designer.Template.Globalization_Editor_1.png)
 
-And on the properties panel, click the Browse button on the Globalization property. Below is the view of the Globalization Editor.
+And on the properties panel, click the **Browse** button on the **Globalization** property. Below is the view of the **Globalization Editor**.
 
 
 ![](../../images/topics/Reports_Designer.Template.Globalization_Editor_2.png)
@@ -59,7 +59,7 @@ And on the properties panel, click the Browse button on the Globalization proper
 * Transfer culture settings to a report, in this case, the values from the selected culture will be specified for the report items.
 
 
-![](../../images/img_4.png) If the Auto Localize Report on Run option is enabled, then, when rendering reports, the report engine will check the report culture and whether they are presented in the list. If identical cultures are found, then expressions of the report items will be replaced.
+![](../../images/img_4.png) If the **Auto Localize Report on Run** option is enabled, then, when rendering reports, the report engine will check the report culture and whether they are presented in the list. If identical cultures are found, then expressions of the report items will be replaced.
 
 ![](../../images/img_5.png) The list of cultures, setting which, the localization of the report items will occur (i.e. replacing expressions that are specified in a particular culture).
 
@@ -68,4 +68,4 @@ And on the properties panel, click the Browse button on the Globalization proper
 ![](../../images/img_7.png) An expression of the item that will be assigned to the selected report item when you select a specific culture.
 
 
-To automatically localize the report, you should specify the report culture after specifying the list of cultures and their settings. To do this, select the required value in the Culture property of the report. Then, when rendering the report, the report engine will check the report culture and their presence in the list of cultures. If identical cultures are found, the expressions of the report items will be replaced.
+To automatically localize the report, you should specify the report culture after specifying the list of cultures and their settings. To do this, select the required value in the **Culture** property of the report. Then, when rendering the report, the report engine will check the report culture and their presence in the list of cultures. If identical cultures are found, the expressions of the report items will be replaced.

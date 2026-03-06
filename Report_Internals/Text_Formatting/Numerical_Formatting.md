@@ -28,31 +28,31 @@ Sometimes there were some disadvantages in both cases. For example, when using l
 ![](../../images/topics/Report_Internals.Text_Formatting.Numerical_Formatting_4.png)
 
 
-![](../../images/img_1.png) Group separator
+![](../../images/img_1.png) **Group separator**
 
 When the Group Separator is used then number will be separated into number positions.
 
-![](../../images/img_2.png) Local setting
+![](../../images/img_2.png) **Local setting**
 
 When using the Local settings, numerical values are formatted according to the current OS installations.
 
-![](../../images/img_3.png) Decimal digits
+![](../../images/img_3.png) **Decimal digits**
 
 Number of decimal digits, which are used to format numerical values.
 
-![](../../images/img_4.png) Decimal separator
+![](../../images/img_4.png) **Decimal separator**
 
 Used as a decimal separator to separate numerical values in formatting.
 
-![](../../images/img_5.png) Group separator
+![](../../images/img_5.png) **Group separator**
 
 Used as a group separator when numerical values formatting.
 
-![](../../images/img_6.png) Group size
+![](../../images/img_6.png) **Group size**
 
 The number of digits in each group in currency values formatting.
 
-![](../../images/img_7.png) Negative pattern
+![](../../images/img_7.png) **Negative pattern**
 
 
 This pattern is used to format negative values.
@@ -65,4 +65,4 @@ Thus, for columns ProductID, CategoryID we change only the number of digits in t
 
 > **Video**
 >
-> * **Notice:** To display currency values you should use the Currency format. In the example above, for the **UnitPrice** column you should set the Currency format.
+> * **Notice:** **To display currency values you should use the Currency format**. In the example above, for the **UnitPrice** column you should set the Currency format.

@@ -3,7 +3,7 @@
 The table below identifies which viewers are supported in Stimulsoft products.
 
 
-| Viewer Features for Dashboards | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript)** |
+| **Viewer Features** **for Dashboards** | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript)** |
 | --- | --- | --- | --- |
 | Refresh Dashboard | + | + | + |
 | Open Report File | + | + | + |
@@ -16,7 +16,7 @@ The table below identifies which viewers are supported in Stimulsoft products.
 | Show Dashboard | + | + | + |
 
 
-| Viewer Features for Reports | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript, PHP)** | **HTML5** **(Java)** | **JavaViewer** | **WPF** |
+| **Viewer Features** **for Reports** | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript, PHP)** | **HTML5** **(Java)** | **JavaViewer** | **WPF** |
 | --- | --- | --- | --- | --- | --- | --- |
 | Add new page | + |  |  |  | + | + |
 | Automatic page scrolling /resizing | + |  |  |  | + | + |

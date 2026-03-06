@@ -1,7 +1,7 @@
 ## Indicator Style
 
-The Indicator style is applied to the [Indicator](../../../Dashboards/Indicator.md) element. To create an indicator style, you should do the following:
-* In the style designer, click the Add Style button and select the Indicator style.
+The **Indicator** style is applied to the [Indicator](../../../Dashboards/Indicator.md) element. To create an indicator style, you should do the following:
+* In the style designer, click the **Add Style** button and select the **Indicator** style.
 
 * Use the style properties to customize the formatting.
 
@@ -12,20 +12,20 @@ The Indicator style is applied to the [Indicator](../../../Dashboards/Indicator.
 
 > **Information**
 >
-> It is not possible to edit the preset Indicator styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
+> It is not possible to edit the preset **Indicator** styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
 >
-> * Assign the preset style to the Indicator component or element and select that component.
+> * Assign the preset style to the **Indicator** component or element and select that component.
 >
 > * Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
 > * Adjust the obtained style using its properties.
 >
-> * Assign this custom style to the Indicator component or element.
+> * Assign this custom style to the **Indicator** component or element.
 
 Below is a list of properties that are used to set the indicator style.
 
 
-| Name | Description |
+| **Name** | **Description** |
 | --- | --- |
 | Name | Sets the name of the current style. |
 | Description | Specifies a description for the current style. |

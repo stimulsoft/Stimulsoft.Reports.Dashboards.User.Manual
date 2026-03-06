@@ -15,24 +15,24 @@ In this article, let's review the process of rendering report bands and define t
 All bands are displayed in the strict order. This is due to the fact that each band has a specific function in the report. And it is very important in which order bands are printed.
 
 
-| Order | Band name | Description |
+| **Order** | **Band name** | **Description** |
 | --- | --- | --- |
-| 1 | Page Header | On each page. Output on the first page is optional. |
-| 2 | Report Title | Once at the beginning of a report. The Report Title band can be output before the Page Header band if the Title Before Header property of the page on which both bands are placed is set to true. |
-| 3 | Header, Column Header | Once before data output (for the Column Header - once for every column. Output on each new page is optional. |
-| 4 | Group Header | At the beginning of each group. Output on each new page is optional. |
-| 5 | Data | Once for every row of data. |
-| 6 | Empty Band | For each empty row on every page of the report. |
-| 7 | Group Footer | At the end of each group. |
-| 8 | Footer, Column Footer | After all data has been output (for the Column Footer - once for every column). Output on each new page is optional. |
-| 9 | Report Summary | Once at the end of a report. |
-| 10 | Overlay | Once on every page of the report. |
-| 11 | Page Footer | On every page. Output on the first page is optional. |
+| 1 | **Page Header** | On each page. Output on the first page is optional. |
+| 2 | **Report Title** | Once at the beginning of a report. The Report Title band can be output before the Page Header band if the Title Before Header property of the page on which both bands are placed is set to true. |
+| 3 | **Header,** **Column Header** | Once before data output (for the Column Header - once for every column. Output on each new page is optional. |
+| 4 | **Group Header** | At the beginning of each group. Output on each new page is optional. |
+| 5 | **Data** | Once for every row of data. |
+| 6 | **Empty Band** | For each empty row on every page of the report. |
+| 7 | **Group Footer** | At the end of each group. |
+| 8 | **Footer,** **Column Footer** | After all data has been output (for the Column Footer - once for every column). Output on each new page is optional. |
+| 9 | **Report Summary** | Once at the end of a report. |
+| 10 | **Overlay** | Once on every page of the report. |
+| 11 | **Page Footer** | On every page. Output on the first page is optional. |
 
 
 > **Information**
 >
-> * Information: Components placed directly on the page (not on any band) are printed first, followed by the bands.
+> * **Information:** Components placed directly on the page (not on any band) are printed first, followed by the bands.
 
 
 The **Child Band** can be placed on any band except the **Page Header**, **Report Summary**, **Page Footer**. The picture below shows the report page template with the location of bands.
@@ -65,7 +65,7 @@ In the second stage goes the analysis of other bands.
 
 > **Information**
 >
-> * Information: It should be understood that other bands are in the relationship with the **Data Band**, and their rendering depends on it. So and the **Data Band** is found and analyzed first, and then the other bands.
+> * **Information:** It should be understood that other bands are in the relationship with the **Data Band**, and their rendering depends on it. So and the **Data Band** is found and analyzed first, and then the other bands.
 
 
 After the analysis, the report rendering will start. The ReportSummaryBand1 will be processed last.
@@ -98,13 +98,13 @@ Almost all of the bands can be divided into two categories: **Headers** and **Fo
 
 The order of the bands on the page from top to bottom.
 
-| Order | Band name |
+| **Order** | **Band name** |
 | --- | --- |
-| 1 | HeaderBand3 |
-| 2 | HeaderBand2 |
-| 3 | DataBand2 |
-| 4 | FooterBand3 |
-| 5 | FooterBand2 |
+| 1 | **HeaderBand3** |
+| 2 | **HeaderBand2** |
+| 3 | **DataBand2** |
+| 4 | **FooterBand3** |
+| 5 | **FooterBand2** |
 
 
 In this case, the **HeaderBand3** corresponds to **FooterBand2**, and **HeaderBand2** corresponds to **FooterBand3**. In other words, the first header of the data band corresponds to the footer of the first data band. Here is an example of a rendered report.
@@ -126,7 +126,7 @@ It often happens that the number of headers and footers of a particular type is 
 
 > **Information**
 >
-> * Information: In order the band present in the report template but do not appear in a report you should set it height to zero.
+> * **Information:** In order the band present in the report template but do not appear in a report you should set it height to zero.
 
 
 For the example above, let’s equalize the number of data headers and footers.

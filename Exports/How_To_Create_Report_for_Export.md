@@ -53,13 +53,13 @@ As can be seen from the picture above the text components in the report template
 As can be seen from the picture above you add more columns/rows.
 
 
-* do not use the Autowidth property. This property increases the number of columns in the exported file which is proportionally to number of records.
+* do not use the **Autowidth** property. This property increases the number of columns in the exported file which is proportionally to number of records.
 
 
 ![](../images/autowidth.gif)       ![](../images/autowidth2.gif)
 
 
-On the left picture the number of columns is 14, and this case is equal in number of data rows. If to disable the AutoWidth property then only one column will be output (see the right picture). Accordingly, the file size of a report, shown of the right picture, is some times smaller then the file of the report shown on the left picture and the export works faster.
+On the left picture the number of columns is 14, and this case is equal in number of data rows. If to disable the **AutoWidth** property then only one column will be output (see the right picture). Accordingly, the file size of a report, shown of the right picture, is some times smaller then the file of the report shown on the left picture and the export works faster.
 
 
 * **Notice:** Number of columns is very important for the text editors. For example, MS Word allows no more than 64 columns; if the table has more than 64 columns then the document is output incorrectly.
