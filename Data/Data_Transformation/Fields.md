@@ -18,7 +18,7 @@ When creating a new data transformation, settings and its elements are defined i
 
 ![](../../images/img_6.png) The **Mode** parameter allows you to define the mode of a selected field:
 
-  * Measure. By default, this field type is applied for all numeric types of data. In addition, this type of data field is used if you need to group values of the current data field by the values of another data field.
+* Measure. By default, this field type is applied for all numeric types of data. In addition, this type of data field is used if you need to group values of the current data field by the values of another data field.
 
 * Dimension. This field type is applied not for numeric data types by default. When grouping data the values of this data field will be the condition of grouping for values of other data fields.
 
@@ -82,7 +82,7 @@ To call the field menu in the preview, you should click on a header on this pane
 
 ![](../../images/img_1.png) Sorting values commands:
 
-  * Sorting in ascending order. Depending on value type, sorting commands can be different. For row values the from A to Z, for numerical the from Smallest to Largest, etc.
+* Sorting in ascending order. Depending on value type, sorting commands can be different. For row values the from A to Z, for numerical the from Smallest to Largest, etc.
 
 * Sorting in descending order. Depending on value type, sorting commands can be different. For row values the from Z to A, for numeric from the Largest to Smallest, etc.
 * No sorting. In this case, the order of values in the current field will be as well as in the data description.
@@ -97,9 +97,9 @@ To call the field menu in the preview, you should click on a header on this pane
 
 ![](../../images/img_3.png) Commands of adding [data filtering](Filtration.md) in the current field:
 
-  * The type filter, in this case the String Filters contains logical operations for the condition of the current field filtering. Depending on the value type of this field, logical operations can be different.
+* The type filter, in this case the String Filters contains logical operations for the condition of the current field filtering. Depending on the value type of this field, logical operations can be different.
 
-  * The Custom filter allows you to set several filters with various logical operations.
+* The Custom filter allows you to set several filters with various logical operations.
 
 
 ![](../../images/img_4.png) The command, which deletes all filters for the current field.

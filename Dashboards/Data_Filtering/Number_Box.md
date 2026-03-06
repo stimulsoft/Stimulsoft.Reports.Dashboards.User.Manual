@@ -36,9 +36,9 @@ In the Number Box editor, you can add elements with data, configure the value se
 
 ![](../../images/img_3.png) The Selection Mode parameter determines the operating mode of the filtering element. The following values are available for selection:
 
-  * Single. In this scenario, an initial value is specified, and the filtering of these elements in the indicator panel will be conducted based on the Condition parameter.
+* Single. In this scenario, an initial value is specified, and the filtering of these elements in the indicator panel will be conducted based on the Condition parameter.
 
-  * Range. In this scenario, it will be possible to establish both the minimum and maximum values, which will constitute the range of values for filtering these dashboard elements.
+* Range. In this scenario, it will be possible to establish both the minimum and maximum values, which will constitute the range of values for filtering these dashboard elements.
 
 
 ![](../../images/img_4.png) The Condition parameter is accessible only when the Single mode is chosen. The value of this parameter represents a logical operation that determines the extension of the value range from the current one. For instance, if "Greater than…" is selected, the element's default range will encompass all values greater than the current value of the element.
@@ -49,9 +49,9 @@ In the Number Box editor, you can add elements with data, configure the value se
 
 ![](../../images/img_7.png) The View Mode parameter provides the ability to set the operating mode of the filtering element. The following values can be selected:
 
-  * Number Box. A mode in which the user manually enters the minimum and maximum values of the range, and the data is displayed within the specified interval.
+* Number Box. A mode in which the user manually enters the minimum and maximum values of the range, and the data is displayed within the specified interval.
 
-  * Slider. A mode in which the user defines the range boundaries by moving markers along a scale, and the data is displayed within the selected interval.
+* Slider. A mode in which the user defines the range boundaries by moving markers along a scale, and the data is displayed within the selected interval.
 
 Switching Values
 

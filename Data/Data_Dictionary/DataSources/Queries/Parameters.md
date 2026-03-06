@@ -73,9 +73,9 @@ Using variable as SQL parameter
 
 A variable can be specified as a value in the parameter. In this case, values of the variable will be the values of the parameter when requesting data. There are two ways to use a variable in a query as a parameter:
 
-  * Create a variable in the data dictionary. Open the data source for editing. Create a parameter in the data source. Specify a variable as the value of this parameter. Insert the parameter in the text of the query.
+* Create a variable in the data dictionary. Open the data source for editing. Create a parameter in the data source. Specify a variable as the value of this parameter. Insert the parameter in the text of the query.
 
-  * When creating or editing a variable, set the **Allow using as SQL** parameter check box:
+* When creating or editing a variable, set the **Allow using as SQL** parameter check box:
 
 
 ![](../../../../images/topics/Data.Data_Dictionary.DataSources.Queries.Parameters_9.png)

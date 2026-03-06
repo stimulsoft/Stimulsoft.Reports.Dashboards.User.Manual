@@ -46,9 +46,9 @@ Below is the editor of the Region Map element when manually filling in the data.
 
 ![](../../images/img1.png) **Data from** parameter provides the ability to define a data source:
 
-  * **Manual** by setting a value for each map element;
+* **Manual** by setting a value for each map element;
 
-  * **Data Columns** by filling in the appropriate fields.
+* **Data Columns** by filling in the appropriate fields.
 
 
 ![](../../images/img_2.png) The table contains Key, Name, Value and Color. Also, if a map with grouping or heat map with grouping is selected, a column for the grouping keys of map elements will be present. By default, keys and map elements are filled. All that is needed is to enter a value for a specific map element, and specify the key of grouping, if necessary.
@@ -60,22 +60,22 @@ Below is the editor of the Region Map element when manually filling in the data.
 
 ![](../../images/img_4.png) The **Map Type** parameter is used to change the type of the **Region Map** element. The map may be of the following type:
 
-  * **Individual** - every **Map Key** is a separate geographical object. Each geographical object will have its own value.
+* **Individual** - every **Map Key** is a separate geographical object. Each geographical object will have its own value.
 
-  * **Group** - by any condition, Map Keys will be combined into a group of geographical objects.
+* **Group** - by any condition, Map Keys will be combined into a group of geographical objects.
 
-  * **Heatmap** - every **Map Key** is a separate geographical object, and the values of all geographical objects of the map will also be analyzed. For a geographic object with a maximum value, the specific color will be defined, for a geographic object with a minimum value, another specific color will be defined. The color of other geographical objects will be obtained by mixing these colors.
+* **Heatmap** - every **Map Key** is a separate geographical object, and the values of all geographical objects of the map will also be analyzed. For a geographic object with a maximum value, the specific color will be defined, for a geographic object with a minimum value, another specific color will be defined. The color of other geographical objects will be obtained by mixing these colors.
 
-  * **Heatmap with Group** - by any condition, map keys will be combined into a group of geographical objects. After grouping of geographical objects, their values will be analyzed. In every group, the geographic object with the maximum value will have one color, and the geographic object with the minimum value will have another color. The color of the remaining geographical objects in the group will be obtained by mixing these colors.
+* **Heatmap with Group** - by any condition, map keys will be combined into a group of geographical objects. After grouping of geographical objects, their values will be analyzed. In every group, the geographic object with the maximum value will have one color, and the geographic object with the minimum value will have another color. The color of the remaining geographical objects in the group will be obtained by mixing these colors.
 
 
 ![](../../images/img_5.png) The **Display Name Type** parameter allows you to select the display mode for the names of map elements:
 
-  * **None** - map names for every map element will not be displayed;
+* **None** - map names for every map element will not be displayed;
 
-  * **Full** - names for every map element will be displayed in full;
+* **Full** - names for every map element will be displayed in full;
 
-  * **Short** - names for every map element will be abbreviated.
+* **Short** - names for every map element will be abbreviated.
 
 
 ![](../../images/img_6.png) The **Show Values** parameter is used to display the values of map elements. If the box is checked, then its value will be displayed for every map element. If the box is not checked, the values of the map elements will not be displayed.
@@ -90,9 +90,9 @@ Consider the setting of the Region Map editor, if the data will be obtained from
 
 ![](../../images/img1.png) The **Data from** option is used to specify a data source:
 
-  * **Manually** - setup a value for every element of the map;
+* **Manually** - setup a value for every element of the map;
 
-  * From the **Data columns** by filling in the appropriate fields.
+* From the **Data columns** by filling in the appropriate fields.
 
 
 ![](../../images/img_2.png) The **Key** field indicates a data field with a list of keys of map elements of a certain type.
@@ -114,22 +114,22 @@ Consider the setting of the Region Map editor, if the data will be obtained from
 
 ![](../../images/img_8.png) The **Map Type** parameter is used to change the type of the **Region Map**. There are several types of the map:
 
-  * **Individual** - every **Map Key** is a separate geographical object. Each geographical object will have its own value.
+* **Individual** - every **Map Key** is a separate geographical object. Each geographical object will have its own value.
 
-  * **Group** - by any condition, **Map Keys** will be combined into a group of geographical objects.
+* **Group** - by any condition, **Map Keys** will be combined into a group of geographical objects.
 
-  * **Heatmap** - every **Map Key** is a separate geographical object, and the values of all geographical objects of the map will also be analyzed. The specific color will be defined for a geographic object with a maximum value; for a geographic object with a minimum value, another specific color will be defined. The color of other geographical objects will be obtained by mixing these colors.
+* **Heatmap** - every **Map Key** is a separate geographical object, and the values of all geographical objects of the map will also be analyzed. The specific color will be defined for a geographic object with a maximum value; for a geographic object with a minimum value, another specific color will be defined. The color of other geographical objects will be obtained by mixing these colors.
 
-  * **Heatmap with Group** - by any condition, map keys will be combined into a group of geographical objects. After grouping of geographical objects, their values will be analyzed. In every group, the geographic object with the maximum value will have one color, and the geographic object with the minimum value will have another color. The color of the remaining geographical objects in the group will be obtained by mixing these colors.
+* **Heatmap with Group** - by any condition, map keys will be combined into a group of geographical objects. After grouping of geographical objects, their values will be analyzed. In every group, the geographic object with the maximum value will have one color, and the geographic object with the minimum value will have another color. The color of the remaining geographical objects in the group will be obtained by mixing these colors.
 
 
 ![](../../images/img_9.png) The **Display Name Type** option allows you to select the display mode for the name of the map elements:
 
-  * **No** - map names for every map element will not be displayed;
+* **No** - map names for every map element will not be displayed;
 
-  * **Complete** - names for every map element will be displayed in full;
+* **Complete** - names for every map element will be displayed in full;
 
-  * **Short** - names for every map element will be abbreviated.
+* **Short** - names for every map element will be abbreviated.
 
 
 ![](../../images/img_10.png) The **Show Value** parameter is used to display the values of map elements. If the check box is checked, then its value will be displayed for every map element. If the box is not checked, the values of the map elements will not be displayed.

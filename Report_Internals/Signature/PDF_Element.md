@@ -36,9 +36,9 @@ The editor contains the signature type selector Type and a group of Labels param
 
 * The Objects field is available only if the signature type is set to Image or Draw.
 
-  * If the type is Image, the Objects field allows you to upload an image using the Open control or delete it using the Remove command.
+* If the type is Image, the Objects field allows you to upload an image using the Open control or delete it using the Remove command.
 
-  * If the type is Draw, the Objects field lets you draw a signature. To draw, press and hold the left mouse button and create the graphical signature.
+* If the type is Draw, the Objects field lets you draw a signature. To draw, press and hold the left mouse button and create the graphical signature.
 
 
 * The Labels group contains parameters that determine what information from the certificate will be added to the digital signature. If a parameter checkbox is selected, the corresponding information from the certificate will be added to the digital signature. If no parameters are selected, no textual information will be added to the signature.

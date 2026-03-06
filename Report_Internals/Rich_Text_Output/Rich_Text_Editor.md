@@ -3,13 +3,13 @@
 
 The **RichText** component has a special editor. This editor can load and save the **RTF** text, change the font, size, color, paste expressions etc. With this editor you can edit the RTF text without using third-party editors. The editor is called by double-clicking on the RichText component. This editor contains the following tabs:
 
-  * **Expression**. Specify here some text. You can edit the text here using a set of special tools.
+* **Expression**. Specify here some text. You can edit the text here using a set of special tools.
 
-  * **Data Column**. Specify the data column that contains the Rich text.
+* **Data Column**. Specify the data column that contains the Rich text.
 
-  * **File**. Load a file that contains the Rich text.
+* **File**. Load a file that contains the Rich text.
 
-  * **Url**. Specify the URL the source with the Rich text.
+* **Url**. Specify the URL the source with the Rich text.
 
 
 The picture below shows the **Rich** text editor with **Expression** tab open:

@@ -43,9 +43,9 @@ The control buttons of the dashboard elements are located in the upper right cor
 
 ![](../images/img_2.png) This button is used to enable or disable the filtering mode for several segments.
 
-  * If this button is enabled, then to filter data, you can select several segments on one element of the dashboard.
+* If this button is enabled, then to filter data, you can select several segments on one element of the dashboard.
 
-  * If the button is disabled, then when selecting the next segment, the previous filter will be reset.
+* If the button is disabled, then when selecting the next segment, the previous filter will be reset.
 
 For example, when filtering by map, in the single mode, when you click on each segment, other elements of the dashboard panel will only display related data with the current map segment. In the filtering mode by several segments, other elements of the dashboard will display the associated data with all selected segments of the map.
 

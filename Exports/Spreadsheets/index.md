@@ -19,11 +19,11 @@ Export Settings
 
 ![](../../images/img_3.png) The Restrict Editing parameter provides the ability to restrict editing of an Excel document. The following values are available:
 
-  * No - sets unrestricted mode, meaning the document will be fully available for editing;
+* No - sets unrestricted mode, meaning the document will be fully available for editing;
 
-  * Yes - sets restricted editing mode for the entire document, meaning the document cannot be modified;
+* Yes - sets restricted editing mode for the entire document, meaning the document cannot be modified;
 
-  * Except Editable Fields - sets restricted editing mode for the Excel document except for editable fields in the report. This means that if components have the Editable property enabled, these components will be available for modification after export.
+* Except Editable Fields - sets restricted editing mode for the Excel document except for editable fields in the report. This means that if components have the Editable property enabled, these components will be available for modification after export.
 
 
 > **Information**
@@ -37,13 +37,13 @@ Export Settings
 
 ![](../../images/img_6.png) The Bands Filter parameter provides the ability to specify which report bands will be exported. The following values are available:
 
-  * All Bands - when exporting the report, all bands present in the rendered report will be exported;
+* All Bands - when exporting the report, all bands present in the rendered report will be exported;
 
-  * Data Only - when exporting the report, only the Data band (or the Table/Tree component) will be exported;
+* Data Only - when exporting the report, only the Data band (or the Table/Tree component) will be exported;
 
-  * Data and Headers - when exporting the report, the Data band (or the Table/Tree component) and the related Header bands will be exported;
+* Data and Headers - when exporting the report, the Data band (or the Table/Tree component) and the related Header bands will be exported;
 
-  * Data and Headers/Footers - when exporting the report, the Data band (or the Table/Tree component), as well as the related Header and Footer bands, will be exported.
+* Data and Headers/Footers - when exporting the report, the Data band (or the Table/Tree component), as well as the related Header and Footer bands, will be exported.
 
 
 ![](../../images/img_7.png) The checkbox Export Object Formatting is available only when you export the data. It provides the opportunity to apply formatting to them. If this option is enabled, the data will be exported with formatting applied in the report. If this option is disabled, the data formatting will be lost.

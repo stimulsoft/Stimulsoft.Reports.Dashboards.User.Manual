@@ -35,30 +35,30 @@ After opening the Image component editor, you need to define the source for the 
 
 ![](../../images/img_1.png) List of sources for the component. Each image source option is presented on a separate tab in the editor:
 
-  * Image source.  Allows you to drag or open an image from local storage.
+* Image source.  Allows you to drag or open an image from local storage.
 
-  * Data Column source. Allows you to select a data column from which images for this component will be obtained.
+* Data Column source. Allows you to select a data column from which images for this component will be obtained.
 
-  * Expression source. Allows you to specify an expression that results in an image for this component. For example, an image can be obtained from a variable like {Variable1}. You can also use an expression to retrieve an image from a file by using the FromFile method of the Image component, e.g.,  {Image.FromFile("c:\Image.png")}.
+* Expression source. Allows you to specify an expression that results in an image for this component. For example, an image can be obtained from a variable like {Variable1}. You can also use an expression to retrieve an image from a file by using the FromFile method of the Image component, e.g.,  {Image.FromFile("c:\Image.png")}.
 
-  * Image URL source. Allows you to retrieve an image via a URL. You can also specify a link to report resources, such as resource://image, to load an image named "image" from the report resources.
+* Image URL source. Allows you to retrieve an image via a URL. You can also specify a link to report resources, such as resource://image, to load an image named "image" from the report resources.
 
-  * File source. Allows you to load an image from a file by specifying the file path, e.g., d:\image.png.
+* File source. Allows you to load an image from a file by specifying the file path, e.g., d:\image.png.
 
-  * Icon source. Allows you to select an icon from a set and define its color.
+* Icon source. Allows you to select an icon from a set and define its color.
 
 ![](../../images/img_2.png) Thumbnail area displays a sample image. This feature is not available for the Data Column and Expression sources.
 ![](../../images/img_3.png) Controls:
 
-  * Image source. Controls available include Open, Save, Move to Resource, and Remove.
+* Image source. Controls available include Open, Save, Move to Resource, and Remove.
 
-  * Icon source. Includes a menu for selecting an icon and its color.
+* Icon source. Includes a menu for selecting an icon and its color.
 
-  * Expression and Image URL sources. Provides access to the text editor command.
+* Expression and Image URL sources. Provides access to the text editor command.
 
-  * File source. Offers the Browse command, which opens the local storage explorer.
+* File source. Offers the Browse command, which opens the local storage explorer.
 
-  * Data Column source. Displays a tree of data sources and columns for selection.
+* Data Column source. Displays a tree of data sources and columns for selection.
 
 
 > **Information**

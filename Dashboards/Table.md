@@ -49,15 +49,15 @@ In the editor of the Table element, you may add data fields, the order in which 
 
 ![](../images/img_3.png) The type of values ​​of the selected data field:
 
-  * **Dimension**, the type in which the value of the data field will be displayed in the initial state.
+* **Dimension**, the type in which the value of the data field will be displayed in the initial state.
 
-  * **Measure**, a type in which various functions can be applied to the values ​​of a data field.
+* **Measure**, a type in which various functions can be applied to the values ​​of a data field.
 
-  * **Data Bars**, the type in which different functions can be applied to the values ​​of the data field, and a data bar will be added for each value of this field.
+* **Data Bars**, the type in which different functions can be applied to the values ​​of the data field, and a data bar will be added for each value of this field.
 
-  * **Color Scale**, the type in which different functions can be applied to the data field values, and a color scale will be added for each value of this field.
+* **Color Scale**, the type in which different functions can be applied to the data field values, and a color scale will be added for each value of this field.
 
-  * **Indicator**, the type in which different functions can be applied to the values ​​of the data field, and an indicator will be added for each value of this field.
+* **Indicator**, the type in which different functions can be applied to the values ​​of the data field, and an indicator will be added for each value of this field.
 
 * Sparklines, a type in which different functions can be applied to the values ​​of a data field, and a sparkline will be added to each value of this field. By the way, in this case, sparkline also has several types - a graph, area, data bar, a win/loss. Also for a sparkline graph or area, you can define a starting point mode.
 * Bubble. It`s the type where various functions can be applied to to the values of data fields and each value will be presented as Bubble.

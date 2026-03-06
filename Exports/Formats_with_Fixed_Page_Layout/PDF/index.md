@@ -28,24 +28,24 @@ Export options in PDF
 
 ![](../../../images/img_5.png) The Image Resolution Mode parameter. Depending on the values of this parameter, a certain resolution will be applied to the images in the report:
 
-  * Exactly - all images after conversion will have the resolution specified in the Image resolution option;
+* Exactly - all images after conversion will have the resolution specified in the Image resolution option;
 
-  * No more than. If the original resolution of the image is less than specified in the Image resolution parameter, then the resolution of the image after the conversion of the report will be equal to the original one. If the original resolution is greater than the one specified in the Image Resolution settings, the image resolution will correspond to the value of the Image Resolution settings.
+* No more than. If the original resolution of the image is less than specified in the Image resolution parameter, then the resolution of the image after the conversion of the report will be equal to the original one. If the original resolution is greater than the one specified in the Image Resolution settings, the image resolution will correspond to the value of the Image Resolution settings.
 
-  * Auto. The image after the report is converted will have the original resolution.
+* Auto. The image after the report is converted will have the original resolution.
 
 
 ![](../../../images/img_6.png) The Image Compression Method allows defining the mode of image compression in the PDF file. The following modes are available:
 
-  * JPEG - compression with loss;
+* JPEG - compression with loss;
 
-  * Flate - compression without loss;
+* Flate - compression without loss;
 
-  * Simple - monochrome mode without dithering;
+* Simple - monochrome mode without dithering;
 
-  * Ordered - monochrome image with dithering;
+* Ordered - monochrome image with dithering;
 
-  * FloydSt. - the most precise monochrome mode with dithering.
+* FloydSt. - the most precise monochrome mode with dithering.
 
 
 ![](../../../images/img_7.png)  The option Allow Editable provides the ability to enable the mode in which, after exporting, it will be possible to modify components with the **Editable** property enabled. If **No** is selected, the **Editable** property will be ignored. If you select **Yes** then you can only edit components with the **Editable** property enabled.

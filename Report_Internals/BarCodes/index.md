@@ -7,17 +7,17 @@ A barcode is an optical machine-readable representation of data typically made u
 
 Most commonly, barcodes represent their data in the widths and spacings of printed parallel lines and spacings between them, this is why they are called linear or 1D (one-dimensional) barcodes or symbolics. Linear barcodes are read in one direction (horizontally). The following linear barcodes are commonly used:
 
-  * EAN;
+* EAN;
 
-  * UPC;
+* UPC;
 
-  * Code39;
+* Code39;
 
-  * Code128;
+* Code128;
 
-  * Codabar;
+* Codabar;
 
-  * Interleaved 2 of 5.
+* Interleaved 2 of 5.
 
 
 Linear symbolics allow coding of small amounts of information content (a maximum of 20-30 digits or symbols usually they are digits), and the devices that read them are considered to be simple scanners.
@@ -27,9 +27,9 @@ Linear symbolics allow coding of small amounts of information content (a maximum
 
 2D (two-dimensional) barcodes or symbolics are used for coding large amounts of information in a bar code, potentially up to several pages worth. They consist of square cells, dots, hexagons, and other geometrical figures, images, and they are called two-dimensional or 2D matrix codes or symbolics. In spite of the absence of bar codes, they are bar codes too. Bar code scanners are required to read the barcodes which decode in two dimensions (horizontal and vertical) and allow you quickly and accurately to type a large amount of information. Such code is decoded in two measures (horizontally, vertically). The following 2D barcodes are the most common:
 
-  * PDF417;
+* PDF417;
 
-  * Datamatrix.
+* Datamatrix.
 
 
 Setting Barcode Data

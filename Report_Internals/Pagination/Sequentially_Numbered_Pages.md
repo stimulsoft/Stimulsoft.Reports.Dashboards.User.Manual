@@ -3,11 +3,11 @@
 
 Sequential numbering (numbering without taking into account the ResetPageNumber property) set the SystemVariables:
 
-  * {PageNumberThrough} - PageNumberThrough, displays the page number;
+* {PageNumberThrough} - PageNumberThrough, displays the page number;
 
-  * {TotalPageCountThrough} - TotalPageCountThrough, displays the total number of pages of the rendered report;
+* {TotalPageCountThrough} - TotalPageCountThrough, displays the total number of pages of the rendered report;
 
-  * {PageNofMThrough} - PageNofM, is a combination of PageNumberThrough and TotalPageCountThrough, and displays the page number in relation to the total number of pages in the rendered report..
+* {PageNofMThrough} - PageNofM, is a combination of PageNumberThrough and TotalPageCountThrough, and displays the page number in relation to the total number of pages in the rendered report..
 
 
 ![](../../images/topics/Report_Internals.Pagination.Sequentially_Numbered_Pages_1.png)

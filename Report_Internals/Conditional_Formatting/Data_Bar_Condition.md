@@ -17,13 +17,13 @@ Add the Data Bar condition. To do this, select a text component, for example a t
 
 ![](../../images/img_2.png) The **Type field** is used to change the type of a minimum value. The following types are available:
 
-  * **Auto** defines the minimum value in the selected data column, and if it is greater than zero, then reset to zero. Thus, if the data column has 25 as the minimum number and 100 as the maximum. In the component with a minimum number, the histogram will be rendered by 25 per cent. With this type, the extreme range of the value is 0.
+* **Auto** defines the minimum value in the selected data column, and if it is greater than zero, then reset to zero. Thus, if the data column has 25 as the minimum number and 100 as the maximum. In the component with a minimum number, the histogram will be rendered by 25 per cent. With this type, the extreme range of the value is 0.
 
-  * **Percentage** is used to specify a minimum value as a percentage;
+* **Percentage** is used to specify a minimum value as a percentage;
 
-  * **Value** provides an opportunity to specify a minimum value as a numerical value,
+* **Value** provides an opportunity to specify a minimum value as a numerical value,
 
-  * **Minimum** defines the minimum value in the selected data column and does not reset it to null. Thus, if the data column has 25 as the minimum number and 100 as the maximum. In the component with a minimum number, the histogram will not be rendered because 25 is the extreme value of the range.
+* **Minimum** defines the minimum value in the selected data column and does not reset it to null. Thus, if the data column has 25 as the minimum number and 100 as the maximum. In the component with a minimum number, the histogram will not be rendered because 25 is the extreme value of the range.
 
 
 ![](../../images/topics/Report_Internals.Conditional_Formatting.Data_Bar_Condition_3.png)
@@ -31,13 +31,13 @@ Add the Data Bar condition. To do this, select a text component, for example a t
 
 ![](../../images/img_3.png) The **Type** field is used to change the type of a maximum value. The following types are available:
 
-  * **Auto** defines the minimum value in the selected data column, and if it is less than zero, then reset to zero. Thus, if the data column has -25 as the maximum number and -100 as the minimum. In the component with a maximum number, the histogram will be rendered by 25 per cent. With this type, the extreme range of the value is 0;
+* **Auto** defines the minimum value in the selected data column, and if it is less than zero, then reset to zero. Thus, if the data column has -25 as the maximum number and -100 as the minimum. In the component with a maximum number, the histogram will be rendered by 25 per cent. With this type, the extreme range of the value is 0;
 
-  * **Percentage** is used to specify a maximum value as a percentage;
+* **Percentage** is used to specify a maximum value as a percentage;
 
-  * **Value** provides an opportunity to specify a maximum value as a numerical value;
+* **Value** provides an opportunity to specify a maximum value as a numerical value;
 
-  * **Maximum** defines the maximum value in the selected data column and resets it to null. Thus, if the data column has -25 as the maximum number and -100 as the minimum. In the component with a maximum number, the histogram will not be rendered because -25 is the extreme value of the range.
+* **Maximum** defines the maximum value in the selected data column and resets it to null. Thus, if the data column has -25 as the maximum number and -100 as the minimum. In the component with a maximum number, the histogram will not be rendered because -25 is the extreme value of the range.
 
 
 ![](../../images/topics/Report_Internals.Conditional_Formatting.Data_Bar_Condition_4.png)

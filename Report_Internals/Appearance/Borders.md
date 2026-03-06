@@ -49,18 +49,18 @@ You can define a uniform style, color, size for all component borders on the **S
 
 ![](../../images/img_3.png) The Border field contains several parameters:
 
-  * The Size parameter allows you to change border width;
+* The Size parameter allows you to change border width;
 
-  * The Color parameter allows you to change component borders color.
+* The Color parameter allows you to change component borders color.
 
 
 ![](../../images/img_4.png) The Shadow field contains the parameters of component shadow settings:
 
-  * The Drop Shadow parameter allows you to enable or disable the display of component shadow.
+* The Drop Shadow parameter allows you to enable or disable the display of component shadow.
 
-  * The Shadow Size parameter allows you to change component shadow width;
+* The Shadow Size parameter allows you to change component shadow width;
 
-  * The Color parameter allows you to change component shadow color.
+* The Color parameter allows you to change component shadow color.
 
 
 > **Information**

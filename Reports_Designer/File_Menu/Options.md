@@ -68,9 +68,9 @@ This tab defines the grid settings on the report page or workspace in the dashbo
 ![](../../images/topics/Reports_Designer.File_Menu.Options_6.png)
  The Grid Options group includes the following parameters:
 
-  * Align to Grid snaps the report component to the grid;
+* Align to Grid snaps the report component to the grid;
 
-  * Show Grid disables/enables the grid display.
+* Show Grid disables/enables the grid display.
 
 
 ![](../../images/topics/Reports_Designer.File_Menu.Options_7.png)

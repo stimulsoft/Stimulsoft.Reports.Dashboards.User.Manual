@@ -42,7 +42,7 @@ In the editor of the Cards element, you can add fields with data, the order of t
 
 ![](../images/img_3.png) Value type of the selected data filed:
 
-  * The Dimension is the type at which the value of the data field will be displayed in its initial state.
+* The Dimension is the type at which the value of the data field will be displayed in its initial state.
 
 * The Measure indicator is the type in which various functions can be applied to the values of the data field.
 * The Data Bars is the type in which various functions can be applied to the values of a data field, and a Data Bars will be added for each value of this field.

@@ -15,11 +15,11 @@ To calculate and display the total, you should place a text component in the rep
 
 ![](../../images/img_5.png) Using the radio buttons, you can set the object for calculating totals:
 
-  * **Report**. The total will be calculated for the entire report.
+* **Report**. The total will be calculated for the entire report.
 
-  * **Column**. Totals will be calculated by every column in the report.
+* **Column**. Totals will be calculated by every column in the report.
 
-  * **Page**. Totals will be calculated by every page of the rendered report.
+* **Page**. Totals will be calculated by every page of the rendered report.
 
 
 ![](../../images/img_6.png) The Running Total parameter. If the flag is checked, then the total will be calculated as running. If unchecked, then the total will be calculated only by the project (report, column, page).

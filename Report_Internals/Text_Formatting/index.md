@@ -23,21 +23,21 @@ The Format window is divided into three parts.
 
 There are some types of showing a text:
 
-  * Standard - output data without specific number format;
+* Standard - output data without specific number format;
 
-  * Number — this format is used for general display of numbers;
+* Number — this format is used for general display of numbers;
 
-  * Currency — this format is used for general monetary values;
+* Currency — this format is used for general monetary values;
 
-  * Date — this format is used to display date values;
+* Date — this format is used to display date values;
 
-  * Time — this format is used to display time values;
+* Time — this format is used to display time values;
 
-  * Percent — this format is used to display a result in percent symbol;
+* Percent — this format is used to display a result in percent symbol;
 
-  * Boolean — this format is used to display Boolean values;
+* Boolean — this format is used to display Boolean values;
 
-  * Custom — custom data formatting.
+* Custom — custom data formatting.
 
 
 ![](../../images/img_2.png) Shows how the formatted text will look like;

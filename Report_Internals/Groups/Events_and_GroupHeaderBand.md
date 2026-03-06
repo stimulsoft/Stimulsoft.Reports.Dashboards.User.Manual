@@ -6,11 +6,11 @@
 
 Like the Data band, the Group Header band has three specific events:
 
-  * BeginRenderEvent,
+* BeginRenderEvent,
 
-  * EndRenderEvent and
+* EndRenderEvent and
 
-  * RenderingEvent.
+* RenderingEvent.
 
 
 BeginRenderEvent

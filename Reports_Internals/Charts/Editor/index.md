@@ -16,12 +16,12 @@ When you add the component Chart in the report template, the chart editor is cal
 
 As can be seen from the picture above, the chart editor contains the following tabs:
 
-  * **Chart**. Defined the Chart type;
+* **Chart**. Defined the Chart type;
 
-  * **Series**. Defines the parameters of the series;
+* **Series**. Defines the parameters of the series;
 
-  * **Area**. Sets areas with axes;
+* **Area**. Sets areas with axes;
 
-  * **Labels**. Sets chart labels;
+* **Labels**. Sets chart labels;
 
-  * **Styles**. Sets the style for the chart.
+* **Styles**. Sets the style for the chart.

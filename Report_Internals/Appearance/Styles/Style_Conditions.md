@@ -49,53 +49,53 @@ To delete a block of conditions, you need to follow these steps:
 
 ![](../../../images/img_1.png) The Placement view condition is used to apply a style to a component depending on its position. Containers (bands, panel, table, page) are selected in the list of values.
 
-  * If the equal to operation is selected, then the style will be applied to the components placed on the selected containers.
+* If the equal to operation is selected, then the style will be applied to the components placed on the selected containers.
 
-  * If the operation not equal to is selected, then the style will be applied to components placed on any containers, except for the values selected in the field.
+* If the operation not equal to is selected, then the style will be applied to components placed on any containers, except for the values selected in the field.
 
 
 ![](../../../images/img_2.png) Condition of the Nested Level type. With this type of condition, you can apply a style to components depending on the level of nesting of containers at which the component is located. The value field specifies the nesting level of the container (maximum is 100). This condition type has the following operations:
 
-  * equal to - the style will be applied when the nesting level of the containers is equal to the level specified in the value field.
+* equal to - the style will be applied when the nesting level of the containers is equal to the level specified in the value field.
 
-  * not equal to - the style will be applied to all components in containers whose nesting level is not equal to the specified level in the values field.
+* not equal to - the style will be applied to all components in containers whose nesting level is not equal to the specified level in the values field.
 
-  * greater than - the style to be applied to components in containers whose nesting level is greater than the level specified in the value field.
+* greater than - the style to be applied to components in containers whose nesting level is greater than the level specified in the value field.
 
-  * greater than or equal to - the style will be applied to components in containers whose nesting level is equal to or greater than the specified level in the value field.
+* greater than or equal to - the style will be applied to components in containers whose nesting level is equal to or greater than the specified level in the value field.
 
-  * less than - the style will be applied to components in containers, the nesting level of which will be less than the level specified in the value field.
+* less than - the style will be applied to components in containers, the nesting level of which will be less than the level specified in the value field.
 
-  * less than or equal to - the style will be applied to components in containers whose nesting level will be equal to or less than the specified level in the value field.
+* less than or equal to - the style will be applied to components in containers whose nesting level will be equal to or less than the specified level in the value field.
 
 
 ![](../../../images/img_3.png) The Component Type view condition is used to apply a style only to components of a particular type. In the value field of this condition, you can simultaneously select several types of components. Under this condition, the following operations are available:
 
-  * equal to - the style will be applied to the components specified in the value field.
+* equal to - the style will be applied to the components specified in the value field.
 
-  * not equal to - the style will be applied to all components, except for the values selected in the field.
+* not equal to - the style will be applied to all components, except for the values selected in the field.
 
 
 ![](../../../images/img_4.png) The Location view condition is used to apply a style to a component, depending on its location on the container. In the value field, the desired location of the component is selected. Operations available under this condition are:
 
-  * equal to - the style will be applied to all components, the location of which corresponds to the one selected in the value field.
+* equal to - the style will be applied to all components, the location of which corresponds to the one selected in the value field.
 
-  * not equal to - the style will be applied to all components whose location is different than the one selected in the values field. Also note that you can select multiple locations at the same time in the value field.
+* not equal to - the style will be applied to all components whose location is different than the one selected in the values field. Also note that you can select multiple locations at the same time in the value field.
 
 
 ![](../../../images/img_5.png) The Component Name type condition provides the ability to apply a style to a component with a specific name or part of it. In the value field, enter the name or part of the name of the component. When using this type of condition, the following types of operations are available:
 
-  * equal to - the style will be applied to a component with a name identical to that specified in the value field;
+* equal to - the style will be applied to a component with a name identical to that specified in the value field;
 
-  * not equal to - the style will be applied to all components, except for the one whose name matches the one specified in the value field;
+* not equal to - the style will be applied to all components, except for the one whose name matches the one specified in the value field;
 
-  * containing - the style will be applied to all components that contain the name or part of the name specified in the value field in their name.
+* containing - the style will be applied to all components that contain the name or part of the name specified in the value field in their name.
 
-  * not containing - the style will be applied to all components that do not contain the name or part of the name specified in the value field in their name.
+* not containing - the style will be applied to all components that do not contain the name or part of the name specified in the value field in their name.
 
-  * beginning with - the style will be applied to all components whose name begins with the name specified in the value field.
+* beginning with - the style will be applied to all components whose name begins with the name specified in the value field.
 
-  * ending with - the style will be applied to all components whose name ends with the name specified in the value field.
+* ending with - the style will be applied to all components whose name ends with the name specified in the value field.
 
 Nesting levels
 

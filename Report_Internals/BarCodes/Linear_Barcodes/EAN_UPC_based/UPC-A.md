@@ -13,13 +13,13 @@ Each barcode symbol consists of two bars and two spaces, which can be from one t
 
 A barcode contains the following data:
 
-  * 1 digit - system number.
+* 1 digit - system number.
 
-  * 5 digits - manufacturer code.
+* 5 digits - manufacturer code.
 
-  * 5 digits - product code.
+* 5 digits - product code.
 
-  * 1 digit - check digit.
+* 1 digit - check digit.
 
 
 This way a barcode does not contain any information about characteristics of a product, but only a unique number relating to an entry in the International data base where all information about the particular product is stored.  An example barcode in UPC-A format:

@@ -85,7 +85,7 @@ If you display the objects by location, then the online map editor will contain 
 * Icon. A numerical value with a specific symbol will be displayed for each geographic object. The icon can be selected from the Stimulsoft collection or uploaded from your local storage. Also, for the icons from the collection, you can set its color.
 * Chart. If you select this value, an additional field called Arguments will be displayed. In this field, you should specify the data field, the values   from which will be the arguments for the chart values   of each geographic object. In other words, each value is a pie chart sliced by arguments.
 
-  * The Heatmap. When selecting this value, a heatmap of values. Also, additional parameters of the heatmap settings will be displayed.
+* The Heatmap. When selecting this value, a heatmap of values. Also, additional parameters of the heatmap settings will be displayed.
 
 
 ![](../../images/img_6.png) The Icon parameter is used to select or load an icon for the value of a geographic object, as well as set the color of this icon.
@@ -96,13 +96,13 @@ If you display the objects by location, then the online map editor will contain 
 
 ![](../../images/img_9.png) The Color parameter. It allows you to specify color of geographic objects. The following values are available:
 
-  * The Color Each. Each geographic objects will have a unique color;
+* The Color Each. Each geographic objects will have a unique color;
 
-  * The Value. The Color Value field will be displayed in the editor. You should specify data field with a color list in this field. These colors will be mapped to the positions of geographic objects and a certain color will be assigned for each object.
+* The Value. The Color Value field will be displayed in the editor. You should specify data field with a color list in this field. These colors will be mapped to the positions of geographic objects and a certain color will be assigned for each object.
 
-  * The Fixed Single. You should select a color, which can be applied for all  geographic objects.
+* The Fixed Single. You should select a color, which can be applied for all  geographic objects.
 
-  * The Group . The Color Group field will be displayed in the editor. You should specify data fields with colors. Geographic objects will be grouped by value and each group of objects will have a specific color assigned.
+* The Group . The Color Group field will be displayed in the editor. You should specify data fields with colors. Geographic objects will be grouped by value and each group of objects will have a specific color assigned.
 
 Heatmap
 

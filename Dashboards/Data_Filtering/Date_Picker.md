@@ -39,23 +39,23 @@ In this editor you can add elements with data, set up the mode for selecting val
 
 ![](../../images/img_3.png) The **Selection Mode** field. It selects the mode of the Date Picker item. The following values can be selected:
 
-  * **Single**. The current date of the operating system and the subsequent range will be determined depending on the value of the **Condition** parameter.
+* **Single**. The current date of the operating system and the subsequent range will be determined depending on the value of the **Condition** parameter.
 
-  * **Range**. By default, the current day range will be set.
+* **Range**. By default, the current day range will be set.
 
-  * **Auto Range**. By default, the range will be set from an earlier date from the data source to the latest. In other words, the original date range will correspond to the data range of the data source.
+* **Auto Range**. By default, the range will be set from an earlier date from the data source to the latest. In other words, the original date range will correspond to the data range of the data source.
 
 ![](../../images/img_4.png) The **Condition** field. Depending on the selected item mode, the following parameters may be present:
 
-  * The **Condition** parameter is available only if the **Single** mode is selected. The value of this parameter is a logical operation that determines the continuation of the date range from the current date. For example, if **Greater then** is selected, then the default element range will include all subsequent dates from the current date of the operating system.
+* The **Condition** parameter is available only if the **Single** mode is selected. The value of this parameter is a logical operation that determines the continuation of the date range from the current date. For example, if **Greater then** is selected, then the default element range will include all subsequent dates from the current date of the operating system.
 
-  * The **Initial Selection** parameter is available only if **Range** is selected. You can specify the default element range. For example, you can select the previous week. Then when you open the dashboard in the viewer, the range of the **Date Picker** item will be set to the previous week.
+* The **Initial Selection** parameter is available only if **Range** is selected. You can specify the default element range. For example, you can select the previous week. Then when you open the dashboard in the viewer, the range of the **Date Picker** item will be set to the previous week.
 
 ![](../../images/img_5.png) The View Mode parameter provides the ability to set the operating mode of the filtering element. The following values can be selected:
 
-  * Date Picker. A mode in which the user selects the start and end dates using a calendar, and the data is displayed within the specified time range.
+* Date Picker. A mode in which the user selects the start and end dates using a calendar, and the data is displayed within the specified time range.
 
-  * Slider. A mode in which the user sets the start and end dates by moving markers along a timeline, and the data is displayed within the selected range.
+* Slider. A mode in which the user sets the start and end dates by moving markers along a timeline, and the data is displayed within the selected range.
 
 
 Get acquainted with the step-by-step instruction in the [Dashboards with Date Picker](../../Getting_Started/Dashboard_with_Date_Picker.md) chapter.

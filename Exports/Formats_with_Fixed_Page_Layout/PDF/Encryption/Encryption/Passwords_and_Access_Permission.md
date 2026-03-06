@@ -6,13 +6,13 @@ According to the PDF specification, it is possible to set the access and two pas
 
 The public password allows opening and viewing documents, and also some actions are allowed:
 
-  * edit document;
+* edit document;
 
-  * copy text and graphics from the document;
+* copy text and graphics from the document;
 
-  * add and change commentaries;
+* add and change commentaries;
 
-  * print document.
+* print document.
 
 
 The owner password provides access to the document, including password changing and access permission.
