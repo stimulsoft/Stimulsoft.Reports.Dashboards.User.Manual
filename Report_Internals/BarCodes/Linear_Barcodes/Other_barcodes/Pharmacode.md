@@ -3,17 +3,10 @@
 A Pharmacode barcode is used in the pharmaceutical industry as a packing control system. The Pharmacode barcode is most commonly found on the packaging of pharmaceutical products, usually on the hinged lid of the box.
 
 
-Valid symbols:
-
-A whole number from 3 to 131070
-
-Length:
-
-Variable, 1..6 characters of a digit
-
-Check digit:
-
-No
+| Valid symbols: | A whole number from 3 to 131070 |
+| --- | --- |
+| Length: | Variable, 1..6 characters of a digit |
+| Check digit: | No |
 
 A Pharmacode barcode can represent only a single integer from 3 to 131070. All digits in the specified range make correct barcodes, but some of these barcodes can be unreadable because all barcodes are identical. So, the following digits should not be used:
 

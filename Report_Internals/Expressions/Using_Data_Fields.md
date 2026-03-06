@@ -76,10 +76,9 @@ if you enter the following expression:
 then after calculation, the result appearing in the report will still be the name of a category for a product, but the value of the CategoryName field has been obtained using relationships and bypassing the OrderDetails data source to get to the Categories data source. No direct call to the Categories data source has been used
 
 
-**Important**
-
-
-If the report language is **C#**, then names are case sensitive. If the report language is **VB.Net**, then names are not case sensitive.
+| **Important** |
+| --- |
+| If the report language is **C#**, then names are case sensitive. If the report language is **VB.Net**, then names are not case sensitive. |
 
 It should be remembered that all the values in data sources are typed. This means that all data items are dynamically converted to the type that is specified in the options column, which helps to accelerate the development of reports. However, if you need to get data from a column without conversion, you will need to specify the data source directly. For example, in C#:
 

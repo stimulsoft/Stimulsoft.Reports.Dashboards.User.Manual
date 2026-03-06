@@ -192,208 +192,49 @@ If the manual mode is enabled you can:
 
 Depending on the type of values, the list of functions used may vary. The table below contains a complete list of functions that can be applied to data fields.
 
-**Function**
-
-**Description**
-
-
-Functions that are available from the menu of the Expression field
-
-Count()
-
-Calculates the number of values in the current data field.
-
-DistinctCount()
-
-Calculates the number of unique values in the current data field.
-
-First()
-
-Shows the first value of the current data field.
-
-Last()
-
-Shows the last value of the current data field.
-
-Sum()
-
-Shows the result of the sum of values in the current data field.
-
-Avg()
-
-Calculates the arithmetic average for the values of the current data field.
-
-Min()
-
-Shows the minimum value from the current data field.
-
-Max()
-
-Shows the maximum value from the current data field.
-
-Median()
-
-Shows the average (non arithmetic) value from the current data field.
-
-Year()
-
-Shows the year from date encoding.
-
-Quarter()
-
-Shows the quarter from the date encoding.
-
-Month()
-
-Shows the month from date encoding.
-
-Day()
-
-Shows the day from date encoding.
-
-PercentOfGrandTotal()
-
-It shows the specific gravity of a value from the sum of all values of the current data column. If you apply the percent formatting to this data field, percentage of the value of 100 percent will be displayed
-
-
-Functions that can be added from the data dictionary or entered manually
-
-CountIf(,)
-
-It allows you to calculate the number of values in the current data field by a condition. For example, CountIf(DataSource.Column1, DataSource.ColumnID &gt; 5).
-
-SumIf(,)
-
-It shows the result of the sum of values in the current data field by a certain condition. For example, SumIf (DataSource.Column1, DataSource.ColumnID &gt; 5).
-
-Mode()
-
-Shows the most frequently repeating values in the current data field.
-
-List()
-
-Enters a list of values for the current data field of an item.
-
-Array()
-
-Enters an array of values for the current data field of an item.
-
-ToUpperCase()
-
-Converts all data field values to uppercase.
-
-ToLowerCase()
-
-Converts all data field values to lowercase.
-
-ToProperCase()
-
-Sets the first character value to uppercase, and the remaining characters to lowercase.
-
-Insert(,,)
-
-Inserts text into data field values, after a specific character. Three arguments are specified through the "," delimiter:
-![](../images/img_1.png) Data field;
-![](../images/img_2.png) The ordinal number of the character after which another value will be inserted.
-![](../images/img_3.png) The value to be inserted.
-
-Replace(,,)
-
-Replaces certain characters in values. Three arguments are specified through the "," delimiter:
-![](../images/img_1.png) Data field;
-![](../images/img_2.png) A character or combination of characters that needs to be replaced.
-![](../images/img_3.png) The value to be replaced.
-
-Remove(,,)
-
-Removes the specified number of characters in the values. Three arguments are specified through the "," delimiter:
-![](../images/img_1.png) Data field;
-![](../images/img_2.png) The ordinal number of the character from what the removal starts.
-![](../images/img_3.png) Number of characters to remove.
-
-DayOfWeek()
-
-Shows day of week from date encoding.
-
-DayOfWeekIdent()
-
-It shows the days of the week from the date encoding, sorted in the order from Sunday to Saturday. Also, this function is used to sort the days of the week, if data field type is defined as string.
-
-DaysInMonth()
-
-Shows the number of days in a month.
-
-DaysInYear()
-
-Shows the number of days per year.
-
-Month()
-
-Shows the number of the month.
-
-MonthIdent()
-
-It shows the names of months from the date encoding, sorted in the order from January to December. Also, this function is used to sort months, if data field type defined as string.
-
-FiscalMonthIdent(,)
-
-This function allows to sort data by months starting from a different month in a fiscal year. Example of using: FiscalMonthIdent(DataSource.DataColumn, "September") or FiscalMonthIdent(DataSource.DataColumn, 9).
-
-Quarter()
-
-It shows the abbreviated names of the quarters of the year, sorted in the order from the first quarter to the fourth.
-
-ISO2()
-
-Shows the two-letter code of the geographical object.
-
-ISO3()
-
-Shows the three-letter code of the geographical object.
-
-NormalizeName()
-
-Shows the names of the geographical objects by default.
-
-Left(,)
-
-Shows the specified number of characters from the left side of the value. Two arguments are specified through the "," delimiter:
-![](../images/img_1.png) Data field;
-![](../images/img_2.png) The number of characters to show.
-
-Mid(,,)
-
-Shows characters from a value. Three arguments are specified through the "," delimiter:
-
-![](../images/img_1.png) Data field;
-![](../images/img_2.png) The ordinal number of the character with which to start the display.
-![](../images/img_3.png) The number of characters to show.
-
-Right(,)
-
-Shows the specified number of characters from the right side of the value.. Two arguments are specified through the "," delimiter:
-![](../images/img_1.png) Data field;
-![](../images/img_2.png) The number of characters to show.
-
-Substring(,,)
-
-Shows characters from a value. Three arguments are specified through the "," delimiter:
-
-![](../images/img_1.png) Data field;
-![](../images/img_2.png) The ordinal number of the character with which to start the display.
-![](../images/img_3.png) The number of characters to show.
-
-Subtotal(,)
-
-Can take two arguments:
-
-![](../images/img_1.png) Data field whose values are summed.
-
-If only one parameter is specified, it works similarly to the GrandTotal() function;
-![](../images/img_2.png) Data field used to filter the selection of values.
-
-For example, if you specify SubTotal(Products.UnitsInStock, Suppliers.Country), it returns the sum by the Suppliers.Country field.
-
-Image()
-
-It allows you to get images from URL and display them in the ranges of the  Table element. You should also specify height and width in arguments of the function for SVG images. For example, Image(DataSource.DataColumn1, 10, 15), where the DataSource.DataColumn1 contains URL for SVG images.
+| **Function** | **Description** |
+| --- | --- |
+| Functions that are available from the menu of the Expression field |  |
+| Count() | Calculates the number of values in the current data field. |
+| DistinctCount() | Calculates the number of unique values in the current data field. |
+| First() | Shows the first value of the current data field. |
+| Last() | Shows the last value of the current data field. |
+| Sum() | Shows the result of the sum of values in the current data field. |
+| Avg() | Calculates the arithmetic average for the values of the current data field. |
+| Min() | Shows the minimum value from the current data field. |
+| Max() | Shows the maximum value from the current data field. |
+| Median() | Shows the average (non arithmetic) value from the current data field. |
+| Year() | Shows the year from date encoding. |
+| Quarter() | Shows the quarter from the date encoding. |
+| Month() | Shows the month from date encoding. |
+| Day() | Shows the day from date encoding. |
+| PercentOfGrandTotal() | It shows the specific gravity of a value from the sum of all values of the current data column. If you apply the percent formatting to this data field, percentage of the value of 100 percent will be displayed |
+| Functions that can be added from the data dictionary or entered manually |  |
+| CountIf(,) | It allows you to calculate the number of values in the current data field by a condition. For example, CountIf(DataSource.Column1, DataSource.ColumnID &gt; 5). |
+| SumIf(,) | It shows the result of the sum of values in the current data field by a certain condition. For example, SumIf (DataSource.Column1, DataSource.ColumnID &gt; 5). |
+| Mode() | Shows the most frequently repeating values in the current data field. |
+| List() | Enters a list of values for the current data field of an item. |
+| Array() | Enters an array of values for the current data field of an item. |
+| ToUpperCase() | Converts all data field values to uppercase. |
+| ToLowerCase() | Converts all data field values to lowercase. |
+| ToProperCase() | Sets the first character value to uppercase, and the remaining characters to lowercase. |
+| Insert(,,) | Inserts text into data field values, after a specific character. Three arguments are specified through the "," delimiter: ![](../images/img_1.png) Data field; ![](../images/img_2.png) The ordinal number of the character after which another value will be inserted. ![](../images/img_3.png) The value to be inserted. |
+| Replace(,,) | Replaces certain characters in values. Three arguments are specified through the "," delimiter: ![](../images/img_1.png) Data field; ![](../images/img_2.png) A character or combination of characters that needs to be replaced. ![](../images/img_3.png) The value to be replaced. |
+| Remove(,,) | Removes the specified number of characters in the values. Three arguments are specified through the "," delimiter: ![](../images/img_1.png) Data field; ![](../images/img_2.png) The ordinal number of the character from what the removal starts. ![](../images/img_3.png) Number of characters to remove. |
+| DayOfWeek() | Shows day of week from date encoding. |
+| DayOfWeekIdent() | It shows the days of the week from the date encoding, sorted in the order from Sunday to Saturday. Also, this function is used to sort the days of the week, if data field type is defined as string. |
+| DaysInMonth() | Shows the number of days in a month. |
+| DaysInYear() | Shows the number of days per year. |
+| Month() | Shows the number of the month. |
+| MonthIdent() | It shows the names of months from the date encoding, sorted in the order from January to December. Also, this function is used to sort months, if data field type defined as string. |
+| FiscalMonthIdent(,) | This function allows to sort data by months starting from a different month in a fiscal year. Example of using: FiscalMonthIdent(DataSource.DataColumn, "September") or FiscalMonthIdent(DataSource.DataColumn, 9). |
+| Quarter() | It shows the abbreviated names of the quarters of the year, sorted in the order from the first quarter to the fourth. |
+| ISO2() | Shows the two-letter code of the geographical object. |
+| ISO3() | Shows the three-letter code of the geographical object. |
+| NormalizeName() | Shows the names of the geographical objects by default. |
+| Left(,) | Shows the specified number of characters from the left side of the value. Two arguments are specified through the "," delimiter: ![](../images/img_1.png) Data field; ![](../images/img_2.png) The number of characters to show. |
+| Mid(,,) | Shows characters from a value. Three arguments are specified through the "," delimiter: ![](../images/img_1.png) Data field; ![](../images/img_2.png) The ordinal number of the character with which to start the display. ![](../images/img_3.png) The number of characters to show. |
+| Right(,) | Shows the specified number of characters from the right side of the value.. Two arguments are specified through the "," delimiter: ![](../images/img_1.png) Data field; ![](../images/img_2.png) The number of characters to show. |
+| Substring(,,) | Shows characters from a value. Three arguments are specified through the "," delimiter: ![](../images/img_1.png) Data field; ![](../images/img_2.png) The ordinal number of the character with which to start the display. ![](../images/img_3.png) The number of characters to show. |
+| Subtotal(,) | Can take two arguments: ![](../images/img_1.png) Data field whose values are summed. If only one parameter is specified, it works similarly to the GrandTotal() function; ![](../images/img_2.png) Data field used to filter the selection of values. For example, if you specify SubTotal(Products.UnitsInStock, Suppliers.Country), it returns the sum by the Suppliers.Country field. |
+| Image() | It allows you to get images from URL and display them in the ranges of the  Table element. You should also specify height and width in arguments of the function for SVG images. For example, Image(DataSource.DataColumn1, 10, 15), where the DataSource.DataColumn1 contains URL for SVG images. |

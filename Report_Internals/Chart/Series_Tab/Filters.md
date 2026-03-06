@@ -36,118 +36,17 @@ The filter editor defines the selection criteria for series values.
 The list of available operations depends on the data type. Each operation defines a logical condition between the source value and the filtering value.
 
 
-String
-
-Numeric
-
-Date
-
-Boolean
-
-equal to
-
-+
-
-+
-
-+
-
-+
-
-The condition is true if the source value equals the filtering value.
-
-not equal to
-
-+
-
-+
-
-+
-
-+
-
-The condition is true if the source value does not equal the filtering value.
-
-between
-
-
-+
-
-+
-
-
-The condition is true if the source value is within the specified range.
-
-not between
-
-
-+
-
-+
-
-
-The condition is true if the source value is outside the specified range.
-
-greater than
-
-
-+
-
-+
-
-
-The condition is true if the source value is greater than the filtering value.
-
-greater than or equal to
-
-
-+
-
-+
-
-
-The condition is true if the source value is greater than or equal to the filtering value.
-
-less than
-
-
-+
-
-+
-
-
-The condition is true if the source value is less than the filtering value.
-
-less then or equal to
-
-
-+
-
-+
-
-
-The condition is true if the source value is less than or equal to the filtering value.
-
-containing
-
-+
-
-The condition is true if the source value contains the filtering value. This operation applies only to strings.
-
-not containing
-
-+
-
-The condition is true if the source value does not contain the filtering value. This operation applies only to strings.
-
-beginning with
-
-+
-
-The condition is true if the source value starts with the filtering value. This operation applies only to strings.
-
-ending with
-
-+
-
-The condition is true if the source value ends with the filtering value. This operation applies only to strings.
+| String | Numeric | Date | Boolean |
+| --- | --- | --- | --- |
+| equal to | + | + | + |
+| not equal to | + | + | + |
+| between |  | + | + |
+| not between |  | + | + |
+| greater than |  | + | + |
+| greater than or equal to |  | + | + |
+| less than |  | + | + |
+| less then or equal to |  | + | + |
+| containing | + |  |  |
+| not containing | + |  |  |
+| beginning with | + |  |  |
+| ending with | + |  |  |

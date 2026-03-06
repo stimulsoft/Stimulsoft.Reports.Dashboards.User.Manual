@@ -1,9 +1,8 @@
 ## Wizard Master-Detail Report
 
-Important
-
-
-Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Reports_Designer/Template/Calculation_Mode.md).
+| Important |
+| --- |
+| Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Reports_Designer/Template/Calculation_Mode.md). |
 
 The **Master-Detail** report can be created using the **Master-Detail Report** report wizard. The picture below shows a window of the **Master-Detail Report** wizard:
 

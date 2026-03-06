@@ -15,81 +15,19 @@ In this article, let's review the process of rendering report bands and define t
 All bands are displayed in the strict order. This is due to the fact that each band has a specific function in the report. And it is very important in which order bands are printed.
 
 
-Order
-
-Band name
-
-Description
-
-1
-
-Page Header
-
-On each page. Output on the first page is optional.
-
-2
-
-Report Title
-
-Once at the beginning of a report. The Report Title band can be output before the Page Header band if the Title Before Header property of the page on which both bands are placed is set to true.
-
-3
-
-Header,
-
-Column Header
-
-Once before data output (for the Column Header - once for every column. Output on each new page is optional.
-
-4
-
-Group Header
-
-At the beginning of each group. Output on each new page is optional.
-
-5
-
-Data
-
-Once for every row of data.
-
-6
-
-Empty Band
-
-For each empty row on every page of the report.
-
-7
-
-Group Footer
-
-At the end of each group.
-
-8
-
-Footer,
-
-Column Footer
-
-After all data has been output (for the Column Footer - once for every column). Output on each new page is optional.
-
-9
-
-Report Summary
-
-Once at the end of a report.
-
-10
-
-Overlay
-
-Once on every page of the report.
-
-11
-
-Page Footer
-
-On every page. Output on the first page is optional.
+| Order | Band name | Description |
+| --- | --- | --- |
+| 1 | Page Header | On each page. Output on the first page is optional. |
+| 2 | Report Title | Once at the beginning of a report. The Report Title band can be output before the Page Header band if the Title Before Header property of the page on which both bands are placed is set to true. |
+| 3 | Header, Column Header | Once before data output (for the Column Header - once for every column. Output on each new page is optional. |
+| 4 | Group Header | At the beginning of each group. Output on each new page is optional. |
+| 5 | Data | Once for every row of data. |
+| 6 | Empty Band | For each empty row on every page of the report. |
+| 7 | Group Footer | At the end of each group. |
+| 8 | Footer, Column Footer | After all data has been output (for the Column Footer - once for every column). Output on each new page is optional. |
+| 9 | Report Summary | Once at the end of a report. |
+| 10 | Overlay | Once on every page of the report. |
+| 11 | Page Footer | On every page. Output on the first page is optional. |
 
 
 > **Information**
@@ -160,29 +98,13 @@ Almost all of the bands can be divided into two categories: **Headers** and **Fo
 
 The order of the bands on the page from top to bottom.
 
-Order
-
-Band name
-
-1
-
-HeaderBand3
-
-2
-
-HeaderBand2
-
-3
-
-DataBand2
-
-4
-
-FooterBand3
-
-5
-
-FooterBand2
+| Order | Band name |
+| --- | --- |
+| 1 | HeaderBand3 |
+| 2 | HeaderBand2 |
+| 3 | DataBand2 |
+| 4 | FooterBand3 |
+| 5 | FooterBand2 |
 
 
 In this case, the **HeaderBand3** corresponds to **FooterBand2**, and **HeaderBand2** corresponds to **FooterBand3**. In other words, the first header of the data band corresponds to the footer of the first data band. Here is an example of a rendered report.

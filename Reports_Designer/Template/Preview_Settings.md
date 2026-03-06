@@ -24,125 +24,37 @@ In the preview editor, on the Report tab, you can find a panel with a preview an
 Below is a table of parameters for customizing the report viewer toolbar.
 
 
-Parameter
-
-Description
-
-Print
-
-This parameter is used to enable/disable the display of the Print button on the toolbar.
-
-Open
-
-This parameter is used to enable/disable the display of the Open button on the toolbar.
-
-Save
-
-This parameter is used to enable/disable the display of the Save button on the toolbar.
-
-Send Email
-
-This parameter is used to enable/disable the display of the Send Email button on the toolbar.
-
-Page Control
-
-This parameter is used to enable/disable the display of the page navigation control in the status bar.
-
-Find
-
-This parameter is used to enable/disable the display of the Find button on the toolbar.
-
-Editor
-
-This parameter is used to enable/disable the display of the Editor button on the toolbar.
-
-New Page
-
-This parameter is used to enable/disable the display of the New Page button on the toolbar.
-
-Delete Page
-
-This parameter is used to enable/disable the display of the Delete Page button on the toolbar.
-
-Edit Page
-
-This parameter is used to enable/disable the display of the Edit Page button on the toolbar.
-
-Page Size
-
-This parameter is used to enable/disable the display of the Page Size button on the toolbar.
-
-View Mode
-
-This parameter is used to enable/disable the display of the View Mode buttons on the toolbar.
-
-Status bar
-
-This parameter is used to enable/disable the display of the status bar in the viewer.
-
-Bookmarks
-
-This parameter is used to enable/disable the display of the Bookmarks button on the toolbar.
-
-Parameters
-
-This parameter is used to enable/disable the display of the Parameters button on the toolbar.
-
-Resources
-
-This parameter is used to enable/disable the display of the Resources button on the toolbar.
-
-Thumbnails
-
-This parameter is used to enable/disable the display of the Thumbnails button on the toolbar.
-
-Zoom
-
-This parameter is used to enable/disable the display of the zoom control in the status bar.
-
-Toolbar
-
-This parameter is used to enable/disable the display of the toolbar in the viewer.
-
-Signature
-
-This parameter is used to enable/disable the display of the Sign button on the toolbar.
-
-Horizontal Scroll bar
-
-This parameter is used to enable/disable of the horizontal scroll control in the viewer.
-
-Vertical Scroll bar
-
-This parameter is used to enable/disable of the vertical scroll control in the viewer.
-
-Context Menu
-
-This parameter is used to enable/disable the display of the context menu in the viewer.
-
-Close
-
-This parameter is used to enable/disable the display of the Close button on the toolbar.
-
-Help
-
-This parameter is used to enable/disable the display of the Help button on the toolbar.
-
-Preview Mode
-
-This parameter is used to define mode of the report view in the viewer Standard, Dot-matrix or Standard and Dot-matrix.
-
-HTML Preview Mode
-
-This parameter is used to define mode of the report layout for viewing in the Web viewer: DIV or Table.
-
-Toolbar Alignment
-
-This parameter is used to define mode of the viewer toolbar alignment: Left, Center, Right.
-
-Reverse
-
-This parameter is used to define order of the the viewer controls in direct order, i.e. from left to right or reverse order, i.e. from right to left.
+| Parameter | Description |
+| --- | --- |
+| Print | This parameter is used to enable/disable the display of the Print button on the toolbar. |
+| Open | This parameter is used to enable/disable the display of the Open button on the toolbar. |
+| Save | This parameter is used to enable/disable the display of the Save button on the toolbar. |
+| Send Email | This parameter is used to enable/disable the display of the Send Email button on the toolbar. |
+| Page Control | This parameter is used to enable/disable the display of the page navigation control in the status bar. |
+| Find | This parameter is used to enable/disable the display of the Find button on the toolbar. |
+| Editor | This parameter is used to enable/disable the display of the Editor button on the toolbar. |
+| New Page | This parameter is used to enable/disable the display of the New Page button on the toolbar. |
+| Delete Page | This parameter is used to enable/disable the display of the Delete Page button on the toolbar. |
+| Edit Page | This parameter is used to enable/disable the display of the Edit Page button on the toolbar. |
+| Page Size | This parameter is used to enable/disable the display of the Page Size button on the toolbar. |
+| View Mode | This parameter is used to enable/disable the display of the View Mode buttons on the toolbar. |
+| Status bar | This parameter is used to enable/disable the display of the status bar in the viewer. |
+| Bookmarks | This parameter is used to enable/disable the display of the Bookmarks button on the toolbar. |
+| Parameters | This parameter is used to enable/disable the display of the Parameters button on the toolbar. |
+| Resources | This parameter is used to enable/disable the display of the Resources button on the toolbar. |
+| Thumbnails | This parameter is used to enable/disable the display of the Thumbnails button on the toolbar. |
+| Zoom | This parameter is used to enable/disable the display of the zoom control in the status bar. |
+| Toolbar | This parameter is used to enable/disable the display of the toolbar in the viewer. |
+| Signature | This parameter is used to enable/disable the display of the Sign button on the toolbar. |
+| Horizontal Scroll bar | This parameter is used to enable/disable of the horizontal scroll control in the viewer. |
+| Vertical Scroll bar | This parameter is used to enable/disable of the vertical scroll control in the viewer. |
+| Context Menu | This parameter is used to enable/disable the display of the context menu in the viewer. |
+| Close | This parameter is used to enable/disable the display of the Close button on the toolbar. |
+| Help | This parameter is used to enable/disable the display of the Help button on the toolbar. |
+| Preview Mode | This parameter is used to define mode of the report view in the viewer Standard, Dot-matrix or Standard and Dot-matrix. |
+| HTML Preview Mode | This parameter is used to define mode of the report layout for viewing in the Web viewer: DIV or Table. |
+| Toolbar Alignment | This parameter is used to define mode of the viewer toolbar alignment: Left, Center, Right. |
+| Reverse | This parameter is used to define order of the the viewer controls in direct order, i.e. from left to right or reverse order, i.e. from right to left. |
 
 
 Setting the dashboard preview
@@ -154,57 +66,20 @@ In the preview editor, on the Dashboard tab, a toolbar and a parameter panel are
 Below is a table of parameters for customizing the dashboard viewer toolbar.
 
 
-Parameter
-
-Description
-
-Show 'Too bar'
-
-This parameter is used to enable/disable the display of the toolbar in the viewer.
-
-Show 'Refresh'
-
-This parameter is used to enable/disable the display of the Refresh button on the toolbar.
-
-Show 'Open'
-
-This parameter is used to enable/disable the display of the Open button on the toolbar.
-
-Show 'Edit'
-
-This parameter is used to enable/disable the display of the Edit button on the toolbar.
-
-Show 'Reset All Filters'
-
-This parameter is used to enable/disable the display of the Reset All Filters button on the toolbar.
-
-Show 'Parameters'
-
-This parameter is used to enable/disable the display of the Parameters button on the toolbar.
-
-Show 'Full Screen'
-
-This parameter is used to enable/disable the display of the Full Screen button on the toolbar.
-
-Show 'Save'
-
-This parameter is used to enable/disable the display of the Save button on the toolbar.
-
-Show 'Report Snapshot'
-
-This parameter is used to enable/disable the display of the Report Snapshot command on the Save menu.  This command is only available if the calculation mode property sets as Interpretation.
-
-Show 'Exports'
-
-This parameter is used to enable/disable the display of the export commands on the Save menu
-
-Toolbar Alignment
-
-This parameter is used to define mode of the viewer toolbar alignment: Left, Center, Right.
-
-Reverse
-
-This parameter is used to define order of the the viewer controls in direct order, i.e. from left to right or reverse order, i.e. from right to left.
+| Parameter | Description |
+| --- | --- |
+| Show 'Too bar' | This parameter is used to enable/disable the display of the toolbar in the viewer. |
+| Show 'Refresh' | This parameter is used to enable/disable the display of the Refresh button on the toolbar. |
+| Show 'Open' | This parameter is used to enable/disable the display of the Open button on the toolbar. |
+| Show 'Edit' | This parameter is used to enable/disable the display of the Edit button on the toolbar. |
+| Show 'Reset All Filters' | This parameter is used to enable/disable the display of the Reset All Filters button on the toolbar. |
+| Show 'Parameters' | This parameter is used to enable/disable the display of the Parameters button on the toolbar. |
+| Show 'Full Screen' | This parameter is used to enable/disable the display of the Full Screen button on the toolbar. |
+| Show 'Save' | This parameter is used to enable/disable the display of the Save button on the toolbar. |
+| Show 'Report Snapshot' | This parameter is used to enable/disable the display of the Report Snapshot command on the Save menu.  This command is only available if the calculation mode property sets as Interpretation. |
+| Show 'Exports' | This parameter is used to enable/disable the display of the export commands on the Save menu |
+| Toolbar Alignment | This parameter is used to define mode of the viewer toolbar alignment: Left, Center, Right. |
+| Reverse | This parameter is used to define order of the the viewer controls in direct order, i.e. from left to right or reverse order, i.e. from right to left. |
 
 ![](../../images/img_1.png) This option is used to enable/disable the display of the toolbar in the preview tab.
 

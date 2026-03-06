@@ -3,21 +3,10 @@
 The Australia Post 4-Stage barcode is used in Australia for the purposes of sorting and directing letters.
 
 
-Valid symbols:
-
-0123456789
-
-Length:
-
-FCC - fixed, 2 characters,
-
-DPID - fixed, 8 characters,
-
-CustomerInfo variable
-
-Check digit:
-
-Four, ReedSolomon algorithm
+| Valid symbols: | 0123456789 |
+| --- | --- |
+| Length: | FCC - fixed, 2 characters, DPID - fixed, 8 characters, CustomerInfo variable |
+| Check digit: | Four, ReedSolomon algorithm |
 
 The barcode consists of 4 elements (4 conditions), each has its own name, value and display. Each element consists of two bars and two spaces. Each barcode contains 4 check symbols, calculated by the ReedSolomon algorithm. The value of these symbols are usually printed after the text of the barcode.
 

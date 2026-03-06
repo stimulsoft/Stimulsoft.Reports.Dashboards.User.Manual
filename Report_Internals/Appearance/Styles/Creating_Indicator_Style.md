@@ -25,46 +25,15 @@ The Indicator style is applied to the [Indicator](../../../Dashboards/Indicator.
 Below is a list of properties that are used to set the indicator style.
 
 
-Name
-
-Description
-
-Name
-
-Sets the name of the current style.
-
-Description
-
-Specifies a description for the current style.
-
-Collection Name
-
-Adds an existing style to the [style collection](Style_Collections.md) or create a new style collection.
-
-Conditions
-
-Sets the conditions for [conditions for applying the current style](Style_Conditions.md) if it is included in the styles collection.
-
-Back Color
-
-Changes the background color of an element.
-
-Fore Color
-
-Changes the text color of an element.
-
-Glyph Color
-
-Changes the background color of a glyph of the element.
-
-Hot Back Color
-
-Changes the background color of an element when hovering over the element in the viewer.
-
-Negative Color
-
-Changes the text color for a negative deviation value in the current element.
-
-Positive Color
-
-Changes the text color for a positive deviation value in the current element.
+| Name | Description |
+| --- | --- |
+| Name | Sets the name of the current style. |
+| Description | Specifies a description for the current style. |
+| Collection Name | Adds an existing style to the [style collection](Style_Collections.md) or create a new style collection. |
+| Conditions | Sets the conditions for [conditions for applying the current style](Style_Conditions.md) if it is included in the styles collection. |
+| Back Color | Changes the background color of an element. |
+| Fore Color | Changes the text color of an element. |
+| Glyph Color | Changes the background color of a glyph of the element. |
+| Hot Back Color | Changes the background color of an element when hovering over the element in the viewer. |
+| Negative Color | Changes the text color for a negative deviation value in the current element. |
+| Positive Color | Changes the text color for a positive deviation value in the current element. |

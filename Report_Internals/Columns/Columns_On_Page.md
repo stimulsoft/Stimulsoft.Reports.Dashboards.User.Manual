@@ -15,17 +15,10 @@ The **ColumnWidth** property is used to set the column width and is applied to a
 ![](../../images/img_Columns_On_Page1.png)
 
 
-![](../../images/img_1.png)
-
-The first column width
-
-![](../../images/img_2.png)
-
-The second column width
-
-![](../../images/img_3.png)
-
-The space between columns
+| ![](../../images/img_1.png) | The first column width |
+| --- | --- |
+| ![](../../images/img_2.png) | The second column width |
+| ![](../../images/img_3.png) | The space between columns |
 
 
 In columnar output mode the page is separated vertically and the report is logically output in the first column, then in the second etc.

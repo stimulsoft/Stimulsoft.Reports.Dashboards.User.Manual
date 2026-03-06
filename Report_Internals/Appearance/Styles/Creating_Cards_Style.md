@@ -25,38 +25,13 @@ The Cards style is applied to the [Cards](../../../Dashboards/Cards.md) element.
 Below is a list of properties that are used to customize the style of cards.
 
 
-Name
-
-Description
-
-Name
-
-Sets the name of the current style.
-
-Description
-
-Specifies a description for the current style.
-
-Collection Name
-
-Adds an existing style to the [style collection](Style_Collections.md) or create a new style collection.
-
-Conditions
-
-Sets the conditions for [conditions for applying the current style](Style_Conditions.md) if it is included in the styles collection.
-
-Back Color
-
-changes the background color of an element and the background color of cards.
-
-Fore Color
-
-Changes the text color of values in cards.
-
-Line Color
-
-Changes the border color of cards in an element.
-
-Series Colors
-
-Creates a collection of colors that will be used as the background of cards when the Color Each mode is enabled.
+| Name | Description |
+| --- | --- |
+| Name | Sets the name of the current style. |
+| Description | Specifies a description for the current style. |
+| Collection Name | Adds an existing style to the [style collection](Style_Collections.md) or create a new style collection. |
+| Conditions | Sets the conditions for [conditions for applying the current style](Style_Conditions.md) if it is included in the styles collection. |
+| Back Color | changes the background color of an element and the background color of cards. |
+| Fore Color | Changes the text color of values in cards. |
+| Line Color | Changes the border color of cards in an element. |
+| Series Colors | Creates a collection of colors that will be used as the background of cards when the Color Each mode is enabled. |

@@ -3,17 +3,10 @@
 The EAN-8 barcode was developed to use on small packages. It is used in the place of the EAN-13 barcode if the nominal size EAN-13 barcode covers more than 25% of the printed surface of the package, for example on the packets of gum.
 
 
-Valid symbols:
-
-0123456789
-
-Length:
-
-fixed, 8 characters
-
-Check digit:
-
-one, modulo-10 algorithm
+| Valid symbols: | 0123456789 |
+| --- | --- |
+| Length: | fixed, 8 characters |
+| Check digit: | one, modulo-10 algorithm |
 
 The structure of the EAN-8 barcode is in the same as the structure of the EAN-13 barcode. The check digit is calculated automatically irrespective of input data.
 

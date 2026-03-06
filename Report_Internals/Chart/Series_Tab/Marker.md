@@ -18,30 +18,11 @@ To apply a marker to a chart series, follow these steps:
 Below is a table of properties that are used to configure the marker.
 
 
-Name
-
-Description
-
-Border Color
-
-Allows you to change the marker’s border color.
-
-Brush
-
-Allows you to change the brush type and the fill color of the marker.
-
-Angle
-
-Allows you to rotate the marker by a specific angle. The value can be positive or negative, representing the rotation angle in degrees. A positive value rotates the marker to the right, while a negative value rotates it to the left.
-
-Size
-
-Defines the marker’s size in pixels.
-
-Type
-
-Allows you to select the marker's geometric shape: rectangle, triangle, circle, star, hexagon.
-
-Visible
-
-Enables or disables the display of the marker on the chart. If set to True, the marker will be visible. If set to False, the marker will not be displayed.
+| Name | Description |
+| --- | --- |
+| Border Color | Allows you to change the marker’s border color. |
+| Brush | Allows you to change the brush type and the fill color of the marker. |
+| Angle | Allows you to rotate the marker by a specific angle. The value can be positive or negative, representing the rotation angle in degrees. A positive value rotates the marker to the right, while a negative value rotates it to the left. |
+| Size | Defines the marker’s size in pixels. |
+| Type | Allows you to select the marker's geometric shape: rectangle, triangle, circle, star, hexagon. |
+| Visible | Enables or disables the display of the marker on the chart. If set to True, the marker will be visible. If set to False, the marker will not be displayed. |

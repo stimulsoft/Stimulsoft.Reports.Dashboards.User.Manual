@@ -47,7 +47,6 @@ Value = {1 + 2 + {2 + 3}}
 ```
 
 
-**Important**
-
-
-Code nesting is not allowed when making calculations in expressions.
+| **Important** |
+| --- |
+| Code nesting is not allowed when making calculations in expressions. |

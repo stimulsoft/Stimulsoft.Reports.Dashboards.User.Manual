@@ -28,29 +28,13 @@ Graphics Density
 The graphics density of the barcode is connected with the barcode size. For example, for linear barcodes, the thinner the stroke, the higher the density (and therefore the less space the barcode takes). The classification of graphic linear barcodes is shown in the table below:
 
 
-Graphics density
-
-Printing resolution
-
-Very high density
-
-&lt; 4 mils
-
-High density
-
-4 mils .. 6 mils
-
-Medium density
-
-7 mils .. 13 mils
-
-Low density
-
-14 mils .. 20 mils
-
-Very low density
-
-&gt; 20 mils
+| Graphics density | Printing resolution |
+| --- | --- |
+| Very high density | &lt; 4 mils |
+| High density | 4 mils .. 6 mils |
+| Medium density | 7 mils .. 13 mils |
+| Low density | 14 mils .. 20 mils |
+| Very low density | &gt; 20 mils |
 
 The above classification is approximate and depends on the type of barcode. For example, a PDF417 10 mils barcode may be considered a high-density barcode; however, a 10 mils line code can be recognized as a medium density barcode.
 

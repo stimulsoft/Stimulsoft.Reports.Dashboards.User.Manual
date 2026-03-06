@@ -1,9 +1,8 @@
 ## Calculation mode
 
-Important
-
-
-Scripts can be a security risk, so they are disabled in the [Interpretation mode](). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode]().
+| Important |
+| --- |
+| Scripts can be a security risk, so they are disabled in the [Interpretation mode](). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](). |
 
 When you design reports and dashboards, expressions can be processed in the Interpretation or Compilation mode.
 

@@ -13,10 +13,9 @@ The syntax is the same whether the report language is C# or VB.NET. You enter th
 ```
 
 
-**Important**
-
-
-If the report language is **C#**, then names are case sensitive. If the report language is **VB.NET**, then names are not case sensitive.
+| **Important** |
+| --- |
+| If the report language is **C#**, then names are case sensitive. If the report language is **VB.NET**, then names are not case sensitive. |
 
 **For example**, to display the name of a component called **MyComponent**, you would enter the expression:
 

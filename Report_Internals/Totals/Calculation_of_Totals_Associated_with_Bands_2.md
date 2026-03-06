@@ -1,9 +1,8 @@
 ## Totals Associated with Bands
 
-Important
-
-
-Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Reports_Designer/Template/Calculation_Mode.md).
+| Important |
+| --- |
+| Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Reports_Designer/Template/Calculation_Mode.md). |
 
 To calculate and display the total, you should place a text component in the report, call the editor and go to the Summary tab.
 ![](../../images/img1.png) The **Expression** field. This field specifies an expression of calculating totals. The expression can be specified manually, or it will be generated automatically, depending on the type of other parameters.
@@ -35,21 +34,11 @@ The type of the total function result
 By default, the function for calculating totals returns the Decimal type (except for the functions - Count and CountDistinct). However, you can also make calculations using two other data types - Double, and Int64. For the function returns the result of the calculation using the Double data type, add the Latin letter D in the upper register to the name of the function. For calculations using the Int64 type, you should add the Latin letter I in the upper register. This separation will allow avoiding losses in the calculation of totals.
 
 
-Function
-
-Type of returned value
-
-Sum()
-
-Decimal
-
-SumD()
-
-Double
-
-SumI()
-
-Int64
+| Function | Type of returned value |
+| --- | --- |
+| Sum() | Decimal |
+| SumD() | Double |
+| SumI() | Int64 |
 
 
 > **Video**

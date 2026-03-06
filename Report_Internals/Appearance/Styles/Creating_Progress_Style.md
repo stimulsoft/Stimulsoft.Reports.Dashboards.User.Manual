@@ -25,42 +25,14 @@ The Progress style is applied to the [Progress](../../../Dashboards/Progress.md)
 Below is a list of properties that are used to set the progress style.
 
 
-Name
-
-Description
-
-Name
-
-Sets the name of the current style.
-
-Description
-
-Specifies a description for the current style.
-
-Collection Name
-
-Adds an existing style to the [style collection](Style_Collections.md) or create a new style collection.
-
-Conditions
-
-Sets the conditions for [conditions for applying the current style](Style_Conditions.md) if it is included in the styles collection.
-
-Back Color
-
-Changes the background color of an element.
-
-Band Color
-
-Changes the background color of the filled area of a graphical object of an element.
-
-Fore Color
-
-Changes the text color of an element.
-
-Series Color
-
-Creates a collection of colors that will be used as the background of cards when the Color Each mode is enabled.
-
-Track Color
-
-Changes the background color of an empty area of a widget of the element.
+| Name | Description |
+| --- | --- |
+| Name | Sets the name of the current style. |
+| Description | Specifies a description for the current style. |
+| Collection Name | Adds an existing style to the [style collection](Style_Collections.md) or create a new style collection. |
+| Conditions | Sets the conditions for [conditions for applying the current style](Style_Conditions.md) if it is included in the styles collection. |
+| Back Color | Changes the background color of an element. |
+| Band Color | Changes the background color of the filled area of a graphical object of an element. |
+| Fore Color | Changes the text color of an element. |
+| Series Color | Creates a collection of colors that will be used as the background of cards when the Color Each mode is enabled. |
+| Track Color | Changes the background color of an empty area of a widget of the element. |

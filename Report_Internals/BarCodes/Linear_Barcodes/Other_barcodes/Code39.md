@@ -3,23 +3,10 @@
 Code 39 is a variable length symbology that can encode 44 characters. Code 39 is the most popular symbology in the non-retail world and is used extensively in manufacturing, military, and medicine applications. In addition, this code is used by most car manufacturers as a code to mark a car model and its parts.
 
 
-Valid symbols:
-
-0123456789
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
--.$/+% space
-
-Length:
-
-Variable
-
-Check digit:
-
-No, according to the specification;
-
-In practice - one, modulo-43 algorithm
+| Valid symbols: | 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ -.$/+% space |
+| --- | --- |
+| Length: | Variable |
+| Check digit: | No, according to the specification; In practice - one, modulo-43 algorithm |
 
 The Code 39 barcode can encode capital letters (A to Z), numbers (0 to 9) and a group of special characters. Each Code 39 bar code has a start/stop character represented by an asterisk (*). The barcode code does not contain the check character but can be added programmatically. Each character starts and stops with a 'dark bar' that consists of 5 dark and 4 bright bars. The ratio between narrow and wide bars may range from 2.2:1 to 3:1.
 

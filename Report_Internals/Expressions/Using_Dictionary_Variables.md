@@ -34,7 +34,6 @@ Value = 25
 ```
 
 
-**Important**
-
-
-If the report language is **C#**, then variable names are case sensitive. If the report language is **VB.Net**, then variable names are not case sensitive.
+| **Important** |
+| --- |
+| If the report language is **C#**, then variable names are case sensitive. If the report language is **VB.Net**, then variable names are not case sensitive. |

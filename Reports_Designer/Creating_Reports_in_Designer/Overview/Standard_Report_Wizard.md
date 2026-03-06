@@ -1,9 +1,8 @@
 ## Wizard Standard Report
 
-Important
-
-
-Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Template/Calculation_Mode.md).
+| Important |
+| --- |
+| Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Template/Calculation_Mode.md). |
 
 When creating a report using the Standard Report wizard, this report will contain one DataBand or one data Table (depends on what is selected). The picture below shows a window of the Standard Report wizard:
 

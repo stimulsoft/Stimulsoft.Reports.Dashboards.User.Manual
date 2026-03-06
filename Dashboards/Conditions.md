@@ -257,171 +257,21 @@ Therefore, when using conditions in the elements of the dashboard, it is importa
 The list of available operations depends on the data type. Below is a list of operations for each data type and their description. The operation is performed on the value from the data field and the condition value (the value that is specified in the condition).
 
 
-**Name**
-
-**Data Type is**
-**String**
-
-**Data Type is**
-
-**Number**
-
-**Data Type is**
-
-**Data**
-
-**Data Type is**
-
-**Boolean**
-
-**Description**
-
-equal to
-
-+
-
-+
-
-+
-
-+
-
-If the data field value is equal to the condition value, then the condition is true.
-
-not equal to
-
-+
-
-+
-
-+
-
-+
-
-If the data field value is not equal to the condition value, then the condition is true.
-
-
-between
-
-+
-
-+
-
-+
-
-
-If the data field value is in the specific range of condition values, then the condition is true.
-
-
-not between
-
-+
-
-+
-
-+
-
-
-If the data field value is not in the specific range of condition values, then the condition is true.
-
-greater than
-
-+
-
-+
-
-+
-
-
-If the data field value is greater then the condition value, then the condition is true.
-
-greater than or equal to
-
-+
-
-+
-
-+
-
-
-If the data field value is greater then the condition value of equal to the filter value, then the condition is true.
-
-less than
-
-+
-
-+
-
-+
-
-
-If the data field value is less then the condition value, then the condition is true.
-
-less then or equal to
-
-+
-
-+
-
-+
-
-
-If the data field value is less then the condition value of equal to the filter value, then the condition is true.
-
-containing
-
-+
-
-If the data field value contains the condition value, then the condition is true.
-
-not containing
-
-+
-
-If the data field value does not contain the condition value, then the condition is true.
-
-beginning with
-
-+
-
-If the data field value starts with the condition value, then the condition is true.
-
-ending with
-
-+
-
-If the data field value ends with the condition value, then the condition is true.
-
-is blank
-
-+
-
-If the data field value is blank, then the condition is true.
-
-is not blank
-
-+
-
-If the data field value is not blank, then the condition is true.
-
-is null
-
-+
-
-+
-
-+
-
-
-If the data field value is null, then the condition is true.
-
-in not null
-
-+
-
-+
-
-+
-
-
-If the data field value is not null, then the condition is true.
+| **Name** | **Data Type is** **String** | **Data Type is** **Number** | **Data Type is** **Data** | **Data Type is** **Boolean** | **Description** |
+| --- | --- | --- | --- | --- | --- |
+| equal to | + | + | + | + | If the data field value is equal to the condition value, then the condition is true. |
+| not equal to | + | + | + | + | If the data field value is not equal to the condition value, then the condition is true. |
+| between | + | + | + |  | If the data field value is in the specific range of condition values, then the condition is true. |
+| not between | + | + | + |  | If the data field value is not in the specific range of condition values, then the condition is true. |
+| greater than | + | + | + |  | If the data field value is greater then the condition value, then the condition is true. |
+| greater than or equal to | + | + | + |  | If the data field value is greater then the condition value of equal to the filter value, then the condition is true. |
+| less than | + | + | + |  | If the data field value is less then the condition value, then the condition is true. |
+| less then or equal to | + | + | + |  | If the data field value is less then the condition value of equal to the filter value, then the condition is true. |
+| containing | + |  |  |  | If the data field value contains the condition value, then the condition is true. |
+| not containing | + |  |  |  | If the data field value does not contain the condition value, then the condition is true. |
+| beginning with | + |  |  |  | If the data field value starts with the condition value, then the condition is true. |
+| ending with | + |  |  |  | If the data field value ends with the condition value, then the condition is true. |
+| is blank | + |  |  |  | If the data field value is blank, then the condition is true. |
+| is not blank | + |  |  |  | If the data field value is not blank, then the condition is true. |
+| is null | + | + | + |  | If the data field value is null, then the condition is true. |
+| in not null | + | + | + |  | If the data field value is not null, then the condition is true. |

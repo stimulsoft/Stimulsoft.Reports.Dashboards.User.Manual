@@ -445,44 +445,15 @@ The numbers indicate the drill down levels of the dashboard element:
 Table of interaction parameters
 
 
-Name
-
-Description
-
-
-On Data Manipulation:
-
-Allow User Sorting
-
-It allows you to select a data column of an element in the viewer by the values of which element data sorting will be carried out. If a box checked next to this parameter, when hovering the cursor over an element, the sorting button will be displayed. If a box unchecked, the sorting button will not be displayed when hovering the cursor over an element.
-
-Allow User Drill-Down
-
-It allows you to enable the drill down mode of element data. If a box checked, data will be drilled. If a box unchecked, drill down will not be carried out.
-
-Allow User Column Selection
-
-It allows you to enable the mode of column disable when viewing the Table item. If a box checked, in the viewer when hovering the cursor over, the control, which allows you to enable and disable columns of the Table item will be displayed. If a box unchecked the control for disabling table columns will not be displayed.
-
-Drill-Down Filtered
-
-It allows you to apply a filter having clicked on a value in the Table item, then drill data.
-
-Full Row Select
-
-It allows you to select a table row entirely using the cursor. If a box checked, a row of an element will be selected entirely. If a box unchecked, only the cell you click will be selected.
-
-
-Layout:
-
-Show 'Full Screen'
-
-It allows you to display the control, which helps you to view an element in the full screen mode. If a box checked, the current control will be displayed for an element when hovering the cursor over it. If a box unchecked the current control will not be displayed.
-
-Show 'Save'
-
-It allows you to display the menu with the set of file formats into which the current element can be transformed. If a box checked, the current control will be displayed for an element when hovering the cursor over it. If a box unchecked, the current control will not be displayed.
-
-Show 'View Data'
-
-It allows you to display the control, which helps you to view used data columns in the current element. If a box checked, the current control will be displayed for the element when hovering the cursor over it. If a box unchecked, the current control will not be displayed.
+| Name | Description |
+| --- | --- |
+| On Data Manipulation: |  |
+| Allow User Sorting | It allows you to select a data column of an element in the viewer by the values of which element data sorting will be carried out. If a box checked next to this parameter, when hovering the cursor over an element, the sorting button will be displayed. If a box unchecked, the sorting button will not be displayed when hovering the cursor over an element. |
+| Allow User Drill-Down | It allows you to enable the drill down mode of element data. If a box checked, data will be drilled. If a box unchecked, drill down will not be carried out. |
+| Allow User Column Selection | It allows you to enable the mode of column disable when viewing the Table item. If a box checked, in the viewer when hovering the cursor over, the control, which allows you to enable and disable columns of the Table item will be displayed. If a box unchecked the control for disabling table columns will not be displayed. |
+| Drill-Down Filtered | It allows you to apply a filter having clicked on a value in the Table item, then drill data. |
+| Full Row Select | It allows you to select a table row entirely using the cursor. If a box checked, a row of an element will be selected entirely. If a box unchecked, only the cell you click will be selected. |
+| Layout: |  |
+| Show 'Full Screen' | It allows you to display the control, which helps you to view an element in the full screen mode. If a box checked, the current control will be displayed for an element when hovering the cursor over it. If a box unchecked the current control will not be displayed. |
+| Show 'Save' | It allows you to display the menu with the set of file formats into which the current element can be transformed. If a box checked, the current control will be displayed for an element when hovering the cursor over it. If a box unchecked, the current control will not be displayed. |
+| Show 'View Data' | It allows you to display the control, which helps you to view used data columns in the current element. If a box checked, the current control will be displayed for the element when hovering the cursor over it. If a box unchecked, the current control will not be displayed. |

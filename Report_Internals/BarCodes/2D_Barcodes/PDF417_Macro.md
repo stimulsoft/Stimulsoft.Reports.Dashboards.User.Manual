@@ -36,38 +36,10 @@ Scanners and decoding software that support PDF417 Macro automatically recognize
 Differences Between Standard PDF417 and PDF417 Macro
 
 
-Feature
-
-PDF417
-
-PDF417 Macro
-
-Data capacity
-
-Limited to the maximum size of a single symbol (approx. 1.1 KB).
-
-Virtually unlimited, by splitting data into multiple symbols.
-
-Segmentation
-
-Not supported. Each symbol is independent.
-
-Supported. The large data is divided into multiple segments.
-
-Message identification
-
-No support for linking multiple symbols.
-
-Includes File ID, segment indices, and other metadata to link symbols.
-
-Use cases
-
-Boarding passes, ID cards, transport labels, smaller data payloads.
-
-Electronic documents, medical records, legal/financial documents, datasets exceeding single-symbol capacity.
-
-Decoding
-
-Scanner reads one symbol at a time.
-
-Scanner/software can automatically assemble multiple symbols into one dataset.
+| Feature | PDF417 | PDF417 Macro |
+| --- | --- | --- |
+| Data capacity | Limited to the maximum size of a single symbol (approx. 1.1 KB). | Virtually unlimited, by splitting data into multiple symbols. |
+| Segmentation | Not supported. Each symbol is independent. | Supported. The large data is divided into multiple segments. |
+| Message identification | No support for linking multiple symbols. | Includes File ID, segment indices, and other metadata to link symbols. |
+| Use cases | Boarding passes, ID cards, transport labels, smaller data payloads. | Electronic documents, medical records, legal/financial documents, datasets exceeding single-symbol capacity. |
+| Decoding | Scanner reads one symbol at a time. | Scanner/software can automatically assemble multiple symbols into one dataset. |

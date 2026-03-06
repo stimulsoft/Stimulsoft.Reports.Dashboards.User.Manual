@@ -70,96 +70,25 @@ Table of Properties
 The list shows the name and description of the properties of the Table of Contents component.
 
 
-Name
-
-Description
-
-Indent
-
-Specifies the indent for a nested level, in relation to the previous one, in the hierarchy of table of contents values.
-
-Margins
-
-A group of properties is used to specify the offsets of values ​​from the borders of this component.
-
-New Page Before
-
-Inserts a blank page in the generated report before the report table of contents page. If the property is set to True, then a new page will be added before the Table of Contents component. If the property is set to False, then the new page will not be added.
-
-New Page After
-
-Inserts a blank page in the generated report after the last page of the table of contents. If the property is set to True, then when the report is built, a new page will be added after the Table of Contents component. If the property is set to False, then the new page will not be added.
-
-Right to Left
-
-Enables Right to Left mode for the Table of Contents component. If the property is set to True, then when building a report, the right to left mode will be set for the Table of Contents component. If the property is set to False, then the left to right mode will be used.
-
-Style
-
-Customizes appearance styles for values ​​at each hierarchy level in the table of contents.
-
-Word wrap
-
-Enables line wrapping mode for table of contents. If the property is set to True, then a long table of contents ​​will be carried over to the next line. If the property is set to False, then long table of contents values ​​will not be transferred.
-
-Height
-
-Changes the height of a component in the mode of editing reports. However, when building a report, the height of the component may grow to display the entire list of table of contents values ​​for the report.
-
-Max Height
-
-Sets the maximum height of a component in report editing mode. The default is set to 0, i.e. the maximum height is not limited.
-
-Min Height
-
-Sets the minimum height of a component in report editing mode. The default is set to 0, i.e. the minimum height is not limited.
-
-Borders
-
-A group of properties is used to enable and customize the appearance of the component's borders.
-
-Conditions
-
-Calls the Conditions editor.
-
-Component Style
-
-Sets a component style.
-
-Use Parent Styles
-
-Uses owner styles, i.e. component to which this component is subordinate. If the property is set to True, the owner's style will be applied when building the Table of Contents component. If the property is set to False, then the owner style will not be applied.
-
-Enabled
-
-Enables or disables component processing when generating a report. If the property is set to True, then when the report is built, the Table of Contents component will be processed and displayed in the report. If the property is set to False, then the Table of Contents component will not be built.
-
-Name
-
-Changes the name of the current element.
-
-Alias
-
-Changes the alias of the current element.
-
-Restrictions
-
-Configures the permissions to use the current component:
-
-The **Allow Change** option enables or disables changes of the component. If checked, the current component can be changed. If unchecked, the component can`t be changed.
-
-The **Allow Delete** option enables or disables the deletion of an component. If checked, the current component can be deleted. If unchecked, the component can`t be deleted.
-
-The **Allow Move** option allows or prohibits moving an component. If checked, the current component can be moved. If unchecked, the component can`t be moved.
-
-The **Allow Resize** option enables or disables resizing of an component. If checked, the current component can be changed. If unchecked, the component can`t be changed.
-
-The **Allow Select** option enables or disables the component selection. If checked, the current component can be selected. If unchecked, the component can`t be selected.
-
-Locked
-
-Allows resizing and moving the current element. If the property is set to True, then the current element cannot be moved or resized. If this property is set to False, then it can be moved and resized.
-
-Linked
-
-Links the current location to a dashboard or other element. If the property is set to True, then the current element is bound to the current location. If this property is set to False, then this element is not bound to the current location.
+| Name | Description |
+| --- | --- |
+| Indent | Specifies the indent for a nested level, in relation to the previous one, in the hierarchy of table of contents values. |
+| Margins | A group of properties is used to specify the offsets of values ​​from the borders of this component. |
+| New Page Before | Inserts a blank page in the generated report before the report table of contents page. If the property is set to True, then a new page will be added before the Table of Contents component. If the property is set to False, then the new page will not be added. |
+| New Page After | Inserts a blank page in the generated report after the last page of the table of contents. If the property is set to True, then when the report is built, a new page will be added after the Table of Contents component. If the property is set to False, then the new page will not be added. |
+| Right to Left | Enables Right to Left mode for the Table of Contents component. If the property is set to True, then when building a report, the right to left mode will be set for the Table of Contents component. If the property is set to False, then the left to right mode will be used. |
+| Style | Customizes appearance styles for values ​​at each hierarchy level in the table of contents. |
+| Word wrap | Enables line wrapping mode for table of contents. If the property is set to True, then a long table of contents ​​will be carried over to the next line. If the property is set to False, then long table of contents values ​​will not be transferred. |
+| Height | Changes the height of a component in the mode of editing reports. However, when building a report, the height of the component may grow to display the entire list of table of contents values ​​for the report. |
+| Max Height | Sets the maximum height of a component in report editing mode. The default is set to 0, i.e. the maximum height is not limited. |
+| Min Height | Sets the minimum height of a component in report editing mode. The default is set to 0, i.e. the minimum height is not limited. |
+| Borders | A group of properties is used to enable and customize the appearance of the component's borders. |
+| Conditions | Calls the Conditions editor. |
+| Component Style | Sets a component style. |
+| Use Parent Styles | Uses owner styles, i.e. component to which this component is subordinate. If the property is set to True, the owner's style will be applied when building the Table of Contents component. If the property is set to False, then the owner style will not be applied. |
+| Enabled | Enables or disables component processing when generating a report. If the property is set to True, then when the report is built, the Table of Contents component will be processed and displayed in the report. If the property is set to False, then the Table of Contents component will not be built. |
+| Name | Changes the name of the current element. |
+| Alias | Changes the alias of the current element. |
+| Restrictions | Configures the permissions to use the current component: The **Allow Change** option enables or disables changes of the component. If checked, the current component can be changed. If unchecked, the component can`t be changed. The **Allow Delete** option enables or disables the deletion of an component. If checked, the current component can be deleted. If unchecked, the component can`t be deleted. The **Allow Move** option allows or prohibits moving an component. If checked, the current component can be moved. If unchecked, the component can`t be moved. The **Allow Resize** option enables or disables resizing of an component. If checked, the current component can be changed. If unchecked, the component can`t be changed. The **Allow Select** option enables or disables the component selection. If checked, the current component can be selected. If unchecked, the component can`t be selected. |
+| Locked | Allows resizing and moving the current element. If the property is set to True, then the current element cannot be moved or resized. If this property is set to False, then it can be moved and resized. |
+| Linked | Links the current location to a dashboard or other element. If the property is set to True, then the current element is bound to the current location. If this property is set to False, then this element is not bound to the current location. |

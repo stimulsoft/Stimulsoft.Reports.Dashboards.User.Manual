@@ -1,9 +1,8 @@
 ## Events and Data Band
 
-Important
-
-
-Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Reports_Designer/Template/Calculation_Mode.md).
+| Important |
+| --- |
+| Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Reports_Designer/Template/Calculation_Mode.md). |
 
 Except standard event for all components the Data band has three special events: BeginRenderEvent, EndRenderEvent, and RenderingEvent. The Data band must be created for each data row of the specified data source. For example, if there are 10 rows in the data source, then the Data band will be created 10 times. The BeginRenderEvent is called before the data is rendered. In other words when data rows are not output. The event can be used for initialization some data ans variables, calling some actions. The EndRenderEvent is called after the Data band is rendered, when all data rows will be output. In this event data processing, totals calculation processing is done. The RenderingEvent is called when rendering one data row. The event is called before the Data band is printed. If these are 10 data rows, then the RenderingEvent will be output 10 times.
 

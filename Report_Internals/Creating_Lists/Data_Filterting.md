@@ -81,70 +81,20 @@ On the picture below the panel of setting a condition using the wizard is shown.
 The table below shows operations and their description for each data type.
 
 
-String
-
-Numeric
-
-Date
-
-Logic
-
-Expression
-
-equal to
-
-If the first value is equal to the second value, then the condition is true.
-
-not equal to
-
-If the first value is not not equal to the second value, then the condition is true.
-
-
-between
-
-If the first value is in the range, then the condition is true.
-
-
-not between
-
-If the first value is not in the range, then the condition is true.
-
-
-greater than
-
-If the first value is greater than the second value, then the condition is true.
-
-
-greater than or equal to
-
-If the first value greater than or equal to the second value, then the condition is true.
-
-less than
-
-If the first value is less than the second value, then the condition is true.
-
-less then or equal to
-
-If the first value is less then or equal to the second value, then the condition is true.
-
-containing
-
-If the first value contains the second value, then the condition is true. This operation can be applied only to strings.
-
-
-not containing
-
-If the first value does not contain the second value, then the condition is true. This operation can be applied only to strings.
-
-
-beginning with
-
-If the first value begins with the second value, then the condition is true. This operation can be applied only to strings.
-
-
-ending with
-
-If the first value ends with the second value, then the condition is true. This operation can be applied only to strings.
+| String | Numeric | Date | Logic | Expression |
+| --- | --- | --- | --- | --- |
+| equal to |  |  |  |  |
+| not equal to |  |  |  |  |
+| between |  |  |  |  |
+| not between |  |  |  |  |
+| greater than |  |  |  |  |
+| greater than or equal to |  |  |  |  |
+| less than |  |  |  |  |
+| less then or equal to |  |  |  |  |
+| containing |  |  |  |  |
+| not containing |  |  |  |  |
+| beginning with |  |  |  |  |
+| ending with |  |  |  |  |
 
 How to set a condition using as an expression
 

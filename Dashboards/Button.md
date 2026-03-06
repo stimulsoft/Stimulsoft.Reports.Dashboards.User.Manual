@@ -1,9 +1,8 @@
 ## Button
 
-Important
-
-
-Scripts can be a security risk, so they are disabled in the [Interpretation mode](../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../Reports_Designer/Template/Calculation_Mode.md).
+| Important |
+| --- |
+| Scripts can be a security risk, so they are disabled in the [Interpretation mode](../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../Reports_Designer/Template/Calculation_Mode.md). |
 
 Button is a dashboard element, which allows you to execute a certain script when clicking or depending on click condition. When using the Button, you can change design settings of dashboard elements, filter data, hide other elements, etc. The Button element doesn’t have its own editor, and it is customized using properties and controls on the Ribbon panel. A full set of properties will be presented in the table of element properties.
 
@@ -76,152 +75,33 @@ Table of properties
 The table contains name and description of the Button element properties.
 
 
-Name
-
-Description
-
-Text
-
-It allows you to specify some text on the button. Also, you can specify an expression in curly braces. For example, {expression}. In this case, the result of the expression calculation will be displayed as the text. If the expression is a link to a data column, the first value from this data column will be displayed as the button text.
-
-Checked
-
-It allows you to define button element condition by default. This property is available for buttons of the Check Box and the Radio Button types. If the current property is set to the true value, the element condition will be defined as Checked. If the property is set to the false value, the element condition will be defined as Unchecked.
-
-Group
-
-It allows you to combine Button elements into a group. This property is available only for buttons of the Radio Button type. Using grouping, you can form a single control from different buttons. Buttons are combined according to the general principle of [grouping elements in a dashboard](Groups.md).
-
-Icon Alignment
-
-It allows you to change icon alignment in the button. Icon can be aligned to Left, Right, Top, Bottom and Center of the button. In addition, this property can be set to the None value. In this case, the button icon will not be displayed.
-
-Icon Set
-
-The group of properties, that allows you to set an icon for the button:
-
-The Icon property allows you to define an icon by default for the Button element;
-
-The Checked Icon property allows you to define an icon for the Button element in Checked condition.
-
-The Unchecked Icon property allows you to define an icon for the Button element in Unchecked condition.
-
-Horizontal Alignment
-
-It allows you to define the horizontal alignment of the Button text: Left, Center, Right, Width.
-
-Vertical Alignment
-
-It allows you to define the vertical alignment of the Button text: Left, Center, Right.
-
-Type
-
-It allows you to change the element type, which can be defined as Button, Check Box, Radio Button.
-
-Word Wrap
-
-It allows you to enable or disable text wrapping in the Button element. If the current property is set to the True, the text can be wrapped to the next line in the button element. If the property is set to the False, word wrapping will not be possible, and the text will be cut off at the border of the element.
-
-Shape Type
-
-It allows you to change drawing shape of the Button element. The following kinds of shape: Rectangle and Circle.
-
-Stretch
-
-It allows you to define the element stretch mode in a dashboard. It can be set to one of two modes:
-
-The Stretch XY value allows you to stretch the element in width and height in a dashboard;
-
-The Stretch X value allows you to stretch the element only in width in a dashboard.
-
-Border
-
-The group of properties, which allows you to set element borders: color, sides, size and style.
-
-Brush
-
-It allows you to change brush type and its customization for the Button element.
-
-Corner Radius
-
-It allows you to define the rounding radius for the corners of an element in a dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value from 0 to 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius.
-
-Font
-
-The group of properties that allows you to define font family, its style and size for the values of the Indicator element.
-
-Icon Brush
-
-It allows you to change brush type and its settings for the Button icon. It’s relevant, if icon is defined for the button.
-
-Shadow
-
-The group of properties allows you to customize the element's shadow:
-
-The Color property allows you to specify the color that will be used to display the element's shadow;
-
-The properties in the Location group allow you to determine the shadow shift in X and Y coordinates, relative to the location of the element in a dashboard;
-
-The Size property allows you to set the size of the shadow from the borders of the element. It can be set to the value from 1 to 10, where 1 is the minimum size and 10 is the maximum;
-
-The Visible property allows you to enable or disable the display of the element's shadow in a dashboard.
-
-Style
-
-It allows you to select a style for the current element. By default, the Auto is set, i.e. a style of this element is inherited from a style of a dashboard.
-
-Text Brush
-
-It allows you to change brush type and its settings for some text in the Button element. It’s relevant if some text is specified for the button.
-
-Visual States
-
-The group of special properties allows you to define different design settings, depending on the state of the interaction:
-
-The Checked property group allows you to define the border, brush, font, icon brush, character set, and text brush for the Button element when its state is checked.
-
-The Hover property group allows you to define the border, brush, font, icon brush, character set, and text brush for the Button element when the input pointer is hovered.
-
-The Pressed property group allows you to define the border, brush, font, icon brush, character set, and text brush for the Button element if the element has been clicked.
-
-Enabled
-
-It allows you to enable or disable the current element in a dashboard. If the property is set to the True, the current element is enabled and will be displayed when viewing the dashboard in the viewer. If this property is set to the False, this element is disabled and will not be displayed when viewing the dashboard in the viewer.
-
-Margin
-
-The group of properties allows you to define margins (left, top, right, bottom) of the value area from the border of this element.
-
-Padding
-
-The group of properties allows you to define paddings (left, top, right, bottom) of the graphic element area from the border of the value area.
-
-Name
-
-It allows you to change name of the current element.
-
-Alias
-
-It allows you to change the alias of the current element.
-
-Restrictions
-
-Configures the permissions to use the current item in the dashboard:
-
-The **Allow Change** option enables or disables changes of the element. If checked, the current item can be changed.
-
-The **Allow Delete** option enables or disables the deletion of an element.
-
-The **Allow Move** option allows or prohibits moving an element.
-
-The **Allow Resize** option enables or disables resizing of an element.
-
-The **Allow Select** option enables or disables the element selection.
-
-Locked
-
-It allows you to prevent or allow resizing and moving the current element. If the property is set to the True value, the current element cannot be moved or resized. If this property is set to the False value, this element is moved and resized.
-
-Linked
-
-It allows you to bind the current location to a dashboard or another element. If the property is set to the True value, the current element is anchored to the current location. If this property is set to the False value, this element is not anchored to the current location.
+| Name | Description |
+| --- | --- |
+| Text | It allows you to specify some text on the button. Also, you can specify an expression in curly braces. For example, {expression}. In this case, the result of the expression calculation will be displayed as the text. If the expression is a link to a data column, the first value from this data column will be displayed as the button text. |
+| Checked | It allows you to define button element condition by default. This property is available for buttons of the Check Box and the Radio Button types. If the current property is set to the true value, the element condition will be defined as Checked. If the property is set to the false value, the element condition will be defined as Unchecked. |
+| Group | It allows you to combine Button elements into a group. This property is available only for buttons of the Radio Button type. Using grouping, you can form a single control from different buttons. Buttons are combined according to the general principle of [grouping elements in a dashboard](Groups.md). |
+| Icon Alignment | It allows you to change icon alignment in the button. Icon can be aligned to Left, Right, Top, Bottom and Center of the button. In addition, this property can be set to the None value. In this case, the button icon will not be displayed. |
+| Icon Set | The group of properties, that allows you to set an icon for the button: The Icon property allows you to define an icon by default for the Button element; The Checked Icon property allows you to define an icon for the Button element in Checked condition. The Unchecked Icon property allows you to define an icon for the Button element in Unchecked condition. |
+| Horizontal Alignment | It allows you to define the horizontal alignment of the Button text: Left, Center, Right, Width. |
+| Vertical Alignment | It allows you to define the vertical alignment of the Button text: Left, Center, Right. |
+| Type | It allows you to change the element type, which can be defined as Button, Check Box, Radio Button. |
+| Word Wrap | It allows you to enable or disable text wrapping in the Button element. If the current property is set to the True, the text can be wrapped to the next line in the button element. If the property is set to the False, word wrapping will not be possible, and the text will be cut off at the border of the element. |
+| Shape Type | It allows you to change drawing shape of the Button element. The following kinds of shape: Rectangle and Circle. |
+| Stretch | It allows you to define the element stretch mode in a dashboard. It can be set to one of two modes: The Stretch XY value allows you to stretch the element in width and height in a dashboard; The Stretch X value allows you to stretch the element only in width in a dashboard. |
+| Border | The group of properties, which allows you to set element borders: color, sides, size and style. |
+| Brush | It allows you to change brush type and its customization for the Button element. |
+| Corner Radius | It allows you to define the rounding radius for the corners of an element in a dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value from 0 to 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
+| Font | The group of properties that allows you to define font family, its style and size for the values of the Indicator element. |
+| Icon Brush | It allows you to change brush type and its settings for the Button icon. It’s relevant, if icon is defined for the button. |
+| Shadow | The group of properties allows you to customize the element's shadow: The Color property allows you to specify the color that will be used to display the element's shadow; The properties in the Location group allow you to determine the shadow shift in X and Y coordinates, relative to the location of the element in a dashboard; The Size property allows you to set the size of the shadow from the borders of the element. It can be set to the value from 1 to 10, where 1 is the minimum size and 10 is the maximum; The Visible property allows you to enable or disable the display of the element's shadow in a dashboard. |
+| Style | It allows you to select a style for the current element. By default, the Auto is set, i.e. a style of this element is inherited from a style of a dashboard. |
+| Text Brush | It allows you to change brush type and its settings for some text in the Button element. It’s relevant if some text is specified for the button. |
+| Visual States | The group of special properties allows you to define different design settings, depending on the state of the interaction: The Checked property group allows you to define the border, brush, font, icon brush, character set, and text brush for the Button element when its state is checked. The Hover property group allows you to define the border, brush, font, icon brush, character set, and text brush for the Button element when the input pointer is hovered. The Pressed property group allows you to define the border, brush, font, icon brush, character set, and text brush for the Button element if the element has been clicked. |
+| Enabled | It allows you to enable or disable the current element in a dashboard. If the property is set to the True, the current element is enabled and will be displayed when viewing the dashboard in the viewer. If this property is set to the False, this element is disabled and will not be displayed when viewing the dashboard in the viewer. |
+| Margin | The group of properties allows you to define margins (left, top, right, bottom) of the value area from the border of this element. |
+| Padding | The group of properties allows you to define paddings (left, top, right, bottom) of the graphic element area from the border of the value area. |
+| Name | It allows you to change name of the current element. |
+| Alias | It allows you to change the alias of the current element. |
+| Restrictions | Configures the permissions to use the current item in the dashboard: The **Allow Change** option enables or disables changes of the element. If checked, the current item can be changed. The **Allow Delete** option enables or disables the deletion of an element. The **Allow Move** option allows or prohibits moving an element. The **Allow Resize** option enables or disables resizing of an element. The **Allow Select** option enables or disables the element selection. |
+| Locked | It allows you to prevent or allow resizing and moving the current element. If the property is set to the True value, the current element cannot be moved or resized. If this property is set to the False value, this element is moved and resized. |
+| Linked | It allows you to bind the current location to a dashboard or another element. If the property is set to the True value, the current element is anchored to the current location. If this property is set to the False value, this element is not anchored to the current location. |

@@ -23,77 +23,18 @@ Sometimes, in creating reports, it is necessary to print, not all values from th
 A list of available operations depends on the type of data. Below is a table of operations for each type of data with their descriptions.
 
 
-Operation
-
-
-Types of data
-
-
-Description
-
-String
-
-Numerical
-
-DateTime
-
-Boolean
-
-**equal to**
-
-If the first value is equal to the second, then the condition is true.
-
-
-**not equal to**
-
-If the first value is not equal to the second, then the condition is true.
-
-
-**between**
-
-If the first value is in the range, then the condition is true.
-
-
-**not between**
-
-If the first value is not in the range, then the condition is true.
-
-
-**greater than**
-
-If the first value is greater then the second value, then the condition is true.
-
-
-**greater than or equal to**
-
-If the first value is greater then the second value of equal to the second value, then the condition is true.
-
-
-**less than**
-
-If the first value is less then the second value, then the condition is true.
-
-
-**less then or equal to**
-
-If the first value is less then the second value or equal to the second value, then the condition is true.
-
-
-**containing**
-
-If the first value contains the second value, then the condition is true. This operation is used only for strings.
-
-
-**not containing**
-
-If the first value does not contain the second value, then the condition is true. This operation is used only for strings.
-
-
-**beginning with**
-
-If the first value starts with the second value, then the condition is true. This operation is used only for strings.
-
-
-**ending with**
-
-If the first value ends with the second value, then the condition is true. This operation is used only for strings.
+| Operation | Types of data | Description |
+| --- | --- | --- |
+| String | Numerical | DateTime |
+| **equal to** |  |  |
+| **not equal to** |  |  |
+| **between** |  |  |
+| **not between** |  |  |
+| **greater than** |  |  |
+| **greater than or equal to** |  |  |
+| **less than** |  |  |
+| **less then or equal to** |  |  |
+| **containing** |  |  |
+| **not containing** |  |  |
+| **beginning with** |  |  |
+| **ending with** |  |  |

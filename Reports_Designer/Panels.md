@@ -1,9 +1,8 @@
 ## Panels
 
-Attention
-
-
-Scripts can pose a security risk. Therefore, [colculation mode](Template/Calculation_Mode.md) are disabled in Interpretation mode. If you are confident in the security of the scripts, you can use them in Compilation mode.
+| Attention |
+| --- |
+| Scripts can pose a security risk. Therefore, [colculation mode](Template/Calculation_Mode.md) are disabled in Interpretation mode. If you are confident in the security of the scripts, you can use them in Compilation mode. |
 
 In addition to the Ribbon and Toolbox, the report designer includes the following panels:
 

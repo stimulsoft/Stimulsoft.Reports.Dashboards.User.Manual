@@ -15,33 +15,14 @@ Several elements should be separated with the semicolon. The “DataType" elemen
 Values of the "DataType" element are shown in the table below. If the data type is not set, then the string data type is taken by default.
 
 
-Data type
-
-Description
-
-int
-
-Numeric
-
-long
-
-Numeric
-
-float
-
-Decimal
-
-double
-
-Decimal
-
-string
-
-Text
-
-date
-
-Date
+| Data type | Description |
+| --- | --- |
+| int | Numeric |
+| long | Numeric |
+| float | Decimal |
+| double | Decimal |
+| string | Text |
+| date | Date |
 
 
 The "ExportType" element indicates for which export the field name is set. The values can be used: “dbf”, “csv”, “xml”, “default”. The "FieldName" element indicates the field name in the file. The own name can be specified to each type of export. If the name for each export is not specified then the name for the “default” type is taken. For example:

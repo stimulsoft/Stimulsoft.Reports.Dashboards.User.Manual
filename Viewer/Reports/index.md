@@ -191,86 +191,25 @@ Shortcuts
 The list of keyboard shortcuts in the report viewer is as follows:
 
 
-Shortcut
-
-Actions
-
-Ctrl+P
-
-Print a report
-
-Ctrl+O
-
-Close a report
-
-Ctrl+Shift+N
-
-Add a new page to the report
-
-Ctrl+Shift+D
-
-Delete the current page of a report
-
-Ctrl+Shift+E
-
-Edit the current page of a report in the report designer
-
-Ctrl+Shift+S
-
-Change report parameters
-
-Ctrl+B
-
-Enable/disable tree of bookmarks
-
-Ctrl+T
-
-Enable/disable thumbnails
-
-Ctrl+F
-
-Search
-
-Ctrl+E
-
-Edit components which support editing
-
-F2
-
-Run the full screen mode of view a report
-
-F3
-
-Set zoom of a report view - one page
-
-F4
-
-Set zoom of a report view - two pages
-
-F5
-
-Set zoom of a report view - by page width
-
-Ctrl+G
-
-Jump to page
-
-Shift+F2
-
-Enable the page view mode - one page
-
-Shift+F3
-
-Enable the page view mode - continues
-
-Shift+F4
-
-Enable the page view mode - some pages
-
-Esc
-
-The button is used to exit the Full Screen mode.
-
-Alt+F4
-
-The buttons are used to close the window, including the full-screen view.
+| Shortcut | Actions |
+| --- | --- |
+| Ctrl+P | Print a report |
+| Ctrl+O | Close a report |
+| Ctrl+Shift+N | Add a new page to the report |
+| Ctrl+Shift+D | Delete the current page of a report |
+| Ctrl+Shift+E | Edit the current page of a report in the report designer |
+| Ctrl+Shift+S | Change report parameters |
+| Ctrl+B | Enable/disable tree of bookmarks |
+| Ctrl+T | Enable/disable thumbnails |
+| Ctrl+F | Search |
+| Ctrl+E | Edit components which support editing |
+| F2 | Run the full screen mode of view a report |
+| F3 | Set zoom of a report view - one page |
+| F4 | Set zoom of a report view - two pages |
+| F5 | Set zoom of a report view - by page width |
+| Ctrl+G | Jump to page |
+| Shift+F2 | Enable the page view mode - one page |
+| Shift+F3 | Enable the page view mode - continues |
+| Shift+F4 | Enable the page view mode - some pages |
+| Esc | The button is used to exit the Full Screen mode. |
+| Alt+F4 | The buttons are used to close the window, including the full-screen view. |

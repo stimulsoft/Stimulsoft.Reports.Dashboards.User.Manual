@@ -278,220 +278,35 @@ The views are controlled using controls (buttons) in a chart when editing or vie
 The list shows the name and description of the properties of the element which you may find in the properties panel of the report designer.
 
 
-**Name**
-
-**Description**
-
-Area
-
-A property group that is used to customize the chart area:
-
-The **Color Each** property is used to set a unique shade for every graphic element of the chart. If this property is set to **true**, then colors from the style collection will be applied to graphic elements. Every graphic element will have its own color. After all the colors from the collection are used, the same colors with a lightening coefficient will be applied to the other graphic elements. Thus, every graphic element will have a certain shade. If this property is set to **false**, then the graphic elements of one series will use one color from the collection of style colors.
-
-The **Grid Lines Horizontal** group of properties is used to change the color and visibility of horizontal grid lines. If the **Visible** property is set to **true**, the horizontal grid lines will be displayed.
-
-The **Grid Lines Vertical** group of properties is used to change the color and visibility of horizontal grid lines. If the **Visible** property is set to **true**, the vertical grid lines will be displayed.
-
-The **Interlacing Horizontal** group of properties is used to change the color and visibility of horizontal interlacing. If the **Visible** property is set to **true**, the horizontal interlacing will be displayed.
-
-The **Interlacing Vertical** group of properties is used to change the color and visibility of vertical interlacing. If the **Visible** property is set to **true**, the vertical interlacing will be displayed.
-
-The **Reverse Horizontal** property is used to mirror the chart area horizontally. If the property is set to **true**, the area will be displayed horizontally.
-
-The **Reverse Vertical** property is used to mirror the chart area horizontally. If the property is set to **true**, the area will be displayed vertically.
-
-The X Axis group of properties, which allows you to set the range of arguments: Labels, Range, Show Edge Values, Start from zero, Title, Visible.
-
-The X Top Axis group of properties which allows you to set the upper axis of arguments: Lables, Show Edge Values, Title, Visible.
-
-The Y axis group of properties, which allows you to set the axis of values: Lables, Range, Start from zero, Title, Visible.
-
-The Y Right Axis group of properties, which allows you to set the right axis of arguments: Lables, Start from zero, Title, Visible.
-
-Cross-Filtering
-
-It allows you to enable or disable the cross-filtering mode for the current element.
-
-Constant Lines
-
-Customizes the constant lines of the chart element.
-
-Data Transformation
-
-Customizes the data transformation of the current item.
-
-Group
-
-Adds the current item to a specific [group of items](Groups.md).
-
-Labels
-
-A group of properties that is used to customize the chart labels:
-
-The Auto Rotate property is used to enable or disable the auto rotate mode of chart labels.
-
-The Font group property allows you to change the text color of the title of the current item. By default, this property is set to From Style, the text color of the title will be obtained from the settings of the current element style.
-
-The Fore Color property allows you to change the text color of the labels of the current item. By default, this property is set to From Style, the text color of the labels will be obtained from the settings of the current element style.
-
-The Position property allows you to select the type of headers of values in a chart area.
-
-The Style property allows you to change the label style.
-
-The Text After property is used to specify text after a label value.
-
-The Text Before property is used to specify text before a label value.
-
-Legend
-
-A property group that is used to customize the chart legend:
-
-The Columns property allows you to define  the number of columns for the Legend values.
-
-The Direction property allows you to define the direction of column fill in by the Legend values.
-
-The **Horizontal Alignment** property is used to determine the horizontal position of the legend on the Chart element. The legend can be located in the chart area or outside of it.
-
-The **Labels** group of properties is used to change the color and font of the legend label.
-
-The **Title** group of properties is used to customize the title of the legend - specify the text of a title, change its color and font.
-
-The **Vertical Alignment** property is used to set the vertical position of the legend on the Chart element. The legend can be located in the chart area or outside of it.
-
-The Visible property allows you to enable or disable the display of the Legend chart.
-
-Trend Line
-
-It allows you to set a trend line in the current chart.
-
-Marker
-
-A group of properties that is used to customize the chart markers:
-
-The Angle property allows you to change the inclination angle of markers. The value of the property can be negative and positive. If a value of the property is negative then the marker is inclined anticlockwise. If the value of the property is positive then the marker is inclined clockwise.
-
-The Size property is used to set marker size in pixels.
-
-The Type property allows you to set the marker type.
-
-The Visible property is used to define the display mode of markers:
-
-![](../images/img_1.png) The From Style value - displaying of markers will depend on the visibility property in the chart style.
-
-![](../images/img_2.png) The True value - markers will always be displayed.
-
-![](../images/img_3.png) The False value - markers will not be displayed always.
-
-Back Color
-
-Changes the background color of the Chart element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style.
-
-Border
-
-A group of properties that allows you to customize the borders of a table - color, sides, size, and style.
-
-Conditions
-
-Customizes the [conditions element of the chart](Conditions.md#conditionparametersofchart).
-
-Corner Radius
-
-It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius.
-
-Negative Series Color
-
-Customizes the list of colors for negative values of the rows of the Chart element.
-
-Series Color
-
-Customizes the list of colors for the values of the rows of the Chart element.
-
-Shadow
-
-A group of properties that allows configuring the shadow of an element:
-
-The Color property allows you to specify the color that will be used to display the shadow of the element.
-
-The properties in the Location group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel.
-
-The Size property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size.
-
-The Visible property allows you to enable or disable the display of the element's shadow on the indicator panel.
-
-Style
-
-Selects a style for the current element. The default it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard.
-
-Argument Format
-
-Customizes the formatting [of the arguments](../Report_Internals/Text_Formatting/index.md) the Chart element.
-
-Enabled
-
-Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer.
-
-Interaction
-
-Customizes the [interaction](Interaction.md) element of the chart.
-
-Margin
-
-A group of properties that allows you to define indents (left, top, right, bottom) of the value area from the border of this element.
-
-Padding
-
-A group of properties that allows you to define indents (left, top, right, bottom) of the columns from the range of values.
-
-Show Blanks
-
-Allows displaying or hiding the label "Show (blank)" in the dashboard element when there is no data available for that element.
-
-Title
-
-A group of properties that allows you to customize the title of the Table element:
-
-The **Back Color** property provides the ability to change the background color of the title of the current item. By default, this property is set to **From Style**, i.e. the background color will be obtained from the style settings of the current element.
-
-**Fore Color** allows you to change the text color of the title of the current item. By default, this property is set to **From Style**, i.e. the text color of the title will be obtained from the settings of the current element style
-
-The group property **Font** allows you to define the font family, its style and size for the title of the current element.
-
-The **Horizontal Alignment** property provides the ability to change the title alignment relative to the element - Left, Center, Right.
-
-The **Text** property is used to set the title text of the current element.
-
-The **Visible** property is used to enable or disable displaying of the title of the current item. If the property is set to **True**, then the element title will be included. If this property is set to **False**, then the element header will be disabled.
-
-Value Format
-
-Customizes the [formatting of the values](../Report_Internals/Text_Formatting/index.md) of the Chart element.
-
-Name
-
-Changes the name of the current element.
-
-Alias
-
-Changes the alias of the current item.
-
-Restrictions
-
-Configures the permissions to use the current item in the dashboard:
-
-The **Allow Change** option enables or disables changes of the element. If checked, the current item can be changed.
-
-The **Allow Delete** option enables or disables the deletion of an element.
-
-The **Allow Move** option allows or prohibits moving an element.
-
-The **Allow Resize** option enables or disables resizing of an element.
-
-The **Allow Select** option enables or disables the element selection.
-
-Locked
-
-Locks or unlocks resizing and movement of the current element. If the property is set to **True**, the current element cannot be moved or resized. If this property is set to **False**, then this element can be moved and resized.
-
-Linked
-
-Binds the current location to the dashboard or another element. If the property is set to **True**, then the current item is bound to the current location. If this property is set to **False**, then this element is not tied to the current location.
+| **Name** | **Description** |
+| --- | --- |
+| Area | A property group that is used to customize the chart area: The **Color Each** property is used to set a unique shade for every graphic element of the chart. If this property is set to **true**, then colors from the style collection will be applied to graphic elements. Every graphic element will have its own color. After all the colors from the collection are used, the same colors with a lightening coefficient will be applied to the other graphic elements. Thus, every graphic element will have a certain shade. If this property is set to **false**, then the graphic elements of one series will use one color from the collection of style colors. The **Grid Lines Horizontal** group of properties is used to change the color and visibility of horizontal grid lines. If the **Visible** property is set to **true**, the horizontal grid lines will be displayed. The **Grid Lines Vertical** group of properties is used to change the color and visibility of horizontal grid lines. If the **Visible** property is set to **true**, the vertical grid lines will be displayed. The **Interlacing Horizontal** group of properties is used to change the color and visibility of horizontal interlacing. If the **Visible** property is set to **true**, the horizontal interlacing will be displayed. The **Interlacing Vertical** group of properties is used to change the color and visibility of vertical interlacing. If the **Visible** property is set to **true**, the vertical interlacing will be displayed. The **Reverse Horizontal** property is used to mirror the chart area horizontally. If the property is set to **true**, the area will be displayed horizontally. The **Reverse Vertical** property is used to mirror the chart area horizontally. If the property is set to **true**, the area will be displayed vertically. The X Axis group of properties, which allows you to set the range of arguments: Labels, Range, Show Edge Values, Start from zero, Title, Visible. The X Top Axis group of properties which allows you to set the upper axis of arguments: Lables, Show Edge Values, Title, Visible. The Y axis group of properties, which allows you to set the axis of values: Lables, Range, Start from zero, Title, Visible. The Y Right Axis group of properties, which allows you to set the right axis of arguments: Lables, Start from zero, Title, Visible. |
+| Cross-Filtering | It allows you to enable or disable the cross-filtering mode for the current element. |
+| Constant Lines | Customizes the constant lines of the chart element. |
+| Data Transformation | Customizes the data transformation of the current item. |
+| Group | Adds the current item to a specific [group of items](Groups.md). |
+| Labels | A group of properties that is used to customize the chart labels: The Auto Rotate property is used to enable or disable the auto rotate mode of chart labels. The Font group property allows you to change the text color of the title of the current item. By default, this property is set to From Style, the text color of the title will be obtained from the settings of the current element style. The Fore Color property allows you to change the text color of the labels of the current item. By default, this property is set to From Style, the text color of the labels will be obtained from the settings of the current element style. The Position property allows you to select the type of headers of values in a chart area. The Style property allows you to change the label style. The Text After property is used to specify text after a label value. The Text Before property is used to specify text before a label value. |
+| Legend | A property group that is used to customize the chart legend: The Columns property allows you to define  the number of columns for the Legend values. The Direction property allows you to define the direction of column fill in by the Legend values. The **Horizontal Alignment** property is used to determine the horizontal position of the legend on the Chart element. The legend can be located in the chart area or outside of it. The **Labels** group of properties is used to change the color and font of the legend label. The **Title** group of properties is used to customize the title of the legend - specify the text of a title, change its color and font. The **Vertical Alignment** property is used to set the vertical position of the legend on the Chart element. The legend can be located in the chart area or outside of it. The Visible property allows you to enable or disable the display of the Legend chart. |
+| Trend Line | It allows you to set a trend line in the current chart. |
+| Marker | A group of properties that is used to customize the chart markers: The Angle property allows you to change the inclination angle of markers. The value of the property can be negative and positive. If a value of the property is negative then the marker is inclined anticlockwise. If the value of the property is positive then the marker is inclined clockwise. The Size property is used to set marker size in pixels. The Type property allows you to set the marker type. The Visible property is used to define the display mode of markers: ![](../images/img_1.png) The From Style value - displaying of markers will depend on the visibility property in the chart style. ![](../images/img_2.png) The True value - markers will always be displayed. ![](../images/img_3.png) The False value - markers will not be displayed always. |
+| Back Color | Changes the background color of the Chart element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style. |
+| Border | A group of properties that allows you to customize the borders of a table - color, sides, size, and style. |
+| Conditions | Customizes the [conditions element of the chart](Conditions.md#conditionparametersofchart). |
+| Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: Top - Left, Top - Right, Bottom - Right, Bottom - Left. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
+| Negative Series Color | Customizes the list of colors for negative values of the rows of the Chart element. |
+| Series Color | Customizes the list of colors for the values of the rows of the Chart element. |
+| Shadow | A group of properties that allows configuring the shadow of an element: The Color property allows you to specify the color that will be used to display the shadow of the element. The properties in the Location group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The Size property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The Visible property allows you to enable or disable the display of the element's shadow on the indicator panel. |
+| Style | Selects a style for the current element. The default it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard. |
+| Argument Format | Customizes the formatting [of the arguments](../Report_Internals/Text_Formatting/index.md) the Chart element. |
+| Enabled | Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer. |
+| Interaction | Customizes the [interaction](Interaction.md) element of the chart. |
+| Margin | A group of properties that allows you to define indents (left, top, right, bottom) of the value area from the border of this element. |
+| Padding | A group of properties that allows you to define indents (left, top, right, bottom) of the columns from the range of values. |
+| Show Blanks | Allows displaying or hiding the label "Show (blank)" in the dashboard element when there is no data available for that element. |
+| Title | A group of properties that allows you to customize the title of the Table element: The **Back Color** property provides the ability to change the background color of the title of the current item. By default, this property is set to **From Style**, i.e. the background color will be obtained from the style settings of the current element. **Fore Color** allows you to change the text color of the title of the current item. By default, this property is set to **From Style**, i.e. the text color of the title will be obtained from the settings of the current element style The group property **Font** allows you to define the font family, its style and size for the title of the current element. The **Horizontal Alignment** property provides the ability to change the title alignment relative to the element - Left, Center, Right. The **Text** property is used to set the title text of the current element. The **Visible** property is used to enable or disable displaying of the title of the current item. If the property is set to **True**, then the element title will be included. If this property is set to **False**, then the element header will be disabled. |
+| Value Format | Customizes the [formatting of the values](../Report_Internals/Text_Formatting/index.md) of the Chart element. |
+| Name | Changes the name of the current element. |
+| Alias | Changes the alias of the current item. |
+| Restrictions | Configures the permissions to use the current item in the dashboard: The **Allow Change** option enables or disables changes of the element. If checked, the current item can be changed. The **Allow Delete** option enables or disables the deletion of an element. The **Allow Move** option allows or prohibits moving an element. The **Allow Resize** option enables or disables resizing of an element. The **Allow Select** option enables or disables the element selection. |
+| Locked | Locks or unlocks resizing and movement of the current element. If the property is set to **True**, the current element cannot be moved or resized. If this property is set to **False**, then this element can be moved and resized. |
+| Linked | Binds the current location to the dashboard or another element. If the property is set to **True**, then the current item is bound to the current location. If this property is set to **False**, then this element is not tied to the current location. |

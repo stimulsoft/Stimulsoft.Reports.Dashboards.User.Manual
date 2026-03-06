@@ -11,17 +11,10 @@ The FIM barcode on a card
 The table below shows basic parameters of the FIM barcode.
 
 
-Valid symbols:
-
-ABCD
-
-Length:
-
-Fixed, 1 symbol
-
-Check digit:
-
-No
+| Valid symbols: | ABCD |
+| --- | --- |
+| Length: | Fixed, 1 symbol |
+| Check digit: | No |
 
 The FIM barcode consists of nine elements. Each element can be 1 (vertical bar) or 0 (space). Four barcodes are used:
 
