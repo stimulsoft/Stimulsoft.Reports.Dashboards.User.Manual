@@ -390,6 +390,14 @@
       display: block;
     }
 
+    /* Inline image — image alongside text → no border, no radius, aligned to text */
+    #content p:has(> img:not(:only-child)) img {
+      border: none;
+      border-radius: 0;
+      vertical-align: middle;
+      display: inline;
+    }
+
     /* ── Code blocks ── */
     #content pre {
       background: var(--color-code-bg);
