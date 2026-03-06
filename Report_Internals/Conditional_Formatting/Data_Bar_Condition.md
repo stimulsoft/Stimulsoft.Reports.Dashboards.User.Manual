@@ -45,7 +45,7 @@ Add the Data Bar condition. To do this, select a text component, for example a t
 
 > **Video**
 >
-> **Notice**: The difference between the **Auto** from the **Maximum** and **Minimum** may be noticeable only in a certain range of numbers.
+> * **Notice**: The difference between the **Auto** from the **Maximum** and **Minimum** may be noticeable only in a certain range of numbers.
 
 
 ![](../../images/img_4.png) The **Value field** for a minimum value.

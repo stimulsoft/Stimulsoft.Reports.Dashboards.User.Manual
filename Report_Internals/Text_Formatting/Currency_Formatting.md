@@ -12,7 +12,7 @@ Set the currency format for the UnitPrice column.
 
 > **Information**
 >
-> **Information:** It is understood that when setting the currency format, the important point is the selection of the required currency. The same value can be either the US, European Union, China currency and the currency of any other country.
+> * **Information:** It is understood that when setting the currency format, the important point is the selection of the required currency. The same value can be either the US, European Union, China currency and the currency of any other country.
 
 
 For example, the prices are in US dollars. Then, select the appropriate currency sign, and determine the parameters of the format.

@@ -16,13 +16,13 @@ The Chart Style type is applied to the [Chart component](../../../Reports_Intern
 >
 > It is not possible to edit the preset Chart Styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
 >
-> Assign the preset style to the Chart component or element and select that component.
+> * Assign the preset style to the Chart component or element and select that component.
 >
-> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
+> * Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
-> Adjust the obtained style using its properties.
+> * Adjust the obtained style using its properties.
 >
-> Assign this custom style to the Chart component or element.
+> * Assign this custom style to the Chart component or element.
 
 Below is a list of the properties used to configure the style of the chart.
 

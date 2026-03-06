@@ -18,4 +18,4 @@ You can completely change the design of charts, ranging from basic colors and en
 
 > **Video**
 >
-> **Notice**: If the **AllowApplyStyle** is enabled then the style will be applied. If you disable the **AllowApplyStyle** then the parameters of series will be considered.
+> * **Notice**: If the **AllowApplyStyle** is enabled then the style will be applied. If you disable the **AllowApplyStyle** then the parameters of series will be considered.

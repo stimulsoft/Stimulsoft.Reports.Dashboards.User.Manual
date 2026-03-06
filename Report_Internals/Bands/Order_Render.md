@@ -94,7 +94,7 @@ On every page. Output on the first page is optional.
 
 > **Information**
 >
-> Information: Components placed directly on the page (not on any band) are printed first, followed by the bands.
+> * Information: Components placed directly on the page (not on any band) are printed first, followed by the bands.
 
 
 The **Child Band** can be placed on any band except the **Page Header**, **Report Summary**, **Page Footer**. The picture below shows the report page template with the location of bands.
@@ -119,7 +119,7 @@ On the first stage go the preliminary analysis of all the bands and the location
 
 > **Video**
 >
-> **Notice:** If the **Title Before Header** property is set to true, then the **ReportTitleBand1** will be processed and added to the first page first, and then **PageHeaderBand1**.
+> * **Notice:** If the **Title Before Header** property is set to true, then the **ReportTitleBand1** will be processed and added to the first page first, and then **PageHeaderBand1**.
 
 
 In the second stage goes the analysis of other bands.
@@ -127,7 +127,7 @@ In the second stage goes the analysis of other bands.
 
 > **Information**
 >
-> Information: It should be understood that other bands are in the relationship with the **Data Band**, and their rendering depends on it. So and the **Data Band** is found and analyzed first, and then the other bands.
+> * Information: It should be understood that other bands are in the relationship with the **Data Band**, and their rendering depends on it. So and the **Data Band** is found and analyzed first, and then the other bands.
 
 
 After the analysis, the report rendering will start. The ReportSummaryBand1 will be processed last.
@@ -152,7 +152,7 @@ Almost all of the bands can be divided into two categories: **Headers** and **Fo
 
 > **Video**
 >
-> **Notice:** If there is equal number of headers and footers each header corresponds to its own footer. "Header - Footer" correspondence is considered not from top to bottom of the page but from the data band. Let's say there is one data band, two headers and two footers.
+> * **Notice:** If there is equal number of headers and footers each header corresponds to its own footer. "Header - Footer" correspondence is considered not from top to bottom of the page but from the data band. Let's say there is one data band, two headers and two footers.
 
 
 ![](../../images/topics/Report_Internals.Bands.Order_Render_5.png)
@@ -199,12 +199,12 @@ It often happens that the number of headers and footers of a particular type is 
 
 > **Video**
 >
-> **Notice:** Just headers/footers are output only once before/after the data band and the number of them is not affected on anything. Headers and footers are displayed for each group and each group header strictly corresponds to the footer of the group. In complex reports with different number of headers and footers of the group there may be the erroneous relation with headers and footers. Therefore, we recommend have the same number of bands, headers and footers of the groups in the report template.
+> * **Notice:** Just headers/footers are output only once before/after the data band and the number of them is not affected on anything. Headers and footers are displayed for each group and each group header strictly corresponds to the footer of the group. In complex reports with different number of headers and footers of the group there may be the erroneous relation with headers and footers. Therefore, we recommend have the same number of bands, headers and footers of the groups in the report template.
 
 
 > **Information**
 >
-> Information: In order the band present in the report template but do not appear in a report you should set it height to zero.
+> * Information: In order the band present in the report template but do not appear in a report you should set it height to zero.
 
 
 For the example above, let’s equalize the number of data headers and footers.
@@ -279,7 +279,7 @@ And then the first page of the report will look the following way.
 
 > **Video**
 >
-> **Notice:** For the example described above, the placement of the **FooterBand1** under the **HeaderBand2** is not quite correct.
+> * **Notice:** For the example described above, the placement of the **FooterBand1** under the **HeaderBand2** is not quite correct.
 >
 >
 > ![](../../images/topics/Report_Internals.Bands.Order_Render_19.png)

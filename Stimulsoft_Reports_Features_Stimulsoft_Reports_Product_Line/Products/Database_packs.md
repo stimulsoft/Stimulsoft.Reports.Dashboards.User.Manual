@@ -839,12 +839,11 @@ Uni Direct
 >
 > ![](../../images/img_1.png) The following MySQL adapters are available for .NET products:
 >
-> MySQL ConnectorNet;
+> * MySQL ConnectorNet;
 >
 >
 > ![](../../images/img_2.png) The following Oracle adapters are available for .NET products:
->  Oracle Data Provider for .NET
->
+> * Oracle Data Provider for .NET
 > ![](../../images/img_3.png) The following PostgreSQL adapters are available for .NET products:
 >
-> Npgsql;
+> * Npgsql;

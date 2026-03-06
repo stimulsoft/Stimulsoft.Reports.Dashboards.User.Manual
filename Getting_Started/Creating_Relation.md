@@ -35,11 +35,11 @@ Step 6: Select the data columns using which the relation between the sources wil
 >
 > When creating a connection, you should know that the key columns must comply with all the rules for creating a connection in ADO.NET:
 >
-> Their number should be the same;
+> * Their number should be the same;
 >
-> Their types must match, if the master key column is the string type, then the detail key column must be the string type;
+> * Their types must match, if the master key column is the string type, then the detail key column must be the string type;
 >
-> Keys must be specified, keyless relation is impossible.
+> * Keys must be specified, keyless relation is impossible.
 
 Step 7: Select the Active Relation. If the data source has several relations with other sources, then an active relation will be used to map the data.
 

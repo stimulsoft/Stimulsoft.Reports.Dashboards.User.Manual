@@ -118,9 +118,9 @@ Now, the product list in the chart will first be filtered by the category **Cond
 >
 > Note that data filtering using filters:
 >
-> It is performed on data fields that are not used in the **Chart** element;
+> * It is performed on data fields that are not used in the **Chart** element;
 >
-> It is applied only to the element of the dashboard where filters are set, in our example, only to the chart.
+> * It is applied only to the element of the dashboard where filters are set, in our example, only to the chart.
 
 **Table of Operations**
 

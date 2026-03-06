@@ -20,9 +20,9 @@ This chapter will cover the following:
 >
 > When you design a report, you can embed all created data sources in a report file. Each type of connection will be converted to a separate XML file and embedded into the report file as a resource. In this case, the connection of data sources will be redefined on this resource. However, in this case, you should know that:
 >
-> The size of the report file can increase significantly;
+> * The size of the report file can increase significantly;
 >
-> This is an irreversible action. Therefore, before performing this step, you should back up the report file or use Stimulsoft Cloud to store reports.
+> * This is an irreversible action. Therefore, before performing this step, you should back up the report file or use Stimulsoft Cloud to store reports.
 >
 >
 > To embed all data in a report file, select the Embed all data to resources command from the Actions menu of the data dictionary.
@@ -158,9 +158,9 @@ When you design reports, you can get data from CSV, Excel, JSON, XML, and DBF fi
 >
 > The report designer supports dragging data files. When dragging a data file into a dictionary, you have two options for adding this file:
 >
-> New Data Source, a connection will be created to this file and data tables will be obtained from it, but this file will not be embedded in the report.
+> * New Data Source, a connection will be created to this file and data tables will be obtained from it, but this file will not be embedded in the report.
 >
-> New Resource, the data file will be [embedded in the report as a resource](#draganddropdatafile). Based on this resource, you can create a data source.
+> * New Resource, the data file will be [embedded in the report as a resource](#draganddropdatafile). Based on this resource, you can create a data source.
 >
 >
 > When you drag the data file to any other area of ​​the report designer, it will be added as a resource, embedded in the report.

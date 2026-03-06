@@ -47,11 +47,11 @@ You may set up data sorting for the following items:
 >
 > You may enable/disable interactive sorting in the [Interaction editor](Interaction.md) of a dashboard element. To do this, you should:
 >
-> Select an item;
+> * Select an item;
 >
-> Call the Interaction editor;
+> * Call the Interaction editor;
 >
-> Enable the interactive sort button, or uncheck the box to disable the interactive sort button for the Allow User Sorting option.
+> * Enable the interactive sort button, or uncheck the box to disable the interactive sort button for the Allow User Sorting option.
 
 Sorting in a Table
 

@@ -34,7 +34,7 @@ The heatmap provides an opportunity to graphically display values of map items. 
 
 > **Video**
 >
-> Notice: When using a heatmap, the values of groups and elements of the map will not be grouped. If you want to display the heat map by the grouped values, it is necessary to specify the type of map as the heatmap with the group.
+> * Notice: When using a heatmap, the values of groups and elements of the map will not be grouped. If you want to display the heat map by the grouped values, it is necessary to specify the type of map as the heatmap with the group.
 
 
 ![](../../images/topics/Report_Internals.Maps.Map_Type_5.png)

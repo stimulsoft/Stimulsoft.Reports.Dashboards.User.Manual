@@ -118,9 +118,9 @@ For each new condition, you should specify the parameters of its applying. The c
 >
 > For line charts, two additional options will be displayed:
 >
-> Marker Type is used to change the type of a marker when the condition is executed;
+> * Marker Type is used to change the type of a marker when the condition is executed;
 >
-> Angle is used to rotate the marker to the right (positive value) or left (negative value).
+> * Angle is used to rotate the marker to the right (positive value) or left (negative value).
 
 Condition parameters of Pivot Table
 

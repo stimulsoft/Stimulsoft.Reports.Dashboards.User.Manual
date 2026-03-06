@@ -31,9 +31,9 @@ When creating a new data transformation, settings and its elements are defined i
 >
 > You can delete fields from a new data transformation using the following way:
 >
-> Hover the cursor over a field and click the delete button to the right of its name;
->  Hover the cursor over a field, click the right button of the input cursor, and select the Remove Field command in the context menu;
->  Select a field and click the delete button.
+> * Hover the cursor over a field and click the delete button to the right of its name;
+> * Hover the cursor over a field, click the right button of the input cursor, and select the Remove Field command in the context menu;
+> * Select a field and click the delete button.
 >
 > Also, you can delete all fields from data transformation. To do it, you should call the context menu and select the Remove All Fields command.
 

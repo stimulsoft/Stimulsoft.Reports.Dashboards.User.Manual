@@ -38,11 +38,11 @@ By default, these properties are not used. But if you specify appropriate styles
 > **Information**
 >
 > You can apply a style via a row for other components too. It`s easy to do that using conditional formatting of components. To do that you should:
->  Select a component in a report;
+> * Select a component in a report;
 >
-> Add conditional formatting;
->  Specify the (Line & 1) == 0 expression as an expression of formatting applying;
->  Select a necessary style as formatting settings.
+> * Add conditional formatting;
+> * Specify the (Line & 1) == 0 expression as an expression of formatting applying;
+> * Select a necessary style as formatting settings.
 
 Use Parent Styles
 Apart from the Style property, each report component has an additional property of style control – Use Parent Styles. This property allows you to use component style, where it is located. If this property is set to true value, the component style, where it is placed will be applied to the component. If this property is set to False value, an assigned style will be applied to the current component.

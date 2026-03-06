@@ -9,7 +9,7 @@ The Chart wizard provides an opportunity to create a chart in a few simple steps
 
 > **Video**
 >
-> **Information**: To proceed to the next step, press the button **Next**. You should remember that you can always return to the previous step by clicking the button **Back**.
+> * **Information**: To proceed to the next step, press the button **Next**. You should remember that you can always return to the previous step by clicking the button **Back**.
 
 
 The chart component contains a collection of preset styles for the chart. Select one of them to create a chart. By default, the first style in the list is selected.
@@ -55,7 +55,7 @@ In the next step, you need to create a series of charts and specify their values
 
 > **Video**
 >
-> **Information**: It should be noted that for rendering the chart there must be at least one values, the value is required to be specified. Arguments, if they are not specified, they will be automatically created.
+> * **Information**: It should be noted that for rendering the chart there must be at least one values, the value is required to be specified. Arguments, if they are not specified, they will be automatically created.
 
 
 On the next step, it is necessary to define the look of labels in the chart. By default, labels are disabled.
@@ -71,7 +71,7 @@ On the next step, it is necessary to define the look of labels in the chart. By 
 
 > **Video**
 >
-> **Information**: You should know that when you create a chart manually, without using the wizard, you can specify label look as the entire chart and its our look for each row of the label. When you create a chart using the wizard, you can only define the general form of signatures for the whole diagram, one type for all series of the chart.
+> * **Information**: You should know that when you create a chart manually, without using the wizard, you can specify label look as the entire chart and its our look for each row of the label. When you create a chart using the wizard, you can only define the general form of signatures for the whole diagram, one type for all series of the chart.
 
 
 On the next step, it is necessary to define axes settings.

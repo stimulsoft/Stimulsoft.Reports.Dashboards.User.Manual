@@ -14,13 +14,13 @@ The Indicator style is applied to the [Indicator](../../../Dashboards/Indicator.
 >
 > It is not possible to edit the preset Indicator styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
 >
-> Assign the preset style to the Indicator component or element and select that component.
+> * Assign the preset style to the Indicator component or element and select that component.
 >
-> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
+> * Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
-> Adjust the obtained style using its properties.
+> * Adjust the obtained style using its properties.
 >
-> Assign this custom style to the Indicator component or element.
+> * Assign this custom style to the Indicator component or element.
 
 Below is a list of properties that are used to set the indicator style.
 

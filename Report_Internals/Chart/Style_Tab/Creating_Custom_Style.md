@@ -16,11 +16,11 @@ To create a chart style, you need:
 > **Information**
 >
 > Predefined chart styles can't be edited. However, a custom style can be created based on a predefined one and then customized. To do this:
->  Assign a predefined style to the Chart component and select the component;
->  Open the Style Designer and click Get Style from Selected Components;
->  Customize the retrieved style using its properties;
+> * Assign a predefined style to the Chart component and select the component;
+> * Open the Style Designer and click Get Style from Selected Components;
+> * Customize the retrieved style using its properties;
 >
-> Assign the newly created custom style to the Chart component.
+> * Assign the newly created custom style to the Chart component.
 
 Below is a table of properties used to configure the chart style.
 

@@ -26,4 +26,4 @@ And then, the dates in the report will be displayed with certain formats.
 
 > **Video**
 >
-> **Notice:** In addition to the formats on the **Date** tab, you can create a format on the **Custom** tab.
+> * **Notice:** In addition to the formats on the **Date** tab, you can create a format on the **Custom** tab.

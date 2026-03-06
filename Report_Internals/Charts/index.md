@@ -14,11 +14,11 @@ Thus, a single Chart component can display multiple chart series. In this case, 
 > **Information**
 >
 > The following series types are compatible with each other:
->  Histogram, Line, Spline, Step Line, Area, Spline Area, Step Area.
+> * Histogram, Line, Spline, Step Line, Area, Spline Area, Step Area.
 >
-> Stacked Histogram, Stacked Line, Stacked Spline, Stacked Area, Stacked Spline Area.
+> * Stacked Histogram, Stacked Line, Stacked Spline, Stacked Area, Stacked Spline Area.
 >
-> Normalized Histogram, Normalized Line, Normalized Spline, Normalized Area, Normalized Spline Area.
+> * Normalized Histogram, Normalized Line, Normalized Spline, Normalized Area, Normalized Spline Area.
 
 Chart series data can be:
 * Obtained from data sources;

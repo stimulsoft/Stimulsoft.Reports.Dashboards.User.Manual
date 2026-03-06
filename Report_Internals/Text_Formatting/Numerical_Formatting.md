@@ -65,4 +65,4 @@ Thus, for columns ProductID, CategoryID we change only the number of digits in t
 
 > **Video**
 >
-> **Notice:** To display currency values you should use the Currency format. In the example above, for the **UnitPrice** column you should set the Currency format.
+> * **Notice:** To display currency values you should use the Currency format. In the example above, for the **UnitPrice** column you should set the Currency format.

@@ -14,13 +14,13 @@ The Report Control style applies to forms and controls in a report, as well as t
 >
 > It is not possible to edit the preset Report Control styles. However, it is possible to create a custom style based on the preset style and adjust it. To do this, please follow these steps:
 >
-> Assign the preset style to the Report Control component or element and select that component.
+> * Assign the preset style to the Report Control component or element and select that component.
 >
-> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
+> * Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
-> Adjust the obtained style using its properties.
+> * Adjust the obtained style using its properties.
 >
-> Assign this custom style to the Report Control component or element.
+> * Assign this custom style to the Report Control component or element.
 
 Below is a list of properties that are used to set the report control style.
 

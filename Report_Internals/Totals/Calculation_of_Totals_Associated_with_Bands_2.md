@@ -54,7 +54,7 @@ Int64
 
 > **Video**
 >
-> Notice: The letters I, D can be added to any function except Count and CountDistinct. These functions always return the Int64 type.
+> * Notice: The letters I, D can be added to any function except Count and CountDistinct. These functions always return the Int64 type.
 
 
 Some words about the function syntax
@@ -140,7 +140,7 @@ If you want to display the total, for example, on the Header band, then this is 
 
 > **Video**
 >
-> Notice: The components with functions can be placed anywhere in the report.
+> * Notice: The components with functions can be placed anywhere in the report.
 
 
 It is also allowed to place a component with the function on a page and other pages of the report template. For example, it is possible to calculate the sum of values by the list and output it in the header list. Another example, calculate the number of rows in the list and output the value at the beginning of the page. At the same time, there is a limitation: you must specify the Data band, in which the result will be calculated:
@@ -158,7 +158,7 @@ To calculate the totals, it is possible not to specify additional arguments in t
 
 > **Video**
 >
-> Notice: The report generator can determine the relationship between functions and specific Data band if the component with this function is related to the band with the Data band. In other words, the component with the function is located on the Header and Footer bands that relate to this Data band.
+> * Notice: The report generator can determine the relationship between functions and specific Data band if the component with this function is related to the band with the Data band. In other words, the component with the function is located on the Header and Footer bands that relate to this Data band.
 
 
 Otherwise, in the arguments, you should specify the data source or a Data band on which it is necessary to calculate the total. The following can be specified in expressions:
@@ -178,7 +178,7 @@ To calculate the total by the page or panel, you should add the Latin letter "c"
 
 > **Information**
 >
-> Notice: The calculation of totals by the page has the same principle as for the panel.
+> * Notice: The calculation of totals by the page has the same principle as for the panel.
 
 
 When calculating totals by the panel or page, it is desirable to specify the Data band by which goes the calculation of the aggregate function. It is necessary because there may be more than one Data band on one page.
@@ -200,7 +200,7 @@ To calculate the total by a column, you must add the prefix col (from the word c
 
 > **Video**
 >
-> Notice: The calculation of totals by a column in Stimulsoft Reports has one limitation. Totals can be calculated only by the columns on the page. Calculation of totals by the columns on the Data band is not allowed.
+> * Notice: The calculation of totals by a column in Stimulsoft Reports has one limitation. Totals can be calculated only by the columns on the page. Calculation of totals by the columns on the Data band is not allowed.
 
 
 When calculating totals by the column, it is desirable to place text components with functions on ColumnHeader, ColumnFooter, Header, or Footer bands. You can calculate an unlimited number of totals by the column. There are no restrictions on this. It is also allowed to combine the footers by the column with the condition:
@@ -216,7 +216,7 @@ Using Stimulsoft software, you can calculate functions in the code of the report
 
 > **Information**
 >
-> Notice: Do not use variables declared in the code to store the result of the calculation of functions. You must use the variables from the data dictionary.
+> * Notice: Do not use variables declared in the code to store the result of the calculation of functions. You must use the variables from the data dictionary.
 
 
 When creating a variable, the data type of the variable is indicated. For example, Decimal, and the initial value, for example, 0. Then, in the Data band, indicate an expression to increment a variable in the Rendering event. For example, if you want to calculate the sum of the values by the field Products.UnitPrice field, the expression will be the following:
@@ -244,14 +244,14 @@ Sometimes, when calculating totals, it is necessary to consider certain values. 
 
 > **Information**
 >
-> Notice: If you want to make a calculation using a Double or Int64, you must first add the Latin letter D or I, and then the word If. For example: {SumDIf(Products.UnitsInStock,Products.UnitsInStock&gt; 0)}.
+> * Notice: If you want to make a calculation using a Double or Int64, you must first add the Latin letter D or I, and then the word If. For example: {SumDIf(Products.UnitsInStock,Products.UnitsInStock&gt; 0)}.
 
 
 Totals and automatic changing the size of the component
 
 > **Video**
 >
-> Notice: When rendering a report, at the moment, when the size of the component is determined, the result of the calculation of the total function is still unknown. This should be considered when installing the automatic resizing for the components in which the calculation of totals is done. Otherwise, an issue may arise when the size of the component is not correct in relation to the result of the calculation of the total function.
+> * Notice: When rendering a report, at the moment, when the size of the component is determined, the result of the calculation of the total function is still unknown. This should be considered when installing the automatic resizing for the components in which the calculation of totals is done. Otherwise, an issue may arise when the size of the component is not correct in relation to the result of the calculation of the total function.
 
 Totals with the disabled Data band
 

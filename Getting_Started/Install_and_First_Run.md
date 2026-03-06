@@ -40,9 +40,9 @@ Step 2: Click the Download for Windows button on the site page;
 >
 > Also, in this submenu you can download other applications:
 >
-> Stimulsoft Designer.JS is a universal application for working with reports and dashboards. The designer is designed using NW.js, HTML5, and JavaScript technologies. The main feature is the use of the JS core in design. The documents created with it will have the same look and functionality on any operating system.
+> * Stimulsoft Designer.JS is a universal application for working with reports and dashboards. The designer is designed using NW.js, HTML5, and JavaScript technologies. The main feature is the use of the JS core in design. The documents created with it will have the same look and functionality on any operating system.
 >
-> Stimulsoft Demo is a demo application for exploring the main features and benefits of a report writer and dashboards. The application contains lots of predesigned reports and dashboards, grouped by functionality.
+> * Stimulsoft Demo is a demo application for exploring the main features and benefits of a report writer and dashboards. The application contains lots of predesigned reports and dashboards, grouped by functionality.
 
 
 Step 3: Run the installer.

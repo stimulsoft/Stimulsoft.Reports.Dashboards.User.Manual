@@ -49,11 +49,11 @@ In the editor you can indicate the source of the image for the current element. 
 >
 > Since only one graphic object can be displayed in one element, the image can have only one source. The order in which the object is shown in the image element is as follows:
 >
-> An image uploaded from the local storage has the highest priority. This image will overlap the selected icon or image by hyperlink;
+> * An image uploaded from the local storage has the highest priority. This image will overlap the selected icon or image by hyperlink;
 >
-> An icon has a medium priority. It will be displayed in the current element if the image from the local storage is not loaded, but regardless of the specified hyperlink.
+> * An icon has a medium priority. It will be displayed in the current element if the image from the local storage is not loaded, but regardless of the specified hyperlink.
 >
-> An image by a hyperlink has the lowest priority. The hyperlink will upload the image in the current element if the image from the local storage is not loaded, and the icon is not selected.
+> * An image by a hyperlink has the lowest priority. The hyperlink will upload the image in the current element if the image from the local storage is not loaded, and the icon is not selected.
 >
 >
 > Thus, if a graphic object is loaded directly in the Image element, the image receiving hyperlink or the selected icon will not work.

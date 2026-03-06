@@ -52,15 +52,15 @@ Hyperlink.
 >
 > On some platforms, you can also load a report from:
 >
-> Stream,
+>   * Stream,
 >
-> Bite Array,
+>   * Bite Array,
 >
-> Resource,
+>   * Resource,
 >
-> Class,
+>   * Class,
 >
-> Assembly.
+>   * Assembly.
 
 
 ![](../../images/img_4.png) The option for selecting an action with a report, after it is published:
@@ -76,16 +76,16 @@ Design. The project will be created to edit the report. When you run the project
 >
 > If there are data sources and parameters (variables) in the report, then when you select any action, you should specify the data connection parameters:
 >
-> Use Connection from Report. If the connection is present in the report, then it will be used when the project is run.
+>   * Use Connection from Report. If the connection is present in the report, then it will be used when the project is run.
 >
-> Replace Connection String. Provides the ability to specify a new connection string to the data storage.
+>   * Replace Connection String. Provides the ability to specify a new connection string to the data storage.
 >
 >
 > ![](../../images/topics/Reports_Designer.File_Menu.Publish_3.png)
 >  If the report uses file data sources (XML or JSON), then, instead of the Replace Connection String option, the Replace Path to Data parameter will be present. Using it you can specify a new path to the data files.
 >
 >
-> Register Data from Code. Select this option if you want to use data from XML, JSON sources or from Business objects. If you select this item, you can also enable the following options:
+>   * Register Data from Code. Select this option if you want to use data from XML, JSON sources or from Business objects. If you select this item, you can also enable the following options:
 >
 > ![](../../images/topics/Reports_Designer.File_Menu.Publish_4.png)
 >  Synchronize Report Dictionary. Use this option to synchronize the registered data in the data storage and in the data dictionary of the report.
@@ -96,11 +96,11 @@ Design. The project will be created to edit the report. When you run the project
 >
 > In addition, the data dictionary can contain variables. When you select the Show or Export action, you can define a value for each variable:
 >
-> Use Value from Report. The value of the variable will remain as the default.
+>   * Use Value from Report. The value of the variable will remain as the default.
 >
-> Replace Value from Code.
+>   * Replace Value from Code.
 >
-> Request from User. Use the value entered by the user.
+>   * Request from User. Use the value entered by the user.
 
 ![](../../images/img_5.png) Options that depend on the selected action. In this case, the Show action is selected, so the Display the Viewer in Full Browser Window option is available.
 

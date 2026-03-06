@@ -53,11 +53,11 @@ The main toolbar locates commands to control the report. Below is the structure 
 > A report file may contain only a report; only a dashboard; both a report and a dashboard.
 >
 >
-> If the report file contains only the report, then this report will be rendered and displayed in the report viewer.
+> * If the report file contains only the report, then this report will be rendered and displayed in the report viewer.
 >
-> If the report file contains only the dashboard, then the report viewer will switch to the view mode of the dashboard, with the display of this panel.
+> * If the report file contains only the dashboard, then the report viewer will switch to the view mode of the dashboard, with the display of this panel.
 >
-> If the report file contains both the report and the dashboard, then the report viewer will switch to the view mode of the dashboard, with the display of this panel. To view the report, go to the tab with the name of the report page.
+> * If the report file contains both the report and the dashboard, then the report viewer will switch to the view mode of the dashboard, with the display of this panel. To view the report, go to the tab with the name of the report page.
 
 ![](../../images/img_3.png) [Save the rendered report](#exportingreport) to other file formats.
 
@@ -91,13 +91,13 @@ The main toolbar locates commands to control the report. Below is the structure 
 > In addition to the above commands, other buttons may be displayed on the toolbar:
 >
 >
-> If the report contains editable fields, the Editor button will be displayed in the viewer. When you click this button, the edit mode of the report components will be activated.
+> * If the report contains editable fields, the Editor button will be displayed in the viewer. When you click this button, the edit mode of the report components will be activated.
 >
-> Commands are used to create, edit, delete, and customize pages of the rendered report.
+> * Commands are used to create, edit, delete, and customize pages of the rendered report.
 >
-> The Close button is used to close the preview tab or viewer window.
+> * The Close button is used to close the preview tab or viewer window.
 >
-> The button is used to enable the [Dot-matrix mode](Dot-Matrix_Mode.md).
+> * The button is used to enable the [Dot-matrix mode](Dot-Matrix_Mode.md).
 
 Status Bar
 

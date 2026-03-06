@@ -94,11 +94,11 @@ Step 6: Provide a reference to the variable by name. For example, {Variable1}.
 >
 > Despite the fact that the Range variable is not supported when filtering on the dashboard panel, if you need to filter a range of values in elements, this can be done using variables. To do this, you should:
 >
-> Create two Value variables, where the first variable will represent the value of the range, and the second - its end.
+> * Create two Value variables, where the first variable will represent the value of the range, and the second - its end.
 >
-> When creating an element filter, the operation of the filter condition is defined as Between.
+> * When creating an element filter, the operation of the filter condition is defined as Between.
 >
-> Indicate the first variable in the initial value field, and the second variable - in the end value field.
+> * Indicate the first variable in the initial value field, and the second variable - in the end value field.
 >
 >
 > So, in the report viewer, changing the values of variables will change the data filtering range.

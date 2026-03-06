@@ -13,10 +13,10 @@ To set a formula for the Excel text component you should:
 > **Information**
 >
 > When designing a report it`s important to know the range of cells to which a formula will be applied, so as the range of cells, that the data occupies may shift when adding other components to a report. To avoid the calculating of incorrect formulas you should:
->  Create a report template with all components;
->  Export this report to Excel;
->  Memorize the range of cells to which a formula will be applied;
->  Back to the report template and edit it, specifying an Excel formula with this range of cells.
+> * Create a report template with all components;
+> * Export this report to Excel;
+> * Memorize the range of cells to which a formula will be applied;
+> * Back to the report template and edit it, specifying an Excel formula with this range of cells.
 
 
 Let`s look at several examples of using Excel formulas in a report template. For example, there is a report with the list of products, their prices, the number of orders and products in the warehouse.

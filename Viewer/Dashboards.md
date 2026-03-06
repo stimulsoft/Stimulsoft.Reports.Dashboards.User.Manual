@@ -18,11 +18,11 @@ Controls of the dashboard are located in the upper right corner above the dashbo
 > A report file may contain the following: only a report, only a dashboard, and both a report and a dashboard.
 >
 >
-> If the report file contains only the report, then this report will be rendered and displayed in the report viewer.
+> * If the report file contains only the report, then this report will be rendered and displayed in the report viewer.
 >
-> If the report file contains only the dashboard, then the report viewer will switch to the view mode of the dashboard, with the display of this panel.
+> * If the report file contains only the dashboard, then the report viewer will switch to the view mode of the dashboard, with the display of this panel.
 >
-> If the report file contains a report and dashboard, then the report viewer will switch to the view mode of the dashboard with this panel displayed. To view a report, in the report viewer window, go to the tab with the name of the report template page.
+> * If the report file contains a report and dashboard, then the report viewer will switch to the view mode of the dashboard with this panel displayed. To view a report, in the report viewer window, go to the tab with the name of the report template page.
 
 
 ![](../images/img_3.png) The Edit button is used to change the rendered dashboard in the report designer. You should know that this can only be done if, before rendering the dashboard panel, the Calculation Mode property of the template is set to Interpretation.

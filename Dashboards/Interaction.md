@@ -293,14 +293,14 @@ As a parameter value you can specify:
 >
 > Each element of the dashboard has its own fields. To indicate a link to an element field, you should:
 >
-> Click the Edit button in the Value field of the [Interaction editor](#InteractionEditor);
+> * Click the Edit button in the Value field of the [Interaction editor](#InteractionEditor);
 >
-> In the Hyperlink editor, click the Insert Expression button;
+> * In the Hyperlink editor, click the Insert Expression button;
 >
-> Select what you need from the list of element fields.
+> * Select what you need from the list of element fields.
 >
 >
-> ![](../images/topics/Dashboards.Interaction_16.png)
+> ![](../images/topics/Dashboards.Interaction_17.png)
 
 After the parameter has been created, you should specify the filtering condition using the drill down parameters in the drill down dashboard:
 
@@ -315,13 +315,13 @@ After the parameter has been created, you should specify the filtering condition
 * Specify the parameter as the second value of the filter value. If the parameter is passed directly without using a variable in the data dictionary, then this["ParameterName"] must be specified. If a variable is used, then you must specify a link to this variable - {Variable1} in the expression field.
 
 
-![](../images/topics/Dashboards.Interaction_17.png)
+![](../images/topics/Dashboards.Interaction_18.png)
 
 **Drill Down**
 Drill down refers to moving to the lower or upper level in the data hierarchy of an element, without rebuilding the dashboard within the current element.
 
 
-![](../images/topics/Dashboards.Interaction_18.png)
+![](../images/topics/Dashboards.Interaction_19.png)
 
 The picture above shows an example of a data hierarchy - the first chart shows sales statistics by category; the second one shows sales statistics of products from selected categories.
 
@@ -348,14 +348,14 @@ To view hierarchical data within a single element of the dashboard, you can appl
 * Enable the Allow User Drill Down parameter.
 
 
-![](../images/topics/Dashboards.Interaction_19.png)
+![](../images/topics/Dashboards.Interaction_20.png)
 
 Now, when you choose chart values, the data of all interconnected elements of the dashboard will be filtered, and to drill down to the data of the current element, you should:
 
 * Click the Drill Down button on the dashboard element;
 
 
-![](../images/topics/Dashboards.Interaction_20.png)
+![](../images/topics/Dashboards.Interaction_21.png)
 
 
 * Select the element values for which you want to display detail;
@@ -363,12 +363,12 @@ Now, when you choose chart values, the data of all interconnected elements of th
 * Click the Drill Down Selected button;
 
 
-![](../images/topics/Dashboards.Interaction_22.png)
+![](../images/topics/Dashboards.Interaction_23.png)
 
 After that, detailed data of the selected element values will be displayed. click the Drill Up button to return to the previous level in the data hierarchy.
 
 
-![](../images/topics/Dashboards.Interaction_23.png)
+![](../images/topics/Dashboards.Interaction_24.png)
 
 Drill down without filtering
 
@@ -385,19 +385,19 @@ Using this option, it will be impossible to filter data for related elements of 
 * Set the Drill Down mode.
 
 
-![](../images/topics/Dashboards.Interaction_24.png)
+![](../images/topics/Dashboards.Interaction_25.png)
 
 Now, when you select the value of an element, its drill down will be implemented.
 
 
-![](../images/topics/Dashboards.Interaction_25.png)
+![](../images/topics/Dashboards.Interaction_26.png)
 
 To drill down to multiple values, you should:
 
 * Click the Drill down button in the dashboard element;
 
 
-![](../images/topics/Dashboards.Interaction_26.png)
+![](../images/topics/Dashboards.Interaction_27.png)
 
 
 * Select the element values for which you want to display detail;
@@ -405,12 +405,12 @@ To drill down to multiple values, you should:
 * Click the Drill Down Selected button;
 
 
-![](../images/topics/Dashboards.Interaction_28.png)
+![](../images/topics/Dashboards.Interaction_29.png)
 
 The drill down data of the selected element values will be displayed. Click the Drill Up button to return to the previous level in the data hierarchy.
 
 
-![](../images/topics/Dashboards.Interaction_29.png)
+![](../images/topics/Dashboards.Interaction_30.png)
 
 Drill down order for data fields
 
@@ -418,7 +418,7 @@ The order of the data fields in the chart arguments displays the drill-down hier
 So, by changing the order of the data fields in the arguments, the hierarchy of the item drill down changes, but the data hierarchy does not change. To correctly displaying the data hierarchy in an element, you should follow the order of the data fields in the arguments: Up is the main data field, then the detailed data fields.
 
 
-![](../images/topics/Dashboards.Interaction_30.png)
+![](../images/topics/Dashboards.Interaction_31.png)
 
 
 The numbers indicate the drill down levels of the dashboard element:
@@ -432,7 +432,7 @@ The numbers indicate the drill down levels of the dashboard element:
 However, if you need to display detailed data first, and then go to the main ones, you can use any order of the data fields in the chart arguments.
 
 
-![](../images/topics/Dashboards.Interaction_31.png)
+![](../images/topics/Dashboards.Interaction_32.png)
 
 The numbers indicate the drill down levels of the dashboard element:
 

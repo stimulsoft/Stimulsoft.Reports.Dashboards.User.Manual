@@ -48,4 +48,4 @@ As can be seen from the picture, the variable can be of the following types - Va
 
 > **Information**
 >
-> Information: When editing a variable, the Save a Copy button will be displayed in the window. When you click on this button, a copy of the edited variable with the Copy postfix in the variable name, will be created.
+> * Information: When editing a variable, the Save a Copy button will be displayed in the window. When you click on this button, a copy of the edited variable with the Copy postfix in the variable name, will be created.
