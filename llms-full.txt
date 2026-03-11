@@ -19354,12 +19354,12 @@ Sometimes it is required to output watermark on a page. Watermark is an inscript
 
 # Watermark Property
 
-Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/Report_Internals/Watermarks/Watermark_Property/index.md
+Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/Report_Internals/Watermarks/Watermark_Property.md
 
 The **Watermark** property allows user to output one image and one inscription on the background or foreground. The **Watermark** property has sub-properties to output watermarks.
 
 
-![](../../../images/topics/Report_Internals.Watermarks.Watermark_Property_1.png)
+![](../../images/topics/Report_Internals.Watermarks.Watermark_Property_1.png)
 
 
 On the table below Text properties for watermark are described.
@@ -19392,13 +19392,6 @@ On the table below Image properties for watermark are described.
 
 
 Also there is another **Enabled** property. This property enables or disables watermark output.
-
----
-
-# Image
-
-Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/Report_Internals/Watermarks/Watermark_Property/Image.md
-
 
 ---
 
@@ -35231,6 +35224,14 @@ After that, click the **Submit** button. Now the report generator will filter da
 
 
 The **Reset** button, in this case, resets the current list of values ​​to the original one.
+
+---
+
+# Validation
+
+Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/Data/Data_Dictionary/Variables/Validation.md
+
+Enter topic text here.
 
 ---
 
