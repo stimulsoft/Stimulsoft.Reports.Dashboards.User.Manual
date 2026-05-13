@@ -115,10 +115,9 @@ In this editor, every action is represented as a separate group of parameters wi
 ![](../images/img_4.png) This group of parameters can be used to enable or disable the **Full Screen**, **View Data** and **Save** buttons in the viewer or in the preview panel for the current dashboard element.
 
 
-**Information**
-
-
-Drill down of element data can be carried out [with the Apply Filter](#DrillDownWithFilters) action or [without it](#DrillDownWithOutFilters).
+> **Information**
+>
+> Drill down of element data can be carried out [with the Apply Filter](#DrillDownWithFilters) action or [without it](#DrillDownWithOutFilters).
 
 **Table element interaction**
 

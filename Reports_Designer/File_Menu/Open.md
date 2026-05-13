@@ -56,8 +56,8 @@ With the help of import utilities, you can convert reports from other reporting 
 
 Use converted reports in **Stimulsoft products**.
 
-
 **Import Report from Crystal Reports**
+
 
 The utility converts the Crystal Reports templates (*.rpt-files) to the Stimulsoft Reports report templates format (*.mrt-files). The tool is supplied as the C# source code only and requires referencing of some Crystal Reports runtime libraries to be built successfully in Visual Studio 2010, .NET Framework 4.0 or higher. Please download the archive from the link below, unzip it and open in the Visual Studio. The project will be built successfully, once all the required dll libraries are referenced and found in Visual Studio.
 
@@ -118,8 +118,8 @@ Please read more about the requirements of those additional installations in the
 
 No, the only way to make your app work is to run one of the redist packages on the user’s PC. We don't support nor do we have a way to manually deploy the runtime. Too many Registry entries and registering of the dll's to do this manually.
 
-
 **Parameters of Import Utility**
+
 
 **Use primitives instead of shapes for the Line and the Box**
 
@@ -130,8 +130,8 @@ If the flag is not enabled then the **Line** and the **Box** components will be 
 
 In each **Formula** **Field** either expression or a data string can be placed. Each **Formula** **Field** is converted into the variable in the data dictionary. If the "**Use functions for Formula Fields"** flag is enabled, then the "**Function**" flag is set to variable. In other words, when report rendering, Stimulsoft Reports will use the value of a variable as an expression and will try to calculate the value of this expression. If the "**Use functions for Formula Fields**" flag is not enabled, then the value of a variable will be used as the data string.
 
-
 **Problems with conversion**
+
 
 One of the main problems in conversion is that not all object properties are available when working with managed dll. The second problem is the different reporting tools structures, such as data structures, work with bands etc. Therefore, it is not always possible to convert a report automatically, and it is required to correct a report manually.
 

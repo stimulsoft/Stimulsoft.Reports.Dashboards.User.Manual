@@ -189,10 +189,9 @@ When creating dashboards for watermark you can specify:
 * [Weave](#watermarkweave), basic and auxiliary icons. Using them you can create different weaves.
 
 
-**Information**
-
-
-When creating watermark for a dashboard, you can use various combinations of watermark modes. For example, image and text or text and weave or all of them.
+> **Information**
+>
+> When creating watermark for a dashboard, you can use various combinations of watermark modes. For example, image and text or text and weave or all of them.
 
 Watermark is set in a special editor. To call the watermark editor you should:
 

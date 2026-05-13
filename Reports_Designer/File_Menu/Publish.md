@@ -23,6 +23,7 @@ After calling the wizard, you need to specify the platform for which the report 
 
 ![](../../images/cross12.png)
 
+
 As it is already mentioned, the number of parameters can vary depending on the selected platform. Consider the parameters of the wizard when publishing report for the JavaScript as an example.
 
 
@@ -133,7 +134,9 @@ As it is already mentioned, the number of parameters can vary depending on the s
 >
 > For the Java platform you can find the **Get Stimulsoft Libraries from Maven** option.
 
+
 ![](../../images/cross12.png)
+
 
 **Step 1**: Run the report designer.
 

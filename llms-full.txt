@@ -10,7 +10,6 @@ Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/I
 
 Welcome to the online version of the documentation Stimulsoft Reports. This part of documentation describes basic approaches in work with GUI. Here you can find the answers on all your questions, find out about main abilities, master the skills of working with the report designer, viewer and other utilities. Also you will learn how to use the components for designing reports, formatting, filtering, and creating styles for reports.
 
-
 Welcome to **Stimulsoft**:
 
 [Technical Support](Technical_Support.md)
@@ -118,7 +117,6 @@ Export Reports:
 [How to Create Report for Export?](../Exports/How_To_Create_Report_for_Export.md)
 
 [More...](../Exports/index.md)
-
 
 The second part of the manual contains the description of non-visual parts of products Stimulsoft.
 
@@ -382,7 +380,6 @@ This section describes how to get information about the latest news and announce
 **Instagram:**
 
 [https://www.instagram.com/stimulsoft/](https://www.instagram.com/stimulsoft/)
-
 
 Also, visit our community to communicate with other users of Stimulsoft tools - [http://forum.stimulsoft.com/index.php](http://forum.stimulsoft.com/index.php )
 Here you can read and discuss various topics related to tools for creating reports and dashboards. For more information about the product in other Internet resources, please use the search engines.
@@ -16614,6 +16611,7 @@ In this article, let's review the process of rendering report bands and define t
 
 ![](../../images/cross12.png)
 
+
 All bands are displayed in the strict order. This is due to the fact that each band has a specific function in the report. And it is very important in which order bands are printed.
 
 
@@ -16642,8 +16640,8 @@ The **Child Band** can be placed on any band except the **Page Header**, **Repor
 
 ![](../../images/topics/Report_Internals.Bands.Order_Render_1.png)
 
-
 ![](../../images/cross12.png)
+
 
 When rendering a report, the report template pages are processed sequentially. The order of page processing is determined by the position of the page in the report tree. The higher the page is in the report tree, the higher is its priority (the sequence) of processing.
 
@@ -16672,8 +16670,8 @@ In the second stage goes the analysis of other bands.
 
 After the analysis, the report rendering will start. The ReportSummaryBand1 will be processed last.
 
-
 ![](../../images/cross12.png)
+
 
 As mentioned above, all bands (except **PageHeaderBand1**, **PageFooterBand1**, **OverlayBand1**, **ReportTitleBand1**, **ReportSummaryBand1**) in the report rendering depends on the DataBand1. Consider these relationships in more detail and start with a simple example. The **Data Band** is placed on the template page.
 
@@ -24793,71 +24791,92 @@ The data dictionary has the **Functions** category. This category contains the e
 
 | **Function** | **Description** | **Sample** |
 | --- | --- | --- |
-| Date: |  |  |
-| {DateDiff(,)} | Calculates the distance between the specified dates Arguments should be of the DateTime type Returns the TimeSpan value | {DateDiff(DateSerial(2022,1,30),DateSerial(2022,1,1))} - the result is 29.00:00:00, that means 29 days. {DateDiff(DataSource.Column1,DataSource.Column2)} - the result will be calculated for each value in Column1 |
-| {DateSerial(,,)} | Specifies date. Arguments should be year, month, day Returns the DateTime value | {DateSerial(2022,1,30)} - the result is 1/30/2022 12:00:00 AM The function returns the DateTime value, but if you want to display only the date, you should apply text formatting to the text component |
-| {Day()} | Shows a day from the specified date Arguments should be of the DateTime type Returns the long value | {Day(DateSerial(2022,1,30))} - the result is 30, since in arguments the January 30 2016 is specified {Day(DataSource.Column)} - the result will be calculated for each Column value |
-| {DayOfWeek()} | Display a day of the week from a specified date in text form. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type) ![](../../images/img_2.png) Culture (the string type) ![](../../images/img_3.png) The value true or false (the bool type), to display the result with a capital letter or with a lowercase ![](../../images/img_4.png) The value true or false (the bool type), depending on which the system culture or designer localization will be used Returns the string type | {DayOfWeek(DateSerial(2022,1,30))} - the result is Sunday. {DayOfWeek(DataSource.Column)} - for each value a day of the week will be calculated {DayOfWeek(DateSerial(2022,1,30),"de")} - the result will be Samstag, because the de culture is set. {DayOfWeek(DataSource.Column,"de")} - all results will correspond to the de culture {DayOfWeek(DateSerial(2022,1,30),"en", false)} - the day of the week will start from the lower-case letter, i.e. sunday. {DayOfWeek(DataSource.Column,"de", true)} - the days of the week will start with the capital letter, for example Samstag. {DayOfWeek(DateSerial(2022,1,30), false)} - the day of the week will be displayed on the culture that is used by the system. {DayOfWeek(DataSource.Column, true)} - the day of the week will be displayed in the culture that is used in the report designer. |
-| {DayOfYear()} | Displays a day of the year Specifies the date in the argument (the DateTime type) Returns the long value | {DayOfYear(DateSerial(2022,2,14))} - the result is 45, since February 14 is the 45th day of a year. {DayOfYear(DataSource.Column)} - for each value of the Column the data of a year will be calculated. |
-| {DaysInMonth()} | Displays the number of days in the month: In arguments specify: ![](../../images/img_1.png) Date (the DateTime type) ![](../../images/img_2.png) Year and month (the long type) Returns the long value | {DaysInMonth(DateSerial(2024,2,1))} - the result will be 29, because 2024 is a leap year and there are 29 days in February. {DaysInMonth(DataSource.Column)} - for each value the number of days in a month will be calculated. {DaysInMonth(2022,3)} - the result will be 31, since there are 31 days in March. |
-| {DaysInYear()} | Displays the number of days in a year: Specifies the date in arguments (the DateTime type) or a year (the long type) Returns the long value | {DaysInYear(2024)} - the result will be 366 days, since 2024 is a leap year. {DaysInYear(DataSource.Column)} - for each value of the Column the number of days in a year will be calculated. |
-| {Hour()} | Displays an hour: Specifies time in arguments (the DateTime type) Returns the long value | {Hour(DataSource.Column)} - an hour will be displayed from each value. For example, if time is 16:22:36, then the result is 16. |
-| {Minute()} | Displays minutes: Specifies time in arguments (the DateTime type) Returns the long value | {Minute(DataSource.Column)} - minutes will be displayed from each value. For example, if time is 16:22:36, then the result is 22. |
-| {Month()} | Displays months: Specifies time in arguments (the DateTime type) Returns the long value | {Month(DateSerial(2022,12,1))} - the result will be 12, as the date is set on December 1, 2022. {Month(DataSource.Column)} - for each value of the Column a month will be displayed. |
-| {MonthName()} | Displays the month name of the specified date Specifies in arguments: ![](../../images/img_1.png) Date (the DateTime type) and culture (the string type) ![](../../images/img_2.png) Culture (the string type), ![](../../images/img_3.png) The true or false value (the bool type), to display the result with a capital letter or with a small letter. ![](../../images/img_4.png) The true or false value (the bool type), depending on which the system culture or designer localization will be used Returns the string value | {MonthName(DateSerial(2022,1,1))} - the result is January, because the 1 of January 2022 is set. {MonthName(DataSource.Column)} - the result is the name of the month for each Column value. {MonthName(DateSerial(2022,2,1),"de")} - the result will correspond to the de culture, i.e. Februar. {MonthName(DataSource.Column,"en")} - all the names of months will correspond to the en culture. {MonthName(DateSerial(2022,1,1), false)} - the name of the month will be in lower case. {MonthName(DataSource.Column, true)} - the name of the months will start with a capital letter. {MonthName(DateSerial(2022,1,1), false)} - the name of the month will correspond to the culture used by the system. {MonthName(DataSource.Column, true)} - the names of months will correspond to the culture that corresponds to the culture of the report designer. |
-| {Second()} | Displays seconds: Specifies time in arguments (the DateTime type) Returns the long value | {Second(DataSource.Column)} - seconds will be displayed from each value. For example, if time is 16:22:36, then the result is 36. |
-| {TimeSerial(,,)} | Displays time: Specifies hours, minutes, seconds in arguments (the long type) Returns the TimeSpan value | {TimeSerial(1,14,20)} - the result is 01:14: 20, 1 hour, 14 minutes, 20 seconds. |
-| {Year()} | Displays year: Specifies date in arguments (the DateTime type) Returns the long value | {Year(DateSerial(2022,1,2))} - the result will be 2022, since the date is January 2, 2022. {Year(DataSource.Column)} - the years from each Column value will be displayed. |
-| Math: |  |  |
-| {Abs()} | Displays the absolute number. Specifies the number is arguments (the double,decimal,long type) Returns respectively double, decimal, long | {Abs(-42)} - the result is 42 {Abs(DataSource.Column1)} - the result will be absolute numbers from the values of Column1, i.e. without considering the number. |
-| {Acos()} | Displays the angle value in radians. The cos values in arguments (the double type) Returns the angle value in radians of the double type | {Acos(-1)} - the angle in radians will be calculated for the value cos = -1, i.e. the angle will be ~ 3.14. {Acos(DataSource.Column1)} - for all cos values, the angle in radians will be calculated. |
-| {Asin()} | Displays the angle value in radians. The sin value in arguments (the double type) Returns the value of the angle in radians of the double type | {Asin(0)} - the angle in radians will be calculated for the value sin = 0, i.e. the angle is 0 {Asin(DataSource.Column1)} - for all sin values, the angle will calculated in radians. |
-| {Atan()} | Displays the angle value in radians. The tan value in arguments (the double type) Returns the value of the angle in radians of the double type | {Atan(-1)} - the angle in radians will be calculated for the value tan = -1, i.e. the angle will be ~ -0.79 {Atan(DataSource.Column1)} - for all tan values the angle in radians will be calculated |
-| {Ceiling()} | Displays the maximum integer value for a specified number The value is specified in arguments (the double, decimal type) Returns the value of the angle in radians of the double and decimal type | {Ceiling(25.124)} - It is worth noting that when this function is used, the number is not rounded. {Ceiling(25.9)} - the result is 26 {Ceiling(DataSource.Column)} -  for all Column values, the nearest maximal integers will be found and displayed. |
-| {Cos()} | Calculates and displays the cos value: The value of the angle in radians is specified in arguments (the double type) Returns double, decimal values | {Cos(0)} - the result is 1. {Cos(DataSource.Column1)} - for all values, the cos of the angle will be calculated. |
-| {Div()} | Displays the result of the division of one argument to another: In arguments, the following is specified: ![](../../images/img_1.png) The dividend and divisor (the double, decimal, long type). ![](../../images/img_2.png) The dividend and divisor and value that is the result, if the divisor is equal to 0. Returns the value of the double, decimal, and long types | {Div(2,1)} - the result is 2, because 2 / 1 = 2 {Div(2,0,4)} - the result is 4, because the divisor is 0 and the third argument will be displayed {Div(DataSource.Column1,DataSource.Column2,DataSource.Column3)} - the results of dividing the Column1 values by the values of Column2 will be displayed. In this case, if Column2 contains zero values, then, instead of the result of the division, in this line, the values from Column3 will be displayed. |
-| {Exp()} | Displays the result of rising to the specified degree the number e: The arguments indicate the degree to which the number e must rise (the long type) Returns the value of the double type | {Exp(4)} - the number e will be raised to the 4th degree. {Exp(DataSource.Column1)} - each value from Column1 will be the degree to which the number e will be raised. |
-| {Floor()} | Displays the minimum integer value to the specified number: The value is specified in arguments (the double, decimal type) Returns the value of the double, decimal types | {Floor(123.59)} - the result will be 123 because this is the nearest minimum integer. It should be noted that this function does not round numbers. Floor(101.99)} -  the result is 101 {Floor(DataSource.Column1)} - for all Column1 values, the nearest minimum integers will be found and displayed. |
-| {Log()} | Calculates the natural logarithm: The value is specified in arguments (the double type) Returns the value of the double type | {Log(x)}, where x is a number or an expression, the result is a calculation of the natural logarithm. |
-| {Maximum(,)} | Compares the two values and displays the maximum: Two values are specified in arguments (the long, decimal, double type) Returns the value of the long, decimal, double types | {Maximum(5,9)} - the result is 9. {Maximum(DataSource.Column1,DataSource.Column2)} - all the Column1 values are equal to the Column2 values. The report will display the maximum numbers. |
-| {Minimum(,)} | Compares the two values and displays the minimum: Two values are specified in arguments (the long, decimal, double type) Returns the value of the long, decimal, double types | {Minimum(5,9)} - the result is 5. {Minimum(DataSource.Column1,DataSource.Column2)} - all the Column1 values are equal to the Column2 values. The report will display the minimum numbers. |
-| {Round()} | Rounds up the value to an integer or up to the certain number of decimal: In arguments, the following is specified: ![](../../images/img_1.png) The value (the decimal, double types), ![](../../images/img_2.png) Number of characters to which the fractional part should be rounded (the int type) Returns the value of the decimal, double types | {Round(7.56)} - the result is 8 {Round(DataSource.Column1)} - all Column1 values will be rounded according to the mathematical rounding rules. {Round(5.7896541897,3)} - the result is 5.789 {Round(DataSource.Column1,2)} - all values from the data column will be rounded up to two decimal places in the fractional part, according to the mathematical rounding rules. |
-| {Sign()} | Displays an indicator. For positive numbers 1, 0 - for all zero values, -1 - for negative values: The value is specified in arguments (the long, decimal, double types). Returns the value of the long type | {Sign(256)} - the result is 1. {Sign(0)} - the result is 0. {Sign(-157)} - the result is -1. {Sign(DataSource.Column1)} - to each value from Column1, depending on the sign of the number, an indicator will be assigned. |
-| {Sin(0)} | Calculates sin of an angle: The value of an angle in radians is specified in arguments (the double type). Returns the value of the long type | {Sin(0)} - the result is 0. {Sin(DataSource.Column1)} - for all values, the sin angle is calculated. |
-| {Sqrt()} | Calculates the square root of the number: The number is specified in arguments (the double type). Returns the value of the double type | {Sqrt(4)} - the result will be 2 because the square root of 4 is 2. {Sqrt(DataSource.Column1)} - for all Column1 values, the square root will be calculated. |
-| {Tan()} | Calculates tg of an angle: The value of an angle in radians is specified in arguments (the double type). Returns the value of the long type | {Tan(90)} - the result is ~ -1.995 {Tan(DataSource.Column1)} - for all values, the tan of the angle will be calculated. |
-| {Truncate()} | Displays only the integer part without rounding: The value is specified in arguments (the double, decimal types). Returns the value of the double, decimal types | {Truncate(Sqrt(5))} - the result will be number 2 because the square root of 5 is ~ 2.236. The whole part in this number is 2. {Truncate(DataSource.Column1)} - only the integer part of all Column1 values will be displayed. |
-| Print State: |  |  |
-| {IsNull(,)} | Identifies null values in the specified data column. If there is a null value, the result is true, otherwise - false. In arguments, the following is specified: ![](../../images/img_1.png) The data source (the object type) ![](../../images/img_2.png) The column name (the string type). Returns the value of the bool type | {IsNull(DataSource.Column)} - in the rendered report, instead of null values, the true values will be output, and instead of other values, false values will be shown. |
-| {Next(,)} | Displays the value from the next line. If the value of the next line is null, the result is 0. The data source is specified in arguments (the object type) and a column name (the string type). Returns the value of the object type | For example, the Column column contains values 2, 5, 9. Then, using the function {Next(DataSource, "Column")}, the first value will be 5, the second 9, and the third will be null. |
-| {NextIsNull(,)} | Compares the value of the string with the value of the next line. If the value of the next line is 0 or null, the result is true, otherwise - false. In arguments, the following is specified: ![](../../images/img_1.png) The data source (the object type) ![](../../images/img_2.png) The column name (the string type). Returns the value of the bool type | For example, the Column data column contains the values 2, 0, 9. Then, using the function {NextIsNull(DataSource, "Column")}, the first value is true; the second is false; the third is true. |
-| {Previous(,)} | Displays the value from the previous line. If the value of the next line is null, the result is 0. In arguments, the following is specified: ![](../../images/img_1.png) The data source (the object type) ![](../../images/img_2.png) The column name (the string type). Returns the value of the object type | For example, the Column column contains values 2, 5, 9. Then, using the function {Previous(DataSource, "Column")}, the first value will be null, the second value will be 2, the third value will be 5. |
-| {PreviousIsNull(,)} | Compares the value of the string with the value of the previous row. If the value of the previous line is 0 or null, the result is true, otherwise - false. In arguments, the following is specified: ![](../../images/img_1.png) The data source (the object type). ![](../../images/img_2.png) The column name (the string type). Returns the value of the bool type. | For example, the Column data column contains the values 2, 9, 0. Then, using the function {PreviousIsNull (DataSource, "Column")}, the first value is true; the second is false; the third is false. |
-| Programming Shortcut: |  |  |
-| {Choose()} | Displays the value by index. The arguments specify the index and values. Returns values by index. | All product groups are grouped by category: expensive goods, medium price goods, cheap goods. An index is assigned to each group: expensive - index 1, average - index 2, cheap - index 3. The report should be displayed instead of their index - category. In this case, you can use the Choose function. {Choose(DataSource.Column1, "expensive", "average", "cheap")} - instead of index 1, the value expensive will be displayed, instead of index 2 - average, instead of index 3 - cheap. |
-| {IIF(,,)} | Used to display a particular value, depending on the condition: In arguments, the condition is specified, the value if the condition is true (true) and the value if the condition is false (false) Returns the value of the object type | In the inventory report, you need to track the number of items. The logistician's task is that, when the quantity of goods is coming to 0 (less than 6), it is necessary to order these goods. To highlight critical positions in the report visually, you can use the function {IIF (,,)} {IIF(DataSource.Column1 &gt; 6,"Minimum","Normal")}, where DataSource.Column1 - the column with the values of the quantity of goods, 6 - the extreme quantity of goods, Minimum - the value that will be displayed if the stock of goods is less than 6, Normal - the value to be displayed if the stock of goods is 6 or more. |
-| {Switch()} | Assigns the specified value when the specified condition is complete: In arguments, specify the condition and the value that will be assigned, if the condition is complete. Such condition-value pairs can be specified Returns the value of the object type | For example, a list of employees is displayed in the report, and you need to display their position: Nancy is the lead project manager, Andrew is the chief developer, the remaining employees (6 people) are Juniors. In this case, the Switch function will have three pairs of "condition-value" arguments: {Switch(Employees.FirstName == "Nancy", "Manager", Employees.FirstName == "Andrew", "Developer", Employees.FirstName! = "", "Junior" )} |
-| Strings: |  |  |
-| {Arabic()} | Converts these numbers to Arabic numerals: The value is specified in arguments ( the string or int types) Returns the value of the string type | {Arabic(2)} - the number 2 will have an Arabic spelling. {Arabic(DataSource.Column1)} - all the numbers from Column1 will have an Arabic spelling. |
-| {DateToStr()} | Converts date to text value: In arguments, the following is specified: ![](../../images/img_1.png) Date (the DateTime type) ![](../../images/img_2.png) Boolean values (true or false) for displaying the header that starts with a capital letter or with a lowercase letter. Returns the value of the string type | {DateToStr(DataSource.Column1)} - all dates from Column1 will be displayed in text form. {DateToStrPl(DataSource.Column1,true)} - dates will be displayed in text form, in Polish and the first character is a capital letter. {DateToStrPl(DataSource.Column1,false)} - dates will be displayed in text form, in Polish and the first character is a lowercase letter. {DateToStrPtBr(DataSource.Column1)} - the dates will be displayed in text form in the Brazilian language. |
-| {Insert(,,)} | Inserts a value after a certain character into another value: In arguments, the following is specified: ![](../../images/img1.png) The value in which to insert text (the string type), ![](../../images/img_2.png) The number of a character, after which the value is inserted (the int type), ![](../../images/img_3.png) The value for insertion (the string type) Returns the value of the string type | {Insert("25",2," dollars")} - in the value 25, after the second symbol, the value dollars will be inserted, i.e. the result will be 25 dollars. {Insert(DataSource.Column1,2,DataSource.Column2)} - in the Column1 value, after the second character, Column2 values will be inserted. For example, Column1 - contains the value of Category, Column2 - Products, then the result will be CaProductstegory. |
-| {Left()} | Displays the specified number of characters from the left side of the value: The value is specified in arguments of the string type string and the number of characters to be displayed (the int type) Returns the value of the string type | {Left("Beverages", 4)} - only four characters from the Beverages value will be displayed, the result will be Beve. {Left(DataSource.Column1, 2)} - only the first two characters for each Column1 value will be displayed. |
-| {Length()} | Displays the number of characters for the specified value: The value is specified in arguments (the string type) Returns the value of the int type | {Length("Beverages")} - the result will be number 9 because the value Beverages consists of nine characters. {Length(DataSource.Column1)} - for each Column1 value, the number of characters will be calculated, and this result will be displayed. |
-| {Mid()} | Displays characters from a value. In this case, you can set the reference position: In arguments, the following is specified: ![](../../images/img_1.png) The value (the string type) ![](../../images/img_2.png) Index of the reference position (the int type) ![](../../images/img_3.png) Number of characters to display (the int type) Returns the value of the int type | {Mid("Beverages",2,3)} - three symbols will be displayed after the first two, the result will be ver. Mid(DataSource.Column1,3,2)} - 2 characters will be displayed after the first three for all values. |
-| {Persian()} | Converts specified numbers to numbers in Persian: The value is specified in arguments of the string or int types Returns the value of the string type | {Persian(5)} - number 2 will have Persian spelling. {Persian(DataSource.Column1)} - all the numbers from Column1 will have Persian spelling. |
-| {Remove()} | Deletes the specified number of characters from the index of a specific position: In arguments, the following is specified: ![](../../images/img_1.png) The value (the string type) ![](../../images/img_2.png) Index of the reference position (the int type) ![](../../images/img_3.png) Number of characters to delete (the int type) Returns the value of the int type | {Remove("Beverages",2,3)} - after the second character, three characters will be deleted, the result is Beages. {Remove(DataSource.Column1,3,2)}  - for all values from Column1, two characters will be deleted after the first three. |
-| {Replace(,,)} | Replaces certain characters or their combination with other characters: In arguments, the following is specified: ![](../../images/img_1.png) The value (the string type) in which the replacement will be made ![](../../images/img_2.png) Characters to be replaced (the string type) ![](../../images/img_3.png) Characters to be inserted (the string type) Returns the value of the string type | {Replace("Beverages","ver","NEW")} - in the value Beverages, the ver characters will be replaced by the characters NEW, the result is BeNEWages. {Replace(DataSource.Column1, "rex","sum")} - for Column1 values, in which the combination of rex characters occurs, rex will be replaced by sum. In values where there is no combination of rex, a replacement will not be done. |
-| {Right()} | Displays the specified number of characters from the right side of the value: The value is specified in arguments of the string type and the number of characters which should be displayed (the int type) Returns the value of the string type | {Right("Beverages",3)} - three characters from the right side of the value will be displayed, ges. {Right(DataSource.Column1,4)} - for each Column1 value, four characters will be displayed from the right side. |
-| {Roman()} | Converts Arabic numerals to Roman numerals: In the arguments, specify the number (the int type) Returns the value of the string type | {Roman(4)} - the number 4 will have a Roman spelling. {Roman(DataSource.Column1)} - all the numbers from Column1 will have a Roman spelling. |
-| {Substring()} | Displays a certain number of characters from the specified position: In arguments, the following is specified: ![](../../images/img_1.png) The value (the string type) from which the characters will be displayed ![](../../images/img_2.png) The index of position (the int type), how many characters are skipped ![](../../images/img_3.png) Number of characters to display (the int type) Returns the value of the string type | {Substring("Beverages",6,3)} - the first six characters are skipped and three characters will be displayed, the result is ges. {Substring("Beverages",0,2)} - two characters will be displayed starting with zero, the result will be Be. {Substring(DataSource.Column1,1,4)} - the first character is skipped, and four are counted starting from the second one. This is the result for each Column1 value, which is displayed in the report. |
-| {ToCurrencyWords()} | Displays the currency value as the text. You can pass to the function: ![](../../images/img_1.png) Argument as numeric value (double, decimal, long) which will be converted to text; ![](../../images/img_2.png) Argument (true or false) to display text with a capital letter; ![](../../images/img_3.png) Argument (true or false) to display cents; ![](../../images/img_4.png) Single and plural formats for currency and cents (the string type); ![](../../images/img_5.png) You can also specify a base unit for the integer part and a fractional. In addition, various combinations of arguments are possible. There are also some types of this function that support different cultures. Pay attention to you can specify the currencies ISO code (the string type). Returns the value of the string type | {ToCurrencyWords(100)} - the used currency is dollars of the USA, so that the result will be:  "One hundred dollars and zero cents. {ToCurrencyWords(100, false)} - the result will be displayed without displaying cents (since it is set to true), the result will be: "One hundred dollars". {ToCurrencyWords(100,false,true)} - the result will be displayed with the first lowercase letter (since it is set to false) and with displaying cents (since it is set to true), the result will be: "one hundred dollars and zero cents". {ToCurrencyWords(125.9,true,true,"currency","cent name")} - in this case, the result will be displayed with the first uppercase letter (since it is set to true) and with displaying cents (since it is set to true). Also, we defined the basic unit as "currency", and the fractional unit as "cent name". The result will be: "One hundred and twenty-five currency and ninety cent name". {ToCurrencyWordsEnGb(1.25,"EUR",2)} - the ISO code EUR will be applied, and the result will be one euro and twenty-five cents. {ToCurrencyWordsEnIn("dollars","cents",1.25M,0,true)} - the base unit for the integer part as dollars will be specified, the fractional part - cents, the number for conversion 1.25, then the number of decimal signs to convert and the value true means that the entry will start with the capital letter. |
-| {ToLowerCase()} | Displays the value in lowercase: The value is specified in arguments (the string type) Returns the value of the string type | {ToLowerCase("EURO")} - the result is euro. {ToLowerCase(DataSource.Column1)} - all values of this column will be displayed in lowercase. |
-| {ToOrdinal()} | Converts numerals to ordinal: The value is specified in arguments (the long type) Returns the value of the string type | {ToOrdinal(25)} - - the result is 25th. {ToOrdinal(DataSource.Column1)} - all the values of this column will be converted to ordinal numerals. |
-| {ToProperCase()} | Converts the text to the format - the first character is capital, the rest characters are in lowercase: The value is specified in arguments (the string type) Returns the value of the string type | {ToProperCase("dOllars")} - - the result is Dollars. {ToProperCase("dollars")} - - the result is Dollars. {ToProperCase("dOLLARS")} - - the result is Dollars. {ToProperCase(DataSource.Column1)} - all values from this column will be with the first capital letter and the rest ones in lowercase. |
-| {ToUpperCase()} | Displays the value in uppercase: The value is specified in arguments (the string type) Returns the value of the string type | {ToUpperCase("dollars")} - the result is DOLLARS. {ToUpperCase("dOllars")} - the result is DOLLARS. {ToUpperCase("dOLLARS")} - the result is DOLLARS. {ToProperCase(DataSource.Column1)} - all values will be written in uppercase. |
-| {ToWords()} | Displays the numerals as text: In arguments, the following is specified: ![](../../images/img_1.png) A numeric value that will be converted to text (decimal, double, long) ![](../../images/img_2.png) True or false values whether to display the first character with a capital letter ![](../../images/img_3.png) True or false values to return null and empty values ![](../../images/img_4.png) It is also possible to specify true or false values to provide the feminine form for the result Returns the value of the string type | {ToWords(100)} - the result is one hundred. {ToWords(100, true)} - the result is One hundred. {ToWordsEnIn(0,false)} - the result is Zero. {ToWordsEnIn(0,true)} - there will be no results. {ToWordsEs(100,true,true)} - the result starts with a capital letter and in feminine form, Cien {ToProperCase(DataSource.Column1)} - all values will be displayed in text. |
-| {Trim()} | Trims the spaces at the beginning or end of the line: The value is specified in arguments (the string type) Returns the value of the string type | {Trim("   &lt;1 dollars&gt;   ")} - the result in this case is &lt;1 dollars&gt;". {Trim(DataSource.Column1)} - the spaces before each value and after each value will be truncated. |
-| {TryParseDecimal()} {TryParseDouble()} {TryParseLong()} | Checks the value for conversion to decimal, double, long: The value is specified in arguments (the string type) Returns a value of the bool type. If true, then the conversion will be successful, otherwise it will be false. | {TryParseLong("100")} - The value can be converted to long. {TryParseLong(" { 100")} - the result is false. The value cannot be converted to long. {TryParseLong(DataSource.Column1)} - each value will be checked on possibility to be converted to long. |
+| **Date:** |  |  |
+| {AddDays(,)} | Adds the specified number of days to a given date. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Number of days to add (double; can be positive or negative). Returns a DateTime value. | {AddDays(DateSerial(2022,1,1), 10)} - the result is: 11.01.2022 00:00:00, i.e., that means 10 days are added. |
+| {AddHours(,)} | Adds the specified number of hours to a given date. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Number of hours to add (double; can be positive or negative). Returns a DateTime value. | {AddHours(DateSerial(2022,1,1), 5)} - the result is: 01.01.2022 05:00:00, that means 5 hours are added. |
+| {AddMilliseconds(,)} | Adds the specified number of milliseconds to a given date. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Number of milliseconds to add (double; can be positive or negative). Returns a DateTime value. | {AddMilliseconds(DateSerial(2022,1,1), 500)} - the result is: 01.01.2022 12:00:00, that means 500 milliseconds are added. |
+| {AddMinutes(,)} | Adds the specified number of minutes to a given date. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Number of minutes to add (double; can be positive or negative). Returns a DateTime value. | {AddMinutes(DateSerial(2022,1,1), 30)} - the result is: 01.01.2022 00:30:00, that means 30 minutes are added. |
+| {AddMonths(,)} | Adds the specified number of months to a given date. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Number of months to add (int; can be positive or negative). Returns a DateTime value. | {AddMonths(DateSerial(2022,1,1), 2)} - the result is: 01.03.2022 00:00:00, that means 2 months are added. |
+| {AddSeconds(,)} | Adds the specified number of seconds to a given date. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Number of seconds to add (double; can be positive or negative). Returns a DateTime value. | {AddSeconds(DateSerial(2022,1,1), 30)} - the result is: 01.01.2022 00:00:45, that means 30  seconds are added. |
+| {AddYears(,)} | Adds the specified number of years to a given date. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Number of years to add (int; can be positive or negative). Returns a DateTime value. | {AddYears(DateSerial(2022,1,1), 1)} - the result is: 01.01.2023 00:00:00, that means 1 year is added. |
+| {DateDiff(,)} | Calculates the distance between the specified dates. Arguments should be of the DateTime type; Returns the TimeSpan value. | {DateDiff(DateSerial(2022,1,30),DateSerial(2022,1,1))} - the result is 29.00:00:00, that means 29 days. {DateDiff(DataSource.Column1,DataSource.Column2)} - the result will be calculated for each value in Column1 |
+| {DateSerial(,,)} | Specifies date. Arguments should be year, month, day; Returns the DateTime value. | {DateSerial(2022,1,30)} - the result is 1/30/2022 12:00:00 AM The function returns the DateTime value, but if you want to display only the date, you should apply text formatting to the text component |
+| {Day()} | Shows a day from the specified date. Arguments should be of the DateTime type; Returns the long value. | {Day(DateSerial(2022,1,30))} - the result is 30, since in arguments the January 30 2016 is specified {Day(DataSource.Column)} - the result will be calculated for each Column value |
+| {DayOfWeek()} | Display a day of the week from a specified date in text form. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Culture (the string type); ![](../../images/img_3.png) The value true or false (the bool type), to display the result with a capital letter or with a lowercase; ![](../../images/img_4.png) The value true or false (the bool type), depending on which the system culture or designer localization will be used. Returns the string type. | {DayOfWeek(DateSerial(2022,1,30))} - the result is Sunday. {DayOfWeek(DataSource.Column)} - for each value a day of the week will be calculated {DayOfWeek(DateSerial(2022,1,30),"de")} - the result will be Samstag, because the de culture is set. {DayOfWeek(DataSource.Column,"de")} - all results will correspond to the de culture {DayOfWeek(DateSerial(2022,1,30),"en", false)} - the day of the week will start from the lower-case letter, i.e. sunday. {DayOfWeek(DataSource.Column,"de", true)} - the days of the week will start with the capital letter, for example Samstag. {DayOfWeek(DateSerial(2022,1,30), false)} - the day of the week will be displayed on the culture that is used by the system. {DayOfWeek(DataSource.Column, true)} - the day of the week will be displayed in the culture that is used in the report designer. |
+| {DayOfYear()} | Displays a day of the year . Specifies the date in the argument (the DateTime type); Returns the long value. | {DayOfYear(DateSerial(2022,2,14))} - the result is 45, since February 14 is the 45th day of a year. {DayOfYear(DataSource.Column)} - for each value of the Column the data of a year will be calculated. |
+| {DaysInMonth()} | Displays the number of days in the month. In arguments specify: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Year and month (the long type). Returns the long value. | {DaysInMonth(DateSerial(2024,2,1))} - the result will be 29, because 2024 is a leap year and there are 29 days in February. {DaysInMonth(DataSource.Column)} - for each value the number of days in a month will be calculated. {DaysInMonth(2022,3)} - the result will be 31, since there are 31 days in March. |
+| {DaysInYear()} | Displays the number of days in a year. Specifies the date in arguments (the DateTime type) or a year (the long type); Returns the long value. | {DaysInYear(2024)} - the result will be 366 days, since 2024 is a leap year. {DaysInYear(DataSource.Column)} - for each value of the Column the number of days in a year will be calculated. |
+| {FromOADate()} | Converts an OLE Automation Date value to DateTime. In the arguments, the value (double) is specified; Returns a DateTime value. | {FromOADate(45200)} - the result in this case will be 10.01.2023 12:00:00, that means the numeric value will be converted into a date. |
+| {Hour()} | Displays an hour. Specifies time in arguments (the DateTime type); Returns the long value. | {Hour(DataSource.Column)} - an hour will be displayed from each value. For example, if time is 16:22:36, then the result is 16. |
+| {Minute()} | Displays minutes. Specifies time in arguments (the DateTime type); Returns the long value. | {Minute(DataSource.Column)} - minutes will be displayed from each value. For example, if time is 16:22:36, then the result is 22. |
+| {Month()} | Displays months. Specifies time in arguments (the DateTime type); Returns the long value. | {Month(DateSerial(2022,12,1))} - the result will be 12, as the date is set on December 1, 2022. {Month(DataSource.Column)} - for each value of the Column a month will be displayed. |
+| {MonthIdent()} | Allows you to get the name or identifier of a month based on a date. The argument is the date; Returns the month corresponding to the given date. | {MonthIdent(DataSource.DocumentDate)} - returns the month corresponding to the document date. |
+| {MonthName()} | Displays the month name of the specified date. Specifies in arguments: ![](../../images/img_1.png) Date (the DateTime type) and culture (the string type); ![](../../images/img_2.png) Culture (the string type); ![](../../images/img_3.png) The true or false value (the bool type), to display the result with a capital letter or with a small letter; ![](../../images/img_4.png) The true or false value (the bool type), depending on which the system culture or designer localization will be used. Returns the string value. | {MonthName(DateSerial(2022,1,1))} - the result is January, because the 1 of January 2022 is set. {MonthName(DataSource.Column)} - the result is the name of the month for each Column value. {MonthName(DateSerial(2022,2,1),"de")} - the result will correspond to the de culture, i.e. Februar. {MonthName(DataSource.Column,"en")} - all the names of months will correspond to the en culture. {MonthName(DateSerial(2022,1,1), false)} - the name of the month will be in lower case. {MonthName(DataSource.Column, true)} - the name of the months will start with a capital letter. {MonthName(DateSerial(2022,1,1), false)} - the name of the month will correspond to the culture used by the system. {MonthName(DataSource.Column, true)} - the names of months will correspond to the culture that corresponds to the culture of the report designer. |
+| {Second()} | Displays seconds. Specifies time in arguments (the DateTime type); Returns the long value. | {Second(DataSource.Column)} - seconds will be displayed from each value. For example, if time is 16:22:36, then the result is 36. |
+| {TimeSerial(,,)} | Displays time. Specifies hours, minutes, seconds in arguments (the long type); Returns the TimeSpan value. | {TimeSerial(1,14,20)} - the result is 01:14: 20, 1 hour, 14 minutes, 20 seconds. |
+| {ToJapaneseDateString()} | Returns a date converted to a string in the Japanese calendar. In the arguments, the date (DateTime) and the Japanese calendar date format (string) are specified; Returns a date value. | {ToJapaneseDateString(DataSource.Date)} - returns the date in Japanese format. |
+| {ToOADate()} | Converts DateTime to OLE Automation Date format. In the arguments, the value (double) is specified; Returns a double value. | {ToOADate(DataSource.Date)} - returns a number corresponding to the date. |
+| {WeekOfMonth()} | Returns the week number of the month for the specified date. In the arguments, the following are specified: ![](../../images/img_1.png) Date (type DateTime); ![](../../images/img_2.png) Enumeration value. Returns a long value. | {WeekOfMonth(DataSource.SaleDate)} - returns the week number in the month. |
+| {WeekOfYear()} | Returns the week number of the year for the specified date. In the arguments, the following are specified: ![](../../images/img_1.png) Date (type DateTime); ![](../../images/img_2.png) Enumeration value. Returns a long value. | {WeekOfYear(DataSource.SaleDate)} - returns the week number in the year. |
+| {Year()} | Displays year. Specifies date in arguments (the DateTime type); Returns the long value. | {Year(DateSerial(2022,1,2))} - the result will be 2022, since the date is January 2, 2022. {Year(DataSource.Column)} - the years from each Column value will be displayed. |
+| **Math:** |  |  |
+| {Abs()} | Displays the absolute number. Specifies the number is arguments (the double,decimal,long type); Returns respectively double, decimal, long. | {Abs(-42)} - the result is 42 {Abs(DataSource.Column1)} - the result will be absolute numbers from the values of Column1, i.e. without considering the number. |
+| {Acos()} | Displays the angle value in radians. The cos values in arguments (the double type); Returns the angle value in radians of the double type. | {Acos(-1)} - the angle in radians will be calculated for the value cos = -1, i.e. the angle will be ~ 3.14. {Acos(DataSource.Column1)} - for all cos values, the angle in radians will be calculated. |
+| {Asin()} | Displays the angle value in radians. The sin value in arguments (the double type); Returns the value of the angle in radians of the double type. | {Asin(0)} - the angle in radians will be calculated for the value sin = 0, i.e. the angle is 0 {Asin(DataSource.Column1)} - for all sin values, the angle will calculated in radians. |
+| {Atan()} | Displays the angle value in radians. The tan value in arguments (the double type); Returns the value of the angle in radians of the double type. | {Atan(-1)} - the angle in radians will be calculated for the value tan = -1, i.e. the angle will be ~ -0.79 {Atan(DataSource.Column1)} - for all tan values the angle in radians will be calculated |
+| {Ceiling()} | Displays the maximum integer value for a specified number. The value is specified in arguments (the double, decimal type); Returns the value of the angle in radians of the double and decimal type. | {Ceiling(25.124)} - It is worth noting that when this function is used, the number is not rounded. {Ceiling(25.9)} - the result is 26 {Ceiling(DataSource.Column)} -  for all Column values, the nearest maximal integers will be found and displayed. |
+| {Cos()} | Calculates and displays the cos value: The value of the angle in radians is specified in arguments (the double type); Returns double, decimal values. | {Cos(0)} - the result is 1. {Cos(DataSource.Column1)} - for all values, the cos of the angle will be calculated. |
+| {Div()} | Displays the result of the division of one argument to another. In arguments, the following is specified: ![](../../images/img_1.png) The dividend and divisor (the double, decimal, long type); ![](../../images/img_2.png) The dividend and divisor and value that is the result, if the divisor is equal to 0. Returns the value of the double, decimal, and long types. | {Div(2,1)} - the result is 2, because 2 / 1 = 2 {Div(2,0,4)} - the result is 4, because the divisor is 0 and the third argument will be displayed {Div(DataSource.Column1,DataSource.Column2,DataSource.Column3)} - the results of dividing the Column1 values by the values of Column2 will be displayed. In this case, if Column2 contains zero values, then, instead of the result of the division, in this line, the values from Column3 will be displayed. |
+| {Exp()} | Displays the result of rising to the specified degree the number: The arguments indicate the degree to which the number e must rise (the long type); Returns the value of the double type. | {Exp(4)} - the number e will be raised to the 4th degree. {Exp(DataSource.Column1)} - each value from Column1 will be the degree to which the number e will be raised. |
+| {Floor()} | Displays the minimum integer value to the specified number. The value is specified in arguments (the double, decimal type); Returns the value of the double, decimal types. | {Floor(123.59)} - the result will be 123 because this is the nearest minimum integer. It should be noted that this function does not round numbers. Floor(101.99)} -  the result is 101 {Floor(DataSource.Column1)} - for all Column1 values, the nearest minimum integers will be found and displayed. |
+| {Log()} | Calculates the natural logarithm. The value is specified in arguments (the double type); Returns the value of the double type. | {Log(x)}, where x is a number or an expression, the result is a calculation of the natural logarithm. |
+| {Maximum(,)} | Compares the two values and displays the maximum. Two values are specified in arguments (the long, decimal, double type); Returns the value of the long, decimal, double types. | {Maximum(5,9)} - the result is 9. {Maximum(DataSource.Column1,DataSource.Column2)} - all the Column1 values are equal to the Column2 values. The report will display the maximum numbers. |
+| {Minimum(,)} | Compares the two values and displays the minimum. Two values are specified in arguments (the long, decimal, double type); Returns the value of the long, decimal, double types. | {Minimum(5,9)} - the result is 5. {Minimum(DataSource.Column1,DataSource.Column2)} - all the Column1 values are equal to the Column2 values. The report will display the minimum numbers. |
+| {Round()} | Rounds up the value to an integer or up to the certain number of decimal. In arguments, the following is specified: ![](../../images/img_1.png) The value (the decimal, double types); ![](../../images/img_2.png) Number of characters to which the fractional part should be rounded (the int type). Returns the value of the decimal, double types. | {Round(7.56)} - the result is 8 {Round(DataSource.Column1)} - all Column1 values will be rounded according to the mathematical rounding rules. {Round(5.7896541897,3)} - the result is 5.789 {Round(DataSource.Column1,2)} - all values from the data column will be rounded up to two decimal places in the fractional part, according to the mathematical rounding rules. |
+| {Sign()} | Displays an indicator. For positive numbers 1, 0 - for all zero values, -1 - for negative values. The value is specified in arguments (the long, decimal, double types); Returns the value of the long type. | {Sign(256)} - the result is 1. {Sign(0)} - the result is 0. {Sign(-157)} - the result is -1. {Sign(DataSource.Column1)} - to each value from Column1, depending on the sign of the number, an indicator will be assigned. |
+| {Sin(0)} | Calculates sin of an angle. The value of an angle in radians is specified in arguments (the double type); Returns the value of the long type. | {Sin(0)} - the result is 0. {Sin(DataSource.Column1)} - for all values, the sin angle is calculated. |
+| {Sqrt()} | Calculates the square root of the number. The number is specified in arguments (the double type); Returns the value of the double type. | {Sqrt(4)} - the result will be 2 because the square root of 4 is 2. {Sqrt(DataSource.Column1)} - for all Column1 values, the square root will be calculated. |
+| {Tan()} | Calculates tg of an angle. The value of an angle in radians is specified in arguments (the double type); Returns the value of the long type. | {Tan(90)} - the result is ~ -1.995 {Tan(DataSource.Column1)} - for all values, the tan of the angle will be calculated. |
+| {Truncate()} | Displays only the integer part without rounding. The value is specified in arguments (the double, decimal types); Returns the value of the double, decimal types. | {Truncate(Sqrt(5))} - the result will be number 2 because the square root of 5 is ~ 2.236. The whole part in this number is 2. {Truncate(DataSource.Column1)} - only the integer part of all Column1 values will be displayed. |
+| **Print State:** |  |  |
+| {IsNull(,)} | Identifies null values in the specified data column. If there is a null value, the result is true, otherwise - false. In arguments, the following is specified: ![](../../images/img_1.png) The data source (the object type); ![](../../images/img_2.png) The column name (the string type). Returns the value of the bool type. | {IsNull(DataSource.Column)} - in the rendered report, instead of null values, the true values will be output, and instead of other values, false values will be shown. |
+| {Next(,)} | Displays the value from the next line. If the value of the next line is null, the result is 0. The data source is specified in arguments (the object type) and a column name (the string type); Returns the value of the object type. | For example, the Column column contains values 2, 5, 9. Then, using the function {Next(DataSource, "Column")}, the first value will be 5, the second 9, and the third will be null. |
+| {NextIsNull(,)} | Compares the value of the string with the value of the next line. If the value of the next line is 0 or null, the result is true, otherwise - false. In arguments, the following is specified: ![](../../images/img_1.png) The data source (the object type); ![](../../images/img_2.png) The column name (the string type). Returns the value of the bool type. | For example, the Column data column contains the values 2, 0, 9. Then, using the function {NextIsNull(DataSource, "Column")}, the first value is true; the second is false; the third is true. |
+| {Previous(,)} | Displays the value from the previous line. If the value of the next line is null, the result is 0. In arguments, the following is specified: ![](../../images/img_1.png) The data source (the object type); ![](../../images/img_2.png) The column name (the string type). Returns the value of the object type. | For example, the Column column contains values 2, 5, 9. Then, using the function {Previous(DataSource, "Column")}, the first value will be null, the second value will be 2, the third value will be 5. |
+| {PreviousIsNull(,)} | Compares the value of the string with the value of the previous row. If the value of the previous line is 0 or null, the result is true, otherwise - false. In arguments, the following is specified: ![](../../images/img_1.png) The data source (the object type); ![](../../images/img_2.png) The column name (the string type). Returns the value of the bool type. | For example, the Column data column contains the values 2, 9, 0. Then, using the function {PreviousIsNull (DataSource, "Column")}, the first value is true; the second is false; the third is false. |
+| **Programming Shortcut:** |  |  |
+| {Choose()} | Displays the value by index. The arguments specify the index and values; Returns values by index. | All product groups are grouped by category: expensive goods, medium price goods, cheap goods. An index is assigned to each group: expensive - index 1, average - index 2, cheap - index 3. The report should be displayed instead of their index - category. In this case, you can use the Choose function. {Choose(DataSource.Column1, "expensive", "average", "cheap")} - instead of index 1, the value expensive will be displayed, instead of index 2 - average, instead of index 3 - cheap. |
+| {Eval()} | Allows you to evaluate an expression provided as a string. In the arguments, a string with the expression is specified; Returns the result of the expression evaluation. | In a report, it may be necessary to dynamically calculate a value based on a string, for example, a formula obtained from data. In this case, the Eval function can be used. {Eval("10 + 5 * 2")} - the result will be 20. |
+| {IIF(,,)} | Used to display a particular value, depending on the condition. In arguments, the condition is specified, the value if the condition is true (true) and the value if the condition is false (false); Returns the value of the object type. | In the inventory report, you need to track the number of items. The logistician's task is that, when the quantity of goods is coming to 0 (less than 6), it is necessary to order these goods. To highlight critical positions in the report visually, you can use the function {IIF (,,)} {IIF(DataSource.Column1 &gt; 6,"Minimum","Normal")}, where DataSource.Column1 - the column with the values of the quantity of goods, 6 - the extreme quantity of goods, Minimum - the value that will be displayed if the stock of goods is less than 6, Normal - the value to be displayed if the stock of goods is 6 or more. |
+| {Rand()} | Returns a random number. Does not require arguments; Returns a random value (usually from 0 to 1). | In a report, it may be necessary to generate a random value, for example for test data or random sampling. In this case, the Rand function can be used. {Rand()} - returns a random number, for example 0.7345. |
+| {Runtime()} | Returns the current report execution time. Does not require arguments; Returns the date and time value at the moment of execution. | In a report, it may be necessary to display the report generation time. In this case, the Runtime function can be used. {Runtime()} — displays the current date and time of report execution. |
+| {RuntimeIdentifier()} | Returns a unique runtime environment identifier. Does not require arguments; Returns a string value identifying the runtime. | In a report, it may be necessary to determine the environment in which the system is running (for example, for diagnostics or logging). {RuntimeIdentifier()} — returns a string with the runtime identifier, for example: NET472 NET8 NET10 NODE18 CHROME145 UNKNOWN |
+| {RuntimeName()} | Returns the name of the runtime environment. Does not require arguments; Returns a string with the runtime name. | In a report, it may be necessary to display information about the platform on which the report is running. {RuntimeName()} — returns the runtime name, for example: .NET Framework .NET Chrome / Firefox / Opera / Edge Node.js Java Unknown |
+| {RuntimeOS()} | Returns information about the operating system. Does not require arguments; Returns a string with the OS name. | In a report, it may be necessary to display the operating system of the server or client. {RuntimeOS()} — returns the operating system name, for example: Windows Linux MacOS iOS Android Unknown |
+| {RuntimeType()} | Returns the type of the runtime environment. Does not require arguments; ВозвращаетReturns a string with the runtime type. | In a report, it may be necessary to determine the environment type (for example, server-side, client-side, or other). {RuntimeType()} — returns the runtime type, for example: DotNet Node Browser Java Unknown |
+| {RuntimeVersion()} | Returns the version of the runtime environment. Does not require arguments; Returns a string with the runtime version. | In a report, it may be necessary to display the version of the platform used for diagnostics or auditing. {RuntimeVersion()} — returns the runtime version, for example: 4.7.2 8.0.101 145 Unknown |
+| {Switch()} | Assigns the specified value when the specified condition is complete. In arguments, specify the condition and the value that will be assigned, if the condition is complete. Such condition-value pairs can be specified; Returns the value of the object type. | For example, a list of employees is displayed in the report, and you need to display their position: Nancy is the lead project manager, Andrew is the chief developer, the remaining employees (6 people) are Juniors. In this case, the Switch function will have three pairs of "condition-value" arguments: {Switch(Employees.FirstName == "Nancy", "Manager", Employees.FirstName == "Andrew", "Developer", Employees.FirstName! = "", "Junior" )} |
+| **Strings:** |  |  |
+| {Arabic()} | Converts these numbers to Arabic numerals. The value is specified in arguments ( the string or int types); Returns the value of the string type. | {Arabic(2)} - the number 2 will have an Arabic spelling. {Arabic(DataSource.Column1)} - all the numbers from Column1 will have an Arabic spelling. |
+| {DateToStr()} | Converts date to text value. In arguments, the following is specified: ![](../../images/img_1.png) Date (the DateTime type); ![](../../images/img_2.png) Boolean values (true or false) for displaying the header that starts with a capital letter or with a lowercase letter. Returns the value of the string type. | {DateToStr(DataSource.Column1)} - all dates from Column1 will be displayed in text form. {DateToStrPl(DataSource.Column1,true)} - dates will be displayed in text form, in Polish and the first character is a capital letter. {DateToStrPl(DataSource.Column1,false)} - dates will be displayed in text form, in Polish and the first character is a lowercase letter. {DateToStrPtBr(DataSource.Column1)} - the dates will be displayed in text form in the Brazilian language. |
+| {Insert(,,)} | Inserts a value after a certain character into another value. In arguments, the following is specified: ![](../../images/img1.png) The value in which to insert text (the string type); ![](../../images/img_2.png) The number of a character, after which the value is inserted (the int type); ![](../../images/img_3.png) The value for insertion (the string type). Returns the value of the string type. | {Insert("25",2," dollars")} - in the value 25, after the second symbol, the value dollars will be inserted, i.e. the result will be 25 dollars. {Insert(DataSource.Column1,2,DataSource.Column2)} - in the Column1 value, after the second character, Column2 values will be inserted. For example, Column1 - contains the value of Category, Column2 - Products, then the result will be CaProductstegory. |
+| {Left()} | Displays the specified number of characters from the left side of the value. The value is specified in arguments of the string type string and the number of characters to be displayed (the int type); Returns the value of the string type. | {Left("Beverages", 4)} - only four characters from the Beverages value will be displayed, the result will be Beve. {Left(DataSource.Column1, 2)} - only the first two characters for each Column1 value will be displayed. |
+| {Length()} | Displays the number of characters for the specified value. The value is specified in arguments (the string type); Returns the value of the int type. | {Length("Beverages")} - the result will be number 9 because the value Beverages consists of nine characters. {Length(DataSource.Column1)} - for each Column1 value, the number of characters will be calculated, and this result will be displayed. |
+| {Mid()} | Displays characters from a value. In this case, you can set the reference position. In arguments, the following is specified: ![](../../images/img_1.png) The value (the string type); ![](../../images/img_2.png) Index of the reference position (the int type); ![](../../images/img_3.png) Number of characters to display (the int type). Returns the value of the int type. | {Mid("Beverages",2,3)} - three symbols will be displayed after the first two, the result will be ver. Mid(DataSource.Column1,3,2)} - 2 characters will be displayed after the first three for all values. |
+| {Persian()} | Converts specified numbers to numbers in Persian. The value is specified in arguments of the string or int types; Returns the value of the string type. | {Persian(5)} - number 2 will have Persian spelling. {Persian(DataSource.Column1)} - all the numbers from Column1 will have Persian spelling. |
+| {Remove()} | Deletes the specified number of characters from the index of a specific position. In arguments, the following is specified: ![](../../images/img_1.png) The value (the string type); ![](../../images/img_2.png) Index of the reference position (the int type); ![](../../images/img_3.png) Number of characters to delete (the int type). Returns the value of the int type. | {Remove("Beverages",2,3)} - after the second character, three characters will be deleted, the result is Beages. {Remove(DataSource.Column1,3,2)}  - for all values from Column1, two characters will be deleted after the first three. |
+| {Replace(,,)} | Replaces certain characters or their combination with other characters. In arguments, the following is specified: ![](../../images/img_1.png) The value (the string type) in which the replacement will be made; ![](../../images/img_2.png) Characters to be replaced (the string type); ![](../../images/img_3.png) Characters to be inserted (the string type). Returns the value of the string type. | {Replace("Beverages","ver","NEW")} - in the value Beverages, the ver characters will be replaced by the characters NEW, the result is BeNEWages. {Replace(DataSource.Column1, "rex","sum")} - for Column1 values, in which the combination of rex characters occurs, rex will be replaced by sum. In values where there is no combination of rex, a replacement will not be done. |
+| {Right()} | Displays the specified number of characters from the right side of the value. The value is specified in arguments of the string type and the number of characters which should be displayed (the int type); Returns the value of the string type. | {Right("Beverages",3)} - three characters from the right side of the value will be displayed, ges. {Right(DataSource.Column1,4)} - for each Column1 value, four characters will be displayed from the right side. |
+| {Roman()} | Converts Arabic numerals to Roman numerals. In the arguments, specify the number (the int type); Returns the value of the string type. | {Roman(4)} - the number 4 will have a Roman spelling. {Roman(DataSource.Column1)} - all the numbers from Column1 will have a Roman spelling. |
+| {Substring()} | Displays a certain number of characters from the specified position. In arguments, the following is specified: ![](../../images/img_1.png) The value (the string type) from which the characters will be displayed; ![](../../images/img_2.png) The index of position (the int type), how many characters are skipped; ![](../../images/img_3.png) Number of characters to display (the int type). Returns the value of the string type. | {Substring("Beverages",6,3)} - the first six characters are skipped and three characters will be displayed, the result is ges. {Substring("Beverages",0,2)} - two characters will be displayed starting with zero, the result will be Be. {Substring(DataSource.Column1,1,4)} - the first character is skipped, and four are counted starting from the second one. This is the result for each Column1 value, which is displayed in the report. |
+| {ToCurrencyWords()} | Displays the currency value as the text. You can pass to the function: ![](../../images/img_1.png) Argument as numeric value (double, decimal, long) which will be converted to text; ![](../../images/img_2.png) Argument (true or false) to display text with a capital letter; ![](../../images/img_3.png) Argument (true or false) to display cents; ![](../../images/img_4.png) Single and plural formats for currency and cents (the string type); ![](../../images/img_5.png) You can also specify a base unit for the integer part and a fractional. In addition, various combinations of arguments are possible. There are also some types of this function that support different cultures. Pay attention to you can specify the currencies ISO code (the string type). Returns the value of the string type. | {ToCurrencyWords(100)} - the used currency is dollars of the USA, so that the result will be:  "One hundred dollars and zero cents. {ToCurrencyWords(100, false)} - the result will be displayed without displaying cents (since it is set to true), the result will be: "One hundred dollars". {ToCurrencyWords(100,false,true)} - the result will be displayed with the first lowercase letter (since it is set to false) and with displaying cents (since it is set to true), the result will be: "one hundred dollars and zero cents". {ToCurrencyWords(125.9,true,true,"currency","cent name")} - in this case, the result will be displayed with the first uppercase letter (since it is set to true) and with displaying cents (since it is set to true). Also, we defined the basic unit as "currency", and the fractional unit as "cent name". The result will be: "One hundred and twenty-five currency and ninety cent name". {ToCurrencyWordsEnGb(1.25,"EUR",2)} - the ISO code EUR will be applied, and the result will be one euro and twenty-five cents. {ToCurrencyWordsEnIn("dollars","cents",1.25M,0,true)} - the base unit for the integer part as dollars will be specified, the fractional part - cents, the number for conversion 1.25, then the number of decimal signs to convert and the value true means that the entry will start with the capital letter. |
+| {ToLowerCase()} | Displays the value in lowercase. The value is specified in arguments (the string type); Returns the value of the string type, | {ToLowerCase("EURO")} - the result is euro. {ToLowerCase(DataSource.Column1)} - all values of this column will be displayed in lowercase. |
+| {ToOrdinal()} | Converts numerals to ordinal. The value is specified in arguments (the long type); Returns the value of the string type. | {ToOrdinal(25)} - - the result is 25th. {ToOrdinal(DataSource.Column1)} - all the values of this column will be converted to ordinal numerals. |
+| {ToProperCase()} | Converts the text to the format - the first character is capital, the rest characters are in lowercase. The value is specified in arguments (the string type); Returns the value of the string type. | {ToProperCase("dOllars")} - - the result is Dollars. {ToProperCase("dollars")} - - the result is Dollars. {ToProperCase("dOLLARS")} - - the result is Dollars. {ToProperCase(DataSource.Column1)} - all values from this column will be with the first capital letter and the rest ones in lowercase. |
+| {ToUpperCase()} | Displays the value in uppercase. The value is specified in arguments (the string type); Returns the value of the string type. | {ToUpperCase("dollars")} - the result is DOLLARS. {ToUpperCase("dOllars")} - the result is DOLLARS. {ToUpperCase("dOLLARS")} - the result is DOLLARS. {ToProperCase(DataSource.Column1)} - all values will be written in uppercase. |
+| {ToWords()} | Displays the numerals as text. In arguments, the following is specified: ![](../../images/img_1.png) A numeric value that will be converted to text (decimal, double, long); ![](../../images/img_2.png) True or false values whether to display the first character with a capital letter; ![](../../images/img_3.png) True or false values to return null and empty values; ![](../../images/img_4.png) It is also possible to specify true or false values to provide the feminine form for the result. Returns the value of the string type. | {ToWords(100)} - the result is one hundred. {ToWords(100, true)} - the result is One hundred. {ToWordsEnIn(0,false)} - the result is Zero. {ToWordsEnIn(0,true)} - there will be no results. {ToWordsEs(100,true,true)} - the result starts with a capital letter and in feminine form, Cien {ToProperCase(DataSource.Column1)} - all values will be displayed in text. |
+| {Trim()} | Trims the spaces at the beginning or end of the line. The value is specified in arguments (the string type); Returns the value of the string type. | {Trim("   &lt;1 dollars&gt;   ")} - the result in this case is &lt;1 dollars&gt;". {Trim(DataSource.Column1)} - the spaces before each value and after each value will be truncated. |
+| {TryParseDecimal()} {TryParseDouble()} {TryParseLong()} | Checks the value for conversion to decimal, double, long. The value is specified in arguments (the string type); Returns a value of the bool type. If true, then the conversion will be successful, otherwise it will be false. | {TryParseLong("100")} - The value can be converted to long. {TryParseLong(" { 100")} - the result is false. The value cannot be converted to long. {TryParseLong(DataSource.Column1)} - each value will be checked on possibility to be converted to long. |
 | [Totals in-depth](Totals/index.md) |  |  |
 
 ---
@@ -24908,6 +24927,7 @@ To calculate and display the total, you should place a text component in the rep
 
 **The type of the total function result**
 
+
 By default, the function for calculating totals returns the Decimal type (except for the functions - Count and CountDistinct). However, you can also make calculations using two other data types - Double, and Int64. For the function returns the result of the calculation using the Double data type, add the Latin letter D in the upper register to the name of the function. For calculations using the Int64 type, you should add the Latin letter I in the upper register. This separation will allow avoiding losses in the calculation of totals.
 
 
@@ -24922,8 +24942,8 @@ By default, the function for calculating totals returns the Decimal type (except
 >
 > * Notice: The letters I, D can be added to any function except Count and CountDistinct. These functions always return the Int64 type.
 
-
 **Some words about the function syntax**
+
 
 When using the C# programming language, all the functions should be written strictly in compliance with the register.
 
@@ -24982,8 +25002,8 @@ colCount (band) - calculates the number of rows by the column and the object in 
 
 colCountIf(band, condition) - calculates the number of rows by the column and the object in the column under certain conditions.
 
-
 **Showing totals in any place**
+
 
 Typically, the components, in the text expression of which the function call is specified, are placed on the footer band on the Data band. There are several types of footer bands:
 
@@ -25016,8 +25036,8 @@ It is also allowed to place a component with the function on a page and other pa
 
 {Count (DataBand1)}. In this case, the number of rows of DataBand1 will be calculated.
 
-
 **Expressions with functions**
+
 
 To calculate the totals, it is possible not to specify additional arguments in the expression. For example, for the Count function, it is optional, or only one argument can be set for the Sum function - an expression that should be calculated. All this is possible if the report generator can determine to which Data band those functions are related.
 
@@ -25035,6 +25055,7 @@ The object and various mathematical operations with them - {100 + Sum (DataSourc
 
 
 **Calculation of totals by the page**
+
 
 To calculate the total by the page or panel, you should add the Latin letter "c" in lower case as a prefix to the name of the function:
 
@@ -25058,6 +25079,7 @@ On one page or panel, you can use any number of aggregate functions. Stimulsoft 
 
 **Calculation of totals by column**
 
+
 To calculate the total by a column, you must add the prefix col (from the word column) in the lowercase to the name of the function. For example:
 
 
@@ -25076,6 +25098,7 @@ When calculating totals by the column, it is desirable to place text components 
 
 
 **Calculating totals in the event code**
+
 
 Using Stimulsoft software, you can calculate functions in the code of the report event. It provides the ability to calculate the more complex functions. Also, in this case, you can refer to the calculated value from the code in the process of calculation and influence this process. To make this calculation, you should create a variable in the data dictionary, which will store the value of the function.
 
@@ -25100,6 +25123,7 @@ Also, you must have a text component with the expression {Variable}, set the Pro
 
 **Calculation of totals with condition**
 
+
 Sometimes, when calculating totals, it is necessary to consider certain values. In this case, the condition is set to function of calculating the totals. For example, it is necessary to sum the values that are greater than zero. To add a condition to the function of calculating the totals, you should to add a suffix If (the Latin alphabet) to the function name, and add an additional argument with the condition:
 
 
@@ -25115,16 +25139,19 @@ Sometimes, when calculating totals, it is necessary to consider certain values. 
 
 **Totals and automatic changing the size of the component**
 
+
 > **Video**
 >
 > * Notice: When rendering a report, at the moment, when the size of the component is determined, the result of the calculation of the total function is still unknown. This should be considered when installing the automatic resizing for the components in which the calculation of totals is done. Otherwise, an issue may arise when the size of the component is not correct in relation to the result of the calculation of the total function.
 
 **Totals with the disabled Data band**
 
+
 The Data band can be disabled in a variety of ways. For example, it can be disabled by a certain condition, or it may have a zero height. By default, when rendering a report, the report engine does not take into account disabled data bands and will not process them. However, if it is necessary to calculate totals by the disabled Data band, then you should set the CalcInvisible property for this band to true. In this case, the report will only be displayed the Data included bands, and calculation of totals will be executed considering the Data band.
 
 
 **Calculating totals in Master-Detail reports**
+
 
 When calculating totals in hierarchical reports, there are some issues in calculating the result. Consider an example based on the Master-Detail Report. Suppose the report shows a list of product categories. Categories, in this case, are master entries, and products are detail entries:
 
@@ -25165,9 +25192,11 @@ The calculation of totals in reports can be made by specifying an expression, fo
 | {Min()} | Displays the maximum value from the specified object: In arguments, specify an object or two objects Returns the values of various double, decimal, long, DateTime, TimeSpan, string types depending on the function selected. | {Min(DataSource1.Column1)} - the result is the minimum value from Column1 of DataSource1. {MinDate(DataSource1.ColumnDate)} - the result is the minimum date from the ColumnDate of the DataSource1. {MinTime(DataSource1.ColumnTime)} - the result is the minimum time from the ColumnTime of the DataSource1. {MinStr(DataSource1.Column1)} - all values will be sorted alphabetically. The result is the first value. {Min(DataBand2, DataSource.Column2)} - the result is the minimum value of Column2 of the DataBand2 band. |
 | {Mode()} | Displays the value that is most common in the list of values: In arguments, specify an object or two objects Returns the values of various double, decimal, long types depending on the function selected. | {Mode(DataSource1.Column1)}. Suppose, Column1 contains a list of values: 2, 2, 6, 7, 7, 8, 7, 6, 5, 9, 4. In this case, the result is 7, because it is most often repeated in the list of values. {Mode(DataBand2, DataSource.Column2)}  - the result will be the value from Column2 of the DataBand2, which is the most common. |
 | {Rank(,)} | Display the rank of the value. The prefix Totals is mandatory: Specify in arguments: ![](../../images/img_1.png) Objects for processing and assigning rank (the object type) ![](../../images/img_2.png) The value (true or false) for assigning a tight or not tight rank ![](../../images/img_3.png) Sorting direction of values. Returns the values of various long types | {Totals.Rank(DataBand1,DataSource.Column1)}. Suppose, Column1 contains a list of values: 44, 9, 36, 55, 71. In this case, the values will be sorted in ascending order, i.e. 9, 36, 44, 55, 71 and to each of them a rank will be assigned. The number 9 will receive rank 1; 36 - rank 2; 44 - rank 3; 55 - rank 4; 71 - rank 5. By default, calculates a tight rank and sorts the values for assigning rank by ascending order {Totals.Rank(DataBand1,DataSource.Column1, true, StiRankOrder.Dess)} - in this case, there will be a tight rank since it is set to true. When the rank is assigned, the values will be sorted in descending order since StiRankOrder is set to Desc. For sorting in ascending order (used by default), you should set to Asc (StiRankOrder.Asc). An example of a not tight rank is {Totals.Rank(DataBand1, DataSource.Column1, false, StiRankOrder.Asc)}. Assume Column1 contains a list of values: 44, 9, 44, 9, 31, 64,68, 71. The values are assigned in ascending order, i.e. 9, 9, 31, 44, 44, 44, 68, 71. In this case, the ranks will be as follows: 9 - rank 1, 9 - rank 1, 31 - rank 3, 44 - rank 4, 44 - rank 4, 44 - rank 4, 68 - rank 7, 71 - rank 8. In other words, when assigning a rank to a number, the rank of the previous value and the number of values with this rank are taken into account. |
+| {StDev()} | Provides the ability to calculate the standard deviation for a sample: The arguments specify a data source and an expression Returns a value of type double | {Totals.StDev(DataSource1, DataSource1.Column1)} - in this case, the result will be the standard deviation of the values in Column1 (sample). {Totals.StDevP(DataSource1, DataSource1.Column1)} - in this case, the result will be the standard deviation of the values in Column1 for the entire population. |
 | {Sum()} | Displays the result of the sum of the values: Specify in arguments: ![](../../images/img_1.png) Objects for processing and assigning rank (type object) ![](../../images/img_2.png) Condition ![](../../images/img_3.png) Summation expression Returns the values of various long, decimal, double, TimeSpan types | {Sum(DataSource1.Column1)} - the result is the sum of all Column1 values in the DataSource1. {SumDistinct(DataSource1.Column1)} - the result is the sum of all the unique Column1 values in the DataSource1. SumTime(DataSource1.Column1) - the result is the sum of the time from Column1 in the DataSource1. {Sum(DataBand2,DataSource2.Column2)} - the result is the sum of the values from Column2 of the DataBand2. {SumDistinct(DataBand1,DataSource.Column1, DataSource.Column2)} - the result is the sum of the Column2 values that correspond to the unique values from Column1 of the DataBand2. |
 
 **Samples to calculate totals not associated with bands.**
+
 
 For example, there is a Master-Detail Report, which is a list of products by categories:
 
@@ -26576,12 +26605,15 @@ Maps can be with a group, heatmap and heatmap with group. You can change the typ
 
 ![](../../images/cross12.png)
 
+
 In this case, the map, regardless of the style or color values of each key, will be filled with the base color. The map will remain to be split on items:
 
 
 ![](../../images/topics/Report_Internals.Maps.Map_Type_2.png)
 
+
 ![](../../images/cross12.png)
+
 
 In this case, it is necessary to fill the Group column with data or specify data columns indication in the Group field. Each group of map elements will be drawn with one of the color map style or color that is defined for each entry:
 
@@ -26594,7 +26626,9 @@ However, if the number of colors in the map style is less than the number of gro
 
 ![](../../images/topics/Report_Internals.Maps.Map_Type_4.png)
 
+
 ![](../../images/cross12.png)
+
 
 The heatmap provides an opportunity to graphically display values of map items. Therefore, it is necessary to specify the value of map items. Also, in the style of the map, it is necessary to determine the color of the heatmap. The reporting tool, at the time of the report creation process, will check all entries or all the values in the data column. The engine will determine the maximum value and assign to it the first color of the heatmap, and the minimum value will get the second color of the heatmap style. Then, for each value in the list, depending on how close the maximum or minimum values are, shades for values will be created. The shade will be applied to the map item.
 
@@ -26607,6 +26641,7 @@ The heatmap provides an opportunity to graphically display values of map items. 
 ![](../../images/topics/Report_Internals.Maps.Map_Type_5.png)
 
 ![](../../images/cross12.png)
+
 
 To group the map elements and apply the heatmap to these groups, you should specify the type of a map as the Heatmap with Group. In this case, the map elements are grouped, and then the heatmap will be rendered. At the same time, it is necessary to fill the Group column or specify the data column in the Group field.
 
@@ -26637,6 +26672,7 @@ The Map component provides an opportunity to visualize the data with reference t
 
 
 ![](../../images/cross12.png)
+
 
 To enter the values manually, you should call the map editor, go to the **Data** tab and fill the cells in the table below:
 
@@ -26669,8 +26705,8 @@ Once the table is full, you can render a report. Also, entries can be stored in 
 
 ![](../../images/img_3.png) The **Open** button calls a menu where you can select a previously saved JSON file with the map data.
 
-
 ![](../../images/cross12.png)
+
 
 In addition to manual data input, the data map can be obtained from the data source. To do this click the Linked Data button in the map editor, in the Data tab:
 
@@ -27146,10 +27182,9 @@ When creating dashboards for watermark you can specify:
 * [Weave](#watermarkweave), basic and auxiliary icons. Using them you can create different weaves.
 
 
-**Information**
-
-
-When creating watermark for a dashboard, you can use various combinations of watermark modes. For example, image and text or text and weave or all of them.
+> **Information**
+>
+> When creating watermark for a dashboard, you can use various combinations of watermark modes. For example, image and text or text and weave or all of them.
 
 Watermark is set in a special editor. To call the watermark editor you should:
 
@@ -30557,6 +30592,77 @@ Now, when viewing the dashboard panel, data can be filtered by the value of the 
 
 ---
 
+# Range Selector
+
+Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/Dashboards/Data_Filtering/Range_Selector.md
+
+**Range Selector** - this component is used to select a range of values on a scale or a timeline. It allows users to visually define the minimum and maximum boundaries of the range.
+![](../../images/Range Selector.png)
+
+
+Configuration of the Range Selector element is performed in its editor. To open the editor in the report designer, you should:
+
+* Double-click the **Range Selector** element with the left mouse button;
+* Select the Range Selector element and choose the **Editor** command from the context menu.
+
+The Range Selector element allows selecting a range of values (for example, dates or numbers). It can act as either a dependent or a master element in relation to other filtering elements. The selected range limits the dataset used by other elements of the dashboard panel.
+
+**Range Selector Element Editor**
+In the Range Selector editor, data items are added, the value selection mode is configured, and the master filtering element is selected.
+
+![](../../images/Range Selector Editor .png)
+
+
+![](../../images/img1.png) In the **Value** field, the data item whose values will be used for filtering is specified.
+![](../../images/img_2.png) In the **Argument** field, the data item used as the X-axis for visualizing the mini-chart inside the slider is specified.
+
+![](../../images/img_3.png) In the **Series** field, numeric fields are placed to build the chart inside the slider (mini sparkline or columns). This is an additional visualization, for example: number of events, metric values.
+
+![](../../images/img_4.png) The **Field** displays the expression of the selected data field of the element.
+
+![](../../images/img_5.png) The **Type** parameter allows setting the operating mode of the filtering element. The following values are available:
+
+* **Line**. Displays data as a line chart;
+
+* **Area.** Displays data as a line chart with the area under the line filled;
+
+* **Column.** Displays data as columns. Each value is represented as a vertical bar.
+
+
+![](../../images/img_6.png) **Snape Mode**
+
+* **None.** No snapping, the slider moves freely;
+* **Step.** Moves by specific X values;
+
+* **Tick.** Moves by scale intervals (for example, every 7 days).
+
+**Properties Table**
+The table contains the names and descriptions of the properties of the **Range Selector** element located in the Properties panel of the report designer.
+
+
+| **Name** | **Description** |
+| --- | --- |
+| Group | Provides the ability to add the current element to a specific [group of elements](../Groups.md). |
+| Corner Radius | Provides the ability to define the corner radius for the element on the dashboard panel. Each corner can be rounded individually: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set from 0 to 30, where 0 means no rounding and 30 is the maximum radius value. |
+| Font | A group of properties that allows defining the font family, style, and size for the values of the **Numeric Field** element. |
+| Shadow | A group of properties that allows configuring the element shadow: The **Color** property defines the color used to display the shadow; The **Location** group properties define the shadow offset along the X and Y axes relative to the element position on the dashboard panel; The **Size** property defines the shadow size relative to the element boundaries. It can be set from 1 to 10, where 1 is the minimum size and 10 is the maximum; The **Visible** property enables or disables the display of the element shadow on the dashboard panel. |
+| Style | Provides the ability to select a style for the current element. By default, the value is set to **Auto**, meaning the style is inherited from the dashboard panel style. |
+| Back Color | Provides the ability to change the background color of the **Numeric Field** element. By default, this property is set to From Style, meaning the color is taken from the current element style settings. |
+| Fore Color | Provides the ability to define the color of the **Numeric Field** element values. By default, this property is set to **From Style**, meaning the color is taken from the current element style settings. |
+| Border | A group of properties that allows configuring the element borders: color, sides, size, and style. |
+| Enabled | Provides the ability to enable or disable the current element on the dashboard panel. If set to **True**, the element is enabled and will be displayed in the viewer. If set to **False**, the element is disabled and will not be displayed in the viewer. |
+| Inclusion Mode | Defines how values are included in the selected range (for example, whether boundary values are included or excluded). |
+| Margin | A group of properties that allows defining outer spacing (left, top, right, bottom) of the value area relative to the element boundaries. |
+| Padding | A group of properties that allows defining inner spacing (left, top, right, bottom) of the values relative to the value area boundaries. |
+| Text Format | Specifies the display format of the range values (for example, numeric, date, or custom format). |
+| Name | Provides the ability to change the name of the current element. |
+| Alias | Provides the ability to change the alias of the current element. |
+| Restrictions | Provides the ability to configure usage permissions for the current element on the dashboard panel: **The** **Allow Change** option enables or disables modification of the element. If selected, the element can be modified, otherwise it cannot be changed. **The** **Allow Delete** option enables or disables deletion of the element. If selected, the element can be deleted, otherwise it cannot be removed. **The** **Allow Move** option enables or disables moving the element. If selected, the element can be moved, otherwise it cannot be moved. **The** **Allow Resize** option enables or disables resizing of the element. If selected, the element size can be changed, otherwise it cannot be resized. **The** **Allow Select** option enables or disables selecting the element. If selected, the element can be selected, otherwise it cannot be selected. |
+| Locked | Provides the ability to prevent or allow resizing and moving of the current element. If set to **True**, the element cannot be moved or resized. If set to **False**, the element can be moved and resized. |
+| Linked | Provides the ability to link the current position to the dashboard panel or another element. If set to **True**, the element is bound to its current position. If set to **False**, the element is not bound to its current position. |
+
+---
+
 # Web content
 
 Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/Dashboards/webcontent.md
@@ -31157,10 +31263,9 @@ In this editor, every action is represented as a separate group of parameters wi
 ![](../images/img_4.png) This group of parameters can be used to enable or disable the **Full Screen**, **View Data** and **Save** buttons in the viewer or in the preview panel for the current dashboard element.
 
 
-**Information**
-
-
-Drill down of element data can be carried out [with the Apply Filter](#DrillDownWithFilters) action or [without it](#DrillDownWithOutFilters).
+> **Information**
+>
+> Drill down of element data can be carried out [with the Apply Filter](#DrillDownWithFilters) action or [without it](#DrillDownWithOutFilters).
 
 **Table element interaction**
 
@@ -32189,8 +32294,8 @@ With the help of import utilities, you can convert reports from other reporting 
 
 Use converted reports in **Stimulsoft products**.
 
-
 **Import Report from Crystal Reports**
+
 
 The utility converts the Crystal Reports templates (*.rpt-files) to the Stimulsoft Reports report templates format (*.mrt-files). The tool is supplied as the C# source code only and requires referencing of some Crystal Reports runtime libraries to be built successfully in Visual Studio 2010, .NET Framework 4.0 or higher. Please download the archive from the link below, unzip it and open in the Visual Studio. The project will be built successfully, once all the required dll libraries are referenced and found in Visual Studio.
 
@@ -32251,8 +32356,8 @@ Please read more about the requirements of those additional installations in the
 
 No, the only way to make your app work is to run one of the redist packages on the user’s PC. We don't support nor do we have a way to manually deploy the runtime. Too many Registry entries and registering of the dll's to do this manually.
 
-
 **Parameters of Import Utility**
+
 
 **Use primitives instead of shapes for the Line and the Box**
 
@@ -32263,8 +32368,8 @@ If the flag is not enabled then the **Line** and the **Box** components will be 
 
 In each **Formula** **Field** either expression or a data string can be placed. Each **Formula** **Field** is converted into the variable in the data dictionary. If the "**Use functions for Formula Fields"** flag is enabled, then the "**Function**" flag is set to variable. In other words, when report rendering, Stimulsoft Reports will use the value of a variable as an expression and will try to calculate the value of this expression. If the "**Use functions for Formula Fields**" flag is not enabled, then the value of a variable will be used as the data string.
 
-
 **Problems with conversion**
+
 
 One of the main problems in conversion is that not all object properties are available when working with managed dll. The second problem is the different reporting tools structures, such as data structures, work with bands etc. Therefore, it is not always possible to convert a report automatically, and it is required to correct a report manually.
 
@@ -32706,6 +32811,7 @@ After calling the wizard, you need to specify the platform for which the report 
 
 ![](../../images/cross12.png)
 
+
 As it is already mentioned, the number of parameters can vary depending on the selected platform. Consider the parameters of the wizard when publishing report for the JavaScript as an example.
 
 
@@ -32816,7 +32922,9 @@ As it is already mentioned, the number of parameters can vary depending on the s
 >
 > For the Java platform you can find the **Get Stimulsoft Libraries from Maven** option.
 
+
 ![](../../images/cross12.png)
+
 
 **Step 1**: Run the report designer.
 
@@ -33776,10 +33884,9 @@ By default, the regional settings of the operating system are used to build repo
 You should notice that the first columns contain text that is independent of the report culture. The second (currency) and third (date-time) columns are culture-dependent. Therefore, when changing the culture, the type of data record changes.
 
 
-**Information**
-
-
-It is impossible to remember all the codes of cultures. Therefore, for convenience, you can find the list of values of the **Culture** property in a drop-down menu with a list of cultures and their codes that are available in the operating system on the current computer.
+> **Information**
+>
+> It is impossible to remember all the codes of cultures. Therefore, for convenience, you can find the list of values of the **Culture** property in a drop-down menu with a list of cultures and their codes that are available in the operating system on the current computer.
 
 If you need the components to be independent of culture, displayed the same for any culture applied to the report, you should uncheck the **Use local settings** parameter and define formatting settings in the [Text Format](../../Report_Internals/Text_Formatting/index.md) editor of the text component. For example, you want to see the price of a product always in the same currency, regardless of regional settings. Below is a report sample with different cultures:
 
@@ -33800,10 +33907,9 @@ As you can see in the picture, the currency depends on the culture applied to th
 As you can see, when applying the Russian (ru-RU) culture, the currency in the second column has not changed, while in the first one, it depends on the culture used.
 
 
-**Information**
-
-
-If the culture selected for the report is not supported by the operating system, then the current culture of the operating system will be applied to the report.
+> **Information**
+>
+> If the culture selected for the report is not supported by the operating system, then the current culture of the operating system will be applied to the report.
 
 ---
 
@@ -34810,40 +34916,54 @@ Also, you can create a new variable by selecting New Variable... in the context 
 
 After selecting this item, the New Variable dialog will be called. In this dialog you can set the parameters of the variable. The picture below shows the New Variable dialog:
 
+![](../../../images/Edit Variable.png)
+
+
+![](../../../images/img1.png) In the **Name** field, the variable name used in the report is specified.
+
+![](../../../images/img_2.png) The **Alias** field specifies the variable name displayed to the user.
+
+![](../../../images/img_3.png) In the **Description** field, you can provide additional information about the variable.
+
+![](../../../images/img_4.png) In the **Type** field, you can change the data type stored in the variable and the variable type. This field consists of two dropdown lists. The first list contains all available data types grouped into categories:
+
 
 ![](../../../images/topics/Data.Data_Dictionary.Variables_3.png)
-
-
-![](../../../images/img1.png) The Name field specifies the name of the variable used in the report.
-
-![](../../../images/img_2.png) The alias, name of the variable that is displayed to the user, you can specify it in the Alias field.
-
-![](../../../images/img_3.png) In the Description field, you can specify a description of the variable.
-
-![](../../../images/img_4.png) In the Type field you can change the type of data that will be placed in a variable, and the type of the variable. This field is represented by two fields with drop-down lists. The first list is a list of all available data types divided into categories:
-
-
-![](../../../images/topics/Data.Data_Dictionary.Variables_4.png)
 
 
 As can be seen from the picture, the integer is selected. The second list contains a list of variables. Depending on the type of a variable, some additional fields of parameters can be displayed. The list of types of variable fields is presented in the second list of the Type field (see. picture above). The picture below shows a list of types of a variable:
 
 
-![](../../../images/topics/Data.Data_Dictionary.Variables_5.png)
+![](../../../images/topics/Data.Data_Dictionary.Variables_4.png)
 
 As can be seen from the picture, the variable can be of the following types - Value, Nullable Value, List, Range. Next, consider all types of a variable and the Request from User option in detail.
 
 
-![](../../../images/img_5.png) The Read Only parameter sets the read-only mode. In this case the value stored in a variable is returned and the user cannot change it. If the value is initialized as an expression then, at the time of treatment to our variable, the expression will be calculated each time.
+![](../../../images/img_5.png) In the **Init by** field, the method of variable initialization is specified.
+![](../../../images/img_6.png) In the **Value** field, the variable value is specified.
 
-![](../../../images/img_6.png) The Request from User parameter establishes a mode under which the returned value can be changed by the user. It should be noted that, if the Request from User is set to true, an additional panel will be displayed. This panel has variable settings that determine the possibility of interaction with the user. In addition, the New Variable dialog can be modified.
+![](../../../images/img_7.png) The **Read Only** option enables read-only mode. In this case, the value stored in the variable is returned, and the user cannot modify it. If the value is initialized by an expression, the expression will be recalculated each time the variable is accessed.
 
-![](../../../images/img_7.png) The Allow using as SQL parameter gives an opportunity to use a variable as a parameter in the query when selecting data.
+![](../../../images/img_8.png) The **Not Assigned** property allows indicating that the variable has no value.
+
+![](../../../images/img_9.png) The **Allow using as SQL** parameter option allows using the variable as a parameter in a data query.
+
+![](../../../images/img_10.png) The **Show on Parameters Panel** property allows displaying the variable on the parameters panel.
+
+![](../../../images/img_11.png) The **Remember Selection** property allows saving the value selected by the user.
+
+![](../../../images/img_12.png) The **Allow User Values** property allows users to enter custom values for the variable.
+
+![](../../../images/img_13.png) In the **Items** field, the list of variable values is specified.
+
+![](../../../images/img_14.png) In the **Validation** field, you can configure validation rules for the variable value.
+
+![](../../../images/img_15.png) In the **Format Mask** field, you can define the display format of the variable value.
 
 
 > **Information**
 >
-> * Information: When editing a variable, the Save a Copy button will be displayed in the window. When you click on this button, a copy of the edited variable with the Copy postfix in the variable name, will be created.
+> When editing a variable, the **Save a Copy** button is available in the window. When this button is clicked, a copy of the edited variable is created with the postfix **Copy** added to the variable name.
 
 ---
 
@@ -35227,11 +35347,99 @@ The **Reset** button, in this case, resets the current list of values ​​to t
 
 ---
 
-# Validation
+# Variable Validation
 
 Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/Data/Data_Dictionary/Variables/Validation.md
 
-Enter topic text here.
+**Variable Validation** - is the process of checking that a variable value matches the expected format, type, and constraints.
+
+For example:
+
+* The variable value must be in the range from 1 to 100;
+* A string must not be empty;
+* An email must match a specific format.
+
+Let us consider the variable validation settings:
+![](../../../images/Validation.png)
+
+**Range**
+
+Allows defining a range of valid values. The parameters of this group are listed below.
+![](../../../images/img_1.png) In the **Min** field, the minimum allowed value is specified;
+
+![](../../../images/img_2.png) In the **Max** field, the maximum allowed value is specified;
+
+![](../../../images/img_3.png) **Message** - provides the ability to specify a notification that will be displayed on the parameters panel when the entered value is outside the defined range;
+
+![](../../../images/img_4.png) **Validation Type** - defines the type of value validation:
+
+* **Warning** - in this case, a message will be displayed on the parameters panel, but the parameter value will still be applied and the report will be generated;
+
+* **Error** - in this case, a message will be displayed on the parameters panel, and the parameter value will not be applied and the report will not be generated.
+
+
+**Expression**
+
+Allows defining a validation criterion using an expression. The parameters of this group are listed below.
+
+![](../../../images/img_5.png) In the **Expression** field, you can specify a condition, for example: variable_1 != 5;
+
+![](../../../images/img_6.png) **Message** - provides the ability to specify a notification that will be displayed on the parameters panel when the entered value does not meet the criteria of the defined expression;
+
+![](../../../images/img_7.png) **Validation Type** - defines the type of value validation:
+
+* **Warning** - in this case, a message will be displayed on the parameters panel, but the parameter value will still be applied and the report will be generated;
+
+* **Error** - in this case, a message will be displayed on the parameters panel, and the parameter value will not be applied and the report will not be generated.
+
+**Pattern**
+
+Allows you to validate the result of the evaluated expression. The parameters of this group are described below.
+
+![](../../../images/img_8.png) **Type**. The following options are available:
+
+* **No** - pattern validation is disabled;
+* **Pattern** - custom regular expression;
+* **Email** - email validation;
+* **Phone** - phone number;
+* **URL** - web address;
+* **Alpha Numeric** - letters and digits;
+* **Alpha** - letters only;
+* **Numeric** - digits only;
+* **SSN** - Social Security Number (USA);
+* **TIN** - Tax Identification Number;
+* **IP Address** - IP address;
+* **IBAN** - International Bank Account Number;
+* **ISBN** - International Standard Book Number.
+
+
+![](../../../images/img_9.png) **Regular Expression** -  in this field, a custom regular expression is specified, which is used to validate the entered value. The value is considered valid if it matches the specified pattern. A regular expression allows defining complex validation rules, for example:
+
+* validation of an e-mail format;
+* validation of a phone number;
+* validation of a string according to a specified pattern.
+
+If the entered value does not match the regular expression, a validation message will be displayed.
+
+
+![](../../../images/img_10.png) **Message** - provides the ability to specify a notification that will be displayed on the parameters panel when the entered value does not meet the criteria of the defined pattern;
+![](../../../images/img_11.png) **Validation Type** - defines the type of value validation:
+
+* **Warning** - in this case, a message will be displayed on the parameters panel, but the parameter value will still be applied and the report will be generated;
+
+* **Error** - in this case, a message will be displayed on the parameters panel, and the parameter value will not be applied and the report will not be generated.
+
+
+![](../../../images/img_12.png) **Required** - makes the field mandatory, an empty value will be treated as an error.
+
+
+> **Information**
+>
+> Validation is performed sequentially: Range → Expression → Pattern → Required.
+>
+> If the value does not meet one of the criteria, validation stops and an error message is displayed for that criterion.
+>
+> Validation can be performed using a single criterion (for example, Range) or multiple criteria simultaneously (for example, Range and Expression).
 
 ---
 
@@ -35481,7 +35689,6 @@ After selecting this command, the menu for creating a new resource will be displ
 
 To save a resource from the report designer, you should select the resource in the Data Dictionary and click **Save** in the context menu. In this case, a dialog will be called in which it is necessary to specify the location for saving the file. Then, click the **Save** button and the resource will be saved in the format of the source file. In addition, if a *.mrt file was added to the resource, then the *.mrt file will also be saved when this resource is saved.
 
-
 **Resource based data source**
 
 When designing reports, data files (CSV, Excel, JSON, XML, Dbase) are often used. Based on these files, you can create data sources in the data dictionary that will be used to create report templates. In this case, the data sources will not contain real data but only a description of the methods, parameters and methods to access to real data. The transfer of data from the file to the data sources, and accordingly the filling of the actual data of the report, occurs when rendering of this report.
@@ -35519,7 +35726,6 @@ Below is the menu for creating an Excel data source:
 
 After clicking **OK**, the generated data source can be used to create reports.
 
-
 **Images from resources**
 
 Images in reports can be obtained from various resources - uploaded directly, from a file, from a data source, by a hyperlink, etc. When you send a report to another person or move the report (or images) to another medium, you will have to send (along with the report) images, editing the path to these images. Except the cases when the image is uploaded directly to the **Image** component. However, each time you load an image into the Image component, the size of the report file is increased by the size of the image file.
@@ -35532,7 +35738,6 @@ After adding an image to the **Resource**, it can be used as a watermark of the 
 
 
 ![](../../images/topics/Data.Dictionary.Resources_3.png)
-
 
 **Sub-reports from Resources**
 
@@ -35549,7 +35754,6 @@ Add the Sub-report component to the report template. When editing this component
 ![](../../images/topics/Data.Dictionary.Resources_4.png)
 
 Also, you can pass a parameter in the Sub-report component editor. For example, to filter data in a nested report. However, this is only relevant for the not rendered report (*.mrt, *.mrz).
-
 
 **Rich text from resources**
 

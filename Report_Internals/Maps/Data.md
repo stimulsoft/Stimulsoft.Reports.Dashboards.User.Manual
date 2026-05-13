@@ -6,6 +6,7 @@ The Map component provides an opportunity to visualize the data with reference t
 
 ![](../../images/cross12.png)
 
+
 To enter the values manually, you should call the map editor, go to the **Data** tab and fill the cells in the table below:
 
 
@@ -37,8 +38,8 @@ Once the table is full, you can render a report. Also, entries can be stored in 
 
 ![](../../images/img_3.png) The **Open** button calls a menu where you can select a previously saved JSON file with the map data.
 
-
 ![](../../images/cross12.png)
+
 
 In addition to manual data input, the data map can be obtained from the data source. To do this click the Linked Data button in the map editor, in the Data tab:
 

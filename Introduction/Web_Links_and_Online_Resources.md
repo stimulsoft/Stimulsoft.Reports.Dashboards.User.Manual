@@ -86,6 +86,5 @@ This section describes how to get information about the latest news and announce
 
 [https://www.instagram.com/stimulsoft/](https://www.instagram.com/stimulsoft/)
 
-
 Also, visit our community to communicate with other users of Stimulsoft tools - [http://forum.stimulsoft.com/index.php](http://forum.stimulsoft.com/index.php )
 Here you can read and discuss various topics related to tools for creating reports and dashboards. For more information about the product in other Internet resources, please use the search engines.

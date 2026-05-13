@@ -14,10 +14,9 @@ By default, the regional settings of the operating system are used to build repo
 You should notice that the first columns contain text that is independent of the report culture. The second (currency) and third (date-time) columns are culture-dependent. Therefore, when changing the culture, the type of data record changes.
 
 
-**Information**
-
-
-It is impossible to remember all the codes of cultures. Therefore, for convenience, you can find the list of values of the **Culture** property in a drop-down menu with a list of cultures and their codes that are available in the operating system on the current computer.
+> **Information**
+>
+> It is impossible to remember all the codes of cultures. Therefore, for convenience, you can find the list of values of the **Culture** property in a drop-down menu with a list of cultures and their codes that are available in the operating system on the current computer.
 
 If you need the components to be independent of culture, displayed the same for any culture applied to the report, you should uncheck the **Use local settings** parameter and define formatting settings in the [Text Format](../../Report_Internals/Text_Formatting/index.md) editor of the text component. For example, you want to see the price of a product always in the same currency, regardless of regional settings. Below is a report sample with different cultures:
 
@@ -38,7 +37,6 @@ As you can see in the picture, the currency depends on the culture applied to th
 As you can see, when applying the Russian (ru-RU) culture, the currency in the second column has not changed, while in the first one, it depends on the culture used.
 
 
-**Information**
-
-
-If the culture selected for the report is not supported by the operating system, then the current culture of the operating system will be applied to the report.
+> **Information**
+>
+> If the culture selected for the report is not supported by the operating system, then the current culture of the operating system will be applied to the report.

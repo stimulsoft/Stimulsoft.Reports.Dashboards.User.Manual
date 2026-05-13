@@ -2,7 +2,6 @@
 
 Welcome to the online version of the documentation Stimulsoft Reports. This part of documentation describes basic approaches in work with GUI. Here you can find the answers on all your questions, find out about main abilities, master the skills of working with the report designer, viewer and other utilities. Also you will learn how to use the components for designing reports, formatting, filtering, and creating styles for reports.
 
-
 Welcome to **Stimulsoft**:
 
 [Technical Support](Technical_Support.md)
@@ -110,6 +109,5 @@ Export Reports:
 [How to Create Report for Export?](../Exports/How_To_Create_Report_for_Export.md)
 
 [More...](../Exports/index.md)
-
 
 The second part of the manual contains the description of non-visual parts of products Stimulsoft.

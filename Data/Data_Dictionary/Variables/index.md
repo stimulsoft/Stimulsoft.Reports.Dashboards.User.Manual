@@ -15,37 +15,51 @@ Also, you can create a new variable by selecting New Variable... in the context 
 
 After selecting this item, the New Variable dialog will be called. In this dialog you can set the parameters of the variable. The picture below shows the New Variable dialog:
 
+![](../../../images/Edit Variable.png)
+
+
+![](../../../images/img1.png) In the **Name** field, the variable name used in the report is specified.
+
+![](../../../images/img_2.png) The **Alias** field specifies the variable name displayed to the user.
+
+![](../../../images/img_3.png) In the **Description** field, you can provide additional information about the variable.
+
+![](../../../images/img_4.png) In the **Type** field, you can change the data type stored in the variable and the variable type. This field consists of two dropdown lists. The first list contains all available data types grouped into categories:
+
 
 ![](../../../images/topics/Data.Data_Dictionary.Variables_3.png)
-
-
-![](../../../images/img1.png) The Name field specifies the name of the variable used in the report.
-
-![](../../../images/img_2.png) The alias, name of the variable that is displayed to the user, you can specify it in the Alias field.
-
-![](../../../images/img_3.png) In the Description field, you can specify a description of the variable.
-
-![](../../../images/img_4.png) In the Type field you can change the type of data that will be placed in a variable, and the type of the variable. This field is represented by two fields with drop-down lists. The first list is a list of all available data types divided into categories:
-
-
-![](../../../images/topics/Data.Data_Dictionary.Variables_4.png)
 
 
 As can be seen from the picture, the integer is selected. The second list contains a list of variables. Depending on the type of a variable, some additional fields of parameters can be displayed. The list of types of variable fields is presented in the second list of the Type field (see. picture above). The picture below shows a list of types of a variable:
 
 
-![](../../../images/topics/Data.Data_Dictionary.Variables_5.png)
+![](../../../images/topics/Data.Data_Dictionary.Variables_4.png)
 
 As can be seen from the picture, the variable can be of the following types - Value, Nullable Value, List, Range. Next, consider all types of a variable and the Request from User option in detail.
 
 
-![](../../../images/img_5.png) The Read Only parameter sets the read-only mode. In this case the value stored in a variable is returned and the user cannot change it. If the value is initialized as an expression then, at the time of treatment to our variable, the expression will be calculated each time.
+![](../../../images/img_5.png) In the **Init by** field, the method of variable initialization is specified.
+![](../../../images/img_6.png) In the **Value** field, the variable value is specified.
 
-![](../../../images/img_6.png) The Request from User parameter establishes a mode under which the returned value can be changed by the user. It should be noted that, if the Request from User is set to true, an additional panel will be displayed. This panel has variable settings that determine the possibility of interaction with the user. In addition, the New Variable dialog can be modified.
+![](../../../images/img_7.png) The **Read Only** option enables read-only mode. In this case, the value stored in the variable is returned, and the user cannot modify it. If the value is initialized by an expression, the expression will be recalculated each time the variable is accessed.
 
-![](../../../images/img_7.png) The Allow using as SQL parameter gives an opportunity to use a variable as a parameter in the query when selecting data.
+![](../../../images/img_8.png) The **Not Assigned** property allows indicating that the variable has no value.
+
+![](../../../images/img_9.png) The **Allow using as SQL** parameter option allows using the variable as a parameter in a data query.
+
+![](../../../images/img_10.png) The **Show on Parameters Panel** property allows displaying the variable on the parameters panel.
+
+![](../../../images/img_11.png) The **Remember Selection** property allows saving the value selected by the user.
+
+![](../../../images/img_12.png) The **Allow User Values** property allows users to enter custom values for the variable.
+
+![](../../../images/img_13.png) In the **Items** field, the list of variable values is specified.
+
+![](../../../images/img_14.png) In the **Validation** field, you can configure validation rules for the variable value.
+
+![](../../../images/img_15.png) In the **Format Mask** field, you can define the display format of the variable value.
 
 
 > **Information**
 >
-> * Information: When editing a variable, the Save a Copy button will be displayed in the window. When you click on this button, a copy of the edited variable with the Copy postfix in the variable name, will be created.
+> When editing a variable, the **Save a Copy** button is available in the window. When this button is clicked, a copy of the edited variable is created with the postfix **Copy** added to the variable name.

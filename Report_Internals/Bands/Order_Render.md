@@ -12,6 +12,7 @@ In this article, let's review the process of rendering report bands and define t
 
 ![](../../images/cross12.png)
 
+
 All bands are displayed in the strict order. This is due to the fact that each band has a specific function in the report. And it is very important in which order bands are printed.
 
 
@@ -40,8 +41,8 @@ The **Child Band** can be placed on any band except the **Page Header**, **Repor
 
 ![](../../images/topics/Report_Internals.Bands.Order_Render_1.png)
 
-
 ![](../../images/cross12.png)
+
 
 When rendering a report, the report template pages are processed sequentially. The order of page processing is determined by the position of the page in the report tree. The higher the page is in the report tree, the higher is its priority (the sequence) of processing.
 
@@ -70,8 +71,8 @@ In the second stage goes the analysis of other bands.
 
 After the analysis, the report rendering will start. The ReportSummaryBand1 will be processed last.
 
-
 ![](../../images/cross12.png)
+
 
 As mentioned above, all bands (except **PageHeaderBand1**, **PageFooterBand1**, **OverlayBand1**, **ReportTitleBand1**, **ReportSummaryBand1**) in the report rendering depends on the DataBand1. Consider these relationships in more detail and start with a simple example. The **Data Band** is placed on the template page.
 
