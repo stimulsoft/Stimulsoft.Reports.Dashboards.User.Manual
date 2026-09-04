@@ -1,4 +1,4 @@
-## Legend
+# Legend
 
 The **Legend** is the area where the legend items for different data series in the chart are displayed. The legend can be placed in various parts of the chart: either within the chart area or outside of it.
 

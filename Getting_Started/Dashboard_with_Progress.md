@@ -1,4 +1,4 @@
-## Dashboard with Progress
+# Dashboard with Progress
 
 To create a dashboard with the [Progress](../Dashboards/Progress.md) element, you should do the following:
 

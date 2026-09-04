@@ -1,7 +1,6 @@
 ## Bookmark Nesting
 
-
-Nesting depends on which components generated bookmarks. For example, the page bookmark will always be one level higher then other bookmarks. The bookmark, created with the **Group Header** **band**, is one level higher then the bookmark, created by the **Data** band, in this group. In the Master-Detail relation the Master bookmark will enable all Detail bookmarks. For example, we have a report with a group.
+Nesting depends on which components generated bookmarks. For example, the page bookmark will always be one level higher than other bookmarks. The bookmark, created with the **Group Header** **band**, is one level higher than the bookmark, created by the **Data** band, in this group. In the Master-Detail relation the Master bookmark will enable all Detail bookmarks. For example, we have a report with a group.
 
 
 **Group**

@@ -1,4 +1,4 @@
-## Interlacing Vertical
+# Interlacing Vertical
 
 **Interlacing Vertical** is the process of filling every second vertical gap between the X-axis values across the entire chart area. Vertical filling can alternate with horizontal filling.
 

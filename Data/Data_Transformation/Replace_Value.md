@@ -1,4 +1,4 @@
-## Replace Values
+# Replace Values
 
 Frequently, when creating reports in row data you should replace some value with another or add a text to the current value.
 
@@ -65,7 +65,7 @@ To add some text before or after a value, you should make the following steps:
 The text before and after will be added to all values in this element.
 ![](../../images/topics/Data.Data_Transformation.Replace_Value_6.png)
 
-**Text insert into a value**
+### Text insert into a value
 
 You can insert another value into the text value of data fields using the Insert(,,) function. To do it you should make the following steps:
 **Step 1**: Add data fields to a list of data transformation fields. For example, the numbers of categories and their names.

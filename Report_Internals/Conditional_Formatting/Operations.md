@@ -1,6 +1,5 @@
 ## Operators
 
-
 Operators enable you to define the circumstances in which a condition is deemed to be true.  The operators available depend on the data type being operated upon, so only the appropriate operators will be available. For example, a logical condition can only be true or false, so it cannot be greater than anything making the greater than operator inappropriate for that data type.
 
 

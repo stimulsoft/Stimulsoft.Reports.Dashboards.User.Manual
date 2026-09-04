@@ -1,4 +1,4 @@
-## Dashboard with Pivot Table
+# Dashboard with Pivot Table
 
 This chapter will cover the following:
 
@@ -55,7 +55,7 @@ To create a dashboard panel with the [Pivot Table](../Dashboards/Pivot_Table.md)
 
 ![](../images/topics/Getting_Started.Dashboard_with_Pivot_5.png)
 
-**Drill-down in the Pivot Table**
+### Drill-down in the Pivot Table
 
 In this element, you can create a data hierarchy for rows or columns. To do this:
 

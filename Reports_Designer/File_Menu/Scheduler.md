@@ -1,4 +1,4 @@
-## Schedule
+# Schedule
 
 The **Schedule** point in the **File** menu contains a list of created **Schedulers** in the report designer and the command of a new element **Scheduler** creation. This element allows you to make definite actions with a report by schedule. For example, you can automate the process of report creation, export it to a definite file type and save the result to the local storage or send by email.
 
@@ -54,7 +54,7 @@ There is the toolbar in the **File** menu on the scheduler panel where scheduler
 
 Also, control commands are duplicated in the context menu of the schedulers. Besides, the context menu contains the **Delete All** command, which allows you to delete all schedulers.
 
-**Parameters of the Scheduler once**
+### Parameters of the Scheduler once
 
 Below you can see the menu of a new Scheduler Once creation.
 ![](../../images/topics/Reports_Designer.File_Menu.Scheduler_4.png)
@@ -70,7 +70,7 @@ Below you can see the menu of a new Scheduler Once creation.
 
 ![](../../images/img_5.png) The **Run at Time** allows you to define date and time when the scheduler is run.
 
-**Parameter of Scheduler Hourly**
+### Parameter of Scheduler Hourly
 
 Below you can see the menu of a new Scheduler Hourly creation.
 ![](../../images/topics/Reports_Designer.File_Menu.Scheduler_6.png)
@@ -88,7 +88,7 @@ Below you can see the menu of a new Scheduler Hourly creation.
 
 ![](../../images/img_6.png) The **Run Every** parameter allows you to define the interval of the Scheduler Hourly to run. For example, if the parameter is set to 1 value, the scheduler will run every hour. If this parameter is set to 2 value, the scheduler will run every two hours, etc.
 
-**Parameters of the Scheduler Daily**
+### Parameters of the Scheduler Daily
 
 Below you can see the menu of a new Scheduler Daily creation.
 ![](../../images/topics/Reports_Designer.File_Menu.Scheduler_8.png)
@@ -106,7 +106,7 @@ Below you can see the menu of a new Scheduler Daily creation.
 
 ![](../../images/img_6.png) The **Run Every** parameter allows you to define the interval of the Scheduler Daily to run. For example, if the parameter is set to 1 value, the scheduler will be run every day. If this parameter is set to 2 value, the scheduler will be run every two days, etc.
 
-**Parameters of Scheduler Weekly**
+### Parameters of Scheduler Weekly
 
 Below you can see the menu of a new Scheduler Weekly creation.
 ![](../../images/topics/Reports_Designer.File_Menu.Scheduler_10.png)
@@ -127,7 +127,7 @@ Below you can see the menu of a new Scheduler Weekly creation.
 ![](../../images/img_7.png) The **Run Every** parameter allows you to define the interval of the Scheduler Weekly to run. For example, if the parameter is set to 1 value, the scheduler will be run every week. If this parameter is set to 2 value, the scheduler will be run once two weeks, etc.
 
 
-**Parameters of the Scheduler Monthly**
+### Parameters of the Scheduler Monthly
 
 Below you can see the menu of a new Scheduler Monthly creation.
 ![](../../images/topics/Reports_Designer.File_Menu.Scheduler_12.png)
@@ -168,7 +168,7 @@ Apart from basic parameters, each scheduler contains additional parameters, whic
 
 ![](../../images/img_5.png) The **Expire** parameter allows you to define date and time when the scheduler is stopped.
 
-**Scheduler actions**
+### Scheduler actions
 
 Each scheduler makes definite actions. By type, all actions can be divided into:
 * The **Run Report**, i.e rendering and exporting a report or a dashboard to a definite document;

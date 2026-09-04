@@ -1,4 +1,4 @@
-## Labels
+# Labels
 
 **Labels** are a visual representation of values, arguments, tags, series names, and their combinations on or near the graphical elements of series. Labels are similar to series titles but can be applied to all series in a chart, not just the current one.
 

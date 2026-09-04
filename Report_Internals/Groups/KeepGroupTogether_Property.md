@@ -1,6 +1,5 @@
 ## KeepGroupTogether Property
 
-
 When rendering a report with grouping, a group may not fit to one page. Several lines of group will be output on one page and other part on the next page.
 
 

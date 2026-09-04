@@ -1,7 +1,6 @@
 ## Indent Property
 
-
-To visualize the hierarchy of a report you need to change a value of the **Indent** property. The value of the **Indent** property is the distance at which an entry in the hierarchy, relative to the previous level of the tree, will be moved. If the **Indent** property is set to 0, then the indent will not be performing. The picture below shows an example of a rendered hierarchical report with the indent of 0:
+To visualize the hierarchy of a report you need to change a value of the **Indent** property. The value of the **Indent** property is the distance at which an entry in the hierarchy, relative to the previous level of the tree, will be moved. If the **Indent** property is set to 0, then the indent will not be performed. The picture below shows an example of a rendered hierarchical report with the indent of 0:
 
 
 ![](../../images/topics/Report_Internals.Hierarchical_Band.Indent_Proprerty_1.png)
@@ -22,4 +21,4 @@ If you want a text component, which is located in the **Hierarchical** **band**,
 As can be seen on the picture above, the **Locked** property of the **Employee** text component is set to **false**, so the entries were shifted. And for the **City** and **Region** text components, this property is set to **true**, so the entries were not shifted.
 
 
-* **Important:** The parent entry is not shifted. Only subordinate entries are shifted: the lower the priority is, the further is shifting, relative to the parent entry.
+* **Note:** The parent entry is not shifted. Only subordinate entries are shifted: the lower the priority is, the further is shifting, relative to the parent entry.

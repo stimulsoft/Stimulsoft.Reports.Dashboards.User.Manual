@@ -1,4 +1,4 @@
-## Signature
+# Signature
 
 When designing reports, one of the ways to verify them is the ability to sign the report. You can do this using the next components:
 

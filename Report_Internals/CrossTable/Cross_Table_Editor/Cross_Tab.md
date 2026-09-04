@@ -1,5 +1,4 @@
-## Cross-Tab Tab
-
+# Cross-Tab Tab
 
 The Cross-Tab tab defines the structure of the Cross-Tab component. It specifies the data column for the rows, columns, total cells:
 
@@ -19,6 +18,6 @@ The Cross-Tab tab defines the structure of the Cross-Tab component. It specifies
 
 ![](../../../images/img_6.png) The list of data columns that will form the cross-tab column.
 
-![](../../../images/img_7.png) The list of data columns that will create the summery of a cross-tab.
+![](../../../images/img_7.png) The list of data columns that will create the summary of a cross-tab.
 
 ![](../../../images/img_8.png) Displays the preview of the cross-tab.

@@ -1,5 +1,4 @@
-## Cross-Tab Editor
-
+# Cross-Tab Editor
 
 When you create or edit the **Cross-Tab** component, a special editor will be called when editing the component. The editor tabs - **Data**, **Cross-Tab**, **Styles** - contain the configuration settings of the Cross-Tab component. In addition, the settings and parameters are grouped on each tab.
 
@@ -11,7 +10,7 @@ When you create or edit the **Cross-Tab** component, a special editor will be ca
 
 ![](../../../images/img_2.png) The **New Business Object** button. Calls the window to create a new Business Object.
 
-![](../../../images/img_3.png) In this field you can find settings and parameters. The picture above shows the selected group **Data Source**. The filed shows all available data sources. Select the data source that will be used when creating the cross-tab.
+![](../../../images/img_3.png) In this field you can find settings and parameters. The picture above shows the selected group **Data Source**. The field shows all available data sources. Select the data source that will be used when creating the cross-tab.
 
 ![](../../../images/img_4.png) The list of parameters and settings for the active tab.
 

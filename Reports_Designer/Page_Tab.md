@@ -1,11 +1,11 @@
-## Tab Page
+# Tab Page
 
 The **Page** tab is a tab on the Ribbon of the report designer that contains commands for managing the report page settings, the workspace of the dashboard panel, and the dialog form.
 
 
 ![](../images/topics/Reports_Designer.Page_Tab_1.png)
 
-**Page Settings Group**
+### Page Settings Group
 
 This group contains elements to control basic parameters of a page. These are page margins, orientation, page size, columns.
 
@@ -25,7 +25,7 @@ This group contains elements to control basic parameters of a page. These are pa
 
 ![](../images/img_6.png) A command to open the **Page** Setup window and navigate to the **Paper** tab.
 
-**View Options Group**
+### View Options Group
 
 This group contains settings for displaying the grid, additional information, and commands for enabling various panels.
 

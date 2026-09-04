@@ -1,4 +1,4 @@
-## Dashboard with Chart
+# Dashboard with Chart
 
 To create a dashboard with a [Chart](../Dashboards/Chart.md) element, you should do the following steps:
 

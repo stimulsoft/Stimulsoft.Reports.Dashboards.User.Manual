@@ -1,4 +1,4 @@
-## Creating a dashboard
+# Creating a dashboard
 
 The [Dashboard](../Dashboards/index.md) is a dimensionless area where you can place data analysis elements.
 
@@ -12,7 +12,7 @@ This chapter will cover issues such as:
 * [Adding a dashboard to the current report](#addingadashboardtothecurrentreport).
 
 
-**Creating a dashboard on first run**
+### Creating a dashboard on first run
 
 To create a dashboard panel at the first start of the report designer, you should:
 
@@ -27,9 +27,9 @@ To create a dashboard panel at the first start of the report designer, you shoul
 
 After that, the grid of the dashboard panel will be displayed in the report designer. You may place the analysis elements on it.
 
-**From the File menu**
+### From the File menu
 
-Also, you can create a new analytical panel from the report report designer.
+Also, you can create a new analytical panel from the report designer.
 
 **Step 1**: Click the **File** tab on the Ribbon panel of the report designer;
 
@@ -39,7 +39,7 @@ Also, you can create a new analytical panel from the report report designer.
 
 ![](../images/topics/Getting_Started.Creating_Dashboard_3.png)
 
-**Adding a dashboard to the current report**
+### Adding a dashboard to the current report
 
 The above examples demonstrate how to create a new dashboard. At the same time, the current report in the report designer will be closed. To add a dashboard panel to the current report, you should:
 

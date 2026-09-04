@@ -1,4 +1,4 @@
-## Creating Custom Style
+# Creating Custom Style
 
 A custom chart style is created in the Style Designer.
 

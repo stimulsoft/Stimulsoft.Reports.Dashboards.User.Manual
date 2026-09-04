@@ -1,6 +1,5 @@
 ## Enumeration in Lists
 
-
 Sometimes it is necessary to number lists. It is more convenient to work with an enumerated list. On the picture below an enumerated list is shown.
 
 

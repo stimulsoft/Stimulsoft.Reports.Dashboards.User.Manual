@@ -5,30 +5,25 @@ It is possible for a single expression to output multiple lines of text within a
 
 Value:
 
-```
-{1+2}
-{3+4}
-```
-
+`{1+2}`
+`{1+2}`
 
 then after calculation, the result appearing in the report will be:
 
 
 Value:
 
-```
-3
-7
-```
+`3`
+`7`
 
 
 In other words, the text output will contain two lines.
 
 
-> **Infromation**
+> **Information**
 >
 > An expression may contain any number of lines.
 
-**Using Code in Multi-line Expressions**
+### Using Code in Multi-line Expressions
 
 Multi-line expressions do not have limitations on using code to calculate values other than those for Single-line expressions.

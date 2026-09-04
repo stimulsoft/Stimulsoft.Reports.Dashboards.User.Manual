@@ -1,4 +1,4 @@
-## Data
+# Data
 
 Elements of data analysis can work with different data sources. Before starting the design of the dashboard, you should read the following chapters:
 * [Data Sources](../Data/Data_Dictionary/DataSources/Creating_Data_Source.md);
@@ -37,13 +37,13 @@ You can view the virtual table of a dashboard by selecting the **View Query** co
 
 **Data fields**
 
-There are fields in which data fields are indicated in the editor of the dashboard elements. Each data field has an expression which results of processing are the data values ​​for the current dashboard item. The data field expression can be a reference to a data column or a variable.
+There are fields in which data fields are indicated in the editor of the dashboard elements. Each data field has an expression which results of processing are the data values for the current dashboard item. The data field expression can be a reference to a data column or a variable.
 
-* If a reference to a data column is specified, the values ​​of the data column will be the values ​​of the data field on the basis of which the current element of the dashboard will be rendered.
+* If a reference to a data column is specified, the values of the data column will be the values of the data field on the basis of which the current element of the dashboard will be rendered.
 
 * If a reference to a variable is specified, the value of the variable will be the value of the current data field. You should know that at this moment we support the variable of the [Value](../Data/Data_Dictionary/Variables/New_Variable.md) is specified.
 
-* Also, you can manually specify the values ​​of the data field. To do this, enter a value or a list of values in the **Expression** field of the current data field. To enter values ​​manually, you should use the **List()** or **Array()** functions using the "," separator between values.
+* Also, you can manually specify the values of the data field. To do this, enter a value or a list of values in the **Expression** field of the current data field. To enter values manually, you should use the **List()** or **Array()** functions using the "," separator between values.
 
 
 A function can be applied to the expression of data fields. In that case, the values of the data field will be the values processed using this function.
@@ -129,7 +129,7 @@ To enter a list of values, you should to the following:
 * In the **Expression** field you should enter the **List()** or **Array()** function with the list of values with the "," separator.
 ![](../images/topics/Dashboards.Data_8.png)
 
-**Enter data manually**
+### Enter data manually
 
 There is the mode of element data manual input for the following elements: [Chart](Chart.md), [Indicator](Indicator.md), [Progress](Progress.md), and [Gauge](Gauge.md). In this mode, each element data field is a column with cells. You can specify one value of an element in each cell. A list of entered values in various columns will form a data table for this element. The number of element data rows is not limited.
 

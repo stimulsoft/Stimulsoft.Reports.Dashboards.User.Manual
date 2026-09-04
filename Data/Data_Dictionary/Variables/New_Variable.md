@@ -1,6 +1,5 @@
 ## New Variable
 
-
 The variable of the first type provides the ability to place a simple value of any available data type or expression. Consider the example of creating such a variable. Call the **New Variable...** command. The dialog box in which to define the parameters of the variable will be opened. The Value variable is set by default. The picture below shows the **New Variable** dialog:
 
 

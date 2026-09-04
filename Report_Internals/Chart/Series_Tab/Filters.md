@@ -1,4 +1,4 @@
-## Filters
+# Filters
 
 Filtering series values involves selecting values based on a specific condition.
 

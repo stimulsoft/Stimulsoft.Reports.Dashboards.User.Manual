@@ -8,7 +8,7 @@ The **ITF-14** barcode was developed to encode a Global Trade Item Number. In co
 | **Length:** | fixed, 14 characters |
 | **Check digit:** | one, modulo-10 algorithm |
 
-Each barcode character is encoded with the help of two broad and three narrow bars/spaces. The ITF-14 will always encode 14 digits. Barcode characters are encoded in pairs of two, respectively, the first character of the pair is encoded by barcodes, and the second character of the pair is encoded with spaces. Hence the name of the barcode "2 of 5 alternating".
+Each barcode character is encoded with the help of two broad and three narrow bars/spaces. The ITF-14 will always encode 14 digits. Barcode characters are encoded in pairs of two, respectively, the first character of the pair is encoded with bars, and the second character of the pair is encoded with spaces. Hence the name of the barcode "2 of 5 alternating".
 
 
 The barcode contains the following data:

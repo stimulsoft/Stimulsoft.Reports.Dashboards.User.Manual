@@ -1,6 +1,5 @@
 ## Defining Formatting
 
-
 If the condition returns true when evaluated by the report engine the formatting of the component will be changed according to the design settings. Setting is carried out using the formatting panel. The picture below shows the components of the control panel:
 
 
@@ -27,7 +26,7 @@ If the condition returns true when evaluated by the report engine the formatting
 
 ![](../../images/img_10.png) **Pattern.** This shows a preview of how the control will look with the conditional formatting applied.
 
-![](../../images/img_11.png) **Component is Enabled check box.** This control lets to control how the result of a condition would affect on the Enabled property of the component.
+![](../../images/img_11.png) **Component is Enabled check box.** This control lets you control how the result of a condition would affect the Enabled property of the component.
 
 
 You can enable or disable the accessibility of the component in a report. For example, you can remove a page from a rendered report by setting a condition.

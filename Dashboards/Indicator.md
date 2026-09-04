@@ -1,4 +1,4 @@
-## Indicator
+# Indicator
 
 **Indicator** is an element of the dashboard that represents the ability to display the aggregated value of the data field, as well as the rate of increase of this value to the target. In addition, the growth rate and the aggregated value of the indicator can be grouped by a condition.
 ![](../images/topics/Dashboards.Indicator_2.png)

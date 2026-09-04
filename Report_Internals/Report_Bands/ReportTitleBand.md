@@ -1,6 +1,5 @@
 ## Report Title band
 
-
 One of the ways to display the report header is the way of using the **Report Title** **b**and. The report header will be output only once in the beginning of a report. The **Report Title** **band** is placed after the **Page Header** **band**, **and** before the **Header** band. The number of **Report Title** **bands** on a page is unlimited.
 
 

@@ -1,9 +1,8 @@
 ## PrintAtBottom Property
 
-
 **HeaderBand** and **FooterBand** have the **PrintAtBottom** property.
 
-Sometimes data take third part of a page and the data footer will be output right after the data ends.
+Sometimes data take a third part of a page and the data footer will be output right after the data ends.
 
 
 ![](../../images/topics/Report_Internals.Creating_Lists.PrintAtBottom_Property_1.png)

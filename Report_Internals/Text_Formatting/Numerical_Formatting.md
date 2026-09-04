@@ -1,6 +1,5 @@
 ## Numerical Formatting
 
-
 To display numeric values, it is recommended to use a numeric format. Below is a report with a list of products, their price, as well as key product and category. By default, all text components use a text format General without any formatting.
 
 
@@ -63,6 +62,6 @@ Thus, for columns ProductID, CategoryID we change only the number of digits in t
 
 ![](../../images/topics/Report_Internals.Text_Formatting.Numerical_Formatting_5.png)
 
-> **Video**
+> **Important**
 >
-> * **Notice:** **To display currency values you should use the Currency format**. In the example above, for the **UnitPrice** column you should set the Currency format.
+> To display currency values you should use the Currency format. In the example above, for the **UnitPrice** column you should set the Currency format.

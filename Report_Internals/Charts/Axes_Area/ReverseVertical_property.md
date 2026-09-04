@@ -1,6 +1,5 @@
 ## ReverseVertical Property
 
-
 The **Reverse Vertical** property is used to flip a chart vertically. The picture below shows an example of a chart, with the **Reverse Vertical** property set to **false** (As one can see, the values of the x-axis have normal direction.):
 
 

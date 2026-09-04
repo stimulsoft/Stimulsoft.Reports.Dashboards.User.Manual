@@ -1,6 +1,5 @@
 ## Bands
 
-
 Stimulsoft Reports constructs its reports using bands (also referred to as sections in other products). A band consists of two parts: the band header and the working area. The band header displays the name of the band, along with other information and controls that can be shown. Each band serves as a container and can contain other components.
 
 

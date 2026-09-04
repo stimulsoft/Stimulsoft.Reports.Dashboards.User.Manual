@@ -1,4 +1,4 @@
-## Panel
+# Panel
 
 The **Panel** is an element of the dashboard on which other elements can be placed, including other panels and dashboards.
 ![](../images/topics/Dashboards.Panel_2.png)

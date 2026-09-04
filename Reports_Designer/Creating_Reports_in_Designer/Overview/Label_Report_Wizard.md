@@ -1,13 +1,12 @@
 ## Wizard Label Report
 
-
 The **Label Report** wizard is used to create reports which have labels. The picture below shows a window of the **Label Report** wizard:
 
 
 ![](../../../images/topics/Reports_Designer.Creating_Reports_in_Designer.Overview.Label_Report_Wizard_1.png)
 
 
-![](../../../images/img_1.png) The **Description Panel**. Shows description for the current step.
+![](../../../images/img_1.png) The **Description Panel****.** Shows description for the current step.
 
 ![](../../../images/img_2.png) The **Steps Panel** shows step of report creation.
 

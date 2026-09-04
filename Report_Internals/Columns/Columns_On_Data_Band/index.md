@@ -1,6 +1,5 @@
 ## Columns on Data Band
 
-
 Columns have one disadvantage, which is that there may be situations where the available data is sufficient to fill only one column leaving other columns empty and that part of a page will stay unused. To get around this problem it is possible to output columns using the Data band.
 
 

@@ -1,4 +1,4 @@
-## Date Picker
+# Date Picker
 
 **Date Picker** is a filtering element on the dashboard panel that is used to determine the calendar range and filter the data for the analysis in the viewer, taking into account the specified range. It can be located anywhere on the dashboard panel. Depending on the size of the dashboard panel in the viewer, it can grow or shrink by width only.
 
@@ -17,7 +17,7 @@ The **Date Picker** element can only be the main filtering element for other fil
 
 * **Range**. By default, the current day range will be set.
 
-* **Auto Range**. By default, the range will be set from an earlier date in the data source to the latest date. In other words, the original date range will correspond to the data range of the data source.
+* **Auto Range**. By default, the range will be set from the earliest date in the data source to the latest date. In other words, the original date range will correspond to the data range of the data source.
 
 You may setup the **Date Picker** element in the editor. To call the editor, you should to the following in the report designer:
 
@@ -43,11 +43,11 @@ In this editor you can add elements with data, set up the mode for selecting val
 
 * **Range**. By default, the current day range will be set.
 
-* **Auto Range**. By default, the range will be set from an earlier date from the data source to the latest. In other words, the original date range will correspond to the data range of the data source.
+* **Auto Range**. By default, the range will be set from the earliest date from the data source to the latest. In other words, the original date range will correspond to the data range of the data source.
 
 ![](../../images/img_4.png) The **Condition** field. Depending on the selected item mode, the following parameters may be present:
 
-* The **Condition** parameter is available only if the **Single** mode is selected. The value of this parameter is a logical operation that determines the continuation of the date range from the current date. For example, if **Greater then** is selected, then the default element range will include all subsequent dates from the current date of the operating system.
+* The **Condition** parameter is available only if the **Single** mode is selected. The value of this parameter is a logical operation that determines the continuation of the date range from the current date. For example, if **Greater than** is selected, then the default element range will include all subsequent dates from the current date of the operating system.
 
 * The **Initial Selection** parameter is available only if **Range** is selected. You can specify the default element range. For example, you can select the previous week. Then when you open the dashboard in the viewer, the range of the **Date Picker** item will be set to the previous week.
 

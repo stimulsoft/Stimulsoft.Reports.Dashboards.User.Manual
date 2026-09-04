@@ -1,6 +1,5 @@
 ## Percentage Data Formatting
 
-
 If the report uses the relative values, the current data can be output as a percentage text format. Consider the example of a report with relative values. Let's have a report that contains a list of products (standard format), their price (currency format) and the profitability index (number format).
 
 
@@ -60,4 +59,4 @@ This pattern is used to format negative values.
 
 ![](../../images/img_9.png) **Percentage symbol**
 
-The symbol will used as a percent sign.
+The symbol will be used as a percent sign.

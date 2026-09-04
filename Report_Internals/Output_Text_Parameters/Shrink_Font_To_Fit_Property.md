@@ -1,5 +1,4 @@
-## Shrink Font To Fit Property
-
+# Shrink Font To Fit Property
 
 The **Shrink Font To Fit** property of a text component is used when it is necessary to adjust the height of the text to the size of the text component. This property can be found on the Properties Panel.
 

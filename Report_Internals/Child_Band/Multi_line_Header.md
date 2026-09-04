@@ -1,5 +1,4 @@
-## Multi Line Header
-
+# Multi Line Header
 
 The **Child** band is a band that is a continuation of the band, after which it is placed.
 
@@ -7,7 +6,7 @@ The **Child** band is a band that is a continuation of the band, after which it 
 ![](../../images/topics/Report_Internals.Child_Band.Multi_line_Header_1.png)
 
 
-In the picture above shows the **Child** band is placed after the **Report Title** band, respectively, it is a continuation of this **Report Title** band. There are no limitations on the number of **Child** bands placed on a page.
+The picture above shows the **Child** band is placed after the **Report Title** band, respectively, it is a continuation of this **Report Title** band. There are no limitations on the number of **Child** bands placed on a page.
 
 
 ![](../../images/topics/Report_Internals.Child_Band.Multi_line_Header_2.png)
@@ -25,7 +24,7 @@ Even when using the **GrowToHeight** property, then visually it cannot be conven
 ![](../../images/topics/Report_Internals.Child_Band.Multi_line_Header_4.png)
 
 
-Therefore, in some cases, the title of the report is better represent with the **Child** band:
+Therefore, in some cases, the title of the report is better represented with the **Child** band:
 
 
 ![](../../images/topics/Report_Internals.Child_Band.Multi_line_Header_5.png)

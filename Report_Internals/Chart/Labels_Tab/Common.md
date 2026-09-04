@@ -1,4 +1,4 @@
-## Common
+# Common
 
 On the **Common** tab, the type of chart labels is defined, and their configuration is performed using various properties.
 
@@ -33,7 +33,7 @@ Below is a table of properties and their descriptions, which are used to configu
 | Text After | Allows specifying text after the title. |
 | Text Before | Allows specifying text before the title. |
 | Use Series Color | Allows setting the title color to match the series color. If set to True, the series color will be used (from the chart style or the Common tab). If set to **False**, the title color will be taken from the title style or the **Color** property. |
-| Valu Type | Allows defining the value to be displayed in the graphical element title. The available options include **Argument**, **Weight**, **Series** **Title**, **Tag**, **Series** **Value**, or their combination. |
+| Value Type | Allows defining the value to be displayed in the graphical element title. The available options include **Argument**, **Weight**, **Series** **Title**, **Tag**, **Series** **Value**, or their combination. |
 | Value Type Separator | Allows setting a separator if a mixed title type is used. For example, if both **Value** and **Argument** are displayed in the title, a separator like "-" can be used. In this case, the title will be displayed in the format "Value-Argument." |
 | Visible | Allows enabling or disabling the title display. If set to **True**, the title will be shown. If set to **False**, the title will not be displayed. |
 | Width | Allows specifying the title width. By default, the value is set to 0, meaning the title width is limited by the chart area. |

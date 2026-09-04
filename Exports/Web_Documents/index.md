@@ -1,6 +1,5 @@
 ## Web Documents
 
-
 There are two formats **HTML** (HyperText Markup Language), **HTML5** and **MHTML** (MIME HTML) are described in this chapter. The first and second formats are used for web page layout. The second format is a web page archive format used to bind resources together with the HTML code into a single file.
 
 
@@ -19,7 +18,7 @@ There are two formats **HTML** (HyperText Markup Language), **HTML5** and **MHTM
 ![](../../images/img_4.png) The option **Type** provides the ability to determine a type of the file the report will be converted into.
 
 
-* **Notice**. If **Html5** is selected the following additional options are available:
+* **Note**. If **Html5** is selected the following additional options are available:
 
 * **Continuous Page**, which provides the ability to set the location of pages in the report as a vertical strip;
 
@@ -38,6 +37,6 @@ There are two formats **HTML** (HyperText Markup Language), **HTML5** and **MHTM
 
 ![](../../images/img_9.png) The flag **Embedded Image Data** provides the ability to embed images directly into the HTML file. In this case, it is necessary to consider that the correct displaying of this file depends on the browser being used. Not all browsers support the option to view the HTML file with embedded pictures.
 
-![](../../images/img_10.png) The flag **Add Page Breaks** enables/disables the visual separator of report pages. If, for example, a few pages of the report are exported to a HTML page, it is not always possible to identify the beginning of the report page. To do this, you should select this option, then it will be, the beginning of the report page will be indicated by the appropriate delimiter.
+![](../../images/img_10.png) The flag **Add Page Breaks** enables/disables the visual separator of report pages. If, for example, a few pages of the report are exported to an HTML page, it is not always possible to identify the beginning of the report page. To do this, you should select this option, then the beginning of the report page will be indicated by the appropriate delimiter.
 
-![](../../images/img_11.png) The flag **Open After Export** enables/disables the automatic opening of the created document (after completion of exports), the default program for these file types.
+![](../../images/img_11.png) The flag **Open After Export** enables/disables the automatic opening of the created document (after completion of exports) using the default program for these file types.

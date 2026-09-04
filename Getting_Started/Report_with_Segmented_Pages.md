@@ -38,7 +38,7 @@ If data in a report should be placed on a single page by width or height, and a 
 ![](../images/topics/Getting_Started.Report_with_Segmented_Pages_2.png)
 
 
-7. Put text components with expressions on **DataBands**. Where expression is a reference to the data field. For example, put two text components with the following expressions: **{Products.ProductName}** and **{Products.UnitslnStock}**;
+7. Put text components with expressions on **DataBands**. Where expression is a reference to the data field. For example, put two text components with the following expressions: **{Products.ProductName}** and **{Products.UnitsInStock}**;
 
 8. Edit **Text**  and **TextBox** component:
 

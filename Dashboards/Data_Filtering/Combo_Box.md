@@ -1,4 +1,4 @@
-## Combo Box
+# Combo Box
 
 **Combo Box** is an element of filtering on the dashboard, which is used to filter data for analysis, depending on the selected value. This element is an analogue of the List Box element, with the only difference that all values are contained in the drop-down menu. It can be located anywhere on the dashboard. Depending on the size of the dashboard panel in the viewer, it can grow or shrink by width only.
 

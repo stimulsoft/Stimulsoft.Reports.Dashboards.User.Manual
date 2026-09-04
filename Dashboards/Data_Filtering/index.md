@@ -1,4 +1,4 @@
-## Filtering data
+# Filtering data
 
 One of the main principles of creating and using dashboards is the principle of the interaction of all elements for analysis and displaying data related between them. Thus, all data sources of the dashboard elements form virtual data tables for the current dashboard. This is necessary for the interaction of the dashboard elements with each other.
 

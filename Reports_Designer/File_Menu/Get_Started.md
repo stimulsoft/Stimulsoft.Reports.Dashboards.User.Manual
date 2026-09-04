@@ -1,4 +1,4 @@
-## Get Started
+# Get Started
 
 The **Get Started** command opens a window that provides options for quickly getting started with Stimulsoft:
 

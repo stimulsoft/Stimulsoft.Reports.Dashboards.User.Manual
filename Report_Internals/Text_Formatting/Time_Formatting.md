@@ -1,6 +1,5 @@
 ## Time Formatting
 
-
 The **Time** format is used to show time. The **Time** format is selected from the set of formats: short date format and extended date format (with seconds).
 
 

@@ -1,4 +1,4 @@
-## Using functions
+# Using functions
 
 Frequently, when creating a report, you should apply some functions to data. You can do it using different ways, including the report designer tools. However, if you need to transfer data with an applied function to a report component, a possible solution is creation a new data transformation.
 When creating a new data transformation you can use functions to the values of fields.

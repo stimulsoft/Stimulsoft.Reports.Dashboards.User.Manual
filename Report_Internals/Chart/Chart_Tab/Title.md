@@ -1,4 +1,4 @@
-## Title
+# Title
 
 The **Title** is text that represents the name of the chart or provides an explanation for it.
 ![](../../../images/topics/Report_Internals.Chart.Chart_Tab.Title_2.png)

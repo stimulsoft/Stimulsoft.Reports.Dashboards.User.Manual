@@ -1,5 +1,4 @@
-## Rendering Order of Bands
-
+# Rendering Order of Bands
 
 In this article, let's review the process of rendering report bands and define their relationships within the first level of nesting. By the first level of nesting, we mean that the report will not have a hierarchy, but rather consist of simple lists, groups, etc. All bands can be categorized into the following types.
 
@@ -33,7 +32,7 @@ All bands are displayed in the strict order. This is due to the fact that each b
 
 > **Information**
 >
-> * **Information:** Components placed directly on the page (not on any band) are printed first, followed by the bands.
+> Components placed directly on the page (not on any band) are printed first, followed by the bands.
 
 
 The **Child Band** can be placed on any band except the **Page Header**, **Report Summary**, **Page Footer**. The picture below shows the report page template with the location of bands.
@@ -56,9 +55,9 @@ For the report tree shown in the picture above, the processing order of the page
 On the first stage go the preliminary analysis of all the bands and the location of the next page bands **PageHeaderBand1**, **PageFooterBand1**, and **OverlayBand1**. These bands will always be primarily processed and added to each new page in the rendering of the report. Also, on the first page of the rendered report the ReportTitleBand1 will be added.
 
 
-> **Video**
+> **Important**
 >
-> * **Notice:** If the **Title Before Header** property is set to true, then the **ReportTitleBand1** will be processed and added to the first page first, and then **PageHeaderBand1**.
+> If the **Title Before Header** property is set to true, then the **ReportTitleBand1** will be processed and added to the first page first, and then **PageHeaderBand1**.
 
 
 In the second stage goes the analysis of other bands.
@@ -66,7 +65,7 @@ In the second stage goes the analysis of other bands.
 
 > **Information**
 >
-> * **Information:** It should be understood that other bands are in the relationship with the **Data Band**, and their rendering depends on it. So and the **Data Band** is found and analyzed first, and then the other bands.
+> It should be understood that other bands are in the relationship with the **Data Band**, and their rendering depends on it. So the **Data Band** is found and analyzed first, and then the other bands.
 
 
 After the analysis, the report rendering will start. The ReportSummaryBand1 will be processed last.
@@ -89,9 +88,9 @@ The number of records in the data source is five, and this means that the Data B
 Almost all of the bands can be divided into two categories: **Headers** and **Footers**, for each header corresponds to the same type of Footers.
 
 
-> **Video**
+> **Important**
 >
-> * **Notice:** If there is equal number of headers and footers each header corresponds to its own footer. "Header - Footer" correspondence is considered not from top to bottom of the page but from the data band. Let's say there is one data band, two headers and two footers.
+> If there is an equal number of headers and footers, each header corresponds to its own footer. "Header - Footer" correspondence is considered not from top to bottom of the page but from the data band. Let's say there is one data band, two headers and two footers.
 
 
 ![](../../images/topics/Report_Internals.Bands.Order_Render_5.png)
@@ -120,14 +119,14 @@ It often happens that the number of headers and footers of a particular type is 
 ![](../../images/topics/Report_Internals.Bands.Order_Render_7.png)
 
 
-> **Video**
+> **Important**
 >
-> * **Notice:** Just headers/footers are output only once before/after the data band and the number of them is not affected on anything. Headers and footers are displayed for each group and each group header strictly corresponds to the footer of the group. In complex reports with different number of headers and footers of the group there may be the erroneous relation with headers and footers. Therefore, we recommend have the same number of bands, headers and footers of the groups in the report template.
+> Just headers/footers are output only once before/after the data band and the number of them is not affected by anything. Headers and footers are displayed for each group and each group header strictly corresponds to the footer of the group. In complex reports with a different number of headers and footers in the group, there may be an erroneous relation between headers and footers. Therefore, we recommend having the same number of bands, headers and footers of the groups in the report template.
 
 
 > **Information**
 >
-> * **Information:** In order the band present in the report template but do not appear in a report you should set it height to zero.
+> In order the band present in the report template but do not appear in a report you should set it height to zero.
 
 
 For the example above, let’s equalize the number of data headers and footers.
@@ -200,9 +199,9 @@ And then the first page of the report will look the following way.
 
 ![](../../images/cross12.png)
 
-> **Video**
+> **Important**
 >
-> * **Notice:** For the example described above, the placement of the **FooterBand1** under the **HeaderBand2** is not quite correct.
+> For the example described above, the placement of the **FooterBand1** under the **HeaderBand2** is not quite correct.
 >
 >
 > ![](../../images/topics/Report_Internals.Bands.Order_Render_19.png)
@@ -218,4 +217,4 @@ The same principle of correspondence applies to **Group Header Band**, **Group F
 
 Headers are placed above the Data Band to which they relate and Footers are placed below. Headers and Footers cannot be printed themselves because they must refer to the specific data band.
 
-Always check the number of headers and footers, particularly in the report with groups. Sometimes it is easier to add a specific band (header or footer) to equalize their number and clearly trace the line. -Set zero height for the band in the report template if you want to hide it in the rendered report.
+Always check the number of headers and footers, particularly in the report with groups. Sometimes it is easier to add a specific band (header or footer) to equalize their number and clearly trace the line. Set zero height for the band in the report template if you want to hide it in the rendered report.

@@ -1,6 +1,5 @@
 ## Word Wrap
 
-
 Each component of the cross-table has the **WordWrap** property, which lets you wrap text from one line to another. If the **WordWrap** property is set to **false**, then the text is in one line, and if it does not fit in one line it will be cut. The picture below shows an example of a cross-table with the **WordWrap** property set to **false**:
 
 

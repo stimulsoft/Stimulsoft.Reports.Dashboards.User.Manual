@@ -1,6 +1,5 @@
 ## Brush Property
 
-
 The **Brush** property is used to fill a background type and color in Series Labels. To change the background color and appearance of a Series Label use the **Brush** property within the Object Inspector.
 
 
@@ -22,7 +21,7 @@ Six types of Brushes are available within Stimulsoft Reports:
 ![](../../../../images/fly.png) **Glass**
 
 
-Below are representations of the results all six Brush types:
+Below are representations of the results of all six Brush types:
 
 
 ![](../../../../images/topics/Report_Internals.Charts.SeriesLabels.Series_Labels_Appearance.Brush_property_2.png)
@@ -31,7 +30,7 @@ Below are representations of the results all six Brush types:
 
 ![](../../../../images/img_2.png) **Solid.** The background of a Series Label is filled with the color you specify.
 
-![](../../../../images/img_3.png) **Hatch.** The background of a Series Label is filled with a texture. The background and foreground colors of the selected texture can be specified individually..
+![](../../../../images/img_3.png) **Hatch.** The background of a Series Label is filled with a texture. The background and foreground colors of the selected texture can be specified individually.
 
 ![](../../../../images/img_4.png) **Gradient.** The background of a Series Label is filled with gradient. A Start color, an End color, and a Gradient angle can be specified.
 

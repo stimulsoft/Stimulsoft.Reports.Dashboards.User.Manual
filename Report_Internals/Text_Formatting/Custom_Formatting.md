@@ -1,6 +1,5 @@
 ## Custom Formatting
 
-
 If, for some reason there are no predefined formats appropriate for you, then you can customize the format according to your needs. For example you have a report with a list of products, Order Date, Shipped Date, and the price of the product. Let's apply to them predefined date formats and local settings for the price.
 
 
@@ -15,7 +14,7 @@ Now let's set the format mask for each text component. To do this, select the te
 
 ![](../../images/img_1.png) **Mask**
 
-A string or an expression that set formatting mask.
+A string or an expression that sets a formatting mask.
 
 ![](../../images/img_2.png) **Predefined values**
 

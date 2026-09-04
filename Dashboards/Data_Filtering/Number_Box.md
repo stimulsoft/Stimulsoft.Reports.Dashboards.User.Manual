@@ -1,4 +1,4 @@
-## Number Box
+# Number Box
 
 The **Number Box** is a filtering element on the dashboard that is utilized to specify either a numeric value or a range of values. It serves to filter data for analysis elements within the viewer. This element can be positioned anywhere on the dashboard. Its width is capable of adjusting, either expanding or contracting, depending on the dimensions of the dashboard in the viewer.
 
@@ -24,7 +24,7 @@ The configuration of the **Number Box** element takes place within its editor. T
 * Select the **Number Box** element, then choose the **Design** command from the context menu.
 
 
-**The Number Box editor**
+### The Number Box editor
 
 In the **Number Box** editor, you can add elements with data, configure the value selection mode, and designate the primary filtering element.
 ![](../../images/numberbox-with-viewmode.png)
@@ -53,7 +53,7 @@ In the **Number Box** editor, you can add elements with data, configure the valu
 
 * **Slider.** A mode in which the user defines the range boundaries by moving markers along a scale, and the data is displayed within the selected interval.
 
-**Switching Values**
+### Switching Values
 
 When viewing the dashboard, you can input values into this element, paste them from the clipboard, or use controls to switch them. When using controls to switch values, an essential consideration for data filtering is the switching step. By default, the toggle step is an integer that increments or decrements by one. Nonetheless, if you wish to make fractional adjustments, you need to modify the value of the **Decimal Digits** property.
 

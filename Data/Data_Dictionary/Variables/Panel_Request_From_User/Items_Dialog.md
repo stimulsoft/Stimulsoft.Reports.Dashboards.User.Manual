@@ -1,7 +1,6 @@
 ## Items Dialog
 
-
-In the **Items** dialog you can create, delete, edit items (values, ​​expressions). This window is invoked when clicking the **Editor** in the **Variables** dialog. The picture below shows the **Items** dialog:
+In the **Items** dialog you can create, delete, edit items (values, expressions). This window is invoked when clicking the **Editor** in the **Variables** dialog. The picture below shows the **Items** dialog:
 
 
 ![](../../../../images/topics/Data.Data_Dictionary.Variables.Panel_Request_From_User.Items_Dialog_1.png)
@@ -9,7 +8,7 @@ In the **Items** dialog you can create, delete, edit items (values, ​​expres
 
 ![](../../../../images/img_1.png) Control Panel. This panel contains buttons to control items.
 
-![](../../../../images/img_2.png) In the Toolbox displays a list of created items (values, expressions). Keep in mind that the order of items in the list affects sequence of items in the **Items** field on the **Request from User** panel.
+![](../../../../images/img_2.png) The Toolbox displays a list of created items (values, expressions). Keep in mind that the order of items in the list affects sequence of items in the **Items** field on the **Request from User** panel.
 
 ![](../../../../images/img_3.png) The properties panel. In this panel the properties of the selected item are displayed. The item has two properties: **Key** and **Value**.
 

@@ -1,6 +1,5 @@
 ## ResetPageNumber Property
 
-
 The numbering of the pages of the report begins with the number 1 and is defined consistently for each page built by the report.
 
 
@@ -27,7 +26,7 @@ If the set the **ResetPageNumber** page property to  **true**, then numeration f
 ![](../../images/topics/Report_Internals.Pagination.ResetPageNumber_Property_4.png)
 
 
-* **Information:** The **ResetPageNumber** property works with the following variables: **PageNumber**, **PageNofM**, **TotalPageCount**. With system variables: **PageNumberThrough**, **PageNofMThrough**, **TotalPageCountThrough** - this property does not work.
+* **Note:** The **ResetPageNumber** property works with the following variables: **PageNumber**, **PageNofM**, **TotalPageCount**. With system variables: **PageNumberThrough**, **PageNofMThrough**, **TotalPageCountThrough** - this property does not work.
 
 
 By default the property is set to **false**.

@@ -1,4 +1,4 @@
-## Help
+# Help
 
 This menu item contains links to various help resources:
 * The **Documentation** command opens a window with the user guide.

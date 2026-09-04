@@ -1,4 +1,4 @@
-## Chart
+# Chart
 
 The **Chart** tab is used to configure the chart's elements. These settings are divided into groups, each represented by a separate sub-tab.
 ![](../../../images/topics/Report_Internals.Chart.Chart_Tab_2.png)

@@ -1,4 +1,4 @@
-## Filtering Data
+# Filtering Data
 
 Filtering data is data selection by some condition. For example, the statistics of visits for the last twenty four hours or sales volume by a definite category, etc.
 You can filter data using various tools in the report designer. However, you can often face with such situations, when you have to transfer filtered data to a report components.
@@ -15,9 +15,7 @@ You should understand, that data are filtered with rows, i.e if a logical operat
 >
 > * You can specify several filters for one field. In this case, the values will be displayed, if even one of the filters is carried out.
 >
->
 > * Besides, the filtering can be carried out by the values of one field and by the values of another field. For example, firstly, one category is selected and then two products with max sales are defined in this category.
->
 >
 > * Also, when filtering data, read this article [Skip and limit rows](Skip_and_Limit_Rows.md).
 
@@ -42,7 +40,7 @@ When applying the type filter or custom filter to a field, the filter editor men
 
 Let`s consider the examples of data filtering when creating a new data transformation. Imagine, a new table contains fields with the names of product categories, the products with price for each product and the number of orders for each product.
 
-**Filtering by values selection**
+### Filtering by values selection
 
 
 **Step 1**: In the preview, you should click on a field header and check a box next to the values, which need to be displayed. In this case, the filtering is carried out by the set of categories, only data for the Beverages category will be displayed.

@@ -1,8 +1,8 @@
 ## Options
 
-| **Notice** |
-| --- |
-| Scripts may pose a security risk. Therefore, they are disabled in [calculation mode](../Template/Calculation_Mode.md) such as **Interpretation**. If you are confident that your scripts are safe, you can use them in **Compilation** [calculation mode](../Template/Calculation_Mode.md). |
+> **Important**
+>
+> Scripts may pose a security risk. Therefore, they are disabled in [calculation mode](../Template/Calculation_Mode.md) such as **Interpretation**. If you are confident that your scripts are safe, you can use them in **Compilation** [calculation mode](../Template/Calculation_Mode.md).
 
 When you select the **Options** command from the File menu, the report designer settings editor will be invoked. All designer settings are grouped into tabs. Let's look closer at these tabs and the parameters located on them in more detail.
 

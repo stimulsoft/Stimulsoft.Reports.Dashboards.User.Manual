@@ -1,6 +1,5 @@
 ## Breaking Text
 
-
 By default, the **CanBreak** property of the **Text** component is set to **false**. Such a Text component will not be broken if it is not enough space to print on one page, and would be moved to the next page.
 
 

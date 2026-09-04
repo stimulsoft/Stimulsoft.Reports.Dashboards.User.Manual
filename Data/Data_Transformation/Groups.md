@@ -1,4 +1,4 @@
-## Grouping Data
+# Grouping Data
 
 Grouping data is their joining by some criterion or condition. The same data can be combined by various conditions. For example, data of product sale can be grouped by sales region or categories. In addition, data can be grouped by several conditions, i.e. into several levels. For example, data about product sales will be grouped firstly by regions and after by categories.
 You can group data when transforming data:
@@ -19,7 +19,7 @@ To group data when creating data transformation, you should switch from the **Di
 
 Let`s consider the examples of grouping data when transforming data.
 
-**Grouping data from one table**
+### Grouping data from one table
 
 For example, there are fields with category number, the set of products and sales of each product in the **Products** table. You should get data with sales by each category. To do it you should:
 
@@ -29,7 +29,7 @@ For example, there are fields with category number, the set of products and sale
 
 ![](../../images/topics/Data.Data_Transformation.Groups_2.png)
 
-**Grouping data from different tables**
+### Grouping data from different tables
 
 You should organize relation between these tables before starting data grouping. Imagine, the list of categories is in the **Categories** table, the list of products in the **Products** table and data by sales in the **Order Details** table. Firstly, when transforming data, you should group sales by each product and then by each category. This way, the grouping will be carried out in several levels.
 

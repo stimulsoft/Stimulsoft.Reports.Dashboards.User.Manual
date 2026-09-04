@@ -1,4 +1,4 @@
-## Conditions
+# Conditions
 
 Styles are applied to report components:
 
@@ -25,7 +25,7 @@ If you wish to use style application conditions, you can access the **Conditions
 >
 > When creating a style collection in automatic mode using the **Create Style Collection...** command, the conditions in the styles will be included in the collection upon creation. In this case, the conditions for applying styles are determined by the settings specified during the creation of the collection.
 
-**Condition editor**
+### Condition editor
 
 Adding and setting conditions for applying a style from the collection is done in the **Conditions** editor. To add a block of conditions, click the **Add Condition** button. The condition block contains various logical conditions. These conditions can be set all together or separately. There may also be various combinations of conditions. To enable a logical condition, check the box next to its name. In order to ignore the logical condition, the checkbox must be unchecked.
 
@@ -97,7 +97,7 @@ To delete a block of conditions, you need to follow these steps:
 
 * **ending with** - the style will be applied to all components whose name ends with the name specified in the value field.
 
-**Nesting levels**
+### Nesting levels
 
 Nesting levels are commonly used in styling conditions. For example, you can specify that a style should only be applied to components that are at the third level of nesting, or to all components except for those at the second level of nesting. Additionally, when automatically generating collections of styles, it is important to have a clear understanding of nesting levels.
 
@@ -117,7 +117,7 @@ The example below illustrates the nesting levels of **Data** bands.
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Conditions_2.png)
 
-**Nesting levels of the Data band and bands related to it**
+### Nesting levels of the Data band and bands related to it
 
 As mentioned earlier, when a component is added to a report template, it's automatically assigned to the first nesting level. However, you can change its nesting level by using the Master Component property. To do this, select the component and in the Master Component property field, choose the Data band to which it should be subordinate.
 
@@ -133,7 +133,7 @@ The nesting level of a subordinate band is determined by the nesting level of it
 
 The **Header**, **Footer**, **Group Header**, and **Group Footer** bands are directly related to the **Data** band, so their nesting level is determined by the nesting level of the DataBand to which they belong. It is essential to note that the nesting level of the Data band and its associated bands is independent of their position in the report.
 
-**Nesting level of other bands**
+### Nesting level of other bands
 
 For the **Report Title** and **Report Summary** bands, you can only create a collection of styles for the first and second levels of nesting. It is impossible to create a style collection for the third and subsequent levels of nesting for these bands. Unlike the **Data** band, subordination in this case is determined by the location of the bands on the report page, rather than by their nesting level.
 

@@ -1,6 +1,5 @@
 ## Boolean Values Formatting
 
-
 This format is used to format values of the boolean type.
 
 

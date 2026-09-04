@@ -1,4 +1,4 @@
-## Chart Style
+# Chart Style
 
 The **Chart** Style type is applied to the [Chart component](../../../Reports_Internals/Charts/Editor/index.md) in the report and to the [Chart element](../../../Dashboards/Chart.md) on the dashboard. To create a chart style, follow these steps:
 
@@ -6,7 +6,7 @@ The **Chart** Style type is applied to the [Chart component](../../../Reports_In
 
 * Use the style properties to customize the formatting.
 
-* Apply the style to the [report components](index.md#applystyle) or [dashboard elements](../../../Dashboards/Appearance.md#ApplyStyle)..
+* Apply the style to the [report components](index.md#applystyle) or [dashboard elements](../../../Dashboards/Appearance.md#ApplyStyle).
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Creating_Chart_Style_1.png)
@@ -63,7 +63,7 @@ Below is a list of the properties used to configure the style of the chart.
 | Series Labels Brush | Defines the brush type and sets the fill color for series titles or chart value labels. |
 | Series Labels Color | Sets the color of series labels or chart value labels. |
 | Series Labels Line Color | Sets the color of the line from graphic elements to series labels or chart value labels. |
-| Series Lighting | Enables/disables highlighting the border of a circular or circular row. If the property is set to True, then row illumination will be enabled. If the property is set to False, then row illumination will be disabled. |
+| Series Lighting | Enables/disables highlighting the border of a circular or a row. If the property is set to True, then row illumination will be enabled. If the property is set to False, then row illumination will be disabled. |
 | Show Series Border | Shows the border of the graphical elements of the series or. If the property is set to True, then the border of the graphic elements of the series will be enabled. If the property is set to False, then the border of the series graphic elements will be disabled. |
 | Series Show Shadow | Enables or disables the display of series shadows. If the property is set to True, then the shadows of the series graphical elements will be enabled. If the property is set to False, then the shadows of the series graphical elements will be disabled. |
 | Style Colors | Creates a [collection of style colors](Style_Designer.md#StyleColors). These colors are applied sequentially to the graphics objects in the series. If the **Color Each** parameter is enabled for rows, then colors from the collection will be applied to graphic elements first. Then, shades for other graphic elements will be obtained by lightening these colors. |

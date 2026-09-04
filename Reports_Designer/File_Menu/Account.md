@@ -1,4 +1,4 @@
-## Account
+# Account
 
 The Account section contains various commands for managing your account and workflow. All commands are divided into several tabs:
 * The **Profile** tab contains commands for managing the current account;
@@ -9,7 +9,7 @@ The Account section contains various commands for managing your account and work
 
 * The **Check for Updates** tab shows a list of new report designer versions available for installation.
 
-**Profile**
+### Profile
 
 This tab contains settings for managing the current profile:
 * The **Picture** option allows you to select an avatar for the account. If no image is uploaded, the first letters of the first and last name are displayed instead;
@@ -36,7 +36,7 @@ This tab displays information and commands for managing your team:
 
 * The **Invite** command allows you to invite a user to join your team. An invitation link will be sent to the user via email.
 
-**Subscriptions**
+### Subscriptions
 
 This tab displays a list of your active and expired subscriptions. It includes **Renew** redirects you to the subscription renewal process. **Refresh** updates the subscription list with the latest information.
 

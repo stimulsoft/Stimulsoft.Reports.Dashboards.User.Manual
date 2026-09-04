@@ -1,6 +1,5 @@
 ## AutoSeries
 
-
 Stimulsoft Reports can automatically create a series. Use the **Auto Series Key Data Column**, **Auto Series Color Data Column**, and **Auto Series Title Data Column** properties. A column from which values are taken to build the series is selected in the **Auto Series Key Data Column** property. A series is created for each unique value. The picture below shows an example of a chart with the **Auto Series Key Data Column** property set to **Employees.Title**:
 
 

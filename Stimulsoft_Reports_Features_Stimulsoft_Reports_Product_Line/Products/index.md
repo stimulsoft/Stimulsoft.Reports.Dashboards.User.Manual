@@ -1,4 +1,4 @@
-## Products
+# Products
 
 This section contains the comparison lists of functionality across Stimulsoft products. We grouped the lists into categories according to software features.
 

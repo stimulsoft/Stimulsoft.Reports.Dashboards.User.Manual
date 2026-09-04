@@ -1,4 +1,4 @@
-## Grid Lines Horizontal
+# Grid Lines Horizontal
 
 **Grid Lines Horizontal** are lines in the chart area corresponding to each Y-axis value, running parallel to the X-axis. In other words, a line of a specific style and color will extend from each Y-axis value to the opposite edge of the chart area, parallel to the X-axis.
 ![](../../../images/topics/Report_Internals.Chart.Area_Tab.Grid_Lines_Horizontal_2.png)
@@ -6,7 +6,7 @@ To set up horizontal grid lines in the chart area, you need:
 * In the component editor, navigate to the **Area** tab and select the **Grid Lines Horizontal** section;
 * Set the required property values.
 
-> **Informmation**
+> **Information**
 >
 > The chart area can also display minor horizontal grid lines.
 

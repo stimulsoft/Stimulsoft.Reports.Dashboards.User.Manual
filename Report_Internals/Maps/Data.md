@@ -1,5 +1,4 @@
-## Data for Maps
-
+# Data for Maps
 
 The Map component provides an opportunity to visualize the data with reference to geographical location. The data for maps can be specified manually and by passing from a data source. Consider both of these methods in detail.
 
@@ -21,7 +20,7 @@ The **Name** column. This column contains the name of the element. For example, 
 The **Value** column. This column contains a value for a particular map element. The value can be any number. The value will also be displayed in the rendered report when you hover the cursor, if the **Show Value** is enabled.
 
 
-The **Group** column. The values ​​of this column are relevant when the map type is a map with the group, or a heatmap with the group. In this case, the group keys are specified. If you want to group some objects, you need be sure that their keys completely match. In this case, the map elements in the rendered report will be painted in one color. There will also be summed values of the group elements. The result will be displayed in the rendered report with the Total prefix, when you hover over any element of the group.
+The **Group** column. The values of this column are relevant when the map type is a map with the group, or a heatmap with the group. In this case, the group keys are specified. If you want to group some objects, you need to be sure that their keys completely match. In this case, the map elements in the rendered report will be painted in one color. There will also be summed values of the group elements. The result will be displayed in the rendered report with the Total prefix, when you hover over any element of the group.
 
 
 The **Color** column specifies the color of the map elements in the report. Color is defined by the #XXXXXX template. If the value in this column is not specified, the map element will be colored in a color map preset or custom style. If the color is specified, and the style is set for the map, the specified color will be applied to the map element.

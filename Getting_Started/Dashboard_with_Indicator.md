@@ -1,4 +1,4 @@
-## Dashboard with Indicator
+# Dashboard with Indicator
 
 To create a dashboard panel with the [Indicator](../Dashboards/Indicator.md) element, you should do the following:
 

@@ -1,6 +1,5 @@
 ## Alignment Property
 
-
 The **Alignment** property is used to align a title of an axis. The full path to this property is **Area.Axes.Title.Alignment**. This property has the following values: **Center**, **Far**, **Near**.
 
 

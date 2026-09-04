@@ -43,7 +43,7 @@ Sometimes it is necessary to use a phrase, for example, in French or German on t
 | Fraction three-fourths | ¾ | &#190; | &frac34; |
 | Inverted question mark | ¿ | &#191; | &iquest; |
 
-**UPPERCASE LATIN-1 CHARACTERS**
+### UPPERCASE LATIN-1 CHARACTERS
 
 
 | **Name** | **Character** | **&-ASCII** | **&-Name** |
@@ -81,7 +81,7 @@ Sometimes it is necessary to use a phrase, for example, in French or German on t
 | Capital Thorn | Þ | &#222; | &THORN; |
 | German sz ligature | ß | &#223; | &szlig; |
 
-**LOWERCASE LATIN-1 CHARACTERS**
+### LOWERCASE LATIN-1 CHARACTERS
 
 
 | **Name** | **Character** | **&-ASCII** | **&-Name** |

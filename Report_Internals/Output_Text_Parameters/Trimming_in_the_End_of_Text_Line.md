@@ -1,5 +1,4 @@
-## Trimming in the End of Text Line
-
+# Trimming in the End of Text Line
 
 If there is not enough space to put whole text line in the text component, then, using the **TextOptions.Trimming** property, it is possible to customize text trimming. It has the following values:
 
@@ -19,7 +18,7 @@ If there is not enough space to put whole text line in the text component, then,
 
 ![](../../images/img_comma3.png)
 
-**Ellipsis Character** – last characters of a word are changed on omission points;
+**Ellipsis Character** – last characters of a word are changed to omission points;
 
 
 ![](../../images/img_comma4.png)
@@ -29,7 +28,7 @@ If there is not enough space to put whole text line in the text component, then,
 
 ![](../../images/img_comma5.png)
 
-**Ellipsis Path** - the middle of a line is changed to dots so as the beginning and the end of a text line can be visible.
+**Ellipsis Path** - the middle of a line is changed to dots so that the beginning and the end of a text line can be visible.
 
 
 ![](../../images/img_comma6.png)

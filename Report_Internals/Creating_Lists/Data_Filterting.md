@@ -1,6 +1,5 @@
 ## Data Filtering
 
-
 When rendering a report, sometimes it is necessary to print rows of the data source which correspond to the definite condition. To select the necessary rows the data filtering is used. Data filtering is set using the **Filters** property of the **Data** band. In addition to the **Filters** property the **FilterOn** property can also be used. This property controls filter activity.
 
 
@@ -31,7 +30,7 @@ How does the filter work? In each filter the condition is set. If the condition 
 ![](../../images/img_6.png) The **Filter On** flag is used to enable/disable filters of the data band.
 
 
-Each filter is a condition for data row processing. There are two ways set a condition:
+Each filter is a condition for data row processing. There are two ways to set a condition:
 
 ![](../../images/fly.png) **Value.** The condition is set using the wizard;
 
@@ -59,7 +58,7 @@ On the picture below the panel of setting a condition using the wizard is shown.
  The way of selecting a condition;
 
 ![](../../images/topics/Report_Internals.Creating_Lists.Data_Filterting_12.png)
- This field specifies the type of data with what the condition will work. There are five types of data: **String**, **Numeric**, **DateTime**, **Boolean**, **Expression**. Data type has affect on how the reporting tool processes a condition. For example, if the data type is a string, then the method of work with strings is used. In addition, depending on the data type the list of available operations of conditions is changed. For example, only for the **String** data type is **Containing** operation is available;
+ This field specifies the type of data with what the condition will work. There are five types of data: **String**, **Numeric**, **DateTime**, **Boolean**, **Expression**. Data type has an effect on how the reporting tool processes a condition. For example, if the data type is a string, then the method of work with strings is used. In addition, depending on the data type the list of available operations of conditions is changed. For example, only for the **String** data type is **Containing** operation is available;
 
 ![](../../images/topics/Report_Internals.Creating_Lists.Data_Filterting_13.png)
  The column of the data source is specified in the field. The value from this column will be used as the first value of a condition;
@@ -90,13 +89,13 @@ The table below shows operations and their description for each data type.
 | greater than |  |  |  |  |
 | greater than or equal to |  |  |  |  |
 | less than |  |  |  |  |
-| less then or equal to |  |  |  |  |
+| less than or equal to |  |  |  |  |
 | containing |  |  |  |  |
 | not containing |  |  |  |  |
 | beginning with |  |  |  |  |
 | ending with |  |  |  |  |
 
-How to set a condition using as an expression
+How to set a condition as an expression
 
 
 When using the **Expression** type of a condition, the condition is set as a text expression, that should return the Boolean value. The picture below shows parameters of settings:

@@ -1,6 +1,5 @@
 ## Format Property
 
-
 The **Format** property is used to format the contents of Series Labels. This property has multiple values.
 
 
@@ -22,7 +21,7 @@ The **Format** property is used to format the contents of Series Labels. This pr
 ![](../../../images/topics/Report_Internals.Charts.SeriesLabels.Format_property_3.png)
 
 
-* **Date**. The **MM/dd/yyyy**, **MMMM dd**, **yyyy MMMM** values of the **Format** property convert values of arguments to date. **MM/dd/yyyy** - the date is shown like "01.20.2010",  **MMMM dd** - the date is shown like "September 29", **yyyy MMMM** - the date is shown like  "2010 March". The picture below shows a chart and with the **Format** property set to **MM/dd/yyyy**
+* **Date**. The **MM/dd/yyyy**, **MMMM dd**, **yyyy MMMM** values of the **Format** property convert values of arguments to date. **MM/dd/yyyy** - the date is shown like "01.20.2010",  **MMMM dd** - the date is shown like "September 29", **yyyy MMMM** - the date is shown like  "2010 March". The picture below shows a chart with the **Format** property set to **MM/dd/yyyy**
 
 ![](../../../images/topics/Report_Internals.Charts.SeriesLabels.Format_property_4.png)
 

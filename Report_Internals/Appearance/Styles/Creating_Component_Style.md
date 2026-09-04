@@ -1,4 +1,4 @@
-## Component Style
+# Component Style
 
 The **Component** Style is applied to all report components that do not have a specific style. For example, for bands, text components, panels, images, etc. To create a component style, do the following:
 

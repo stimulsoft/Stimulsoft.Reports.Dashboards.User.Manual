@@ -1,6 +1,5 @@
 ## KeepChildTogether Property
 
-
 For example, add the **Child** band to the **Data** band, as the result a data row and an empty row (**Child** band row) is output, visually it looks like a high line.
 
 

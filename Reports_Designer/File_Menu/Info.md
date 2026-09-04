@@ -1,13 +1,13 @@
-## Info
+# Info
 
-| **Attention** |
-| --- |
-| Scripts can pose a security risk. Therefore, [colculation mode](../Template/Calculation_Mode.md) are disabled in **Interpretation** mode. If you are confident in the security of the scripts, you can use them in **Compilation** mode. |
+> **Important**
+>
+> Scripts can pose a security risk. Therefore, [calculation mode](../Template/Calculation_Mode.md) is disabled in **Interpretation** mode. If you are confident in the security of the scripts, you can use them in **Compilation** mode.
 
 The **Info** section in the [File](index.md) menu contains commands for configuring, checking, and protecting the current report.
 
 
-**Report Settings**
+### Report Settings
 
 Selecting this command opens a window where you can configure the report template. This window displays the report template properties along with their values.
 
@@ -23,7 +23,7 @@ Selecting this command opens a window where you can configure the report templat
 
 On the **Description** tab, you can specify the report name, alias, author, and description. Additionally, it displays the creation date and time, as well as the last modification date of the current report.
 
-**Password Protection**
+### Password Protection
 
 When developing and saving a report, you can protect the report file with a password. To do this:
 
@@ -36,7 +36,7 @@ When developing and saving a report, you can protect the report file with a pass
 
 The file will be encrypted. To decrypt it—meaning, to open the report in the designer or viewer—you will need to enter the correct password.
 
-**Report Checker**
+### Report Checker
 
 To check a report for errors, use the **Report Checker**. It analyzes the report and provides messages regarding errors, warnings, and inaccuracies found in the report.
 

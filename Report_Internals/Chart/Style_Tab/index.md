@@ -1,4 +1,4 @@
-## Style
+# Style
 
 A chart style is a collection of formatting settings for various elements of the chart component. At any given time, only one style can be applied to a chart. However, for certain chart elements, individual formatting can be customized by disabling the style application.
 

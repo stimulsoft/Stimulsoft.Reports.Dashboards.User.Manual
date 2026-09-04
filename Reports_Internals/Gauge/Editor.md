@@ -1,4 +1,4 @@
-## Gauge editor
+# Gauge editor
 
 The configuration of a gauge is performed in its editor. The gauge editor in reports can be:
 

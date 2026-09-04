@@ -1,4 +1,4 @@
-## Strips
+# Strips
 
 **Strips** are horizontal or vertical ranges of values highlighted with a specific color.
 ![](../../../images/topics/Report_Internals.Chart.Chart_Tab.Strips_2.png)

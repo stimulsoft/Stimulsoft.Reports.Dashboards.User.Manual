@@ -1,4 +1,4 @@
-## Dashboard with Region Map
+# Dashboard with Region Map
 
 This chapter will cover issues such as:
 
@@ -16,7 +16,7 @@ This chapter will cover issues such as:
 
 * [Heatmap with a group](#heatmapwithgrouping).
 
-**Creating a Region Map**
+### Creating a Region Map
 
 To create a dashboard panel with the [Region Map](../Dashboards/Maps/Region_Map.md) element, you should do the following:
 
@@ -83,7 +83,7 @@ To create a dashboard panel with the [Region Map](../Dashboards/Maps/Region_Map.
 
 ![](../images/topics/Getting_Started.Dashboard_with_Region_Map_8.png)
 
-**Short signatures**
+### Short signatures
 
 You can display or hide the names of geographic objects in a short form (ISO2). Do the following to achieve this:
 
@@ -96,7 +96,7 @@ You can display or hide the names of geographic objects in a short form (ISO2). 
 
 ![](../images/topics/Getting_Started.Dashboard_with_Region_Map_9.png)
 
-**Disabling values**
+### Disabling values
 
 To disable the display of values on the geographic objects of the map, you should:
 
@@ -109,7 +109,7 @@ To disable the display of values on the geographic objects of the map, you shoul
 
 ![](../images/topics/Getting_Started.Dashboard_with_Region_Map_10.png)
 
-**Color each**
+### Color each
 
 Each geographic object on the map can have an individual shade. Do the following to achieve this:
 
@@ -135,7 +135,7 @@ Each geographic object on the map can have an individual shade. Do the following
 >
 > Also, this parameter should be enabled if a data column with the colors of geographic objects in the **Color** field is specified.
 
-**Heatmap**
+### Heatmap
 
 To change the type of a regional map from individual to heatmap, you should:
 
@@ -161,7 +161,7 @@ To change the type of a regional map from individual to heatmap, you should:
 >
 > To create a heatmap, the values of geographic objects should be specified manually or from data columns.
 
-**A map with a group**
+### A map with a group
 
 Geographic objects can be grouped on the map for any value. To do this:
 
@@ -185,7 +185,7 @@ Geographic objects can be grouped on the map for any value. To do this:
 
 ![](../images/topics/Getting_Started.Dashboard_with_Region_Map_16.png)
 
-**Heatmap with grouping**
+### Heatmap with grouping
 
 The geographic objects of the heatmap can be combined on the map for any value. To do this:
 

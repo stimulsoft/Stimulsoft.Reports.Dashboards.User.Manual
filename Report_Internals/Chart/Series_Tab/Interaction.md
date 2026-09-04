@@ -1,4 +1,4 @@
-## Interaction
+# Interaction
 
 Interaction refers to specific actions performed on a series’ graphical elements when viewing a report.
 

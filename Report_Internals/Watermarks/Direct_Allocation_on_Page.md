@@ -1,6 +1,5 @@
 ## Direct Allocation on Page
 
-
 One of the options for placement of the "watermark" inscription is a direct placement on the page. This means that the direct placement of any component, which will be the "watermark" inscription on a page of a report template.
 
 ![](../../images/topics/Report_Internals.Watermarks.Direct_Allocation_on_Page_1.png)

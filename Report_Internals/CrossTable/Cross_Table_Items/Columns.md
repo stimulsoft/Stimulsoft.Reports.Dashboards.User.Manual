@@ -1,6 +1,5 @@
 ## Columns
 
-
 On a picture below you may see how the columns are positioned on a table.
 
 
@@ -19,7 +18,7 @@ As a result we get grouping by values of this column:
 ![](../../../images/topics/Report_Internals.CrossTable.Cross_Table_Items.Columns_3.png)
 
 
-If to specify more than one column:
+If more than one column is specified:
 
 
 ![](../../../images/topics/Report_Internals.CrossTable.Cross_Table_Items.Columns_4.png)

@@ -1,4 +1,4 @@
-## Indicator Style
+# Indicator Style
 
 The **Indicator** style is applied to the [Indicator](../../../Dashboards/Indicator.md) element. To create an indicator style, you should do the following:
 * In the style designer, click the **Add Style** button and select the **Indicator** style.

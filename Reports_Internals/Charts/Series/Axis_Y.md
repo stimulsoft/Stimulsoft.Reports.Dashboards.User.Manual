@@ -1,19 +1,18 @@
-## Axis Y
+# Axis Y
 
-
-For each row, you can choose left or right axis Y, which is about the plot. Attachment to the axis of the graph depends on the properties of a number of axis Y (Axis Y), depending on the value of this property and are binding. If this property is set to Left axis Y (Left Y Axis), it will bind to the left axis, and if the property is set to the right axis Y (Right Y Axis) - to the right. Typically, this feature is used when you want to display a chart of different types of series. Let us consider in more detail with an example. We construct a diagram that will contain data on global economic growth for 2006 and 2008. Data for the 2008th displayed as a histogram, and in 2006 as a line. Chart datum, in this case, leave the default, ie to the left axis Y. The figure below shows a diagram constructed:
+For each series, you can choose the left or right Y-axis to bind it to. The axis a series is attached to depends on the value of its Axis Y property: if this property is set to Left Y Axis, the series is bound to the left axis, and if it is set to Right Y Axis, the series is bound to the right axis. This feature is typically used when you want to display a chart with different types of series. Let's look at this in more detail with an example. We will build a chart containing data on global economic growth for 2006 and 2008. The data for 2008 is displayed as a bar chart, and the data for 2006 as a line. In this example, we leave the Axis Y property at its default value, i.e. the left Y-axis. The figure below shows the resulting chart:
 
 
 ![](../../../images/topics/Reports_Internals.Charts.Series.Axis_Y_1.png)
 
 
-As can be seen from the picture, in general, global economic growth by region for 2006 was higher than in 2008. In this case, the report generator will generate the left Y-axis by choosing the maximum value of the columns of data in those rows that are tied to it, ie, from the column data in bar charts and line. And then, build graphs for the axis Y. If the right Y-axis is enabled, the value of this axis will be duplicated on the left axis Y. Now change the example slightly, we establish a number of anchor line (Line) to the right Y-axis and construct a graph. The picture below shows a diagram with reference to the right and left axis Y, different series:
+As you can see from the picture, global economic growth by region was, overall, higher in 2006 than in 2008. In this case, the report engine builds the left Y-axis by taking the maximum value among the series bound to it - that is, from both the bar chart and the line series data - and then plots both series against that axis. If the right Y-axis is not used, its values simply duplicate the left Y-axis. Now let's change the example slightly: we bind the Line series to the right Y-axis instead and rebuild the chart. The picture below shows a chart where different series are bound to the right and left Y-axes:
 
 
 ![](../../../images/topics/Reports_Internals.Charts.Series.Axis_Y_2.png)
 
 
-As can be seen from the picture, the value and dynamics of global economic growth have not changed. But the values ​​of the left and right Y-axis are not identical. In this case, a report generator built on the left Y-axis maximum value from a column of data series that is tied to the left axis, ie by the maximum value from the histogram and the right axis Y - by the maximum value at the line. It is also worth noting that you can specify a different axis, and for the series of the same type. The picture below shows two diagrams (on the left - both series are tied to the left axis Y, on the right - first row to the left axis, the second - to the right):
+As you can see from the picture, the values and dynamics of global economic growth have not changed, but the scales of the left and right Y-axes are no longer identical. In this case, the report engine builds the left Y-axis using the maximum value of the series bound to it - i.e., the maximum value from the bar chart - and the right Y-axis using the maximum value of the line series. It is also worth noting that you can bind series to different axes even when they are of the same type. The picture below shows two charts (on the left, both series are bound to the left Y-axis; on the right, the first series is bound to the left axis and the second to the right axis):
 
 
 ![](../../../images/topics/Reports_Internals.Charts.Series.Axis_Y_3.png)
@@ -21,4 +20,4 @@ As can be seen from the picture, the value and dynamics of global economic growt
 ![](../../../images/topics/Reports_Internals.Charts.Series.Axis_Y_4.png)
 
 
-As can be seen on the diagram, where the binding is to a single axis, it is better visible the dynamics of growth (or loss), but at the same time, if the values ​​of one series would be great, and the second is considerably small, should be used to bind to different axes. This will enable even the smallest value to visualize. Also, it should be understood that the rows of stacked rows of binding to different axes Y is incorrect, because This contradicts the method of charting the accumulation.
+As you can see, in the chart where both series are bound to a single axis, the dynamics of growth (or decline) are more clearly visible. However, if the values of one series are much larger than the other, it is better to bind the series to different axes - this makes it possible to visualize even the smallest values. It is also worth noting that binding stacked series to different Y-axes is incorrect, since this contradicts the way accumulation is charted.

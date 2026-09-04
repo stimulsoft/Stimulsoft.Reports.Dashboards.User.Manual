@@ -1,7 +1,6 @@
 ## Watermark Property
 
-
-The **Watermark** property allows user to output one image and one inscription on the background or foreground. The **Watermark** property has sub-properties to output watermarks.
+The **Watermark** property allows a user to output one image and one inscription on the background or foreground. The **Watermark** property has sub-properties to output watermarks.
 
 
 ![](../../images/topics/Report_Internals.Watermarks.Watermark_Property_1.png)
@@ -30,7 +29,7 @@ On the table below Image properties for watermark are described.
 | **ImageAlignment** | This property is used to align an image on a page |
 | **ImageMultipleFactor** | A multiplier that is used to change image size |
 | **AspectRatio** | Saves proportions of an image |
-| **ImageTiling** | If to set this property to **true**, then it will be tiled throughout a page |
+| **ImageTiling** | If this property is set to **true**, then it will be tiled throughout a page |
 | **ImageTransparency** | This property is used to set image transparency |
 | **ImageStretch** | Stretches an image on a page |
 | **ShowImageBehind** | Shows an image of a watermark on the background or foreground |

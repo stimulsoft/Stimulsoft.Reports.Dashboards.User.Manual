@@ -69,7 +69,7 @@ If you want to design a report, for example, with the cover page, the report tem
 
 8. Go back to the report template;
 
-9. Disable **Borders** for all components. Enable only the bottom borders in **TextBoxes 6-9**. The figure below submitted revised report template:
+9. Disable **Borders** for all components. Enable only the bottom borders in **TextBoxes 6-9**. The figure below shows the revised report template:
 
 
 ![](../images/topics/Getting_Started.Report_with_Multiple_Pages_in_Template_4.png)

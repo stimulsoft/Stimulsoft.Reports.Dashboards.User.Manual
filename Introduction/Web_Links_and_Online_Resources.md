@@ -1,4 +1,4 @@
-## Web Links and Online Resources
+# Web Links and Online Resources
 
 This section describes how to get information about the latest news and announcements of software products, as well as information about known issues and questions that users are interested in.
 
@@ -12,11 +12,11 @@ This section describes how to get information about the latest news and announce
 * You can read the latest news about the company at [https://stimulsoft.com/en/blog/news](https://stimulsoft.com/en/blog/news)
 
 
-* Besides, you can download packages of products Stimulsoft from other resources:
+* Besides, you can download packages of Stimulsoft products from other resources:
 
-* `Reports.Web`, Reports.Blazor, Reports.Angular Reports.Net, Reports.Wpf, `Reports.Web.NetCore, Dashboards.Blazor, Dashboards.Win, Dashboards.Web, Dashboards.Web.NetCore` from NuGet at [https://www.nuget.org/profiles/Stimulsoft](https://www.nuget.org/profiles/Stimulsoft)
+* `Reports.Web`, Reports.Blazor, Reports.Angular, Reports.Net, Reports.Wpf, `Reports.Web.NetCore, Dashboards.Blazor, Dashboards.Win, Dashboards.Web, Dashboards.Web.NetCore` from NuGet at [https://www.nuget.org/profiles/Stimulsoft](https://www.nuget.org/profiles/Stimulsoft)
 
-* Reports.Java from Maven at  [http://central.maven.org/maven2/com/stimulsoft](http://central.maven.org/maven2/com/stimulsoft)
+* Reports.Java from Maven at  [https://repo1.maven.org/maven2/com/stimulsoft](https://repo1.maven.org/maven2/com/stimulsoft)
 
 * Reports.JS and `Dashboards`.JS from npm at [https://www.npmjs.com/search?q=stimulsoft](https://www.npmjs.com/search?q=stimulsoft)
 
@@ -40,7 +40,7 @@ This section describes how to get information about the latest news and announce
 * on our website at [https://www.stimulsoft.com/en/samples](https://www.stimulsoft.com/en/samples)
 
 
-* Find us is social networks and messengers:
+* Find us in social networks and messengers:
 
 **X:**
 
@@ -86,5 +86,5 @@ This section describes how to get information about the latest news and announce
 
 [https://www.instagram.com/stimulsoft/](https://www.instagram.com/stimulsoft/)
 
-Also, visit our community to communicate with other users of Stimulsoft tools - [http://forum.stimulsoft.com/index.php](http://forum.stimulsoft.com/index.php )
-Here you can read and discuss various topics related to tools for creating reports and dashboards. For more information about the product in other Internet resources, please use the search engines.
+Also, visit our community to communicate with other users of Stimulsoft tools - [https://forum.stimulsoft.com/](https://forum.stimulsoft.com/)
+Here you can read and discuss various topics related to tools for creating reports and dashboards. For more information about the product on other Internet resources, please use the search engines.

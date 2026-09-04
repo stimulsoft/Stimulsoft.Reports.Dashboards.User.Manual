@@ -1,13 +1,13 @@
 ## Anchors in Report
 
-| **Important** |
-| --- |
-| Scripts can be a security risk, so they are disabled in the [Interpretation mode](../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../Reports_Designer/Template/Calculation_Mode.md). |
+> **Important**
+>
+> Scripts can be a security risk, so they are disabled in the [Interpretation mode](../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../Reports_Designer/Template/Calculation_Mode.md).
 
 A report with anchors is a report in what there is a page of contents and links (called anchors) to other pages in the report. Follow the steps below to design a report with the anchors.
 
 
-**Creating a page of contents**
+### Creating a page of contents
 
 
 1. Run the designer;
@@ -83,7 +83,7 @@ A report with anchors is a report in what there is a page of contents and links 
 ![](../images/topics/Getting_Started.Anchors_in_Report_5.png)
 
 
-**Creating a master list**
+### Creating a master list
 
 
 11. Create a second page in the report template;

@@ -1,4 +1,4 @@
-## Variable Validation
+# Variable Validation
 
 **Variable Validation** - is the process of checking that a variable value matches the expected format, type, and constraints.
 

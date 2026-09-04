@@ -1,4 +1,4 @@
-## Range Selector
+# Range Selector
 
 **Range Selector** - this component is used to select a range of values on a scale or a timeline. It allows users to visually define the minimum and maximum boundaries of the range.
 ![](../../images/Range Selector.png)
@@ -33,7 +33,7 @@ In the Range Selector editor, data items are added, the value selection mode is 
 * **Column.** Displays data as columns. Each value is represented as a vertical bar.
 
 
-![](../../images/img_6.png) **Snape Mode**
+![](../../images/img_6.png) **Snap Mode**
 
 * **None.** No snapping, the slider moves freely;
 * **Step.** Moves by specific X values;

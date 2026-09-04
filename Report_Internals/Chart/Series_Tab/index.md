@@ -1,4 +1,4 @@
-## Series
+# Series
 
 **Series** is a visual representation of data using graphical elements of a specific type.
 

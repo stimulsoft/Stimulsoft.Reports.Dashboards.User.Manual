@@ -17,7 +17,7 @@ This **text** is bold.
 >
 > Note that the word 'text' is enclosed within the opening and closing &lt;b&gt; and &lt;/b&gt; tags.
 
-Formatting tags can be used in combination with other formatting tags to changing the text style. For example, if you  enter the following expression:
+Formatting tags can be used in combination with other formatting tags to change the text style. For example, if you  enter the following expression:
 
 This &lt;i&gt;&lt;b&gt;text&lt;/b&gt;&lt;/i&gt; is bold italic.
 

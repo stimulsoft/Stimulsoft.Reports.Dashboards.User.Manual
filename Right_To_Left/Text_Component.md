@@ -1,6 +1,5 @@
 ## Text Component
 
-
 How the text will be output depends on the **RightToLeft** property. If it is set to **false**, then a text (all symbols except letters) is output from left to right. The picture below shows a text sample in Arabic that is output from left to right:
 
 

@@ -1,6 +1,5 @@
 ## Value Condition
 
-
 If you use a Value condition you will need to set the condition using a special format which consists of three elements:
 
 
@@ -10,7 +9,7 @@ The column in the data source from which the first value is taken for comparison
 
 1. **Operator**
 
-The selected operator lets the reporting tool to know how to process the first and second values to obtain the result. For example, the comparison operator tells to the reporting tool to compare the first and the second values to produce the result.
+The selected operator lets the reporting tool know how to process the first and second values to obtain the result. For example, the comparison operator tells to the reporting tool to compare the first and the second values to produce the result.
 
 1. **The value to calculate a condition**
 
@@ -23,7 +22,7 @@ If you were writing a value condition in code, it would look like this:
 ![](../../images/topics/Report_Internals.Conditional_Formatting.Value_Condition_1.png)
 
 
-For several types of operation three values are used in calculating the condition. These are operations in which the value is checked to determine whether or not it is within a specified range, defined by two values. In addition to the elements described, the condition also includes a data type. The data type helps the reporting tool to identify the type of the second condition, and to automatically modify the list of available types of conditional operator. The picture below shows the panel used to set a value condition:
+For some types of operations, the condition uses three values. These are operations that check whether a value belongs to a specified range. The range is defined by two values. In addition to the elements described above, the condition also includes the data type. The data type helps the report generator determine the type of the second condition value and the list of available condition operation types. The figure below shows the condition configuration panel:
 
 
 ![](../../images/topics/Report_Internals.Conditional_Formatting.Value_Condition_2.png)

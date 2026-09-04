@@ -1,4 +1,4 @@
-## Top N
+# Top N
 
 One of the options for filtering data for the elements of the dashboard panel is the ability to display a certain number of maximum or minimum values. This can be applied with the **Top N** tool. This feature applies to pre-filtering and only to the current element.
 
@@ -48,7 +48,7 @@ You can specify the top values for the elements of the dashboard panel:
 > The Top values for the **Pivot** element are configured in the editor of this element.
 
 
-**Top N editor**
+### Top N editor
 
 In the Top N editor you may define the type of the values (maximum or minimum), the number of the best values, actions with the rest of the element data.
 
@@ -70,7 +70,6 @@ In the Top N editor you may define the type of the values (maximum or minimum), 
 > **Information**
 >
 > When setting the top values for the [Pivot](../Pivot_Table.md) element, you should also define the **Measure** parameter. The value for this parameter will be one of the data fields specified in the **Summary** field.
-
 
 ![](../../images/img_3.png) The **Show Other** option is used to display a sum of values that were not included in the list of top values:
 
@@ -120,7 +119,7 @@ As you can see in the picture, three products with maximum sales will be display
 **Step 8**: Check the box next to **Show other**.
 
 
-**Step 9**: Define text for general value. For example, Another Products.
+**Step 9**: Define text for a general value. For example, Another Products.
 
 
 ![](../../images/topics/Dashboards.Data_Filtering.Top_N_7.png)
@@ -128,7 +127,7 @@ As you can see in the picture, three products with maximum sales will be display
 
 Now, the chart will display three products with maximum sales. All other values will be summed up and displayed on the chart as a separate graphic element, with the Another Products argument.
 
-**An example of minimum Top values**
+### An example of minimum Top values
 
 For example, in the dashboard panel, a table and a chart are displayed with the sales volume for every product.
 

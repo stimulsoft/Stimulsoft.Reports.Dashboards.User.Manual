@@ -1,5 +1,4 @@
-## Shrink Font to Fit Minimum Size Property
-
+# Shrink Font to Fit Minimum Size Property
 
 The **Shrink Font to Fit Minimum Size** property of the text component is used to adjust the minimum size of the font to which the text should be reduced. This property can be found on the Properties Panel.
 

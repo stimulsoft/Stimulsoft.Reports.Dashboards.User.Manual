@@ -1,6 +1,5 @@
 ## Selecting Rows One After Another
 
-
 To make a report look better and for much convenient work with rows it is recommended to alternate rows filled with different colors. This will make your report look professional. There are two ways in the report generator to make such filling: 1. using highlight conditions; 2. using special properties of the **Data** band styles.
 
 The first way - using the **Data** band highlight condition. Open a report that has a list. An example of such a report is shown on the picture below.

@@ -1,6 +1,5 @@
 ## Font Property
 
-
 The font for Series Labels can be set using the **Font** property within the Object Inspector.
 
 **Selecting font**

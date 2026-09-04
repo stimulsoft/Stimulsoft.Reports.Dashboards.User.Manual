@@ -1,4 +1,4 @@
-## Style Designer
+# Style Designer
 
 The style designer is a tool designed for creating and editing styles for report components and dashboard elements. Styles can be grouped into collections, and all created styles and their collections can be saved to a file. Using styles and their collections, the visual formatting of the report is achieved.
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_2.png)
@@ -37,7 +37,7 @@ This menu contains commands for creating new styles.
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_6.png)
 
-![](../../../images/img_1.png) The [Component](Creating_Component_Style.md) Style type is applied to almost all report components that have the ability to select a style, with the exception of maps, charts, gauges, tables, cross-tabs, and controls. It is not applied to dashboardl elements.
+![](../../../images/img_1.png) The [Component](Creating_Component_Style.md) Style type is applied to almost all report components that have the ability to select a style, with the exception of maps, charts, gauges, tables, cross-tabs, and controls. It is not applied to dashboard elements.
 
 ![](../../../images/img_2.png) The [Chart](Creating_Chart_Style.md) Style type is applied to any type of chart in the report and on the dashboard.
 
@@ -93,7 +93,7 @@ In the settings menu, you can also define the sorting mode for styles and collec
 
 The style designer has a search feature that allows you to search for styles. To do this, enter the name of the style or a part of its name in the Search field, and the list of styles will be automatically filtered.
 
-**Context Menu**
+### Context Menu
 
 The context menu contains duplicate commands from the toolbar, commands for working with the clipboard, and others. Depending on the selected object - style or collection, the commands in the context menu may differ. For example, the **Style** context menu in the style designer contains commands for creating styles of different types, a command for automatically creating a style collection, commands for working with the clipboard, as well as a command for creating a copy of the style.
 
@@ -102,16 +102,16 @@ The context menu contains duplicate commands from the toolbar, commands for work
 >
 > The **Duplicate Style** command allows you to create a copy of a style with its formatting settings. The copy of the style will be created in the same style collection as the original style. The name of the copied style will be created with the name of the original style + the suffix "Copy" and the ordinal number of the copy.
 
-**Color Collection Editor**
+### Color Collection Editor
 
-When creating styles for charts, maps, progress bars, and maps, it is necessary to define a collection of colors for the style. The colors in this collection will be applied to the graphical objects of the report components or dashboard elements. To open the color editor, you should click on the Browse button in the field value of the corresponding property.
+When creating styles for charts, maps, progress bars, and gauges, it is necessary to define a collection of colors for the style. The colors in this collection will be applied to the graphical objects of the report components or dashboard elements. To open the color editor, you should click on the Browse button in the field value of the corresponding property.
 
 
 ![](../../../images/img_1.png) The **Add** button allows you to add a new color to the color list.
 
 ![](../../../images/img_2.png) The **Remove** button allows you to delete the selected color from the list.
 
-![](../../../images/img_3.png) The buttons for moving the selected color in the color list determine the order in which the colors are applied to the geographic objects of the component or element. The color that is higher in the list will be applied first.
+![](../../../images/img_3.png) The buttons for moving the selected color in the color list determine the order in which the colors are applied to the graphical objects of the component or element. The color that is higher in the list will be applied first.
 
 ![](../../../images/img_4.png) The current style's color list can be modified by clicking the Browse button next to the color and selecting a new color from the drop-down list.
 

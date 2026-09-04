@@ -1,4 +1,4 @@
-## Table
+# Table
 
 **Table** is an element of data analysis, which provides the ability to display data field values in **Measure** and **Dimension** modes, as well as apply **Data Bars**, **Color Scale**, **Indicator**, **Sparklines** to data field values. In addition, the table element has settings for data aggregation — filtering, sorting, replacing values, calculating a cumulative total, etc.
 
@@ -47,20 +47,20 @@ In the editor of the **Table** element, you may add data fields, the order in wh
 
 ![](../images/img_2.png) The **Expression** field of the selected data field.
 
-![](../images/img_3.png) The type of values ​​of the selected data field:
+![](../images/img_3.png) The type of values of the selected data field:
 
 * **Dimension**, the type in which the value of the data field will be displayed in the initial state.
 
-* **Measure**, a type in which various functions can be applied to the values ​​of a data field.
+* **Measure**, a type in which various functions can be applied to the values of a data field.
 
-* **Data Bars**, the type in which different functions can be applied to the values ​​of the data field, and a data bar will be added for each value of this field.
+* **Data Bars**, the type in which different functions can be applied to the values of the data field, and a data bar will be added for each value of this field.
 
 * **Color Scale**, the type in which different functions can be applied to the data field values, and a color scale will be added for each value of this field.
 
-* **Indicator**, the type in which different functions can be applied to the values ​​of the data field, and an indicator will be added for each value of this field.
+* **Indicator**, the type in which different functions can be applied to the values of the data field, and an indicator will be added for each value of this field.
 
-* **Sparklines**, a type in which different functions can be applied to the values ​​of a data field, and a sparkline will be added to each value of this field. By the way, in this case, sparkline also has several types - a graph, area, data bar, a win/loss. Also for a sparkline graph or area, you can define a starting point mode.
-* **Bubble**. It`s the type where various functions can be applied to to the values of data fields and each value will be presented as Bubble.
+* **Sparklines**, a type in which different functions can be applied to the values of a data field, and a sparkline will be added to each value of this field. By the way, in this case, sparkline also has several types - a graph, area, data bar, a win/loss. Also for a sparkline graph or area, you can define a starting point mode.
+* **Bubble**. It`s the type where various functions can be applied to the values of data fields and each value will be presented as Bubble.
 
 
 ![](../images/img_4.png) The **Visible** parameter provides the ability to enable or disable the display of the selected column in the dashboard table. Also enabling and disabling of the column can depend on the result of a logic expression. If the result of the expression calculation is the true value, the column will be enabled. If the result of the expression calculation is the false value, the column will be disabled.
@@ -73,7 +73,7 @@ In the editor of the **Table** element, you may add data fields, the order in wh
 
 ![](../images/img_8.png) The **Show Hyperlink** parameter allows you to set a hyperlink for the current field values. This option is available only if the data field type is defined as Dimension.
 
-![](../images/img_9.png) In the **Pattern** field, a hyperlink is specified for the values ​​of the current data field. This field is available only if the **Show** hyperlink option is enabled.
+![](../images/img_9.png) In the **Pattern** field, a hyperlink is specified for the values of the current data field. This field is available only if the **Show** hyperlink option is enabled.
 
 ![](../images/img_10.png) The **Interaction** parameter provides the ability to configure interactive actions for the current data field of an item.
 
@@ -106,7 +106,7 @@ In the case of grouping data into categories, it is also necessary for the data 
 ![](../images/topics/Dashboards.Table_9.png)
 
 
-**Images in Table**
+### Images in Table
 
 In the table, you can display images obtained from data sources, as well as images obtained by URL. To display images in a table from a data source, you should add the data field to the list of table fields.
 
@@ -119,9 +119,9 @@ If the data field contains image URLs, then by default, these URLs will be displ
 
 * Specify the height and width of the image in the function arguments, if the URL redirects to an SVG image - Image(DataSource.DataColumn, height, width).
 
-**Menu of a header of value ​​columns**
+**Menu of a header of value columns**
 
-Each data field added to the editor is a column of values ​​in the **Table** element. In this case, for each column a column header values will be created. The text of this header is the name of the data field in the **Table** element editor. Each header of the value column contains a drop-down menu, in which the commands for sorting and filtering by the values ​​of the current column can be found. To call the drop-down menu of the header, you should click the left button of the mouse.
+Each data field added to the editor is a column of values in the **Table** element. In this case, for each column a column header values will be created. The text of this header is the name of the data field in the **Table** element editor. Each header of the value column contains a drop-down menu, in which the commands for sorting and filtering by the values of the current column can be found. To call the drop-down menu of the header, you should click the left button of the mouse.
 
 
 ![](../images/topics/Dashboards.Table_10.png)

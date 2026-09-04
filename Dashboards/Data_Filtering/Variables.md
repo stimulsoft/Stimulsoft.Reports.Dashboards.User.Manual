@@ -1,4 +1,4 @@
-## Variables
+# Variables
 
 Variables are used to pass a value to the elements of the dashboard panel, while filtering the data of these elements.
 
@@ -20,7 +20,7 @@ To create an dashboard with variables, you should:
 
 * Set filters for this item using a variable.
 
-**An example of a dashboard with a variable**
+### An example of a dashboard with a variable
 
 Suppose there is a dashboard that displays the results of the examination of patients in a clinic.
 

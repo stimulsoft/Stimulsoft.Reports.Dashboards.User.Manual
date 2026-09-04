@@ -1,8 +1,8 @@
-## Report Template
+# Report Template
 
-| **Attention** |
-| --- |
-| Scripts can pose a security risk. Therefore, [colculation mode](Calculation_Mode.md) are disabled in **Interpretation** mode. If you are confident in the security of the scripts, you can use them in **Compilation** mode. |
+> **Important**
+>
+> Scripts can pose a security risk. Therefore, [calculation mode](Calculation_Mode.md) is disabled in **Interpretation** mode. If you are confident in the security of the scripts, you can use them in **Compilation** mode.
 
 
 A report or dashboard is a way of processing data presented by any structure. The report engine processes the data of the report or dashboard, and its structure is created in the report template. A report template is an area in the report designer in which a report structure or analytical panel is created using components or elements, respectively.

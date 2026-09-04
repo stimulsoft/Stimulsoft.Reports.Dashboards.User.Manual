@@ -1,4 +1,4 @@
-## Labels
+# Labels
 
 **Series Labels** are a visual representation of values, arguments, tags, series names, and their combinations on or near graphical elements of series.
 
@@ -40,6 +40,6 @@ Below is a table of properties and their descriptions used to configure series l
 | Use Series Color | Allows setting the title color to match the series color. If set to **True**, the series color (from the chart style or the Main tab) will be used. If set to **False**, the title color will be taken from the title style or the **Color** property. |
 | Value Type | Defines the value displayed in the title of a graphical element. The following options can be selected: **Argument**, **Weight**, **Series Title**, **Tag**, **Series Value**, or their combinations. |
 | Value Type Separator | Allows setting a separator if a mixed title type is used. For example, if the title displays **Value** and **Argument**, a separator like "-" can be used. In this case, the title will be displayed as "Value-Argument". |
-| Visible | Enables or disables title display. If set to **True**, the title will be displayed. If set to **False**, the title will not be displayed.  Enables or disables title display. If set to True, the title will be displayed. If set to False, the title will not be displayed. |
+| Visible | Enables or disables title display. If set to **True**, the title will be displayed. If set to **False**, the title will not be displayed. |
 | Width | Specifies the title width. The default value is 0, meaning the title width is limited by the chart area. |
 | Word Wrap | Enables text wrapping for titles when the maximum width is reached. If set to **True**, text wrapping will be applied. If set to **False**, text wrapping will not be applied. This parameter is relevant only if the **Width** property is greater than zero. |

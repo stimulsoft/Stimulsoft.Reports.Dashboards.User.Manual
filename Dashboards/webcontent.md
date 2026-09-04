@@ -1,4 +1,4 @@
-## Web content
+# Web content
 
 **Web** **Content** is an element through which you can display various types of content from the Internet, including videos, web pages, animated images, and more, on the indicator panel within the viewer. To exhibit content in Stimulsoft Designer, the WebView2 environment is utilized. Consequently, the dashboard can showcase everything that a web browser can display.
 ![](../images/topics/Dashboards.webcontent_2.png)

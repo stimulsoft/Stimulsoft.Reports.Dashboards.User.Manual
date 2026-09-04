@@ -1,4 +1,4 @@
-## Dashboards with Combo Box
+# Dashboards with Combo Box
 
 To create a dashboard with the [Combo Box element](../Dashboards/Data_Filtering/Combo_Box.md), you should make the following actions:
 

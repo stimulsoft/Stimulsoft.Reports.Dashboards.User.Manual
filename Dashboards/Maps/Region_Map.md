@@ -1,4 +1,4 @@
-## Region Map
+# Region Map
 
 **Region Map** provides the ability to display any value with reference to a geographic object.
 
@@ -138,7 +138,7 @@ Consider the setting of the Region Map editor, if the data will be obtained from
 
 ![](../../images/img_12.png) The **Show Bubble** parameter allows you to display a graphical object value as a bubble.
 
-**Adding a custom map**
+### Adding a custom map
 
 When designing dashboards, you can add a custom map. This map will be displayed in the common list of maps and in the user category.
 
@@ -154,12 +154,12 @@ To use a custom map in the design you should:
 
 > **Information**
 >
-> If you an invalid map file to the report resources, this type of the map will be marked in the list with the icon as on the picture below.
+> If you add an invalid map file to the report resources, this type of the map will be marked in the list with the icon as on the picture below.
 >
 >
 > ![](../../images/topics/Dashboards.Maps.Region_Map_7.png)
 
-**Creating a map file**
+### Creating a map file
 
 A map file has the *.map extension, with the JSON markup of geographic data. The map file must contain the following fields:
 
@@ -183,7 +183,7 @@ Each geographic object in the **Paths** array must contain the following fields:
 
 ![](../../images/topics/Dashboards.Maps.Region_Map_8.png)
 
-**Editing a custom map**
+### Editing a custom map
 
 You may edit each map that is added to report resources. To do this:
 
@@ -229,7 +229,7 @@ The list shows the name and description of the properties of the element which y
 | **Name** | **Description** |
 | --- | --- |
 | Cross-Filtering | It allows you to enable or disable the cross-filtering mode for the current element. |
-| Data Transformation | Customizes the data  transformation of the current item. |
+| Data Transformation | Customizes the data transformation of the current item. |
 | Group | Adds the current item to a specific [group of items](../Groups.md). |
 | Labels | A group of properties that is used to customize the map labels. |
 | Show Value | Allows displaying or hiding the value of a geographic object on the map. |

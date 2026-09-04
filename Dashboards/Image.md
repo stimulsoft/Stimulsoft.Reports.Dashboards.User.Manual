@@ -1,4 +1,4 @@
-## Image
+# Image
 
 **Image** is an element with which you can display various graphical objects (photo, logo, picture, etc.) on the dashboard. The Image element supports the following types of graphics - BMP, PNG, JPEG, TIFF, GIF, PNG, ICO, EMF, WMF, SVG.
 
@@ -60,7 +60,7 @@ In the editor you can indicate the source of the image for the current element. 
 
 **Element settings**
 
-Any graphic object added to the element is stretched to the entire area of ​​the element, with the exception of the specified margins and padding. The setting of the graphic object in the element is carried out using buttons on the ribbon panel or using properties on the property panel. All these properties are located in the Image additional group:
+Any graphic object added to the element is stretched to the entire area of the element, with the exception of the specified margins and padding. The setting of the graphic object in the element is carried out using buttons on the ribbon panel or using properties on the property panel. All these properties are located in the Image additional group:
 
 * The **Aspect Ratio** property. When stretching an image, its proportions may be broken. To stretch the Image element while maintaining the proportions of the graphic object, you should set the Aspect Ratio property to **true**.
 

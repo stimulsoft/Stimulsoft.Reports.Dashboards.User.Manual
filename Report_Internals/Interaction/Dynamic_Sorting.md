@@ -1,6 +1,5 @@
 ## Dynamic Sorting
 
-
 In **Stimulsoft Reports** it is possible to use dynamic sorting. Dynamic sorting provides the ability to change the sorting direction in the report. Sorting the data can be performed both on a single data column as well as in several ones. Set the **Interaction.Sorting Enabled** property of the component, by clicking on which the dynamic sorting by one column will be enabled, to **true** and change the value of the **Interaction.Sorting Column** property. The value of this property is the data column, by which dynamic sorting will be done. It should be noted you can specify only one data column for one component. Then, select the component to which dynamic sorting was set. Dynamic sorting is carried out in the following directions: **Ascending** and **Descending**. Each time you click the component, the direction is reversed. The picture below shows a report page with dynamic sorting:
 
 

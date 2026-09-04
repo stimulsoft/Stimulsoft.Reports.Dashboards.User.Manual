@@ -1,6 +1,5 @@
 ## ValueType Property
 
-
 The **ValueType** property is used to specify the type of a value that appears in the series labels. This property may take the following values: **Value**, **Series Title**, **Argument**, **Value - Argument**, **Argument - Value**, **Series Title - Value**, **Series Title - Argument**.
 
 

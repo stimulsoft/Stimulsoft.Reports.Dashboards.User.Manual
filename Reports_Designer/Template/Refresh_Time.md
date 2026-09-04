@@ -1,4 +1,4 @@
-## Refresh Time
+# Refresh Time
 
 By default, the report is built:
 
@@ -11,14 +11,14 @@ By default, the report is built:
 
 In this case, to rebuild the report, you need some action from the user. To rebuild a report automatically at a specified time interval, you should set the **Refresh Time** report property to:
 
-* One of the predefined values ​​from seconds to hours;
+* One of the predefined values from seconds to hours;
 
 * Enter the value in seconds manually. For example, if you want the report to be rebuilt every hour, enter 3600 (1 hour = 3600 seconds).
 
 
 After the specified interval, the report will be automatically rebuilt.
 
-**Setting the report update time**
+### Setting the report update time
 
 
 **Step 1**: Run the report designer;

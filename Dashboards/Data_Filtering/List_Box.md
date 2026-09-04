@@ -1,4 +1,4 @@
-## List Box
+# List Box
 
 **List Box** is a filtering element on the dashboard, which is used to filter data for analysis elements in the viewer, depending on the selected value. It can be located anywhere on the dashboard panel. Depending on the size of the dashboard in the viewer, it can grow or shrink in height and width.
 
@@ -23,7 +23,7 @@ The **List Box** element can be of two types:
 * Vertical list of values.
 
 
-The item is set up in its editor. To call the editor, you should to the following in the report designer:
+The item is set up in its editor. To call the editor, you should do the following in the report designer:
 
 * Double-click the List Box;
 

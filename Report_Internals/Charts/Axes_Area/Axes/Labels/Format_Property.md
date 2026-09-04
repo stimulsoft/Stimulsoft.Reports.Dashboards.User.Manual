@@ -1,7 +1,6 @@
 ## Format Property
 
-
-The **Format** property is used to to format the contents of Labels. The full path to this property is **Area.Axis.Labels.Format.** This property has multiple values.
+The **Format** property is used to format the contents of Labels. The full path to this property is **Area.Axis.Labels.Format.** This property has multiple values.
 
 
 * **Number.** The **N** value of the **Format** property is used for the general display of numbers. When filling the **Format**, after the **N** value, it is possible to specify the number of decimal places that you want to use. If no numbers are specified after **N** then decimal places will be shown only if they are present as a result of calculation. The picture below shows a chart with the **Format** property of Series Labels set to **N**:

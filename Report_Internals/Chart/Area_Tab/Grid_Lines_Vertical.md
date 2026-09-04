@@ -1,4 +1,4 @@
-## Grid Lines Vertical
+# Grid Lines Vertical
 
 **Grid Lines Vertical** are lines in the chart area corresponding to each X-axis value, running parallel to the Y-axis. In other words, a line of a specific style and color will extend from each X-axis value to the opposite edge of the chart area, parallel to the Y-axis.
 ![](../../../images/topics/Report_Internals.Chart.Area_Tab.Grid_Lines_Vertical_2.png)

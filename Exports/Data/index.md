@@ -1,6 +1,5 @@
 ## Data
 
-
 This is a group of file formats which are used to store table data.
 
 
@@ -19,9 +18,9 @@ This is a group of file formats which are used to store table data.
 ![](../../images/img_4.png) The parameter **Type** provides the ability to determine a type of the file the report will be converted into.
 
 
-* **Notice:** Depending on the file type, parameters, and their number may vary. For example, when you select a format DIF or Sylk, the following options will be available:
+* **Note**: Depending on the file type, parameters, and their number may vary. For example, when you select the DIF or Sylk format, the following options will be available:
 
-* The option **Only Data Only** enables/disables the mode of exporting data only. If this option is enabled, information will be exported from the Data bands (the component table, Hierarchical band). Only these bands are processed, the rest are ignored. If this option is disabled, the entire report will be exported;
+* The option **Data Only** enables/disables the mode of exporting data only. If this option is enabled, information will be exported from the Data bands (the component table, Hierarchical band). Only these bands are processed, the rest are ignored. If this option is disabled, the entire report will be exported;
 
 * The option **Use Default System Encoding** allows you to use the system encoding by default. Different encoding can be applied depending on the installed system. If this option is disabled, you must set the encoding by the standard.
 
@@ -39,6 +38,6 @@ This is a group of file formats which are used to store table data.
 * **All Bands** - all bands of the report will be processed.
 
 
-![](../../images/img_8.png) The checkbox **Skip** **Column Headers** enables/disables the column headers. If the option is enabled, then column headers will not be displayed. If this option is disabled, then column headers (if present in the report) will be displayed.
+![](../../images/img_8.png) The checkbox **Skip Column Headers** enables/disables the column headers. If the option is enabled, then column headers will not be displayed. If this option is disabled, then column headers (if present in the report) will be displayed.
 
-![](../../images/img_9.png) The flag **Open After Export** enables/disables the automatic opening of the created document (after completion of exports), the default program for these file types.
+![](../../images/img_9.png) The flag **Open After Export** enables/disables the automatic opening of the created document (after completion of exports) using the default program for these file types.

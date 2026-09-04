@@ -1,4 +1,4 @@
-## Data connection
+# Data connection
 
 Data connection is carried out in the report data dictionary and includes the following steps: creating a connection and creating data sources. Depending on the type of a data source, the creation process may vary.
 
@@ -27,7 +27,7 @@ This chapter will cover the following:
 >
 > To embed all data in a report file, select the **Embed all data to resources** command from the **Actions** menu of the data dictionary.
 
-**Creating SQL Data Sources**
+### Creating SQL Data Sources
 
 
 **Step 1**: [Run the report designer](Install_and_First_Run.md#rundesigner);
@@ -91,7 +91,7 @@ Now, based on these data sources, you can design reports or dashboards. Also, yo
 
 ![](../images/topics/Getting_Started.Connecting_Data_8.png)
 
-**Creating an OData Data Source**
+### Creating an OData Data Source
 
 
 **Step 1**: [Run the report designer](Install_and_First_Run.md#RunDesigner);
@@ -150,7 +150,7 @@ Now, based on these tables, you can create reports and dashboards. Also, you can
 
 Now, when rendering a report using the current data source, only filtered data will be obtained from the storage.
 
-**Creating a file data source**
+### Creating a file data source
 
 When you design reports, you can get data from CSV, Excel, JSON, XML, and DBF files. The main advantage of data files is that you can embed them in a report template. However, the size of the report file will be increased by the size of the data file.
 
@@ -163,7 +163,7 @@ When you design reports, you can get data from CSV, Excel, JSON, XML, and DBF fi
 > * **New Resource**, the data file will be [embedded in the report as a resource](#draganddropdatafile). Based on this resource, you can create a data source.
 >
 >
-> When you drag the data file to any other area of ​​the report designer, it will be added as a resource, embedded in the report.
+> When you drag the data file to any other area of the report designer, it will be added as a resource, embedded in the report.
 
 
 Consider connecting to an external data file, which is not embedded in the report template.
@@ -201,7 +201,7 @@ Consider connecting to an external data file, which is not embedded in the repor
 
 Now, based on these data sources, you can create reports or dashboards.
 
-**Move to Resource**
+### Move to Resource
 
 Consider an example of dragging a data file to report resources.
 **Step 1**: [Run the report designer](Install_and_First_Run.md#RunDesigner);

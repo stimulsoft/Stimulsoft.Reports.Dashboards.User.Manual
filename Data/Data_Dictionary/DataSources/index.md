@@ -43,7 +43,7 @@ In the left picture, the star is not checked, the connection is not selected. In
 * Generate a query to obtain data. For more details read about queries here.
 
 
-To determine the method of obtaining the data is possible by means of the **Skip Schema Wizard** parameter. If you want to retrieve the database schema, you should uncheck this option. If you need to go to the creation of a query, check the flag for this parameter. It should be borne in mind that you can go to the creating of a query from the form of retrieving data by clicking the New Query button.
+To determine the method of obtaining the data is possible by means of the **Skip Schema Wizard** parameter. If you want to retrieve the database schema, you should uncheck this option. If you need to go to the creation of a query, check the flag for this parameter. It should be borne in mind that you can go to the creation of a query from the form of retrieving data by clicking the New Query button.
 
 
 Once the connection is established, depending on the type of the data source and the **Skip Schema Wizard** value, the create data source form is created.

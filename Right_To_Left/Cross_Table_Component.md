@@ -1,6 +1,5 @@
 ## Cross Table Component
 
-
 The cross table component has the **RightToLeft** property, that allows showing a cross-table in the right-to-left mode. If the **RightToLeft** property is set to **false**, then the cross table is rendered in the "left-to-right" mode. The picture below shows a cross table sample with the **RightToLeft** property set to **false**:
 
 

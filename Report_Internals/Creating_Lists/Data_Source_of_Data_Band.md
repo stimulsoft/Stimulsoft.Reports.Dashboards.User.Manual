@@ -1,6 +1,5 @@
 ## Data Source of Data Band
 
-
 It is necessary to specify what data source will be used when you output lists in the **Data** band. It is important because report generator should know how many times the **Data** band must be printed. Therefore, the reference to the **Data** band is specified. This can be done with several ways. First, it is possible to use the **Data** band editor. To call the editor it is enough double-click on the **Data** band. Also it is possible to call the editor from the context menu. See below an example of this menu.
 
 

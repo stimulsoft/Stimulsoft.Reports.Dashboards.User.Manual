@@ -1,4 +1,4 @@
-## Cross-Tab Style
+# Cross-Tab Style
 
 The **Cross-Tab** style is applied to the [Cross-Tab](../../CrossTable/index.md) component and [Pivot Table](../../../Dashboards/Pivot_Table.md) element. To create a cross-tab style you should do the following:
 * In the style designer, click the **Add Style** button and select the **Cross-Tab** style.

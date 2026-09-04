@@ -1,4 +1,4 @@
-## Sorting Data
+# Sorting Data
 
 Sorting data is ordering values of data fields in a specific direction. You can sort data in a report using various ways, but sometimes you need to transfer sorted data to a report. In this case, you can create the **New Data Transformation** and based on it create a report.
 

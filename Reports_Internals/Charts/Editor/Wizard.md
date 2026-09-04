@@ -1,16 +1,14 @@
-## Wizard
+# Wizard
 
-
-The Chart wizard provides an opportunity to create a chart in a few simple steps. To start the wizard, you should the button Chart Wizard in the chart editor. The wizard provides a step-by-step procedure to create a chart. By default, the first type (Clustered Column) is selected in the list.
+The Chart wizard provides an opportunity to create a chart in a few simple steps. To start the wizard, you should click the button Chart Wizard in the chart editor. The wizard provides a step-by-step procedure to create a chart. By default, the first type (Clustered Column) is selected in the list.
 
 
 ![](../../../images/topics/Reports_Internals.Charts.Editor.Wizard_1.png)
 
 
-> **Video**
+> **Information**
 >
-> * **Information**: To proceed to the next step, press the button **Next**. You should remember that you can always return to the previous step by clicking the button **Back**.
-
+> To proceed to the next step, press the button **Next**. You should remember that you can always return to the previous step by clicking the button **Back**.
 
 The chart component contains a collection of preset styles for the chart. Select one of them to create a chart. By default, the first style in the list is selected.
 
@@ -32,11 +30,11 @@ In the next step, you need to create a series of charts and specify their values
 
 ![](../../../images/img_4.png) This panel displays a list of chart series.
 
-![](../../../images/img_5.png) In the field of this this option you can change the name of the series. By default, all series have the name as Series+"number".
+![](../../../images/img_5.png) In the field of this option you can change the name of the series. By default, all series have the name as Series+"number".
 
 ![](../../../images/img_6.png) In this panel you can set chart arguments and values. This panel has two tabs:
 
-* The tab **Data Columns** ​you must specify the data columns for arguments and values. For example, the column of arguments contains entries A, B, C. The values column ​​will contain entries: 23, 43, 56. In this case, the argument A will match the value 23, the argument B will match the value 43, and the argument C - the value 56.
+* The tab **Data Columns** you must specify the data columns for arguments and values. For example, the column of arguments contains entries A, B, C. The values column will contain entries: 23, 43, 56. In this case, the argument A will match the value 23, the argument B will match the value 43, and the argument C - the value 56.
 
 * Besides data columns you can manually set the arguments and values. You can do this in the tab **List of Values**.
 
@@ -50,13 +48,12 @@ In the next step, you need to create a series of charts and specify their values
 
 ![](../../../images/img_3.png) The list of arguments fields, in these fields arguments of a chart are specified. For example, the arguments A, B, C, D.
 
-![](../../../images/img_4.png) The list of values fields, in these fields the values of the chart are shown. For example, the values ​​1, 2, 3, 4.
+![](../../../images/img_4.png) The list of values fields, in these fields the values of the chart are shown. For example, the values 1, 2, 3, 4.
 
 
-> **Video**
+> **Information**
 >
-> * **Information**: It should be noted that for rendering the chart there must be at least one values, the value is required to be specified. Arguments, if they are not specified, they will be automatically created.
-
+> It should be noted that for rendering the chart there must be at least one value, the value is required to be specified. Arguments, if they are not specified, they will be automatically created.
 
 On the next step, it is necessary to define the look of labels in the chart. By default, labels are disabled.
 
@@ -69,10 +66,9 @@ On the next step, it is necessary to define the look of labels in the chart. By 
 ![](../../../images/img_2.png) Parameters of labels, their angle, the text before the header text after the header, etc.
 
 
-> **Video**
+> **Information**
 >
-> * **Information**: You should know that when you create a chart manually, without using the wizard, you can specify label look as the entire chart and its our look for each row of the label. When you create a chart using the wizard, you can only define the general form of signatures for the whole diagram, one type for all series of the chart.
-
+> You should know that when you create a chart manually, without using the wizard, you can specify label look as the entire chart and its our look for each row of the label. When you create a chart using the wizard, you can only define the general form of signatures for the whole diagram, one type for all series of the chart.
 
 On the next step, it is necessary to define axes settings.
 
@@ -108,7 +104,7 @@ In the last step you need to define parameters of the chart legend. Legend is an
 
 ![](../../../images/img_4.png) The group **Direction**. Entries in the legend can be placed in different directions. Here you can indicate the direction in the legend in this group.
 
-![](../../../images/img_5.png) The group **Marker**. The marker is an icon that helps you to visually recognize a series of charts. The number of markers corresponding to the number of rows. Setting markers is performed in this group of parameters.
+![](../../../images/img_5.png) The group **Marker**. The marker is an icon that helps you to visually recognize a series of charts. The number of markers corresponds to the number of rows. Setting markers is performed in this group of parameters.
 
 ![](../../../images/img_6.png) The group **Spacing**. Increasing or decreasing the vertical and horizontal indentation in the legend is carried out with the help of these parameters. Also, in this group there is a parameter Visible. If this option is enabled the legend is displayed. If not - the legend is not displayed.
 

@@ -1,6 +1,6 @@
 ## Side-by-Side Reports and Sub-Reports
 
-You can use the **Sub-Report** component to create the **Side-by-side** report. The **Side-by-side** report consists of independent lists of data, located side by side. The picture below shows an example of a **Side-by-side** report template with the location of the **Sub-Report** component on on a page of the report template:
+You can use the **Sub-Report** component to create the **Side-by-side** report. The **Side-by-side** report consists of independent lists of data, located side by side. The picture below shows an example of a **Side-by-side** report template with the location of the **Sub-Report** component on a page of the report template:
 
 
 ![](../../images/topics/Report_Internals.Sub-Reports.Side-by-Side_Reports_and_SubReports_1.png)

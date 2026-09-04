@@ -1,8 +1,8 @@
-## Dashboards with Date Picker
+# Dashboards with Date Picker
 
 In this chapter, the following questions will be considered:
 
-* [Additing the Date Picker](#CreateDatePicker);
+* [Adding the Date Picker](#CreateDatePicker);
 
 * [Single mode](#SingleMode);
 
@@ -10,7 +10,7 @@ In this chapter, the following questions will be considered:
 
 * [Autorange mode](#AutoRangeMode).
 
-**Additing the Date Picker**
+### Adding the Date Picker
 
 To create a dashboard with the [Date Picker element](../Dashboards/Data_Filtering/Date_Picker.md), you should make the following actions:
 

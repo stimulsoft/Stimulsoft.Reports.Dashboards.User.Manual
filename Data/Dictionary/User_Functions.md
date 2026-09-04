@@ -1,4 +1,4 @@
-## User Functions
+# User Functions
 
 When designing reports and dashboards, you may create user functions in the report designer. The function script can be written using the visual programming tool Blockly or one of the programming languages set as the report scripting language: JS, C#, or VB.NET. These functions are created in the report data dictionary.
 
@@ -16,7 +16,7 @@ The user function can be edited. To do this you should:
 
 * Select the user function in the data dictionary, and click the **Edit** command in the data dictionary context menu.
 
-**User Function Editor**
+### User Function Editor
 
 The function is created in a special editor:
 

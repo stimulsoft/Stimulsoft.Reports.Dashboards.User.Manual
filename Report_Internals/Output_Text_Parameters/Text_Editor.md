@@ -1,5 +1,4 @@
-## Text Editor
-
+# Text Editor
 
 Editing text components can be done in the **Text Editor**. This editor contains several tabs in which you can change an expression of the text component, select a column, system variable, specify the calculation results.
 
@@ -26,7 +25,7 @@ This tab has the following panels:
 ![](../../images/topics/Report_Internals.Output_Text_Parameters.Text_Editor_2.png)
 
 
-This tab is represented by a single panel, which displays only the data columns from the **Dictionary**. When you select a column, an expression will be formed. This expression is a reference to the description of this column in the report data dictionary. Also on this tab you may find parameter **Show Instead Null Values**​​, using which you can specify the characters to be displayed instead of the zero values ​​of selected data columns.
+This tab is represented by a single panel, which displays only the data columns from the **Dictionary**. When you select a column, an expression will be formed. This expression is a reference to the description of this column in the report data dictionary. Also on this tab you may find parameter **Show Instead Null Values**, using which you can specify the characters to be displayed instead of the zero values of selected data columns.
 
 
 * The tab **System Variable**
@@ -54,7 +53,7 @@ On this tab, you can create an expression that calculates summary. The result of
 
 ![](../../images/img_2.png) In this drop-down list you can select the data band by which the summary will be calculated.
 
-![](../../images/img_3.png) This list defines the data column, the values ​​of which will be calculated totals.
+![](../../images/img_3.png) This list defines the data column, the values of which will be calculated totals.
 
 ![](../../images/img_4.png) This radio button sets the calculation function for the entire report. The value of the function in the any place of the report will be the same.
 

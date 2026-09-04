@@ -3,7 +3,7 @@
 The **DataMatrix** barcode was created by the CiMatrix company to accommodate large amounts of information in a limited surface area. The allowed length depends on the selected barcode size (number of rows and columns). The physical dimensions of a barcode can vary widely: the barcode modulus value can vary from 1 mil to 14 inches (14,000 mil). The most popular applications for the Datamatrix are marking small items such as electronic components and printed circuit boards of electronic devices. Every **DataMatrix** is composed of two solid adjacent borders in an "L" shape (called the "finder pattern") and two other borders consisting of alternating dark and light "cells" or modules (called the "timing pattern"). Symbol sizes vary from 8×8 to 144×144. The **DataMatrix** is used to mark small products.
 
 
-For compatibility of the **DataMatrix barcode with GS1**, you should to do the following:
+For compatibility of the **DataMatrix barcode with GS1**, you should do the following:
 
 * Set the **Process Tilde** property to **true**;
 
@@ -37,10 +37,10 @@ The barcode contains error correction codes: even if the barcode is partially da
 | 26 × 26 | 44 | 132 × 132 | 1304 |
 | 16 × 48 | 49 | 144 × 144 | 1558 |
 
-The barcode size can be set using the **MatrixSize** property. If this property is used to specify the specific size of the barcode, then the barcode will be of that fixed size. If this property is set to **Automatic** (by default), then the minimal size that is necessary to encode the data will be selected from the list. There are 6 types of the of the sizes of rectangular barcode. If it is required to get a square barcode in the **Automatic** mode, then the **UseRectangularSymbols** property should be set to **false** (by default). If the property is set to true, then square and rectangular forms are used.
+The barcode size can be set using the **MatrixSize** property. If this property is used to specify the specific size of the barcode, then the barcode will be of that fixed size. If this property is set to **Automatic** (by default), then the minimal size that is necessary to encode the data will be selected from the list. There are 6 types of the sizes of rectangular barcode. If it is required to get a square barcode in the **Automatic** mode, then the **UseRectangularSymbols** property should be set to **false** (by default). If the property is set to true, then square and rectangular forms are used.
 
 
-There are several modes of data encoding, which are used depending on the type of the encoded information. Each mode allows to encode their own set of characters and their own rate of compression.
+There are several modes of data encoding, which are used depending on the type of the encoded information. Each mode allows encoding of its own set of characters and its own rate of compression.
 
 
 | **Encoding mode** | **Valid symbols** | **Bits per symbol** |
@@ -52,7 +52,7 @@ There are several modes of data encoding, which are used depending on the type o
 | EDIFACT | ASCII character 32 to 94 | 6 |
 | BASE 256 | ASCII character 0 to 255 | 8 |
 
-The ASCII is the universal mode of data encoding (by default). It allows to encode any characters, but pairs of digits are compressed better and the ASCII values (128-255) are compressed worse. For Upper-case alphanumeric encoding, the C40, X12, Edifact modes are best suited, for Lower-case alphanumeric encoding - Text. Base mode allows you to encode any bytes with the same compression ratio.
+The ASCII is the universal mode of data encoding (by default). It allows encoding of any characters, but pairs of digits are compressed better and the ASCII values (128-255) are compressed worse. For Upper-case alphanumeric encoding, the C40, X12, Edifact modes are best suited, for Lower-case alphanumeric encoding - Text. Base mode allows you to encode any bytes with the same compression ratio.
 
 
 ![](../../../images/topics/Report_Internals.BarCodes.2D_Barcodes.Datamatrix_1.png)

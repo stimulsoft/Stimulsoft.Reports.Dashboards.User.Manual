@@ -1,6 +1,5 @@
 ## Bookmarking Using Code
 
-
 Using the **Interaction.Bookmark** property very complicated structure of bookmarks in a report can be formed. But sometimes it is not enough of this property. For example, it is necessary to add nodes to the tree of bookmarks without using the **Interaction.Bookmark** property. Or the bookmark should be placed on another level of nesting. The **Interaction.Bookmark** property of Stimulsoft Reports can be used. This is an invisible property, and it is available only from the code. It is very simple to use this property. For example, to add the bookmark of the first level of nesting the following code can be used:
 
 

@@ -28,7 +28,7 @@ To call the border editor and component shadows, you should:
 
 * Or click the **Browse** button for the header of the Borders group in the property panel.
 
-**Borders and component shadow editor**
+### Borders and component shadow editor
 
 This editor contains the parameters, which allow you to set borders and component shadows of a report. Also, the border and shadow editor contains two tabs:
 

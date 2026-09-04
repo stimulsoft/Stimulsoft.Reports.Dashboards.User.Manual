@@ -1,4 +1,4 @@
-## Dashboards with Tree View Box
+# Dashboards with Tree View Box
 
 To create a dashboard with the [Tree View Box element](../Dashboards/Data_Filtering/Tree_View_Box.md), you should make the following actions:
 

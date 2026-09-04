@@ -1,6 +1,6 @@
 ## Creating Data Source
 
-Consider an example of creating a new data source. It is worth noting that before you can create a data source, you must setup a connection. If there is no connection, then go to Dictionary, select New the **New Data Source** command in the **New Item** menu:
+Consider an example of creating a new data source. It is worth noting that before you can create a data source, you must setup a connection. If there is no connection, then go to Dictionary, select the **New Data Source** command in the **New Item** menu:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.DataSources.Creating_Data_Source_1.png)
@@ -40,7 +40,7 @@ After clicking OK, the Categories, Products and Shippers data sources will be cr
 
 Now, report templates will be created on the basis of these data descriptions.
 
-**Retrieving data without schema (the check box of the Skip Schema is set)**
+### Retrieving data without schema (the check box of the Skip Schema is set)
 
 After the connection has been created and Skip Schema is checked and you will go to the **New Data Source** dialog to create the query:
 
@@ -50,12 +50,12 @@ After the connection has been created and Skip Schema is checked and you will go
 In this window you must define parameters such as the Name in Source, Name, Alias. Also, in the Query Text field, it is necessary to form a database query and execute it. If the request is successful, press the **Retrieve Columns** button.
 
 
-Each column contains properties such as the Name in Source, Name, Alias, and Type. To change the values of these properties, high you should select the data column, and, in the Properties panel, to change and edit them. It is also possible to add or remove a data column. To add a column, click the **New Column** button or the **New Calculated Column** button. To delete a column, it is necessary to select it and click **Delete**.
+Each column contains properties such as the Name in Source, Name, Alias, and Type. To change the values of these properties, you should select the data column, and, in the Properties panel, to change and edit them. It is also possible to add or remove a data column. To add a column, click the **New Column** button or the **New Calculated Column** button. To delete a column, it is necessary to select it and click **Delete**.
 
 
 After clicking OK, a new source will be created.
 
-**Editing the data source**
+### Editing the data source
 
 Any created data source can be edited. To do this, select the data source, click the **Edit** button on the toolbar in the Dictionary, or select the Edit button in the context menu of the data source. After clicking the button or selecting the Edit item of the context menu, the user will see the **Edit Data Source** dialog. It has the same tools and fields as a second dialog - **New Data Source**.
 

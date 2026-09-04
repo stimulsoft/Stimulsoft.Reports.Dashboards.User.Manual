@@ -1,4 +1,4 @@
-## Dashboard with Images
+# Dashboard with Images
 
 This chapter will cover the following:
 
@@ -34,7 +34,7 @@ This chapter will cover the following:
 
 **Step 6**: Download the image from the [local storage](#loadinganimagefromalocalstorage), select the [icon](#aniconintheimageelement) or specify a [hyperlink](#animagebyahyperlink) to the image.
 
-**Loading an image from a local storage**
+### Loading an image from a local storage
 
 
 **Step 1**: Double-click on the **Image** element to call the editor;
@@ -58,7 +58,7 @@ This chapter will cover the following:
 
 ![](../images/topics/Getting_Started.Dashboard_with_Image_4.png)
 
-**An icon in the Image element**
+### An icon in the Image element
 
 
 **Step 1**: Double-click on the Image element to call the editor;
@@ -82,7 +82,7 @@ This chapter will cover the following:
 
 ![](../images/topics/Getting_Started.Dashboard_with_Image_7.png)
 
-**An image by a hyperlink**
+### An image by a hyperlink
 
 
 **Step 1**: Double-click on the Image element to call the editor;
@@ -101,7 +101,7 @@ This chapter will cover the following:
 
 ![](../images/topics/Getting_Started.Dashboard_with_Image_9.png)
 
-**Aspect ratio**
+### Aspect ratio
 
 By default, aspect ratio is enabled when loading an image. To disable the aspect ratio, you should do the following:
 

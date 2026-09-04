@@ -1,6 +1,5 @@
 ## HorizontalAlignment Property
 
-
 The **HorizontalAlignment** property of the Legend allows aligning the Legend position horizontally. The full path to this property is **Legend.HorizontalAlignment.** The property has the following values: **Left Out Side**, **Left**, **Center**, **Right**, **Right Out Side**.
 
 

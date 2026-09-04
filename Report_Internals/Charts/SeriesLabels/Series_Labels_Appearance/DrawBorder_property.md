@@ -1,6 +1,5 @@
 ## DrawBorder Property
 
-
 The **DrawBorder** property allows showing/hiding a border of Series Labels. It has two values: **true** and **false**. If the **DrawBorder** is set to **true**, then the border is shown. The picture below shows a chart with borders around Series Labels (the borders are red):
 
 

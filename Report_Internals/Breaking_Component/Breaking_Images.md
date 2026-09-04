@@ -1,7 +1,6 @@
 ## Breaking Images
 
-
-In some cases the **Image** does not fit one page. So the image will be moved to the next page.
+In some cases the **Image** does not fit on one page. So the image will be moved to the next page.
 
 
 ![](../../images/topics/Report_Internals.Breaking_Component.Breaking_Images_1.png)

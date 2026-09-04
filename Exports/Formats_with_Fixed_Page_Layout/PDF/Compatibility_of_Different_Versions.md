@@ -1,6 +1,5 @@
 ## Compatibility of Different Versions
 
-
 The information below shows the compatibility of Adobe Acrobat versions.
 
 
@@ -31,6 +30,6 @@ The information below shows the compatibility of Adobe Acrobat versions.
 * Support for 256-bit encryption. In earlier versions, files with 256-bit encryption algorithm will not be opened.
 
 
-**Adobe Acrobat Х**
+**Adobe Acrobat X**
 
 * Support for 256-bit encryption with improved internal calculations, and hence with a more crypto-stable algorithm.

@@ -1,6 +1,5 @@
 ## Hierarchical Band
 
-
 The **Hierarchical** **band** is used to display report data as a tree. The picture below shows an example of a hierarchical report:
 
 

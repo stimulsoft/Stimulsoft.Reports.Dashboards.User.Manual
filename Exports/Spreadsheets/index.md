@@ -1,13 +1,13 @@
 ## Spreadsheets
 
-| **Notice** |
-| --- |
-| For desktop versions, there are no specific size restrictions; the size of the opened file is limited by the free memory of the computer. But for web versions there are restrictions depending on the version of the product and the service used (10mb - 50mb - 250mb). |
+> **Important**
+>
+> For desktop versions, there are no specific size restrictions; the size of the opened file is limited by the free memory of the computer. But for web versions there are restrictions depending on the version of the product and the service used (10mb - 50mb - 250mb).
 
 This group of exports create spreadsheets. They are exports to both different formats of Microsoft Excel and to OpenOffice Calc.
 
 
-**Export Settings**
+### Export Settings
 
 
 ![](../../images/topics/Exports.Spreadsheets_1.png)

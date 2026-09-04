@@ -1,5 +1,4 @@
-## PDF
-
+# PDF
 
 **PDF** (Portable Document Format) – is a file format created by Adobe Systems for document exchange used to create electronic editions using the Adobe Acrobat package. The PDF format is a file text format that is used to publish documents on any platform and OS. The PDF document contains one or more pages. Each page may contain any components: text, graphic and illustrations, information, that provides navigation across the document.
 
@@ -21,7 +20,7 @@ Export options in PDF
 
 ![](../../../images/img_2.png) The checkbox **Current Page** enables processing only the current (selected) report page.
 
-![](../../../images/img_3.png) The checkbox **Pages** has the field. This field specifies the number of pages to be processed. You can specify a single page, several pages (using a comma as the separator) and also specify a range by defining the start page and end page range separated with "-". For example, 1,3,5-12.
+![](../../../images/img_3.png) The checkbox **Pages** has the field. This field specifies the number of pages to be processed. You can specify a single page, several pages (using a comma as the separator) and also specify a range by defining the start and end pages separated with "-". For example, 1,3,5-12.
 
 
 ![](../../../images/img_4.png) The **Image Resolution** is used to change DPI (image property PPI (Pixels Per Inch)). The greater the number of pixels per inch is, the greater is the quality of the image. It should be noted that the value of this parameter affects the size of the finished file. The higher the value is, the greater is the size of the finished file.
@@ -53,7 +52,7 @@ Export options in PDF
 
 > **Information**
 >
-> Please note that restrictions on editing a Word document do not use encryption algorithms strong to cracking. Therefore, for the security of the document it is recommended to use a [digital signature](Digital_Signature/index.md) and [security group](Encryption/index.md).
+> Please note that restrictions on editing a Word document do not use robust encryption algorithms resistant to cracking. Therefore, for the security of the document it is recommended to use a [digital signature](Digital_Signature/index.md) and [security group](Encryption/index.md).
 
 
 ![](../../../images/img_8.png)  The **Image Quality** will be available only if you select the compression method JPEG. This option allows you to change the image quality. Keep in mind that if you change this option the size of the finished file will increase. The higher the quality is, the larger is the size of the finished file.
@@ -66,7 +65,7 @@ Export options in PDF
 > When editing a text in the rendered report, the font may be different from the standard. Therefore, when the editing is performed by some other font, then this font will be embedded in the PDF file. This may lead to a significant increase of the size of the PDF.
 
 
-![](../../../images/img_10.png) The flag **Export Rich Text as Image** as Image enables/disables the conversion of the RTF text into the image. If the option is disabled, the Rich Text is decomposed into simpler primitives supported by the PDF format. The Rich Text with complex formatting (embedded images, tables) cannot always be converted correctly. In this case it is recommended to enable this option.
+![](../../../images/img_10.png) The flag **Export Rich Text as Image** enables/disables the conversion of the RTF text into the image. If the option is disabled, the Rich Text is decomposed into simpler primitives supported by the PDF format. The Rich Text with complex formatting (embedded images, tables) cannot always be converted correctly. In this case it is recommended to enable this option.
 
 
 > **Information**

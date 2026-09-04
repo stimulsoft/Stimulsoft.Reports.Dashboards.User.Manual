@@ -1,4 +1,4 @@
-## Table of Contents
+# Table of Contents
 
 When designing reports, sometimes it is necessary to create a table of contents in reports. In Stimulsoft reports you can use one of the following methods:
 

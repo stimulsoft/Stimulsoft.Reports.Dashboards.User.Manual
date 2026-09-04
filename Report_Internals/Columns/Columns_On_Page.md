@@ -1,6 +1,5 @@
 ## Columns on Page
 
-
 It is possible to output data on a page in columns using the **Columns** property. By default this property is set to 0. Setting the value to 2 or more will cause the data to be output in columns. You will also need to set the **ColumnWidth** and **ColumnGaps** properties.
 
 
@@ -10,7 +9,7 @@ It is possible to output data on a page in columns using the **Columns** propert
 The **ColumnWidth** property is used to set the column width and is applied to all columns which will be output on the page. The **ColumnGaps** property is used to set the space between the columns.
 
 
-* **Important:** Three page properties have to be set to output columns on a page. The Columns property is used to define the number of columns, the **ColumnWidth** property is used to set the width of each column, and the **ColumnGaps** property is used to set the space between the columns.
+* **Note:** Three page properties have to be set to output columns on a page. The Columns property is used to define the number of columns, the **ColumnWidth** property is used to set the width of each column, and the **ColumnGaps** property is used to set the space between the columns.
 
 ![](../../images/img_Columns_On_Page1.png)
 

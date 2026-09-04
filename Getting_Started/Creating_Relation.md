@@ -1,4 +1,4 @@
-## Creating Relation
+# Creating Relation
 
 Connection between data sources is arranged for the correct comparison of values from various data sources. You should follow these steps to create a relation:
 

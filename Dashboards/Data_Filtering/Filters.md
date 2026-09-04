@@ -1,4 +1,4 @@
-## Filters
+# Filters
 
 All data that is used in any element of the dashboard is a data column in the virtual table of the dashboard panel. For example, if three data fields are specified in a chart, the chart uses three columns from the virtual data table of the dashboard. Unlike the [Data Transformation](Data_Transformation.md) tool, the Filters tool is used to filter data of an element not only by the used fields, but also by other data fields it is related to.
 ![](../../images/topics/Dashboards.Data_Filtering.Filters_2.png)

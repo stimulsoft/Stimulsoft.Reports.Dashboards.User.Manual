@@ -1,4 +1,4 @@
-## Running Average
+# Running Average
 
 A **running average** is a data transformation in which, for each row, the average of all previous values (including the current one) is calculated for a selected numeric column. In the report designer, this can be performed in several ways. However, if the data needs to be passed to report components with the running average already calculated, this can be done by creating a **New Data Transformation**.
 To calculate a running average for data fields, you should:

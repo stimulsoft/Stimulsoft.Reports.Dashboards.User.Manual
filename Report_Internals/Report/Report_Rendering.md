@@ -1,7 +1,6 @@
-## Report Rendering
+# Report Rendering
 
-
-Unlike most other reporting tools, the report template in Stimulsoft Reports is divided into pages. Each page can have its own size and printing field. All components are placed on the report pages. During rendering, Stimulsoft Reports sequentially processes all the pages of the report."
+Unlike most other reporting tools, the report template in Stimulsoft Reports is divided into pages. Each page can have its own size and printing field. All components are placed on the report pages. During rendering, Stimulsoft Reports sequentially processes all the pages of the report.
 
 
 ![](../../images/img_Build_Report_Order.png)

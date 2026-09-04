@@ -1,6 +1,6 @@
 ## FIM
 
-Facing Identification Mark (**FIM**) is the type of postal bar code developed and used in automated mail processing by the U.S. Postal Service. FIM is a set of vertical bars. FIM patterns are placed in the upper right corner along the top edge and two inches in from the right edge of letters and cards, to the left of the location of a postage stamp or equivalent. FIM is intended for usage primarily on branded envelopes and postcards and is used by the envelope or postcard company and not by the Postal Service.
+Facing Identification Mark (**FIM**) is a type of postal bar code developed and used in automated mail processing by the U.S. Postal Service. FIM is a set of vertical bars. FIM patterns are placed in the upper right corner along the top edge and two inches in from the right edge of letters and cards, to the left of the location of a postage stamp or equivalent. FIM is intended for usage primarily on branded envelopes and postcards and is used by the envelope or postcard company and not by the Postal Service.
 
 
 ![](../../../../images/topics/Report_Internals.BarCodes.Linear_Barcodes.Other_barcodes.FIM_1.png)

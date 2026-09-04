@@ -1,6 +1,5 @@
 ## Font Size
 
-
 Using conditional formatting it is possible to change the font size of a text component. Let us consider in more detail changing the font size of the contents of a text component. The picture below shows a report page:
 
 

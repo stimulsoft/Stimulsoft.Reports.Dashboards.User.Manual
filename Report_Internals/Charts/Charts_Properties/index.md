@@ -46,7 +46,7 @@
 
 | **Property name** | **Description** |
 | --- | --- |
-| **Left** | Gets or sets the distance, between the left edge of the component and the left edge of its container's client area |
+| **Left** | Gets or sets the distance between the left edge of the component and the left edge of its container's client area |
 | **Top** | Gets or sets top position of the component |
 | **Width** | Gets or sets width of the component |
 | **Height** | Gets or sets height of the component |
@@ -101,8 +101,8 @@
 | **Grid Lines Vertical** | Gets or sets grid lines on vertical axis |
 | **Interlacing Horizontal** | Gets or sets interlacing settings on horizontal axis |
 | **Interlacing Vertical** | Gets or sets interlacing settings on vertical axis |
-| **Reverse Horizontal** | Gets or sets value which indicate that all values on horizontal axis is reverse |
-| **Reverse Vertical** | Gets or sets value which indicate that all values on vertical axis is reverse |
+| **Reverse Horizontal** | Gets or sets value which indicates that all values on horizontal axis are reversed |
+| **Reverse Vertical** | Gets or sets value which indicates that all values on vertical axis are reversed |
 | **Show Shadow** | Gets or sets value which indicates whether it is necessary to draw shadow |
 | **X Axis** | Gets or sets settings of XAxis |
 | **X Top Axis** | Gets or sets settings of XTopAxis |
@@ -178,11 +178,11 @@
 | **Property Name** | **Description** |
 | --- | --- |
 | **Brush** | Gets or sets a brush to fill a series labels |
-| **Font** | Gets or sets a font of an series labels |
+| **Font** | Gets or sets a font of a series labels |
 | **Marker Alignment** | Gets or sets marker alignment |
 | **Angle** | Gets or sets angle of a text rotation |
 | **Antialiasing** | Gets or sets anti aliasing of text titles |
-| **Border Color** | Gets or sets a border color of an series labels |
+| **Border Color** | Gets or sets a border color of a series labels |
 | **Draw Border** | Gets or sets a value that indicates whether the border for Series Labels is drawn |
 | **Format** | Gets or sets a text format |
 | **Label Color** | Gets or sets label color |
@@ -225,7 +225,7 @@
 | **Property Name** | **Description** |
 | --- | --- |
 | **Brush** | Gets or sets a brush to fill a series labels |
-| **Font** | Gets or sets a font of an series labels |
+| **Font** | Gets or sets a font of a series labels |
 | **Marker Alignment** | Gets or sets marker alignment |
 | **Angle** | Gets or sets angle of a text rotation |
 | **Antialiasing** | Gets or sets anti aliasing of Series Labels |
@@ -299,7 +299,7 @@
 | **Conditions** | Gets or sets a collection of conditions |
 | **Filters** | Gets or sets a collection of filters |
 | **Format** | Gets or sets a data format in what series labels will be shown |
-| **Sort by** | Gets or sets section of sorting data by values, arguments, of without sorting |
+| **Sort by** | Gets or sets a selection of data sorting by values, arguments, or without sorting |
 | **Sort Direction** | Gets or sets sort direction |
 | **Auto Series Key Data Column** | Gets or sets a data column name with the key-value that is used to create series automatically |
 | **Auto Series Color Data Column** | Gets or sets a data column name that defines color of automatically created series. The color should be represented as a string |
@@ -1043,7 +1043,7 @@
 | **Property Name** | **Description** |
 | --- | --- |
 | **Value Data Column End** | Gets or sets a data column name that indicates a value of data |
-| **Value End** | Gets or sets a expression of the end value. For example: {Order.Value} |
+| **Value End** | Gets or sets an expression of the end value. For example: {Order.Value} |
 | **List of Values End** | Gets or sets an expression that indicates a list of values. For example: 1;2;3 |
 
 

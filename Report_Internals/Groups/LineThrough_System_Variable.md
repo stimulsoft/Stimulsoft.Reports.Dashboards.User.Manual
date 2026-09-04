@@ -1,7 +1,6 @@
 ## LineThrough System Variable
 
-
-One of the tasks of lines numbering is through numbering in a group. The numbering starts with number 1. Through numbering of lines in a group is defined by the **LineThrough** system variable.
+One of the tasks of line numbering is through numbering in a group. The numbering starts with number 1. Through numbering of lines in a group is defined by the **LineThrough** system variable.
 
 
 ![](../../images/topics/Report_Internals.Groups.LineThrough_System_Variable_1.png)

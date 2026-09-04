@@ -6,7 +6,7 @@ The **Layout** tab is a section of the Ribbon in the report designer that contai
 ![](../images/topics/Reports_Designer.Layout_Tab_1.png)
 
 
-**Placement Group**
+### Placement Group
 
 The group contains a lot of commands to change position of components on a page. The picture below shows this group.
 
@@ -32,7 +32,7 @@ The group contains a lot of commands to change position of components on a page.
 
 ![](../images/img_9.png) The **Link** command, that associates selected components or elements with containers. When active (button pressed), the selected component or element becomes a dependent element of the container, regardless of its position. The container in this case is another report component or dashboard element. If inactive (button not pressed), the component or element remains dependent on the container it is placed on during report generation.
 
-**Alignment Menu**
+### Alignment Menu
 
 This menu contains commands for aligning selected components or elements.
 
@@ -60,7 +60,7 @@ This menu contains commands for aligning selected components or elements.
 
 ![](../images/img_10.png) Center all selected components vertically.
 
-**Size Menu**
+### Size Menu
 
 This menu contains commands for setting the sizes of the selected report components or dashboard elements. The original sizes, i.e., the sizes that will be applied to other components or elements, are the sizes of the component or element from which the selection of the group of components or elements was initiated.
 

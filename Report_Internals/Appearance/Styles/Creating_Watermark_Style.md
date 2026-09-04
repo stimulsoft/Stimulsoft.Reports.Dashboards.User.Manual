@@ -1,4 +1,4 @@
-## Watermark Style
+# Watermark Style
 
 The **Watermark** style is applied to report template pages, dashboards, and also to the [Panel](../../../Dashboards/Panel.md) element. Do the next steps to create a component style:
 * In the style designer, click the **Add Style** button and select the **Watermark** style.

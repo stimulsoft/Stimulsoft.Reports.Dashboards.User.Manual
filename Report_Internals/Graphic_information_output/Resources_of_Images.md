@@ -1,5 +1,4 @@
-## Resources of Images
-
+# Resources of Images
 
 Sometimes you need to add some image to the report. It could be images of goods, personnel, statistics, etc. Images can be added from different sources. To insert images, photos in a report in the Report Designer, you should use the **Image** component. The Image component should be put in the report where you want the image be placed (report page, data band, header band, footer band, etc.). When you add this component in the report, the dialog will be called:
 

@@ -1,6 +1,5 @@
 ## Enabling Component
 
-
 Using conditional formatting it is possible to show/hide the text component. The picture below shows a report page:
 
 
@@ -13,7 +12,7 @@ For example, you can hide the text components which contain a **S** letter in th
 ![](../../../images/topics/Report_Internals.Conditional_Formatting.Visual_Styles_Menu.Enabling_Component_2.png)
 
 
-After making changes in the report template, the report engine will perform conditional formatting of text components, according to the specified parameters. In this case, the borders the text components that match the specified condition will be hidden. The picture below shows a page of the rendered report with conditional formatting:
+After making changes in the report template, the report engine will perform conditional formatting of text components, according to the specified parameters. In this case, the borders of the text components that match the specified condition will be hidden. The picture below shows a page of the rendered report with conditional formatting:
 
 
 ![](../../../images/topics/Report_Internals.Conditional_Formatting.Visual_Styles_Menu.Enabling_Component_3.png)

@@ -1,10 +1,10 @@
 ## Activation
 
-**Trial version**
+### Trial version
 
 The free trial of Stimulsoft software is a full-featured version. It has a few limitations, which are as follows:
 
-* The evaluation period is limited in 30 days which starts from the date of the account registration;
+* The evaluation period is limited to 30 days which starts from the date of the account registration;
 
 * The Trial watermark is printed on each report page or the dashboard panel.
 
@@ -47,9 +47,9 @@ This chapter will cover the following:
 
 **Report Designer Activation**
 
-The report designer will be activated when you log in to an  user account with subscription. If, after authentication, the Trial watermark is present on the report pages and dashboards, you probably do not have a subscription for this product.
+The report designer will be activated when you log in to a user account with a subscription. If, after authentication, the Trial watermark is present on the report pages and dashboards, you probably do not have a subscription for this product.
 
-**Purchasing or renewing a report designer**
+### Purchasing or renewing a report designer
 
 
 **Step 1**: Click on the **Account** menu in the upper right corner of the report designer and select the **Subscription** item;
@@ -75,7 +75,7 @@ The report designer will be activated when you log in to an  user account with s
 **Step 7**: Make the payment.
 
 
-**Purchasing a new subscription or updating it from the personal account**
+### Purchasing a new subscription or updating it from the personal account
 
 
 **Step 1**: Log in to your personal account and click the **Purchase** button for a specific product;
@@ -95,7 +95,7 @@ The report designer will be activated when you log in to an  user account with s
 
 **Step 6**: Make the payment.
 
-**Logging in to the account using a proxy server**
+### Logging in to the account using a proxy server
 
 
 **Step 1**: Run the report designer;

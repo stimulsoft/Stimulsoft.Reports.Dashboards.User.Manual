@@ -1,6 +1,5 @@
 ## Child Band and Data
 
-
 How to output two bands on one data row? You can use the **Child** band. Create a new report. Put the **Data** band on a page. Put the **Child** band under the **Data** band.
 
 
@@ -16,4 +15,4 @@ Run a report for execution. As you can see, the **Child** band was printed as ma
 The **Child** band can be used not only with the **Data** band. It can be placed after any band on a page. For example, after the **Header** band or after the **Group Header** band.
 
 
-* The **Child** band can be used in association with any band.
+* **Note:** The **Child** band can be used in association with any band.

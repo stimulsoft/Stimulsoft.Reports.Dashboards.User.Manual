@@ -1,4 +1,4 @@
-## File menu
+# File menu
 
 The main element is the **File menu** and the menu that is called by pressing **File** button. This is a main menu of the report designer. Basic commands for work with reports in the report designer are represented in the menu. The picture below shows a menu of the application and its items.
 

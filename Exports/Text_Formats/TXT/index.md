@@ -1,6 +1,5 @@
 ## TXT
 
-
 Text file (TXT) is a kind of computer file that is structured as a sequence of lines. A text file exists within a computer file system. The end of a text file is often denoted by placing one or more special characters, known as an end-of-file marker, after the last line in a text file.
 
 
@@ -40,4 +39,4 @@ Export options in TXT:
 
 ![](../../../images/img_10.png) The option **Encoding** provides the ability to set the text encoding of the report after exporting.
 
-![](../../../images/img_11.png) The checkbox **Open After Export** enables/disables the automatic opening of the created document (after completion of exports), the default program for these file types.
+![](../../../images/img_11.png) The checkbox **Open After Export** enables/disables the automatic opening of the created document (after completion of exports) using the default program for these file types.

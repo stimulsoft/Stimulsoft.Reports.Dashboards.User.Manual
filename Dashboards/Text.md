@@ -1,4 +1,4 @@
-## Text
+# Text
 
 Text is an element that allows you to display any text or the result of a specified expression on the dashboard. An expression can be a reference to a system variable or a data column.
 
@@ -73,7 +73,7 @@ The list shows the name and description of the properties of the **Text** elemen
 | Text | Specifies text in a Table element. When you click the **Browse** button, the editor of the element will be opened, in which you can add or delete text, as well as customize its appearance. |
 | Group | It allows you to add the current element to a definite group of elements. |
 | Size Mode | It allows you to define text behavior in the current element: The **Fit** value allows you to scale element content, i.e. change text size to fit it within the element. The **Trimming** value allows you not to scale element content, i.e. not to change text size. At the same time, if the text doesn't fit within the element, it will be trimmed by the borders of the element. The **Word wrap** value allows you not to scale element content, i.e. not to change text size. At the same time, if the text doesn't fit within the element, it will be wrapped to the next row. In cases, if the number of rows is greater than element height, the rows will be trimmed in the element height. |
-| Right ro Left | Allows enabling right-to-left text display mode. |
+| Right to Left | Allows enabling right-to-left text display mode. |
 | Back Color | Changes the background color of the element. By default, this property is set to **From Style**, i.e. the color of the element will be obtained from the settings of the current element style. |
 | Border | A group of properties that allows you to customize the borders of a  table - color, sides, size, and style. |
 | Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |

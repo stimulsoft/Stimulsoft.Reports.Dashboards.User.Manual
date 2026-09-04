@@ -1,9 +1,8 @@
 ## Key Length
 
+The PDF Reference defines 40-bit, 128-bit, and 256-bit encryption. By default, a 40-bit key is used.
 
-The PDF Reference defines both 40-bit, 128-bit and 256-bit encryption. By default 40-bit key is used.
-
-256-bit and 128-bit keys is more secure the 40-bit key. But is some countries the key length of encryption is limited.
+256-bit and 128-bit keys are more secure than the 40-bit key. But in some countries the key length of encryption is limited.
 
 
 Quote from PDF Reference:

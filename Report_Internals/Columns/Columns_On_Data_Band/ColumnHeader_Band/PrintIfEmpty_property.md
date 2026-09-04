@@ -1,7 +1,6 @@
 ## PrintIfEmpty Property
 
-
-Ugly output can result if the number of data rows is less than number of columns resulting in gaps on the page because the same number of column headers will be output as the number of columns. If there is data sufficient for two columns then only two headers will be output.
+Ugly output can result if the number of data rows is less than the number of columns resulting in gaps on the page because the same number of column headers will be output as the number of columns. If there is data sufficient for two columns then only two headers will be output.
 
 
 ![](../../../../images/img_ColumnHeader3.png)

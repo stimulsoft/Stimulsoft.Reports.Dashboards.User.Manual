@@ -1,4 +1,4 @@
-## Sorting on a dashboard
+# Sorting on a dashboard
 
 The following questions will be considered in this chapter:
 
@@ -12,7 +12,7 @@ The following questions will be considered in this chapter:
 
 * [Disable or enable sorting in a table](#AllowUserSortingInTable).
 
-**Sorting element data in the designer**
+### Sorting element data in the designer
 
 To set element sorting you should make the following actions:
 **Step 1**: Create or open a dashboard with [chart](Dashboard_with_Chart.md), [gauge](Dashboard_with_Gauge.md), [indicator](Dashboard_with_Indicator.md), [progress](Dashboard_with_Progress.md);
@@ -59,7 +59,7 @@ To change sorting for a chart, gauge, indicator, progress when viewing a dashboa
 
 ![](../images/topics/Getting_Started.Dashboard_with_Sorting_6.png)
 
-**Disable or enable the sort button in the viewer**
+### Disable or enable the sort button in the viewer
 
 To disable or enable the element sort button when viewing a dashboard, you should make the following actions:
 
@@ -85,9 +85,9 @@ To disable or enable the element sort button when viewing a dashboard, you shoul
 
 ![](../images/topics/Getting_Started.Dashboard_with_Sorting_9.png)
 
-**Sorting data in the Table component**
+### Sorting data in the Table component
 
-Sorting in the Table is set at the same way both in the report designer and when viewing a dashboard.
+Sorting in the Table is set in the same way both in the report designer and when viewing a dashboard.
 
 **Step 1**: [Create or open a dashboard with the Table element;](Dashboard_wit_Table.md);
 
@@ -105,7 +105,7 @@ Sorting in the Table is set at the same way both in the report designer and when
 >
 > You can specify sorting for several columns in the **Table** element. Firstly, the data will be sorted for the first column, then for the second, etc.
 
-**Disable sorting in the Table**
+### Disable sorting in the Table
 
 
 **Step 1**: Select the Table element;

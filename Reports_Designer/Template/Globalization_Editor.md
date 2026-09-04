@@ -1,4 +1,4 @@
-## Globalization Editor
+# Globalization Editor
 
 When designing reports, there can be situations when users who view rendered reports have different language cultures. In this case, they can make the required number of copies of the report, each of which is localized in a specific language. However, when editing one report template, you will have to do changes in all of its copies. Thus, every change in the report template will increase the time spent on preparing the report and significantly increases the likelihood of errors in copies of this report.
 

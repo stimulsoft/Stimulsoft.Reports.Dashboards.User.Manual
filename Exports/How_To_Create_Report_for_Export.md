@@ -1,7 +1,6 @@
 ## How to Create Report for Export?
 
-
-Many exports have the table mode. In this mode the whole report is converted into one table. Creating correct templates from the source code allows making the table look much better, decrease the size of the file, increase the speed of working with export. Therefore, when using the table mode of export it is important to follow some recommendations:
+Many exports have the table mode. In this mode the whole report is converted into one table. Creating correct templates from the source code allows making the table look much better, decreasing the size of the file, and increasing the speed of working with export. Therefore, when using the table mode of export it is important to follow some recommendations:
 
 * use the "Align to Grid" button of the designer. This will decrease the number of rows and columns in the output file; also this allows  avoiding very small gaps between components (some formats "do not like" table with very small columns);
 
@@ -26,7 +25,7 @@ Put three components as seen on the picture below.
 ![](../images/placement3.gif)
 
 
-As a result we get the Excel table: five rows and three cells (see the picture below). It is not convenient to edit such a table, the file size, time of export, and required memory are increased in some times.
+As a result we get the Excel table: five rows and three cells (see the picture below). It is not convenient to edit such a table, the file size, time of export, and required memory are increased several times.
 
 
 ![](../images/placement4.gif)
@@ -38,7 +37,7 @@ The **Excel** sheet consists of cells that are formed at the intersection of row
 ![](../images/topics/Exports.How_To_Create_Report_for_Export_1.png)
 
 
-When you export a report, the column width and row height is calculated automatically, so as to place all components using as the smaller number of columns and rows as possible. If all components are arranged in columns/rows, the number of result columns/rows in the Excel file will match the number of columns/rows in the report components. If the template structure is more complex, for example components as headers are not placed in the columns, then additional columns/rows will be added the Excel file. Consider the following example:
+When you export a report, the column width and row height is calculated automatically, so as to place all components using as the smaller number of columns and rows as possible. If all components are arranged in columns/rows, the number of result columns/rows in the Excel file will match the number of columns/rows in the report components. If the template structure is more complex, for example components as headers are not placed in the columns, then additional columns/rows will be added to the Excel file. Consider the following example:
 
 
 ![](../images/topics/Exports.How_To_Create_Report_for_Export_2.png)
@@ -53,13 +52,13 @@ As can be seen from the picture above the text components in the report template
 As can be seen from the picture above you add more columns/rows.
 
 
-* do not use the **Autowidth** property. This property increases the number of columns in the exported file which is proportionally to number of records.
+* do not use the **Autowidth** property. This property increases the number of columns in the exported file which is proportional to the number of records.
 
 
 ![](../images/autowidth.gif)       ![](../images/autowidth2.gif)
 
 
-On the left picture the number of columns is 14, and this case is equal in number of data rows. If to disable the **AutoWidth** property then only one column will be output (see the right picture). Accordingly, the file size of a report, shown of the right picture, is some times smaller then the file of the report shown on the left picture and the export works faster.
+On the left picture the number of columns is 14, and this case is equal in number of data rows. If the **AutoWidth** property is disabled, then only one column will be output (see the right picture). Accordingly, the file size of a report, shown in the right picture, is several times smaller than the file of the report shown on the left picture and the export works faster.
 
 
-* **Notice:** Number of columns is very important for the text editors. For example, MS Word allows no more than 64 columns; if the table has more than 64 columns then the document is output incorrectly.
+* **Note:** The number of columns is very important for the text editors. For example, MS Word allows no more than 64 columns; if the table has more than 64 columns then the document is output incorrectly.

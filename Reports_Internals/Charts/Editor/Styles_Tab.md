@@ -1,5 +1,4 @@
-## Tab Styles
-
+# Tab Styles
 
 You can completely change the design of charts, ranging from basic colors and ending with shadows, borders, and so on. You can do this in the tab **Styles**.
 
@@ -16,6 +15,6 @@ You can completely change the design of charts, ranging from basic colors and en
 ![](../../../images/img_4.png) The button **More Styles**. When you click it you will see the list of styles available by default.
 
 
-> **Video**
+> **Information**
 >
-> * **Notice**: If the **AllowApplyStyle** is enabled then the style will be applied. If you disable the **AllowApplyStyle** then the parameters of series will be considered.
+> If the AllowApplyStyle is enabled then the style will be applied. If you disable the AllowApplyStyle then the parameters of series will be considered.

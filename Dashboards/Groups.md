@@ -1,4 +1,4 @@
-## Groups
+# Groups
 
 By default, all elements on the dashboard are related to each other, which means that data filtering of one element affects the data filtering of other elements. However, when designing a dashboard, it is possible to split the elements of the dashboard into groups. For example, you want to display statistics for two unrelated companies in one dashboard. In this case, the elements of the dashboard should be split into groups, where the first group is one company and the second group is another company.
 
@@ -24,7 +24,7 @@ Do the following to create a group of items on the dashboard:
 
 * Select the elements;
 
-* Specify any value in the **Group** property .
+* Specify any value in the **Group** property.
 
 To add an element to a group, you should do the following:
 

@@ -24,7 +24,7 @@ If it is necessary to display data from only one entry of the data source or dat
 
 4.4. Align the image in the component;
 
-4.5. Change values of the properties of the **Image** component. For example to set the **Print** property to **true**, if you want this component be printed;
+4.5. Change values of the properties of the **Image** component. For example to set the **Print** property to **true**, if you want this component to be printed;
 
 4.6. If necessary, set **Borders** of the **Image** component;
 

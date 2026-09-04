@@ -1,6 +1,5 @@
 ## VerticalAlignment Property
 
-
 The **Vertical Alignment** property of the Legend allows aligning the Legend position vertically. The full path to this property is **Legend.VerticalAlignment.** The property has the following values: **Top Out Side**, **Top**, **Center**, **Bottom**, **Bottom Out Side**.
 
 

@@ -7,7 +7,7 @@
 | --- | --- |
 | Column | Returns the current column number (starts from 1). |
 | Line | Returns the current line number. Used for numbering lines in reports. Numbering starts from 1. Numbering is performed separately for each group. |
-| LineThrough | Returns the sequential line number. Unlike **Line**, it returns the line number from the very beginning of the report, regardless of report groupings. Numbering starts from 1.; |
+| LineThrough | Returns the sequential line number. Unlike **Line**, it returns the line number from the very beginning of the report, regardless of report groupings. Numbering starts from 1. |
 | LineABC | Returns the alphabetical analogue of the current line number. |
 | LineRoman | Returns the current line number in Roman numerals. |
 | GroupLine | Returns the current group line number (starts from 1). |

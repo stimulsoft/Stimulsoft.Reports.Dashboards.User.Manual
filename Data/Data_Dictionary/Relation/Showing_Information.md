@@ -1,6 +1,6 @@
 ## Showing Information
 
-Stimulsoft Reports tools can display data from a bound data source. For example, data from columns are displayed in a report: **ProductName**, **UnitPrice**, **UnitslnStock** of the data source **Products**. The picture below shows the a page of the report:
+Stimulsoft Reports tools can display data from a bound data source. For example, data from columns are displayed in a report: **ProductName**, **UnitPrice**, **UnitsInStock** of the data source **Products**. The picture below shows a page of the report:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Relation.Showing_Information_1.png)

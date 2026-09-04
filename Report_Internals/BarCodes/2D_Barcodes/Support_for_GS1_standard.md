@@ -1,4 +1,4 @@
-## Support for GS1 standard
+# Support for GS1 standard
 
 **The GS1 barcode standard** is an international system for identifying products, services, and objects, enabling their unique labeling worldwide.
 
@@ -18,35 +18,35 @@ On the surface, GS1 barcodes may look like ordinary EAN-13, Code 128, or DataMat
 Main differences in data encoding inside the code:
 
 
-**Structure and identifiers**
+### Structure and identifiers
 
 In GS1, there are Application Identifiers (AI)—service prefixes that indicate what exactly is encoded (for example, 01 = GTIN, 17 = expiration date, 10 = batch number).
 
 In regular barcodes, the data is stored “as is” without such identifiers.
 
 
-**Global uniqueness**
+### Global uniqueness
 
 GTIN and other codes follow the principle: country prefix → manufacturer code → product code → check digit.
 
 In regular barcodes, the structure can be arbitrary, and uniqueness is maintained only within a local database.
 
 
-**Support for multiple fields in one code**
+### Support for multiple fields in one code
 
 GS1-128 or GS1 DataMatrix can store GTIN, date, batch, serial number, etc., all in one code. To separate fields of variable length, the FNC1 character (or special markers) is used.
 
 Standard barcodes usually encode only a single data string.
 
 
-**Interpretation in software**
+### Interpretation in software
 
 Scanners that recognize GS1 automatically detect AIs and map the data into structured fields (GTIN, expiration date, etc.).
 
 Regular barcodes simply transmit a string of characters without understanding its structure.
 
 
-**In simple terms:**
+### In simple terms:
 
 GS1 takes familiar “boxes” (barcode formats) and standardizes how and in what order the content is placed inside them—so that any scanner worldwide can understand what it is and where it comes from.
 

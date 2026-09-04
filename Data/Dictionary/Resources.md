@@ -1,4 +1,4 @@
-## Resources
+# Resources
 
 > **YouTube**
 >
@@ -48,11 +48,11 @@ After selecting this command, the menu for creating a new resource will be displ
 >
 > When you embed a big file into a report with data or images, and when you add multiple resources, the size of the *.mrt file can be significantly increased.
 
-**Saving a resource from a report**
+### Saving a resource from a report
 
 To save a resource from the report designer, you should select the resource in the Data Dictionary and click **Save** in the context menu. In this case, a dialog will be called in which it is necessary to specify the location for saving the file. Then, click the **Save** button and the resource will be saved in the format of the source file. In addition, if a *.mrt file was added to the resource, then the *.mrt file will also be saved when this resource is saved.
 
-**Resource based data source**
+### Resource based data source
 
 When designing reports, data files (CSV, Excel, JSON, XML, Dbase) are often used. Based on these files, you can create data sources in the data dictionary that will be used to create report templates. In this case, the data sources will not contain real data but only a description of the methods, parameters and methods to access to real data. The transfer of data from the file to the data sources, and accordingly the filling of the actual data of the report, occurs when rendering of this report.
 
@@ -89,7 +89,7 @@ Below is the menu for creating an Excel data source:
 
 After clicking **OK**, the generated data source can be used to create reports.
 
-**Images from resources**
+### Images from resources
 
 Images in reports can be obtained from various resources - uploaded directly, from a file, from a data source, by a hyperlink, etc. When you send a report to another person or move the report (or images) to another medium, you will have to send (along with the report) images, editing the path to these images. Except the cases when the image is uploaded directly to the **Image** component. However, each time you load an image into the Image component, the size of the report file is increased by the size of the image file.
 
@@ -102,7 +102,7 @@ After adding an image to the **Resource**, it can be used as a watermark of the 
 
 ![](../../images/topics/Data.Dictionary.Resources_3.png)
 
-**Sub-reports from Resources**
+### Sub-reports from Resources
 
 The Sub-report component is used to display another report on the same report page within this component. This other report is the report which is nested one can be located on another page in this report template or in another report template file. Using the Sub-report component, you can also display the rendered report.
 
@@ -118,7 +118,7 @@ Add the Sub-report component to the report template. When editing this component
 
 Also, you can pass a parameter in the Sub-report component editor. For example, to filter data in a nested report. However, this is only relevant for the not rendered report (*.mrt, *.mrz).
 
-**Rich text from resources**
+### Rich text from resources
 
 Sometimes you need to use Rich text in your reports. There is a special component to display this text in the report designer – Rich Text. You can add the Rich text to the report with next ways:
 

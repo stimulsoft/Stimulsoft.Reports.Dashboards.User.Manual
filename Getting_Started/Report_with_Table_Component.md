@@ -26,7 +26,7 @@ Do the following steps to design a report with the **Table** component:
 
 4.3. Align the **Table** component by height;
 
-4.4. Change values of the component. for example, set the **CanBreak** property to **true**, if it is required for the **Table** component be broken;
+4.4. Change values of the component. For example, set the **CanBreak** property to **true**, if it is required for the **Table** component be broken;
 
 
 5. Set the data source of the **Table** component using the **Data Source** property:

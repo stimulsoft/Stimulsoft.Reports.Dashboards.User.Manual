@@ -1,4 +1,4 @@
-## Map Style
+# Map Style
 
 The **Map** style type is applied to the [Map component](../../Maps/index.md) and [Regional Map](../../../Dashboards/Maps/Region_Map.md) element. To create a map style, follow these steps:
 * In the style designer, click the **Add Style** button and select the **Map** style.

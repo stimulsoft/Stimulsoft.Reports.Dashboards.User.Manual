@@ -1,4 +1,4 @@
-## Report Control Style
+# Report Control Style
 
 The **Report Control** style applies to forms and controls in a report, as well as to [filter elements](../../../Dashboards/Data_Filtering/index.md) and the [Button](../../../Dashboards/Button.md) element in the dashboard. To create a style for a control, you should do the following:
 * In the style designer, click the **Add Style** button and select the **Report Control** style.
@@ -36,7 +36,7 @@ Below is a list of properties that are used to set the report control style.
 | Fore Color | Changes the text color of the values. |
 | Glyph Color | Changes the color of value icons. |
 | Hot Back Color | Changes the background color of element values when hovering over in the viewer. |
-| Hot Fore Color | Change the text color of the values of the element when the cursor is hovered over the element in the viewer. |
+| Hot Fore Color | Changes the text color of the values of the element when the cursor is hovered over the element in the viewer. |
 | Hot Glyph Color | Changes the color of the element value icon when the cursor is hovered over the element in the viewer. |
 | Hot Selected Back Color | Changes the background color of the element values when this value is selected in the viewer. |
 | Hot Selected Fore Color | Changes the text color of the element values when this value is selected in the viewer. |

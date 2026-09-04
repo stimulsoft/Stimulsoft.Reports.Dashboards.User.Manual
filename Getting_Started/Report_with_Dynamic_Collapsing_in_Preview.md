@@ -46,7 +46,7 @@ Connect the data:
 ![](../images/topics/Getting_Started.Report_with_Dynamic_Collapsing_in_Preview_5.png)
 
 
-To expand or collapse the group, select the **GroupHeaderBand** in the rendered report. If you want to collapse the group together with the the group footer you should set the **Interaction.Collapse Group Footer** property set to **true**. The picture below shows a rendered report page with the collapsed items:
+To expand or collapse the group, select the **GroupHeaderBand** in the rendered report. If you want to collapse the group together with the group footer you should set the **Interaction.Collapse Group Footer** property set to **true**. The picture below shows a rendered report page with the collapsed items:
 
 
 ![](../images/topics/Getting_Started.Report_with_Dynamic_Collapsing_in_Preview_6.png)

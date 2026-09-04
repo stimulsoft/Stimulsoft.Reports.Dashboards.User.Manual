@@ -1,6 +1,5 @@
 ## EmptyData Band
 
-
 The **Empty Data** band is used to fill free space on the bottom of a page with additional empty data rows formatted to match the displayed data. This example shows a page without an **Empty Data** band:
 
 

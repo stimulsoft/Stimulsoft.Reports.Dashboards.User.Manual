@@ -1,4 +1,4 @@
-## Progress Style
+# Progress Style
 
 The **Progress** style is applied to the [Progress](../../../Dashboards/Progress.md) element. In order to create a progress style, you should:
 * In the style designer, click the **Add Style** button and select the **Progress** style.

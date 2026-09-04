@@ -1,6 +1,5 @@
 ## Title Property
 
-
 The **Title** property is a title of axis. This property is used to display an axis title. Moreover, the **Title** property for each axis is given separately. The picture below shows a chart where the **X** axis is called the "**Arguments**", and the axis **Y** is called "**Values**":
 
 ![](../../../../../../images/topics/Report_Internals.Charts.Axes_Area.Axes.Ticks.Title_Property_1.png)

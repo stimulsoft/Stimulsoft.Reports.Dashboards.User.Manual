@@ -1,4 +1,4 @@
-## Dashboard with Table
+# Dashboard with Table
 
 This chapter will cover the following:
 
@@ -14,7 +14,7 @@ This chapter will cover the following:
 
 * [Calculation of totals in the Table element.](#calculationoftotalsinthetable)
 
-**Adding a Table Item**
+### Adding a Table Item
 
 To create a dashboard panel with the Table element, you should do the following steps:
 
@@ -106,7 +106,7 @@ The data field will be present in the list of element fields, but will not be di
 Now, when you click on the value of the current data field, a transition will be carried out on a given hyperlink.
 
 
-**Stretching table columns by the width**
+### Stretching table columns by the width
 
 By default, the column width is set automatically, depending on the content. However, you may stretch all columns by the width of the element. For this, you should do the following:
 
@@ -119,7 +119,7 @@ By default, the column width is set automatically, depending on the content. How
 
 ![](../images/topics/Getting_Started.Dashboard_wit_Table_8.png)
 
-**Data Bars, Indicator, Color scale, Sparklines in the Table**
+### Data Bars, Indicator, Color scale, Sparklines in the Table
 
 
 **Step 1**: Double-click on the **Table** element to call the editor of this element;
@@ -138,7 +138,7 @@ By default, the column width is set automatically, depending on the content. How
 
 ![](../images/topics/Getting_Started.Dashboard_wit_Table_11.png)
 
-**Calculation of totals in the Table**
+### Calculation of totals in the Table
 
 
 **Step 1**: Double-click on the **Table** element to call the editor of this element;

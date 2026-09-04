@@ -1,7 +1,6 @@
 ## Rows Numbering in Master-Detail Reports
 
-
-Rows numbering in the Master-Detail reports works the same as in ordinary lists. But there is on difference. If numbering is used in the Detail of the **Data** band, then for each sublist there will be their own numbering. For example, on the picture below the Master-Detail report is shown.
+Rows numbering in the Master-Detail reports works the same as in ordinary lists. But there is one difference. If numbering is used in the Detail of the **Data** band, then for each sublist there will be their own numbering. For example, on the picture below the Master-Detail report is shown.
 
 
 ![](../../images/topics/Report_Internals.Creating_Master-Detail_lists.Rows_Numbering_in_Master-Detail_Reports_1.png)

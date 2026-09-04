@@ -1,4 +1,4 @@
-## Relationship of Elements
+# Relationship of Elements
 
 Interaction means filtering data in the viewer of an analysis element on the dashboard panel, depending on the selected value of another analysis element on this panel. For example, depending on the selected segment on the map, the gauge will display the population size, and the progress will be the population growth rate.
 
@@ -19,7 +19,7 @@ The elements that can affect the values of other elements of the dashboard panel
 * [Some types of charts](../Chart.md);
 * [Region Map](../Maps/Region_Map.md).
 
-Every element (a chart and regional map) on the dashboard that can filter data have data filtering control buttons. These buttons are displayed when you hover over the element of the dashboard:
+Every element (a chart and regional map) on the dashboard that can filter data has data filtering control buttons. These buttons are displayed when you hover over the element of the dashboard:
 
 
 ![](../../images/topics/Dashboards.Data_Filtering.Items_Correlation_2.png)

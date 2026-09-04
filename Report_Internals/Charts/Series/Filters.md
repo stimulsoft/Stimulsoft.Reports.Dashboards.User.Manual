@@ -1,7 +1,6 @@
 ## Filters
 
-
-Sometimes, in creating reports, it is necessary to print, not all values from the data source, but only those that meet specific criteria. To select the required settings, data filtering is used. Filtering is set using the **Filters** property in the **Series Editor**. A condition is specified is each filter. If the condition is **true**, the result of its calculation is **true**. This means that this value will be used when chart rendering. If the result of calculation of the filter condition is **false**, then this value will be ignored. Each filter represents a condition for processing the data values. The picture below shows an example the filter panel:
+Sometimes, in creating reports, it is necessary to print, not all values from the data source, but only those that meet specific criteria. To select the required settings, data filtering is used. Filtering is set using the **Filters** property in the **Series Editor**. A condition is specified in each filter. If the condition is **true**, the result of its calculation is **true**. This means that this value will be used when chart rendering. If the result of calculation of the filter condition is **false**, then this value will be ignored. Each filter represents a condition for processing the data values. The picture below shows an example the filter panel:
 
 
 ![](../../../images/topics/Report_Internals.Charts.Series.Filters_1.png)

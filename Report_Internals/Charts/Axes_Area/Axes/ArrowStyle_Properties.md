@@ -1,6 +1,5 @@
 ## ArrowStyle Property
 
-
 Each axis has its own direction. The direction is identified with marker (usually it is an arrow). To change the arrow style, use the **Arrow Style** property of an axis**.** The path to this property is **Area.Axes.ArrowStyle**. On the picture below the sample of a rendered chart with the **ArrowStyle** property set to the **None** default value:
 
 
@@ -13,7 +12,7 @@ As you can see, if the **ArrowStyle** property is set to **None**, then **X**  *
 ![](../../../../images/topics/Report_Internals.Charts.Axes_Area.Axes.ArrowStyle_Properties_2.png)
 
 
-The **ArrowStyle** property can be set for each axis. Each axis may have its own values of the **Arrow Style** property. On the picture below different values of the **ArrowStyle** property of **Х** and **Y** axes:
+The **ArrowStyle** property can be set for each axis. Each axis may have its own values of the **Arrow Style** property. On the picture below different values of the **ArrowStyle** property of **X** and **Y** axes:
 
 
 ![](../../../../images/topics/Report_Internals.Charts.Axes_Area.Axes.ArrowStyle_Properties_3.png)

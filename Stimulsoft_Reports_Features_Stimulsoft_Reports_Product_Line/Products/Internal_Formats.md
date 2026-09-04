@@ -1,4 +1,4 @@
-## Internal Formats
+# Internal Formats
 
 Stimulsoft file formats to which you can save reports.
 
@@ -15,7 +15,7 @@ Stimulsoft file formats to which you can save reports.
 | MRX | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | MRZ | + | + | + | + | + | + | + | + |  | + | + | + | + |
 
-The list of native file types you may open Stimulsoft software.
+The list of native file types you may open with Stimulsoft software.
 
 
 | **Formats/Components** | **Stimulsoft Ultimate** | **Dashboards.WEB** | **Dashboards.WIN** | **Dashboards.JS** | **Dashboards.PHP** | **Reports.NET** | **Reports.WEB** | **Reports.ANGULAR** | **Reports.BLAZOR** | **Reports.WPF** | **Reports.JS** | **Reports.JAVA** | **Reports.PHP** |

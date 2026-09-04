@@ -1,6 +1,5 @@
 ## Breaking RichText
 
-
 By default, the **CanBreak** property of the **RichText** component is set to **false**. Such a text component will not be broken, if it is not enough space to print it on one page, and would be moved to the next page.
 
 

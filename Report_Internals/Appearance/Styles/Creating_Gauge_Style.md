@@ -1,4 +1,4 @@
-## Gauge Style
+# Gauge Style
 
 The **Gauge Style** is applied to the gauge component and element in the report and on the dashboard panel. To create a gauge style, follow these steps:
 

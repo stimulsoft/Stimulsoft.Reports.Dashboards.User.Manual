@@ -27,7 +27,7 @@ Four levels of error correction allowing recovery of:
 | H | 30% | Level4 |
 
 
-The higher the level of errors correction, the bigger percentage of information of the corrupted barcode can be recovered, but fewer information can be encoded in the barcode of the same size. The image below shows an example of a QR code:
+The higher the level of error correction, the bigger percentage of information of the corrupted barcode can be recovered, but less information can be encoded in the barcode of the same size. The image below shows an example of a QR code:
 
 
 ![](../../../images/topics/Report_Internals.BarCodes.2D_Barcodes.QR_Code_1.png)

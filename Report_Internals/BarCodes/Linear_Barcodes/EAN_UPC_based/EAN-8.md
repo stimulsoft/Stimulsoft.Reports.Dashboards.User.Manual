@@ -1,6 +1,6 @@
 ## EAN-8
 
-The **EAN-8** barcode was developed to use on small packages. It is used in the place of the EAN-13 barcode if the nominal size EAN-13 barcode covers more than 25% of the printed surface of the package, for example on the packets of gum.
+The **EAN-8** barcode was developed for use on small packages. It is used in the place of the EAN-13 barcode if the nominal size EAN-13 barcode covers more than 25% of the printed surface of the package, for example, on the packets of gum.
 
 
 | **Valid symbols:** | 0123456789 |

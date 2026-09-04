@@ -1,4 +1,4 @@
-## Top N
+# Top N
 
 One of the options for filtering, analyzing, and grouping data series is the ability to display the top values on a chart.
 

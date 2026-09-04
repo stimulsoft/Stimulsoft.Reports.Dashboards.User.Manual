@@ -1,4 +1,4 @@
-## Data transformation
+# Data transformation
 
 After creating data sources in the report dictionary, you can convert these sources: join tables, group data, apply to function values, filter, sort data, replace values, calculate a running total, display a percentage of the value, skip and set row limits.
 
@@ -46,7 +46,7 @@ This chapter will cover issues such as:
 
 Now, based on this data transformation, you can create reports or dashboards.
 
-**Editing Data Transformation**
+### Editing Data Transformation
 
 Also, you can edit the created data transformation.
 

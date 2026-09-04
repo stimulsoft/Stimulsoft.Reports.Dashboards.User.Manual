@@ -2,7 +2,7 @@
 
 Some components allow you to set alignment of their content in relation to their sizes horizontally. For example, the **Text**, the **Image** components. Horizontal alignment defines the design of content and can be carried out by the left edge, the right edge, in the center or width (only for some text). To change alignment you can use the **Horizontal Alignment** component property.
 
-**Horizontal alignment of text**
+### Horizontal alignment of text
 
 Most of all, some text is aligned by the left edge. If you align by width, some text is aligned both by the left edge and the right edge at the same time. Text alignment by width allows you to get smooth text edges by sides. Below you can see the image with examples of all four kinds of alignment.
 
@@ -12,7 +12,7 @@ Most of all, some text is aligned by the left edge. If you align by width, some 
 
 ![](../../images/img_1.png) **Left**
 
-The text is aligned in relation to the right border of a component.
+The text is aligned in relation to the left border of a component.
 
 ![](../../images/img_2.png) **Center**
 
@@ -24,7 +24,7 @@ The text is aligned in relation to the right border of a component.
 
 ![](../../images/img_3.png) **Justify**
 
-The text is defined evenly by all justify of a component to get smooth edges of text by sides.
+The text is justified evenly across the width of a component to get smooth edges of text on both sides.
 
 **Horizontal alignment of an image**
 
@@ -36,7 +36,7 @@ To control alignment horizontally for the Image component you should use the pro
 
 ![](../../images/img_1.png) **Left**
 
-The image is aligned relatively to the right component border.
+The image is aligned relatively to the left component border.
 
 ![](../../images/img_2.png) **Center**
 
@@ -45,6 +45,7 @@ The image is aligned in the center relatively to the left and right component bo
 ![](../../images/img_3.png) **Right**
 
 The image is aligned relatively to the right component border.
+
 **Line spacing**
 Line spacing is a vertical distance between text rows.
 ![](../../images/topics/Report_Internals.Appearance.Horizontal_Alignment_4.png)

@@ -1,6 +1,6 @@
-## User Interface
+# User Interface
 
-The table shows which user interface and their themes are supported.
+The table shows which user interfaces and their themes are supported.
 
 
 | **User Interface** | **Stimulsoft Ultimate** | **Dashboards.WEB** | **Dashboards.WIN** | **Dashboards.JS** | **Dashboards.PHP** | **Reports.NET** | **Reports.WEB** | **Reports.ANGULAR** | **Reports.BLAZOR** | **Reports.WPF** | **Reports.JS** | **Reports.JAVA** | **Reports.PHP** |

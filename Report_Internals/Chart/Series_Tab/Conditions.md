@@ -1,4 +1,4 @@
-## Conditions
+# Conditions
 
 Conditional formatting for a series value involves applying a specific color to a graphical element within the current series.
 

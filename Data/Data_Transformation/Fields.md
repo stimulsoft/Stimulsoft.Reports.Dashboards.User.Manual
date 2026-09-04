@@ -1,4 +1,4 @@
-## Structure
+# Structure
 
 When creating a new data transformation, settings and its elements are defined in the window of this tool. Below you can see the description of the **New Data Transformation** window structure.
 ![](../../images/topics/Data.Data_Transformation.Fields_2.png)
@@ -14,7 +14,7 @@ When creating a new data transformation, settings and its elements are defined i
 * Using the **New Dimension** or the **New Measure** commands from the context menu (below) in the list of fields.
 
 
-![](../../images/img_5.png) The preview of a new data transformation. The values from data columns and fields are displayed on this panel, i.e a new data table.
+![](../../images/img_5.png) The preview of a new data transformation. The values from data columns and fields are displayed on this panel, i.e. a new data table.
 
 ![](../../images/img_6.png) The **Mode** parameter allows you to define the mode of a selected field:
 
@@ -37,7 +37,7 @@ When creating a new data transformation, settings and its elements are defined i
 >
 > Also, you can delete all fields from data transformation. To do it, you should call the context menu and select the **Remove All Fields** command.
 
-**Field context menu**
+### Field context menu
 
 There are controls of the current field in the context menu. To call the context field menu you should:
 * Hover the cursor over the field you need on the list panel;
@@ -72,7 +72,7 @@ After that, the context menu will be called:
 >
 > If there are no data sources in the data dictionary, the **Field** command will not be displayed.
 
-**Field menu in the preview**
+### Field menu in the preview
 
 To call the field menu in the preview, you should click on a header on this panel. This menu contains control commands of the values of the current field.
 
@@ -82,9 +82,9 @@ To call the field menu in the preview, you should click on a header on this pane
 
 ![](../../images/img_1.png) Sorting values commands:
 
-* Sorting in ascending order. Depending on value type, sorting commands can be different. For row values the from A to Z, for numerical the from Smallest to Largest, etc.
+* Sorting in ascending order. Depending on value type, sorting commands can be different. For row values from A to Z, for numerical from the Smallest to Largest, etc.
 
-* Sorting in descending order. Depending on value type, sorting commands can be different. For row values the from Z to A, for numeric from the Largest to Smallest, etc.
+* Sorting in descending order. Depending on value type, sorting commands can be different. For row values from Z to A, for numeric from the Largest to Smallest, etc.
 * No sorting. In this case, the order of values in the current field will be as well as in the data description.
 
 ![](../../images/img_2.png) Depending on the values of the current field the Actions menu can contain the following commands:

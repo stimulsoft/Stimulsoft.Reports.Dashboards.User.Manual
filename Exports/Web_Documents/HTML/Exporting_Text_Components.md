@@ -1,6 +1,5 @@
 ## Exporting Text Components
 
-
 When exporting reports to the **HTML** format, it is necessary to take the following features of this format into consideration:
 
 * if a text does not fit a table cell horizontally, then a browser automatically carries a text to the next page;
@@ -30,7 +29,7 @@ As seen on the picture, a text in the first text component did not fit and was c
 ![](../../../images/topics/Exports.Web_Documents.HTML.Exporting_Text_Components_5.png)
 
 
-As seen on the picture, a text in the first text component is wrapped to the second row. But the component is not grown by height, so the text does not fit this component and was cut. In the second component the text fit this component and shown without changes. In both ways the text in the **HTML** format in the **Web** will look the following way:
+As seen on the picture, a text in the first text component is wrapped to the second row. But the component is not grown in height, so the text does not fit this component and was cut. In the second component the text fits this component and is shown without changes. In both ways the text in the **HTML** format in the **Web** will look the following way:
 
 
 ![](../../../images/topics/Exports.Web_Documents.HTML.Exporting_Text_Components_6.png)

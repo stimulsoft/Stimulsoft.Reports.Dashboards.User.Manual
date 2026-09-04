@@ -1,4 +1,4 @@
-## Viewers
+# Viewers
 
 A report viewer is a tool that is used to view, print, export reports and dashboards. In this section, you can find:
 

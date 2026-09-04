@@ -1,6 +1,5 @@
 ## Direction Property
 
-
 The **Direction** allows selecting the order of showing markers. The full path to this property is **Legend.Direction.** The property has the following values: **Top to Bottom**,  **Bottom to Top**, **Left to Right**, **Right to Left**.
 
 

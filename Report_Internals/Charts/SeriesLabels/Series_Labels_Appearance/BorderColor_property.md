@@ -1,6 +1,5 @@
 ## BorderColor Property
 
-
 The **BorderColor** property is used to change the border color of Series Labels. The picture below shows a chart which Series Labels borders are blue:
 
 

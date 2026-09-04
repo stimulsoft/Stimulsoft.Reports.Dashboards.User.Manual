@@ -1,13 +1,11 @@
 ## Standard Bands
 
-
 Standard bands are the fundamental elements of any report. Please refer to the list below to see all the standard bands.
 
 
-> **Video**
+> **Important**
 >
-> * **NOTE**: This article lists the bands that are used to create reports. To familiarize yourself with how they are processed during the report rendering, please read the article [Rendering Order of Bands](../Order_Render.md).
-
+> This article lists the bands that are used to create reports. To familiarize yourself with how they are processed during the report rendering, please read the article [Rendering Order of Bands](../Order_Render.md).
 
 | **Icon** | **Band Name** | **Description** |
 | --- | --- | --- |
@@ -25,7 +23,7 @@ Standard bands are the fundamental elements of any report. Please refer to the l
 | ![](../../../images/topics/Report_Internals.Bands.Band_Types.Standard_Bands_1.png) | Hierarchical Data | This band is printed as many times as there are rows in the data source. Data items are output as a tree |
 | ![](../../../images/img_ChildBand.png) | Child | This band is printed only once, after the band beneath which it is placed |
 | ![](../../../images/topics/Report_Internals.Bands.Band_Types.Standard_Bands_2.png) | Empty Data | Fills the free space at the bottom of a page |
-| ![](../../../images/topics/Report_Internals.Bands.Band_Types.Standard_Bands_3.png) | Overlay | This band is printed on the background of a page. It does not effect on other bands. |
+| ![](../../../images/topics/Report_Internals.Bands.Band_Types.Standard_Bands_3.png) | Overlay | This band is printed on the background of a page. It does not affect other bands. |
 
 
 To enhance the clarity and improve the understanding of report structures, each type of band is assigned a specific color in the report template.

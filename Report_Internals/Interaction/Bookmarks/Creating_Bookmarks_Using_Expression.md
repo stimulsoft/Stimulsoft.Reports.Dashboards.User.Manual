@@ -1,7 +1,6 @@
 ## Creating Bookmarks Using Expression
 
-
-Using the expression, it is possible to form a rather complex structure of bookmarks in a report. Even a flat report (containing no subordinate entries) can be represented as a hierarchy of bookmarks. General view of the expression with which one can submit any report as a hierarchy of bookmarks is as follows:
+Using the expression, it is possible to form a rather complex structure of bookmarks in a report. Even a flat report (containing no subordinate entries) can be represented as a hierarchy of bookmarks. The general view of the expression with which one can submit any report as a hierarchy of bookmarks is as follows:
 
 
 %\name1\name2...\nameN
@@ -23,7 +22,7 @@ In the name of the bookmark, the following things can be specified: function, ex
 ![](../../../images/topics/Report_Internals.Interaction.Bookmarks.Creating_Bookmarks_Using_Expression_2.png)
 
 
-When rendering the report, a list of companies will be built, but the tree of bookmarks will not be shown. To show the hierarchy of bookmarks, you should to specify an expression (see an example below):
+When rendering the report, a list of companies will be built, but the tree of bookmarks will not be shown. To show the hierarchy of bookmarks, you should specify an expression (see an example below):
 
 
 %\{Customers.Country}\{Customers.CompanyName}\{Customers.Phone}

@@ -1,6 +1,6 @@
-## Reports
+# Reports
 
-See the list of standard reports you can create with the reporting tools and dashboards. No doubts, you may generate a report of any complexity according to your needs.
+See the list of standard reports you can create with the reporting tools and dashboards. No doubt, you may generate a report of any complexity according to your needs.
 
 
 | **Reports** | **Stimulsoft Ultimate** | **Dashboards.WEB** | **Dashboards.WIN** | **Dashboards.JS** | **Dashboards.PHP** | **Reports.NET** | **Reports.WEB** | **Reports.ANGULAR** | **Reports.BLAZOR** | **Reports.WPF** | **Reports.JS** | **Reports.JAVA** | **Reports.PHP** |

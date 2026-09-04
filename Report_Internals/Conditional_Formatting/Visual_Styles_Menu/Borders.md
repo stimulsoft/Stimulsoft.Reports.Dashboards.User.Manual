@@ -1,6 +1,5 @@
 ## Borders
 
-
 Using conditional formatting it is possible to apply borders for the text component. The picture below shows a report page:
 
 

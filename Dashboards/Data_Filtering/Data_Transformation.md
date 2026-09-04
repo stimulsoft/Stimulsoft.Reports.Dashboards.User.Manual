@@ -1,4 +1,4 @@
-## Data Transformation
+# Data Transformation
 
 All data that is used in any dashboard is a data column in the virtual table of the dashboard panel. For example, if three data fields are specified in a chart, the chart uses three columns from the virtual data table of the dashboard.
 
@@ -43,7 +43,6 @@ To configure **Data Transformation** you should:
 * Select the dashboard element;
 
 * Click the Browse button of the Data Transformation property on the property panel.
-
 
 > **Information**
 >

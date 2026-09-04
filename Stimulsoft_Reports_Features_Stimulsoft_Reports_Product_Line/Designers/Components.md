@@ -1,9 +1,9 @@
-## Components
+# Components
 
 Components in Stimulsoft Reports are divided into 3 groups. See the table below with the components supported.
 
 
-| **Components** | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript, PHP)** | **HTML5** **(Java)** | **WPF** |
+| **Components** | **WinForms** | **HTML5(ASP.NET, ASP.NET MVC, .NET)** | **HTML5(JavaScript, PHP)** | **HTML5** **(Java)** | **WPF** |
 | --- | --- | --- | --- | --- | --- |
 | **Dashboard Elements** |  |  |  |  |  |
 | [Table](../../Dashboards/Table.md) | + | + | + |  |  |

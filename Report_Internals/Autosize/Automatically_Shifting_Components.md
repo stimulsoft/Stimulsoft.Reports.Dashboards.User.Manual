@@ -1,13 +1,12 @@
 ## Automatically Shifting Components
 
-
 Automatically changing the size of components can lead to a problem when rendering reports - what happens when a change in the size of one component has an adverse effect on another component in the report? For example, if the height of the first component is increased it could overlap a component placed below it.
 
 
 To prevent this problem the **ShiftMode** property is used.
 
 
-**ShiftMode Property**
+### ShiftMode Property
 
 The **ShiftMode** property allows all components with top borders situated below the top border of an automatically modified component to be automatically shifted down the report so that they maintain the same relative position.
 
@@ -37,7 +36,7 @@ By default this flag is set to true.
 
 **DecreasingSize**
 
-If this flag is set to true then any decrease the height of the components located above the specified component causes the component to shift up vertically by the same amount. If the flag is set to false then any decrease in the height of the higher components is simply ignored, as shown in the example below:
+If this flag is set to true then any decrease in the height of the components located above the specified component causes the component to shift up vertically by the same amount. If the flag is set to false then any decrease in the height of the higher components is simply ignored, as shown in the example below:
 
 
 ![](../../images/decreasingsize.gif)

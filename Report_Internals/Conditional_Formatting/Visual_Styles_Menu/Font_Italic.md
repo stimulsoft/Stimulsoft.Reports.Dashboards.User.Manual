@@ -1,13 +1,12 @@
 ## Font Italic
 
-
 Using conditional formatting it is possible to apply the italic font for the text component. The picture below shows a report page:
 
 
 ![](../../../images/topics/Report_Internals.Conditional_Formatting.Visual_Styles_Menu.Font_Italic_1.png)
 
 
-For example, you can make a text italic for components that contain a **B** letter in the **CompanyName** column. Select a text component with the **{Customers.CompanyName}** expression, in the **DataBand** and call the **Conditions** editor. Then, you should set a condition: select the **Customers.CompanyName** data column, as the first value, and indicate the **B** letter, as a second value. Also set the **Operation comparison** to the **Beginning with** value. Change the formatting parameters, in this case, set the font style to italic. The picture below shows the **Conditions** editor dialog box:
+For example, you can make text italic for components that contain a **B** letter in the **CompanyName** column. Select a text component with the **{Customers.CompanyName}** expression, in the **DataBand** and call the **Conditions** editor. Then, you should set a condition: select the **Customers.CompanyName** data column, as the first value, and indicate the **B** letter, as a second value. Also set the **Operation comparison** to the **Beginning with** value. Change the formatting parameters, in this case, set the font style to italic. The picture below shows the **Conditions** editor dialog box:
 
 
 ![](../../../images/topics/Report_Internals.Conditional_Formatting.Visual_Styles_Menu.Font_Italic_2.png)

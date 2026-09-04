@@ -1,4 +1,4 @@
-## Dashboard with Gauge
+# Dashboard with Gauge
 
 This chapter will cover issues such as:
 
@@ -8,7 +8,7 @@ This chapter will cover issues such as:
 
 * [Color Range](#colorrange).
 
-**Adding a gauge**
+### Adding a gauge
 
 To create an dashboard panel with the [Gauge](../Dashboards/Gauge.md) element, you should do the following steps:
 
@@ -73,7 +73,7 @@ To create an dashboard panel with the [Gauge](../Dashboards/Gauge.md) element, y
 
 ![](../images/topics/Getting_Started.Dashboard_with_Gauge_6.png)
 
-**Custom range of values**
+### Custom range of values
 
 Do the following to set a custom range of values:
 
@@ -93,7 +93,7 @@ Do the following to set a custom range of values:
 
 **Step 4**: Close the Gauge editor.
 
-**Color Range**
+### Color Range
 
 To enable the color scale of a range of values, you should do the following:
 

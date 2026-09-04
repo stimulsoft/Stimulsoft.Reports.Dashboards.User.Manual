@@ -1,11 +1,11 @@
-## Tab Home
+# Tab Home
 
 The **Home** tab is a section of the Ribbon in the report designer, containing key commands for configuring report components and dashboard elements.
 
 
 ![](../images/topics/Reports_Designer.Home_Tab_1.png)
 
-**Clipboard Management Commands**
+### Clipboard Management Commands
 
 This group includes commands for working with the clipboard:
 
@@ -34,7 +34,7 @@ This group contains commands and controls for managing the [font](../Report_Inte
 
 ![](../images/img_3.png) Controls that enable or disable bold, italic, or underlined text styles.
 
-![](../images/img_4.png) A controls that allows changing the text color of the selected component or element.
+![](../images/img_4.png) A control that allows changing the text color of the selected component or element.
 
 ![](../images/img_5.png) Controls that adjust the font size up or down.
 
@@ -81,7 +81,7 @@ This group contains commands and controls for configuring the [borders](../Repor
 
 ![](../images/img_7.png) A command that opens the [border editor](../Report_Internals/Appearance/Borders.md#BorderEditor).
 
-**Formatting Group**
+### Formatting Group
 
 This group contains commands and controls for [text formatting](../Report_Internals/Text_Formatting/index.md).
 
@@ -97,7 +97,7 @@ This group contains commands and controls for [text formatting](../Report_Intern
 
 ![](../images/img_4.png) A command that opens [Format editor](../Report_Internals/Text_Formatting/index.md).
 
-**Styles Group**
+### Styles Group
 
 This group contains commands for managing [styles](../Report_Internals/Appearance/Styles/index.md) and [conditions](../Report_Internals/Conditional_Formatting/index.md) for report components and dashboard elements.
 

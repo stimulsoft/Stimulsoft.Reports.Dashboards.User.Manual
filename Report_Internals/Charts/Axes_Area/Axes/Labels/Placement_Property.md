@@ -1,6 +1,5 @@
 ## Placement Property
 
-
 The **Placement** property is used to change position of labels. The full path to this property is **Area.Axis.Labels.Placement**. This property has three values: **One Line**, **Two Lines**, **None**.
 
 

@@ -3,7 +3,7 @@
 This list represents functionality and tools in report designers.
 
 
-| **Features** | **WinForms** | **HTML5** **(ASP.NET, ASP.NET MVC, .NET)** | **HTML5** **(JavaScript, PHP)** | **HTML5** **(Java)** | **WPF** |
+| **Features** | **WinForms** | **HTML5(ASP.NET, ASP.NET MVC, .NET)** | **HTML5(JavaScript, PHP)** | **HTML5** **(Java)** | **WPF** |
 | --- | --- | --- | --- | --- | --- |
 | [Creating Reports](../../Report_Internals/index.md) | + | + | + | + | + |
 | [Creating Dashboards](../../Dashboards/index.md) | + | + | +[2] |  |  |

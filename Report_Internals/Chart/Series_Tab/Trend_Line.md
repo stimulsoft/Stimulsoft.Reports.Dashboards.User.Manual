@@ -1,4 +1,4 @@
-## Trend Line
+# Trend Line
 
 One of the options for data analysis and forecasting is the ability to overlay a trendline on a chart. Depending on the type, the trendline allows displaying the dependence of the series values on its arguments. A trendline can be applied to non-accumulating series, bar charts, histograms, scatter plots, and bubble charts.
 
@@ -17,7 +17,7 @@ The type of trend line defines the relationship between values and arguments. Th
 * **Exponential**.
 * **Logarithmic**.
 
-Below is a table of properties that configure the selected trendline type.  Below is a table of properties that configure the selected trendline type.
+Below is a table of properties that configure the selected trendline type.
 
 
 | **Name** | **Description** |

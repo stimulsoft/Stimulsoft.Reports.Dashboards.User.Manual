@@ -53,7 +53,7 @@ Explanation:
 
 **Barcode Sizes**
 
-Below is a comparison of barcodes of variable length, which can encode the numbers from 0 to 9. All barcodes have the same input data - the row of numbers "0123456789» ("ABCDEFGHIJK"), and the same module 20, other parameters set by default.
+Below is a comparison of barcodes of variable length, which can encode the numbers from 0 to 9. All barcodes have the same input data - the row of numbers "0123456789" ("ABCDEFGHIJK"), and the same module 20, other parameters set by default.
 
 
 ![](../../../images/topics/Report_Internals.BarCodes.Linear_Barcodes.Barcode_Comparison_Table_1.png)

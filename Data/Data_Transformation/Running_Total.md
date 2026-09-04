@@ -1,4 +1,4 @@
-## Running Total
+# Running Total
 
 Frequently, when creating a report, you have to calculate running total. Running total is when a new value is calculated in the result of adding the current value of a row with the sum of the previous values. In the report designer, you can do it using various ways. However, if you need to transfer data to a report components with calculated running total, you can do it having created the **New Data Transformation**.
 To calculate running total for data fields you should:

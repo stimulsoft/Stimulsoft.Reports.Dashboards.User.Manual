@@ -19,7 +19,7 @@ Perhaps the main disadvantage of the **Code 39** barcode is its low data density
 
 **A "Code 39" barcode. "ABC-123" is a number encoded in the barcode.**
 
-**Code 39 extended** is the version of the **Code 39** barcode which also supports the ASCII set of characters. The 0-9, A-Z, "." and "-" characters are encoded the same as of the **Code 39** barcode. Small Latin letters, additional punctuation, and control characters are represented as sequences of two **Code 39** characters.
+**Code 39 extended** is the version of the **Code 39** barcode which also supports the ASCII set of characters. The 0-9, A-Z, "." and "-" characters are encoded the same as the **Code 39** barcode. Small Latin letters, additional punctuation, and control characters are represented as sequences of two **Code 39** characters.
 
 
 ![](../../../../images/topics/Report_Internals.BarCodes.Linear_Barcodes.Other_barcodes.Code39_2.png)

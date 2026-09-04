@@ -1,4 +1,4 @@
-## Constant Lines
+# Constant Lines
 
 **Constant Lines** are horizontal or vertical lines on a chart that represent a specific value on the axis.
 
@@ -21,7 +21,7 @@ Below is a table of properties for configuring constant lines:
 | **Name** | **Description** |
 | --- | --- |
 | Allow Apply Style | Enables applying design settings for the constant line from the chart style. If set to **True**, the line design will inherit the selected chart style. If set to **False**, additional properties will appear for customizing the line's appearance, such as line color, smoothing, font type, size, and family. |
-| Axis Valu | Specifies the axis value through which the line is drawn. |
+| Axis Value | Specifies the axis value through which the line is drawn. |
 | Line Style | Allows changing the style of the constant line. |
 | Line Width | Defines the width of the constant line in pixels. |
 | Orientation | Allows selecting the line's orientation: **Horizontal**, **Vertical**, or **Horizontal Right**. |

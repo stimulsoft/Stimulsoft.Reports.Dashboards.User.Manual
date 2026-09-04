@@ -1,4 +1,4 @@
-## Report sample with parameters
+# Report sample with parameters
 
 Let's create a report with products by category. The list of categories will be located in the main report, and the list of products will be located in the sub-report (on another page in the same report template).
 

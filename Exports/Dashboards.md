@@ -1,4 +1,4 @@
-## Export Dashboard
+# Export Dashboard
 
 When viewing the dashboard in the report viewer, you can convert its elements to [PDF](#pdfexportsettings), [Excel files](#excelexportsettings), as well as [image](#imageexportsettings) files such as BMP, GIF, PNG, TIFF, JPEG, PCX, EMF, SVG, and SVGZ. In addition, you can save the dashboard as a [report snapshot](#reportsnapshot).
 
@@ -15,11 +15,11 @@ To export the dashboard, click the [More Options](../Viewer/Dashboards.md#moreop
 After selecting the export format, the export options dialog will be called. The parameters may vary depending on the type. Let's consider export settings in more detail.
 
 
-**Report snapshot**
+### Report snapshot
 
 The **Report Snapshot** command is used to save the dashboard with the current data to the **.mrt** file. In this case, the created data sources will be embedded into the report as resources. You can open this report both in the report designer and in the report viewer.
 
-**PDF Export Settings**
+### PDF Export Settings
 
 Export settings for the dashboard or its elements when converting to a PDF file.
 
@@ -35,7 +35,7 @@ Export settings for the dashboard or its elements when converting to a PDF file.
 
 ![](../images/img_4.png) The **Open After Export** parameter allows you to open the exported document after the export process is completed.
 
-**Excel Export Settings**
+### Excel Export Settings
 
 Export settings for the dashboard or its elements when converting to an Excel file.
 
@@ -52,7 +52,7 @@ Export settings for the dashboard or its elements when converting to an Excel fi
 >
 > When exporting the [Table](../Dashboards/Table.md) element to Excel, the **Export Data Only** parameter will also be available in the export settings. This option is used to convert only the values of these elements, without headers and totals.
 
-**Image Export Settings**
+### Image Export Settings
 
 Export settings for the dashboard panel or its elements when converting to an image file.
 

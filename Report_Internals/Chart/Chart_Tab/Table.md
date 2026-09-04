@@ -1,4 +1,4 @@
-## Table
+# Table
 
 A **Table** on the chart is a list of values of graphical elements in a series in relation to their arguments.
 

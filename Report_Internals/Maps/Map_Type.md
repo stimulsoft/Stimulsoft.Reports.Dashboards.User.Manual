@@ -1,5 +1,4 @@
-## Map Types
-
+# Map Types
 
 Maps can be with a group, heatmap and heatmap with group. You can change the type of a map in the map editor on the Data tab selecting the **Map Type** parameter:
 
@@ -37,9 +36,9 @@ However, if the number of colors in the map style is less than the number of gro
 The heatmap provides an opportunity to graphically display values of map items. Therefore, it is necessary to specify the value of map items. Also, in the style of the map, it is necessary to determine the color of the heatmap. The reporting tool, at the time of the report creation process, will check all entries or all the values in the data column. The engine will determine the maximum value and assign to it the first color of the heatmap, and the minimum value will get the second color of the heatmap style. Then, for each value in the list, depending on how close the maximum or minimum values are, shades for values will be created. The shade will be applied to the map item.
 
 
-> **Video**
+> **Information**
 >
-> * **Notice**: When using a heatmap, the values of groups and elements of the map will not be grouped. If you want to display the heat map by the grouped values, it is necessary to specify the type of map as the heatmap with the group.
+> When using a heatmap, the values of groups and elements of the map will not be grouped. If you want to display the heat map by the grouped values, it is necessary to specify the type of map as the heatmap with the group.
 
 
 ![](../../images/topics/Report_Internals.Maps.Map_Type_5.png)

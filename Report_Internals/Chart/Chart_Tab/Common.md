@@ -1,4 +1,4 @@
-## Common
+# Common
 
 The **Common** sub-tab includes settings related to the **Chart** component.
 

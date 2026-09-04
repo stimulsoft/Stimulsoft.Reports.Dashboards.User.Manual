@@ -1,4 +1,4 @@
-## Conditions
+# Conditions
 
 Conditional Formatting of Labels allows changing the background of labels when a specific condition is met.
 

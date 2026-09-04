@@ -16,7 +16,7 @@ Pay attention to the report header. As can be seen from the picture above, infor
 
 3. Go back to the report template;
 
-4. Add parameters to the report template. The parameters in the report are implemented using variables (a variable may have different values​). To add a variable, in the tab Dictionary -&gt; the menu item New Item -&gt; select New Variable.... The picture below shows the New Item:
+4. Add parameters to the report template. The parameters in the report are implemented using variables (a variable may have different values). To add a variable, in the tab Dictionary -&gt; the menu item New Item -&gt; select New Variable.... The picture below shows the New Item:
 
 
 ![](../images/topics/Getting_Started.Invoice_Report_with_parameters_2.png)
@@ -38,11 +38,11 @@ Define the parameters created by the variable:
 
 5.1. Change the name (Name) and Nick (Alias) variable, specify the description (Description), if necessary;
 
-5.2. Choose the type of stored value (in this case string) and the type of the variable (we will approach the variable type value (Value)). Here is a very important step, which we have determined that our variable will store a single value (rather than a list of values ​​or Range), and this value will be stored in a string type.
+5.2. Choose the type of stored value (in this case string) and the type of the variable (we will approach the variable type value (Value)). Here is a very important step, which we have determined that our variable will store a single value (rather than a list of values or Range), and this value will be stored in a string type.
 
 5.3. Set the default value. In our example, set the value of Name;
 
-5.4. Get the answer options are installing from a user (Request from User), and use user values ​​(Allow User Values). In this step, we allow the user to participate, as well as change the value stored in variable;
+5.4. Get the answer options are installing from a user (Request from User), and use user values (Allow User Values). In this step, we allow the user to participate, as well as change the value stored in variable;
 
 5.5. Press Ok.
 
@@ -59,7 +59,7 @@ Render a report to check how works the newly created key in the final report. Cl
 ![](../images/topics/Getting_Started.Invoice_Report_with_parameters_6.png)
 
 
-As can be seen from the picture, the report shows the specified field values ​​of the parameter (in this case, Name). Note that in the first set of values ​​stored in the variable value by default. Now change the value and click the Apply button (Submit). In the picture below a report with the modified parameter value:
+As can be seen from the picture, the report shows the specified field values of the parameter (in this case, Name). Note that in the first set of values stored in the variable value by default. Now change the value and click the Apply button (Submit). In the picture below a report with the modified parameter value:
 
 
 ![](../images/topics/Getting_Started.Invoice_Report_with_parameters_7.png)
@@ -82,4 +82,4 @@ We construct a report to check how the newly created key in the final report. Cl
 ![](../images/topics/Getting_Started.Invoice_Report_with_parameters_8.png)
 
 
-Now, to prepare an invoice with the required details and BILLTO SHIPTO, no need to alter permanently a template. Enough to simply specify the details and click the Apply button (Submit). Reset Button (Reset) resets the values ​​stored in a variable and sets the value stored by default. In these two articles, I showed you how to use report generator Stimulsoft can facilitate their work in creating invoices. And also learned how to use this tool in a few steps and get a hard-structured, well-designed, dynamic report. I would like to add that this is only a small part of the potential reporting tool Stimulsoft. Stimulsoft Start learning today and you'll wonder how you can quickly and easily create reports. And I'll be sure to write articles to help you solve your questions.
+Now, to prepare an invoice with the required details and BILLTO SHIPTO, no need to alter permanently a template. Enough to simply specify the details and click the Apply button (Submit). Reset Button (Reset) resets the values stored in a variable and sets the value stored by default. In these two articles, I showed you how to use report generator Stimulsoft can facilitate their work in creating invoices. And also learned how to use this tool in a few steps and get a hard-structured, well-designed, dynamic report. I would like to add that this is only a small part of the potential reporting tool Stimulsoft. Stimulsoft Start learning today and you'll wonder how you can quickly and easily create reports. And I'll be sure to write articles to help you solve your questions.

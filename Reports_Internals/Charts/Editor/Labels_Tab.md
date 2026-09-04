@@ -1,12 +1,11 @@
-## Tab Labels
+# Tab Labels
+
+On this tab you can set the type of labels in the chart. The selected appearance of the title will be applied to all rows that have the mode **Show Series Labels: From Series disabled**.
 
 
-On this tab you can set the type of labels in the chart. The selected appearance of the title will be applied to all rows that have the mode **Show Series** **Labels: From Series** disabled.
-
-
-> **Video**
+> **Information**
 >
-> * **Information**: You can use a variety of modes of display labels. - Headlines from the series or title of the chart.
+> You can use a variety of modes of display labels. - Headlines from the series or title of the chart.
 >
 > * If the mode **Show Series Labels**: From Series is enabled, then on the tab Series, the group Series Labels you should define the type of labels. In this mode, you can specify a particular type of labels for each series.
 >

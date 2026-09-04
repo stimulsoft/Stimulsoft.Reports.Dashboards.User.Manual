@@ -1,4 +1,4 @@
-## Barcode Editor
+# Barcode Editor
 
 When you add the Barcode component in the report template, the bar code editor is called.
 

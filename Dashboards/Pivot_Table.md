@@ -1,4 +1,4 @@
-## Pivot
+# Pivot
 
 **Pivot** is an element of the dashboard, which is used to process, group and summarize data values by rows and columns of this table.
 ![](../images/topics/Dashboards.Pivot_Table_2.png)
@@ -46,11 +46,11 @@ In the editor of the **Pivot** table, you can add elements with data and edit ex
 
 ![](../images/img_6.png) The **Expression** field in which the expression of the selected data field is displayed.
 
-![](../images/img_7.png) The **Top N** parameter is used to customize the list of maximum or minimum values ​​of the pivot table. The top values ​​are set to Top N values ​​editor. To call the editor, click the **Edit** button in the current field. To reset the top values, click the **Remove** button in the current field.
+![](../images/img_7.png) The **Top N** parameter is used to customize the list of maximum or minimum values of the pivot table. The top values are set to Top N values editor. To call the editor, click the **Edit** button in the current field. To reset the top values, click the **Remove** button in the current field.
 
 **Totals**
 
-At the intersection of the columns and rows of the pivot table you can see cells. A value from the corresponding cell of the data source will be added to this cell, i.e. the value from the data source cell formed at the intersection of the corresponding column and rows in the data source. Then, all values ​​of each row and each column will be summed up and displayed in the resulting cells of the pivot table. Also, in the **Totals** field you can specify several data fields. In this case, cells will be added to the pivot table both for the first data field and for the second one.
+At the intersection of the columns and rows of the pivot table you can see cells. A value from the corresponding cell of the data source will be added to this cell, i.e. the value from the data source cell formed at the intersection of the corresponding column and rows in the data source. Then, all values of each row and each column will be summed up and displayed in the resulting cells of the pivot table. Also, in the **Totals** field you can specify several data fields. In this case, cells will be added to the pivot table both for the first data field and for the second one.
 
 ![](../images/topics/Dashboards.Pivot_Table_5.png)
 
@@ -87,7 +87,7 @@ The list shows the name and description of the properties of the element which y
 | Border | A group of properties that allows you to customize the borders of the element - color, sides, size, and style. |
 | Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
 | Shadow | A group of properties that allows configuring the shadow of an element: The **Color** property allows you to specify the color that will be used to display the shadow of the element. The properties in the **Location** group allow you to define the offset of the shadow along the X and Y coordinates, relative to the element's position on the indicator panel. The **Size** property allows you to set the size of the shadow from the element's borders. It can be set to a value from 1 to 10, where 1 is the minimum size and 10 is the maximum size. The **Visible** property allows you to enable or disable the display of the element's shadow on the indicator panel. |
-| Style | Selects a style for the current element. The default it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard. |
+| Style | Selects a style for the current element. By default, it is set to **Auto**, i.e. the style of this element is inherited from the style of the dashboard. |
 | Enabled | Enables or disables the current item on the dashboard. If the property is set to **True**, the current item is enabled and will be displayed when previewing the dashboard in the viewer. If this property is set to **False**, this element is disabled and will not be displayed when previewing the dashboard in the viewer. |
 | Interaction | Sets [interaction](Interaction.md) of the current element. |
 | Margin | A group of properties that allows you to define margin (left, top, right, bottom) of the value area from the border of this element. |
@@ -98,7 +98,7 @@ The list shows the name and description of the properties of the element which y
 | Restrictions | Configures the permissions to use the current item in the dashboard: The **Allow Change** option enables or disables changes of the element. If checked, the current item can be changed. The **Allow Delete** option enables or disables the deletion of an element. The **Allow Move** option allows or prohibits moving an element. The **Allow Resize** option enables or disables resizing of an element. The **Allow Select** option enables or disables the element selection. |
 | Locked | Locks or unlocks resizing and movement of the current element. If the property is set to **True**, the current element cannot be moved or resized. If this property is set to **False**, then this element can be moved and resized. |
 | Linked | Binds the current location to the dashboard or another element. If the property is set to **True**, then the current item is bound to the current location. If this property is set to **False**, then this element is not tied to the current location. |
-| **Data field properties**: |  |
+| **Data field properties:** |  |
 | Expand | Allows defining the default expand/collapse condition for rows or columns in a pivot table. |
 | Expression | It allows you to specify an expression for a selected data field. |
 | Hide Zero | Allows displaying or hiding zero values in the resulting cells. |

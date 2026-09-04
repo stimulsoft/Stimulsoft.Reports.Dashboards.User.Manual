@@ -1,4 +1,4 @@
-## Database Packs
+# Database Packs
 
 The table shows the list of supported database adapters. The loading of adapters in the desktop Designer is carried out automatically. For runtime components, you need to add the appropriate [NuGet adapter packages](https://www.nuget.org/packages?q=stimulsoft&sortBy=relevance) to the project.
 
@@ -63,7 +63,7 @@ The table shows the list of supported database adapters. The loading of adapters
 >
 >
 > ![](../../images/img_2.png) The following Oracle adapters are available for .NET products:
-> * Oracle Data Provider for .NET
+> * Oracle Data Provider for .NET;
 > ![](../../images/img_3.png) The following PostgreSQL adapters are available for .NET products:
 >
 > * Npgsql;

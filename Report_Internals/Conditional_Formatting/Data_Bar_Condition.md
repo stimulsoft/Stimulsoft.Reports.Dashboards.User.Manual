@@ -1,6 +1,5 @@
 ## Data Bar Condition
 
-
 The **Data Bar** condition provides an opportunity to visually display the dynamics of changing values of a data column. The **Data Bar** condition works following principles described below. All the values in the selected data column are analyzed, the minimum and maximum values are  determined. Minimum corresponds to 0 percent, maximum - 100 percent. When drawing each component, to which this condition is applied, a value from the selected data column will be specified. Then, the percentage of this value is calculated from the minimum to maximum range. Depending on the percentage, the **Data Bar** is rendered. If the value is close to the maximum, the greater length a data bar would be. If the value is close to or equal to a minimum value, the data bar will be almost unfilled. The picture below shows a report page:
 
 
@@ -43,9 +42,9 @@ Add the **Data Bar** condition. To do this, select a text component, for example
 ![](../../images/topics/Report_Internals.Conditional_Formatting.Data_Bar_Condition_4.png)
 
 
-> **Video**
+> **Important**
 >
-> * **Notice****: The difference between the** **Auto** **from the** **Maximum** **and** **Minimum** **may be noticeable only in a certain range of numbers.**
+> The difference between the **Auto** from the **Maximum** and **Minimum** may be noticeable only in a certain range of numbers.
 
 
 ![](../../images/img_4.png) The **Value field** for a minimum value.
@@ -70,7 +69,7 @@ After making changes in the report template, the report engine will perform cond
 As can be seen from the picture above, the EmployeeID value includes the numbers from 1 to 9, where 1 is the minimum value, and 9 is the maximum one. And according to the changing dynamics of values a data bar will be drawn.
 
 
-**Negative values**
+### Negative values
 
 In the data column from which values are taken when displaying the histogram may be found both positive and negative values. In this case, analysis of all the values in the selected column of data is determined by the minimum and maximum values. The minimum value is 0 per cent, maximum is 100 per cent. Next, we determine a zero, ie beginning from which a histogram of negative and positive values. For example, the minimum value is -1, while the maximum is three, ie percentage of negative values in the absolute values of band reception is 25 percent and 75 percent positive. Hence the beginning, from which will be constructed histogram is 25 per cent of the length of the component from its left border and 75 percent of the length of the component from its right boundary (at the direction of the histogram from left to right). Histogram of negative values will be rendered in a color that is selected in the Negative, and the histogram of positive values of a color that is selected in the Positive. The picture below shows an example of a rendered report with negative and positive values:
 

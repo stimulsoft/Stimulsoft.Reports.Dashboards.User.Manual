@@ -1,6 +1,6 @@
 ## Control Panel
 
-The basic elements to control data dictionary can be found on the control panel. The picture below shows the control panel:
+The basic elements to control the data dictionary can be found on the control panel. The picture below shows the control panel:
 
 
 ![](../../../images/topics/Data.Data_Dictionary.Control_Panel_1.png)

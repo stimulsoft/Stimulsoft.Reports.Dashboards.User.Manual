@@ -1,6 +1,5 @@
 ## Binding Bottom Border of Component
 
-
 Typically there will be more than one component on a band, as in the example shown  below:
 
 
@@ -16,7 +15,7 @@ When rendering a report the height of some of the components may be changed auto
 To prevent this occurring you can bind the bottom border of a component to the lower border of the container in which the component is placed. This binding is done using the **GrowToHeight** property.
 
 
-**GrowToHeight Property**
+### GrowToHeight Property
 
 If you set the **GrowToHeight** property to true all components that do not change their size will have their bottom borders bound to the bottom border of the container.
 
@@ -33,7 +32,7 @@ This will give a consistent and much better looking result as shown below:
 By default, the **GrowToHeight** property is set to false.
 
 
-**Handling Multiple Components**
+### Handling Multiple Components
 
 If there are multiple components on one band that can automatically change their size it is possible set the **GrowToHeight** property for all these components to true. This will cause the height of these components to be automatically adjusted based on the height of the tallest component.
 

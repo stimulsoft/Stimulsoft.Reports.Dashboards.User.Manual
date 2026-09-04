@@ -148,7 +148,7 @@ Click the **Add Style** button to start creating a style. Select **Component** f
 ![](../images/topics/Getting_Started.Invoice_9.png)
 
 
-Press the **Close** button when the property is set. After that, in the list of values of properties ​​**Even style** and **Odd style** the new values will appear, the new style of even/odd lines, respectively.
+Press the **Close** button when the property is set. After that, in the list of values of properties **Even style** and **Odd style** the new values will appear, the new style of even/odd lines, respectively.
 
 
 4. Render a report by clicking on the **Preview** tab or call the report **Viewer** using the **Preview** menu item. The picture below shows the rendered report with the invoice:

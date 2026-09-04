@@ -1,4 +1,4 @@
-## Online Map
+# Online Map
 
 **Online Map** is used to display any object by geographic coordinates on the online map from Bing.
 
@@ -62,7 +62,7 @@ Online map is used to display any object by geographic coordinates and works onl
 
 ![](../../images/img_6.png) The **Color** parameter allows you to define icon color.
 
-**Editor by Location**
+### Editor by Location
 
 If you display the objects by location, then the online map editor will contain the following parameters.
 
@@ -104,9 +104,9 @@ If you display the objects by location, then the online map editor will contain 
 
 * The **Group** . The Color Group field will be displayed in the editor. You should specify data fields with colors. Geographic objects will be grouped by value and each group of objects will have a specific color assigned.
 
-**Heatmap**
+### Heatmap
 
-The Heatmap is a graphical display of values ​​using color. When using the heatmap mode, the entire range of values ​​of a data column is split into parts. Colors are defined along the boundaries of this part. All values ​​that fall within any part of the range will be displayed with the color that is obtained by mixing the colors of the boundaries of this part of the range. The closer the value is to any border, the bigger the proportion of the border color in the value color.
+The Heatmap is a graphical display of values using color. When using the heatmap mode, the entire range of values of a data column is split into parts. Colors are defined along the boundaries of this part. All values that fall within any part of the range will be displayed with the color that is obtained by mixing the colors of the boundaries of this part of the range. The closer the value is to any border, the bigger the proportion of the border color in the value color.
 
 
 To display a heatmap on an online map, you should set the **Display Mode** parameter in **Heatmap** value. After that, the **Color** parameter will be displayed in the online map editor, and using it you can select one of the preset color schemes for the heatmap.
@@ -127,7 +127,7 @@ The color scheme is a ready-made set of parts of a range of values with assigned
 
 ![](../../images/topics/Dashboards.Maps.Online_Map_6.png)
 
-**GIS**
+### GIS
 
 The online map element in GIS mode allows you to display primitives on various map providers. To do this, you should add a data column with a primitive encoding to the GIS field of the online map element editor. Below you can see the editor of the GIS map with the decoding of the parameters.
 

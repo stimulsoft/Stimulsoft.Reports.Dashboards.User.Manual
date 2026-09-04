@@ -1,10 +1,9 @@
 ## Placing Panels on Page
 
-
-It is the first way. Basically it is used as organization some independent streams of printing. Panels can be places on any part of a page. Each panel is a small page. So it is allowed placing some small pages with bands and components on one page. So it is possible to render a lot of complex reports.
+This is the first approach. It is primarily used to organize independent print streams. Panels can be placed anywhere on a page, and each panel functions as a small page. This makes it possible to place several small pages, each containing bands and components, on a single page. As a result, you can render a wide range of complex reports.
 
 
 ![](../../../images/topics/Report_Internals.Panels.Placing_Panels.Placing_Panels_on_page_1.png)
 
 
-* **Notice:** Number of panels on one page is unlimited.
+* **Note:** The number of panels on one page is unlimited.

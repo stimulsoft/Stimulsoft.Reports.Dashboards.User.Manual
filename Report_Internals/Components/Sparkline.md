@@ -1,4 +1,4 @@
-## Sparkline
+# Sparkline
 
 The **Sparkline** component is a visual tool to display data. Unlike charts, a sparkline does not contain data values, axis labels, legend, and other elements.
 
@@ -33,7 +33,7 @@ You may configure the **Sparkline** component the following way:
 
 * Using the [properties of the component](#tableofproperties). Select the component in the report and change the required values on the **Property** panel.
 
-**The Sparkline editor**
+### The Sparkline editor
 
 In the editor of the current component, the component is visually configured.
 
@@ -41,7 +41,7 @@ In the editor of the current component, the component is visually configured.
 ![](../../images/topics/Report_Internals.Components.Sparkline_2.png)
 
 
-![](../../images/img_1.png) The **Value** field specifies the data column, based on the values ​​of which the sparkline is created.
+![](../../images/img_1.png) The **Value** field specifies the data column, based on the values of which the sparkline is created.
 
 ![](../../images/img_2.png) In the current field, you can change the data column for the sparkline values.
 
@@ -53,7 +53,7 @@ In the editor of the current component, the component is visually configured.
 
 ![](../../images/img_6.png) The **Color** parameter is used to change the color of the sparkline. You can specify the color of positive and negative values for a sparkline of **Column** or **Win/Loss** types.
 
-**The list of properties**
+### The list of properties
 
 See the list below which shows the properties of the current component.
 
@@ -75,7 +75,7 @@ See the list below which shows the properties of the current component.
 | Dock Style | It is used to select the mode of docking of the current component with the owner component. |
 | Enabled | It processes the current component when rendering a report. If the current property is set to **True**, the component will be processed when the report is rendered. If the current property is set to False, then the component will not be processed when rendering the report. |
 | Grow to Height | Increases or decreases the height of a component when rendering a report. If the current property is set to **True**, the component will stretch to the height of the owner component. If the current property is set to **False**, then the component will not stretch to the height of the owner component. |
-| Interaction | Calls the interaction editor for the current component. click the **Browse** button in the value field of the current property. |
+| Interaction | Calls the interaction editor for the current component. Click the **Browse** button in the value field of the current property. |
 | Printable | Shows or hides the current component in the rendered report. If the current property is set to **True**, the component will be displayed in the rendered report. If the current property is set to **False**, then the component will not be displayed in the generated report. |
 | Print On | It is used to specify the display mode of the current component in the rendered report. |
 | Shift Mode | It is used to offset a component that sits below another component at the same level in the report component hierarchy. |

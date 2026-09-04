@@ -1,6 +1,5 @@
 ## Report Summary band
 
-
 The report summary can be shown using the **ReportSummary** band. There are no limits on how many **ReportSummary** bands can be placed on a template page. If the report template has multiple pages, the **ReportSummary** band can be placed on each page. In that case, it will appear after each completed template page.
 
 
@@ -10,7 +9,7 @@ The report summary can be shown using the **ReportSummary** band. There are no l
 This band is used to output report summary.
 
 
-On the picture above shows how bands can be placed on a page.  Here one can see the top-down order of bands:
+The picture above shows how bands can be placed on a page.  Here one can see the top-down order of bands:
 
 ![](../../images/fly.png) The **Report Title** band;
 

@@ -1,4 +1,4 @@
-## Area
+# Area
 
 The **Area** is the space within a chart component where graphical elements of the chart are displayed. The settings for the area elements are grouped, with each group represented by a separate tab.
 

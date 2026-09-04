@@ -1,4 +1,4 @@
-## Gauge
+# Gauge
 
 **Gauge** is a graphical component used to display progress, metrics, or status in the form of a scale or circular.
 
@@ -13,14 +13,15 @@
 
 
 Gauges can be of the following types:
-* **Full Circular**;
 
-* **Half-Circular**;
-* **Vertical Linear**;
+* Full Circular;
 
-* **Horizontal Linear**;
+* Half-Circular;
+* Vertical Linear;
 
-* **Bullet**.
+* Horizontal Linear;
+
+* Bullet.
 
 
 ![](../../images/topics/Reports_Internals.Gauge_1.png)

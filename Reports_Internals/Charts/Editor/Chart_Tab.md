@@ -1,5 +1,4 @@
-## Tab Chart
-
+# Tab Chart
 
 The tab **Chart** defines the parameters relating to the diagrams. These parameters are grouped depending on the selected group on the property panel.
 
@@ -21,10 +20,10 @@ The tab **Chart** defines the parameters relating to the diagrams. These paramet
 
 * The group **Strips**. Contains settings to control strips in charts. You can add a new strip here.
 
-* The group **Table**. Contains settings to display values ​as a table.
+* The group **Table**. Contains settings to display values as a table.
 
 
-It should be noted that in some groups you can add elements to the chart. In this tab, this note concerns groups **Constant Lines** and **Strips**.
+It should be noted that in some groups you can add elements to the chart. In this tab, this note concerns groups Constant Lines and Strips.
 
 
 ![](../../../images/topics/Reports_Internals.Charts.Editor.Chart_Tab_2.png)

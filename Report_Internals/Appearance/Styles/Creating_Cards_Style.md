@@ -1,4 +1,4 @@
-## Cards Style
+# Cards Style
 
 The **Cards** style is applied to the [Cards](../../../Dashboards/Cards.md) element. Do the next steps to create a table style:
 * In the style designer, click the **Add Style** button and select the **Cards** style.

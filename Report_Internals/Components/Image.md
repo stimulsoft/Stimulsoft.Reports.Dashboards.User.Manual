@@ -1,4 +1,4 @@
-## Image
+# Image
 
 To enhance visual expressiveness and information perception, images are often included in reports. These images may consist of product visuals, employee photos, company logos, etc. In Stimulsoft Reports, the Image component is used to display these images. This component supports the following image types: BMP, PNG, JPEG, TIFF, GIF, ICO, EMF, SVG, and WMF. The Image component must be placed where the image needs to appear (e.g., report page, data band, header, footer, etc.).
 
@@ -25,7 +25,7 @@ To open the editor, you should:
 
 * Select the **Image** component and choose the **Design** command from the context menu.
 
-**Image Editor**
+### Image Editor
 
 After opening the **Image** component editor, you need to define the source for the image. Below is an overview of the **Image** component editor:
 

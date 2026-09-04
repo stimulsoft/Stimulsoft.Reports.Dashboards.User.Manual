@@ -1,5 +1,4 @@
-## Tab Area
-
+# Tab Area
 
 The **Area** is a space that includes the basic chart items: rendered data series, axes, chart title and legend. The management of this space is carried out on the tab **Area**, in the editor **Diagram**.
 
@@ -17,7 +16,7 @@ The **Area** is a space that includes the basic chart items: rendered data serie
 
 * The group **Y Axis**. The group contains settings for the Y axis.
 
-* The group **X Top Axis**. The group contains settings for the X top axis .
+* The group **X Top Axis**. The group contains settings for the X top axis.
 
 * The group **Right Y-Axis**. The group contains settings for the right Y axis.
 

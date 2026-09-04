@@ -33,7 +33,7 @@ This chapter will cover the following:
 
 * [Table of dashboard elements Properties](#dashboardelementspropertiestable).
 
-**Tools Table.**
+### Tools Table.
 
 This is a list of the report designer tools that are available depending on the selected skill level.
 
@@ -47,7 +47,7 @@ This is a list of the report designer tools that are available depending on the 
 >
 > All other options are displayed in the report designer, regardless of the selected skill level.
 
-**Table of the components and their groups.**
+### Table of the components and their groups.
 
 This is a list of report components and their groups that are available depending on the selected skill level.
 
@@ -95,7 +95,7 @@ This is a list of report components and their groups that are available dependin
 >
 > All dashboard elements are displayed in the report designer regardless of the selected skill level.
 
-**Table of Components Common Properties**.
+**Table of Components Common Properties.**
 
 This is a list of general properties of report components that are available depending on the selected skill level. All of the properties listed below are present in any report component.
 
@@ -108,32 +108,32 @@ This is a list of general properties of report components that are available dep
 | Locked |  |  | + |
 | Linked |  |  | + |
 
-**Table of Bands Properties.**
+### Table of Bands Properties.
 
 This is a list of **Bands** properties that are available depending on the selected skill level.
 
 
 | **Name** | **Basic** | **Standard** | **Professional** |
 | --- | --- | --- | --- |
-| **Common Bands Properties**: |  |  |  |
+| **Common Bands Properties:** |  |  |  |
 | Max Height |  | + | + |
 | Min Height |  | + | + |
 | Use Parent Styles |  | + | + |
 | Interaction |  | + | + |
 | Reset Page Number |  | + | + |
-| **Report Title**: |  |  |  |
+| **Report Title:** |  |  |  |
 | Print if Empty |  | + | + |
-| **Report Summary**: |  |  |  |
+| **Report Summary:** |  |  |  |
 | Skip First |  | + | + |
 | Keep Report Summary |  | + | + |
 | Print at Bottom |  | + | + |
 | Print if Empty |  | + | + |
-| **Page Header**: |  |  |  |
+| **Page Header:** |  |  |  |
 | Print on Even Odd Pages |  | + | + |
-| **Page Footer**: |  |  |  |
+| **Page Footer:** |  |  |  |
 | Print On |  | + | + |
 | Print on Even Odd Pages |  | + | + |
-| **Group Header**: |  |  |  |
+| **Group Header:** |  |  |  |
 | Summary Sort Direction |  | + | + |
 | Summary Expression |  | + | + |
 | Summary Type |  | + | + |
@@ -241,7 +241,7 @@ This is a list of **Bands** properties that are available depending on the selec
 | Vertical Alignment |  | + | + |
 | Print On |  | + | + |
 
-**Table of Cross Bands Properties.**
+### Table of Cross Bands Properties.
 
 This is a list of **Cross** bands properties that are available depending on the selected skill level.
 
@@ -288,7 +288,7 @@ This is a list of **Cross** bands properties that are available depending on the
 | Keep Details |  | + | + |
 | Print if Detail Empty |  | + | + |
 
-**Table of report items properties in the Components group.**
+### Table of report items properties in the Components group.
 
 This is a list of properties of report items in the **Components** group that are available depending on the selected skill level.
 
@@ -403,7 +403,7 @@ This is a list of properties of report items in the **Components** group that ar
 >
 > [2] Properties that are not present in the **Table** and **Cross-tab** components.
 
-**Table of Barcode Properties.**
+### Table of Barcode Properties.
 
 This is a list of **Barcode** properties that are available depending on the selected skill level.
 
@@ -426,7 +426,7 @@ This is a list of **Barcode** properties that are available depending on the sel
 | Print On |  | + | + |
 | Shift Mode |  | + | + |
 
-**Table of Shapes Properties.**
+### Table of Shapes Properties.
 
 This is a list of **Shapes** properties that are available depending on the selected skill level.
 

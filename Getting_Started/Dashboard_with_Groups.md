@@ -1,4 +1,4 @@
-## Grouping elements on Dashboard
+# Grouping elements on Dashboard
 
 When developing a dashboard, you can divide its [elements into groups](../Dashboards/Groups.md).
 
@@ -12,7 +12,7 @@ The following questions will be considered in this chapter:
 * [Deleting an element from a group](#DeleteGroup).
 
 
-**Elements group creation**
+### Elements group creation
 
 To do it you should make the following actions:
 

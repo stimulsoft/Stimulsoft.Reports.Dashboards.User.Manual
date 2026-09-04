@@ -1,4 +1,4 @@
-## Tree View Box
+# Tree View Box
 
 **Tree View Box** is a filtering element on the dashboard, which is used to create a hierarchy of values and filter data for analysis in the viewer by these values. It can be located anywhere on the dashboard panel. Depending on the size of the dashboard in the viewer, it can grow or shrink by width only.
 
@@ -28,7 +28,7 @@ You may setup the **Tree View Box** element in the editor. To call the editor, y
 >
 > The search string for elements will be displayed automatically, if the number of values of the element will be 10.
 
-**The Tree View Box editor**
+### The Tree View Box editor
 
 In the **Tree View Box** editor, you can add items with data, set up the value selection mode, select the main filter item.
 ![](../../images/topics/Dashboards.Data_Filtering.Tree_View_Box_3.png)

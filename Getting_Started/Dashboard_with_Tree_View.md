@@ -1,4 +1,4 @@
-## Dashboards with Tree View
+# Dashboards with Tree View
 
 To create a dashboard with the **Tree View** item, you should make the following actions:
 

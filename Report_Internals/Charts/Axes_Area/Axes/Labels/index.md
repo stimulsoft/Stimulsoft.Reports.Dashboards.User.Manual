@@ -1,6 +1,5 @@
 ## Labels
 
-
 Labels are titles of X axis (the axis of the arguments) and Y (the axis values). Labels can take any string value. Any string value is transformed according to the selected format. If the report generator failed to convert a value to the selected format, then a direct string value is output. The picture below shows an example of a chart with arguments of Labels. The Format property is set to N:
 
 

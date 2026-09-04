@@ -1,6 +1,5 @@
 ## Rich Text Editor
 
-
 The **RichText** component has a special editor. This editor can load and save the **RTF** text, change the font, size, color, paste expressions etc. With this editor you can edit the RTF text without using third-party editors. The editor is called by double-clicking on the RichText component. This editor contains the following tabs:
 
 * **Expression**. Specify here some text. You can edit the text here using a set of special tools.
@@ -38,6 +37,6 @@ The picture below shows the **Rich** text editor with **Expression** tab open:
 
 ![](../../images/img_10.png) The **Color** button. Calls the menu to change the text color.
 
-![](../../images/img_11.png) Alignment of text: **Align Left**, **Align Center**, **Align Right**, **Justify**.
+![](../../images/img_11.png) Alignment of text: **Align** **Left**, **Align** **Center**, **Align** **Right**, **Justify**.
 
 ![](../../images/img_12.png) The **Bullets** button. Enables bullets in text.

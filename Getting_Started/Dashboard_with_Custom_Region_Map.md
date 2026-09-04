@@ -1,4 +1,4 @@
-## Dashboard with Custom Region Map
+# Dashboard with Custom Region Map
 
 In this chapter, you will find the following:
 
@@ -85,7 +85,7 @@ Now, you can create dashboards using this map.
 
 ![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_6.png)
 
-**Custom map setup**
+### Custom map setup
 
 Also, you can customize the map you added. Follow the steps below to achieve this:
 

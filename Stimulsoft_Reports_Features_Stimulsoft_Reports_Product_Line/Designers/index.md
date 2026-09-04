@@ -1,4 +1,4 @@
-## Designers
+# Designers
 
 Report Designer is a separate application that is part of the Stimulsoft products. This application is designed to create, modify, publish reports and dashboards. In this section, you can find:
 

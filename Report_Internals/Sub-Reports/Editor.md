@@ -1,4 +1,4 @@
-## Editor
+# Editor
 
 In the editor, you can specify the resource for the **Sub-Report** component and configure the settings.
 

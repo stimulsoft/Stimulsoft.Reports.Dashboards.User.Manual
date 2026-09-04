@@ -1,4 +1,4 @@
-## Collections
+# Collections
 
 A style collection is a group of styles that have the same value in the **Collection Name** property. Each collection must contain at least one style. For instance, if multiple styles are used in a report, they can be combined into a collection. It's important to note that a report can have multiple style collections.
 
@@ -24,7 +24,7 @@ You can apply styles from collections in the following ways:
 
 It's also important to note that only one style collection can be applied to report components at a time. However, in some cases, you can manually assign a different style to specific report components while applying a collection of styles to the rest of the report. Let's take a look at some examples of creating style collections.
 
-**Creating a Style Collection Manually**
+### Creating a Style Collection Manually
 
 Creating a style collection manually involves filling in the **Collection Name** property or dragging a style into the collection.
 
@@ -50,7 +50,7 @@ When working with style collections, keep in mind:
 
 **Step 6**: Click the **Ok** button in the style designer to save the new style or the modifications to the existing one.
 
-**Creating a generated style collection**
+### Creating a generated style collection
 
 Creating a generated style collection involves creating a collection of styles automatically.
 
@@ -84,7 +84,7 @@ Creating a generated style collection involves creating a collection of styles a
 
 **Step 5**: Edit the styles from the collection and click the **Ok** button in the style designer.
 
-**Applying a style collection to a report**
+### Applying a style collection to a report
 
 After the style collections are created, you can select one of these collections in the report.
 

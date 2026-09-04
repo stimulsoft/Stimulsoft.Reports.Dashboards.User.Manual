@@ -1,6 +1,5 @@
 ## Available File Formats
 
-
 A list of supported file formats is represented in the table below. All exports are joined into groups.
 
 

@@ -1,6 +1,5 @@
 ## Conditional Formatting And Text Components
 
-
 The conditions editor of text components has differences from other components. It has additional ability to assign text expression, if the condition is true. On the picture below the panel to edit conditions of the text component is shown.
 
 

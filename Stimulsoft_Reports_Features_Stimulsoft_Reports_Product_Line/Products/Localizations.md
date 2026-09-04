@@ -1,4 +1,4 @@
-## Localizations
+# Localizations
 
 The list of UI localizations is shown below.
 
@@ -6,7 +6,7 @@ The list of UI localizations is shown below.
 | **Localizations** | **Stimulsoft Ultimate** | **Dashboards.WEB** | **Dashboards.WIN** | **Dashboards.JS** | **Dashboards.PHP** | **Reports.NET** | **Reports.WEB** | **Reports.ANGULAR** | **Reports.BLAZOR** | **Reports.WPF** | **Reports.JS** | **Reports.JAVA** | **Reports.PHP** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Arabic | + | + | + | + | + | + | + | + | + | + | + | + | + |
-| Belarussian | + | + | + | + | + | + | + | + | + | + | + | + | + |
+| Belarusian | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | Bulgarian | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | Chinese (Simplified) | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | Chinese (Traditional) | + | + | + | + | + | + | + | + | + | + | + | + | + |
@@ -30,7 +30,7 @@ The list of UI localizations is shown below.
 | Spanish | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | Swedish | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | Turkish | + | + | + | + | + | + | + | + | + | + | + | + | + |
-| Ukraine | + | + | + | + | + | + | + | + | + | + | + | + | + |
+| Ukrainian | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | Catalan | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | Euskara | + | + | + | + | + | + | + | + | + | + | + | + | + |
 | Galician | + | + | + | + | + | + | + | + | + | + | + | + | + |

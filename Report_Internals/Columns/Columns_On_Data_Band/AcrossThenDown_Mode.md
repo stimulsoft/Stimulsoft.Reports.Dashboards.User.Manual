@@ -1,6 +1,5 @@
 ## AcrossThenDown Mode
 
-
 This mode is used to output strings logically from left to right on the Data band. Strings are output one string to one column. When all columns on the Data band have been generated a new Data band will be formed and again all strings in columns will be output. The data will take up as much space in the report as is necessary.
 
 

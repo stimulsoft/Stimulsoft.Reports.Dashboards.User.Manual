@@ -1,20 +1,19 @@
 ## Wizard Label Report
 
-
 The **Label Report** wizard is used to create reports which have labels. The picture below shows a window of the **Label Report** wizard:
 
 
 ![](../../images/topics/Getting_Started.Wizards.Label_1.png)
 
 
-![](../../images/img_1.png) The **Description Panel**. Shows description for the current step.
+![](../../images/img_1.png) The **Description Panel****.** Shows description for the current step.
 
 ![](../../images/img_2.png) The **Steps Panel** shows step of report creation.
 
 ![](../../images/img_3.png) The **Selection Parameters** **Panel** shows options, actions, settings available on this step.
 
 
-A **Label Report** is created in two steps. The **Data Source** is defined on the first step, **Label Settings** are defined on the second step. The picture below shows the **Selection Parameters Panel** on the second step of the **Label Settings**.
+A **Label Report** is created in two steps. The **Data Source** is defined on the first step, **Label Settings** are defined on the second step. The picture below shows the **Selection Parameters Panel** on the second step of the **Label Settings****.**
 
 
 ![](../../images/topics/Getting_Started.Wizards.Label_2.png)

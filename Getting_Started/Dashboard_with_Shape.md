@@ -1,4 +1,4 @@
-## Dashboards with Shapes
+# Dashboards with Shapes
 
 To create a dashboard with the [Shape element](../Dashboards/Shape.md), you should make the following actions:
 

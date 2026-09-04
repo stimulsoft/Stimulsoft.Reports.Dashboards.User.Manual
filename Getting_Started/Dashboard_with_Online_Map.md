@@ -1,4 +1,4 @@
-## Dashboard with Online Map
+# Dashboard with Online Map
 
 This chapter will cover the following:
 
@@ -24,7 +24,7 @@ This chapter will cover the following:
 
 * [Map culture](#mapculture).
 
-**Adding an online map**
+### Adding an online map
 
 To add the **Online Map** to the dashboard panel, you should do the following steps:
 
@@ -51,7 +51,7 @@ To add the **Online Map** to the dashboard panel, you should do the following st
 
 **Step 7**: Add a data column with the [location of geographic elements](#onlinemapbylocation) or a [data columns with their coordinates](#onlinemapbycoordinates).
 
-**Online map by location**
+### Online map by location
 
 
 **Step 1**: Add a data column with the locations of geographic objects in the **Location** field;
@@ -85,7 +85,7 @@ To add the **Online Map** to the dashboard panel, you should do the following st
 >
 > By default, geographic objects are displayed on the map as bubbles. They can also be displayed as a [pie chart](#achartontheonlinemap), [values](#avalueonanonlinemap), [values with an icon](#theonlinemapicon).
 
-**Online map by coordinates**
+### Online map by coordinates
 
 An online map by coordinates is used to display geographic objects and mark them with an icon. To display geographic objects by coordinates, you should do the following:
 
@@ -116,7 +116,7 @@ An online map by coordinates is used to display geographic objects and mark them
 
 ![](../images/topics/Getting_Started.Dashboard_with_Online_Map_11.png)
 
-**A chart on the Online map**
+### A chart on the Online map
 
 This functionality is available only for [online map by location](#onlinemapbylocation). To display a chart of values on an online map, you should do the following:
 
@@ -139,7 +139,7 @@ This functionality is available only for [online map by location](#onlinemapbylo
 
 ![](../images/topics/Getting_Started.Dashboard_with_Online_Map_14.png)
 
-**A value on an online map**
+### A value on an online map
 
 This option is available only for [online map by location](#onlinemapbylocation). To display the values of geographic objects on an online map, you should do the following:
 
@@ -165,7 +165,7 @@ This option is available only for [online map by location](#onlinemapbylocation)
 
 ![](../images/topics/Getting_Started.Dashboard_with_Online_Map_17.png)
 
-**The Online map icon**
+### The Online map icon
 
 An icon can be displayed along with the value of the geographic object. To do this, you should do the following:
 
@@ -199,9 +199,9 @@ An icon can be displayed along with the value of the geographic object. To do th
 
 ![](../images/topics/Getting_Started.Dashboard_with_Online_Map_21.png)
 
-**A color of geographic objects**
+### A color of geographic objects
 
-This functionality is available only for [online map by location](#onlinemapbylocation). By default, geographic objects on the online map are colored with green. To change the color of geographic objects, you should do the following:
+This functionality is available only for [online map by location](#onlinemapbylocation). By default, geographic objects on the online map are colored green. To change the color of geographic objects, you should do the following:
 
 
 **Step 1**: Double-click on the **Online Map** element to call the editor;
@@ -230,7 +230,7 @@ This functionality is available only for [online map by location](#onlinemapbylo
 
 ![](../images/topics/Getting_Started.Dashboard_with_Online_Map_25.png)
 
-**Color each**
+### Color each
 
 This functionality is available only for [online map by location](#onlinemapbylocation). On the online map, you can display geographic objects with an individual color. To do this, you should do the following:
 
@@ -284,7 +284,7 @@ This feature is available only for [online map by location](#onlinemapbylocation
 
 **Step 6**: Go to the **Preview**.
 
-**Value color**
+### Value color
 
 This option is available only for [online map by location](#onlinemapbylocation). You can set a color for each geographic object. To do this, you should do the following:
 
@@ -312,7 +312,7 @@ This option is available only for [online map by location](#onlinemapbylocation)
 
 **Step 6**: Go to the **Preview**.
 
-**Map culture**
+### Map culture
 
 This option is available only for [online map by location](#onlinemapbylocation). To change the culture of the map, you should do the following:
 

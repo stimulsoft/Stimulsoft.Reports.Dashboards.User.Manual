@@ -1,6 +1,5 @@
 ## Overview
 
-
 When creating a new report in the **New Report** dialog you should choose a way to create a report. The picture below shows the **Create a New Report** dialog:
 
 

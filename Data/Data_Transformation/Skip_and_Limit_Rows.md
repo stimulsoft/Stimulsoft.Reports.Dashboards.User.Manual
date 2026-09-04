@@ -1,4 +1,4 @@
-## Skip and Limit Rows
+# Skip and Limit Rows
 
 One of the ways to filter data when transforming data is to skip and set row limit in a new data table. This way you can create a range of rows, which will be in a new table. For example, from 5 to 25 row or only first three rows starting with the 10th row.
 
@@ -33,7 +33,7 @@ Let`s consider the example of skip and limit of the number of rows. Imagine, a n
 ![](../../images/topics/Data.Data_Transformation.Skip_and_Limit_Rows_3.png)
 
 
-**Limit rows**
+### Limit rows
 
 
 **Step 1**: You should click on an element header (a data column or a field) in the preview. In this case, you should click on an element with category numbers.

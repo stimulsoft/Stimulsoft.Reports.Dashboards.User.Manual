@@ -1,4 +1,4 @@
-## Excel value
+# Excel value
 
 When exporting a report to spreadsheets, each value of data will be located in a specific cell in the Excel spreadsheet. For example, if there are four columns of data and ten rows in a rendered report, when exporting to the Excel spreadsheet 40 cells will be filled up.
 

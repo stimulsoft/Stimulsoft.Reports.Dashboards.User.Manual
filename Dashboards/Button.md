@@ -1,8 +1,8 @@
 ## Button
 
-| **Important** |
-| --- |
-| Scripts can be a security risk, so they are disabled in the [Interpretation mode](../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../Reports_Designer/Template/Calculation_Mode.md). |
+> **Important**
+>
+> Scripts can be a security risk, so they are disabled in the [Interpretation mode](../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../Reports_Designer/Template/Calculation_Mode.md).
 
 **Button** is a dashboard element, which allows you to execute a certain script when clicking or depending on click condition. When using the **Button**, you can change design settings of dashboard elements, filter data, hide other elements, etc. The **Button** element doesn’t have its own editor, and it is customized using properties and controls on the Ribbon panel. A full set of properties will be presented in the table of element properties.
 
@@ -41,7 +41,7 @@ When creating dashboards, you can define some text, which will be displayed in t
 
 In addition, you can change horizontal or vertical text alignment. You can do this using the **Horizontal Alignment** and **Vertical Alignment** properties. In cases, when the text is longer than the button, it will be wrapped to the next line. However, you can disable wrapping having set the **Word Wrap** property to the False value. In this case, the text will be clipped to the border of the element.
 
-**Icons in the Button**
+### Icons in the Button
 
 In addition to the text in the **Button** element, you can specify an icon. It can be done using the **Icon Set** properties group. In this group, using properties, you can define an icon by default, also icons depending on button condition. It’s relevant for buttons of **Check Box** and **Radio Button** type. This way, the button may have three icons:
 * By default, an icon is defined using the property of the same name – **Icon**;
@@ -53,7 +53,7 @@ Icon alignment in the **Button** element is defined using the **Icon Alignment**
 
 ![](../images/topics/Dashboards.Button_4.png)
 
-**Button Shape**
+### Button Shape
 
 To display the button in a dashboard, you can use one of two shapes: **Rectangle** and **Circle**. By default, rectangle is used to display the button. You can change button shape using the **Shape Type** property.
 
@@ -70,7 +70,7 @@ Element visual design is defined using the properties, which are located in the 
 * Special, i.e. the categories that are located in the **Visual States** group. These properties allow you to define design depending on the interaction with the Button element. For example, you can change an icon, its brush, button brush when clicking or hovering. More detailed the set of the property will be presented in a table of properties.
 It's worth considering that you can’t define design settings in the style properties. For example, you’re not able to change an icon when hovering there. You can do it only using special design properties.
 
-**Table of properties**
+### Table of properties
 
 The table contains name and description of the **Button** element properties.
 

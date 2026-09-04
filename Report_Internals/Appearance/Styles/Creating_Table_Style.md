@@ -1,4 +1,4 @@
-## Table Style
+# Table Style
 
 The **Table** style applies to the [Table](../../Table/index.md) component and [Table](../../../Dashboards/Table.md) element. You should do the following to create a table style:
 * In the style designer, click the **Add Style** button and select the **Table** style.
@@ -37,10 +37,10 @@ Below is a list of properties that are used to customize the table style.
 | Data Color | Changes the background color of table cells. |
 | Data Foreground | Changes the text color in cells. |
 | Footer Color | Changes the background color of the footer cells. |
-| Footer Foreground | Changes the text color in footer cells |
+| Footer Foreground | Changes the text color in footer cells. |
 | Grid Color | Changes the color of grid lines in a table. |
 | Header Color | Changes the background color of table headers. |
-| Header Foreground | changes the color of text in table headers. |
-| Hot Header Color | changes the background color of the table headers when hovering over. |
+| Header Foreground | Changes the color of text in table headers. |
+| Hot Header Color | Changes the background color of the table headers when hovering over. |
 | Selected Data Color | Changes the background color of value cells when they are selected in a rendered report or on the dashboard. |
 | Selected Data Foreground | Changes the text color of values when they are selected in a rendered report or on the dashboard. |

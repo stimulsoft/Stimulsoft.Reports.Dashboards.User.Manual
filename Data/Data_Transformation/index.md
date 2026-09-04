@@ -1,4 +1,4 @@
-## Data Transformation
+# Data Transformation
 
 The report dictionary contains a description of data in a structured view, for example in tables. Sometimes when creating reports you need to [join data tables](Join.md), [sort](Sorting.md), [group](Groups.md), [filter data](Filtration.md), add some new elements, perform mathematical operations, and calculate the total for joined tables and much more.
 

@@ -1,4 +1,4 @@
-## Features: Stimulsoft Reports
+# Features: Stimulsoft Reports
 
 This section describes the basic features of the **Stimulsoft** product line. The product line includes the following tools:
 
@@ -29,7 +29,7 @@ Stimulsoft Reports.PHP
 Stimulsoft Reports.JAVA
 
 
-This section is split into topics that show the basic options along with every category of features ([Designers](Designers/index.md), [Viewers](Viewers/index.md), [Products](Products/index.md)). The lists of features are rough, not complete, and continuously updated, so concerning the availability of these or that features, please contact technical support managers.
+This section is split into topics that show the basic options along with every category of features ([Designers](Designers/index.md), [Viewers](Viewers/index.md), [Products](Products/index.md)). The lists of features are rough, not complete, and continuously updated, so concerning the availability of these or those features, please contact technical support managers.
 
 
 > **Information**

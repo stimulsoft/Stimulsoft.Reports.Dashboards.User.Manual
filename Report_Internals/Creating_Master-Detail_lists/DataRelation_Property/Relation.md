@@ -1,6 +1,5 @@
 ## Relation
 
-
 If the **Relation** is not specified in the **Master-Detail** report, then, for each **Master** record, all **Detail** records will be printed. To build a **Master-Detail** report, which will print only those **Detail** records that are associated with this **Master** record, you should create a **Relation** between data sources. The **Relation** describes the relationship between data sources such as "master-detail". For example, in the table of the **Categories** data source in the **CategoriesID** data column, may be one record with a unique name **1**, and in the table of the **Products** data source in the **CategoriesID** column data may be many records with the same unique name **1**. The picture below shows an example of data source tables:
 
 

@@ -1,7 +1,6 @@
 ## Images
 
-
-Export groups to graphic formats. All graphic formats can be divided in to types: bitmapped images and vector formats. Notice. On the current moment the export of monochrome image is supported only to **BMP**, **GIF**, **PCX**, **PNG**, **TIFF** format. So the **DitheringType** property works only for these exports.
+Export groups to graphic formats. All graphic formats can be divided into two types: bitmapped images and vector formats. Notice. At the current moment, the export of monochrome image is supported only to **BMP**, **GIF**, **PCX**, **PNG**, **TIFF** format. So the **DitheringType** property works only for these exports.
 
 
 *Export options in* *Image*
@@ -14,7 +13,7 @@ Export groups to graphic formats. All graphic formats can be divided in to types
 
 ![](../../images/img_2.png) The checkbox **Current Page** enables processing only the current (selected) report page.
 
-![](../../images/img_3.png) The checkbox **Pages** has the field. This field specifies the number of pages to be processed. You can specify a single page, several pages (using a comma as the separator) and also specify a range by defining the start page and end page range separated with "-". For example, 1,3,5-12.
+![](../../images/img_3.png) The checkbox **Pages** has the field. This field specifies the number of pages to be processed. You can specify a single page, several pages (using a comma as the separator) and also specify a range by defining the start and end pages separated with "-". For example, 1,3,5-12.
 
 ![](../../images/img_4.png) The option **Type** provides the ability to determine a type of the file the report will be converted into.
 

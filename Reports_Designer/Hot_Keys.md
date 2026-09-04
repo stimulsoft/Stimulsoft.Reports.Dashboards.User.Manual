@@ -1,4 +1,4 @@
-## Hotkeys
+# Hotkeys
 
 The report designer supports many hotkeys. Using them can speed up the effectiveness of work in creating reports. The table below lists the hotkeys and their descriptions.
 
@@ -20,9 +20,9 @@ The report designer supports many hotkeys. Using them can speed up the effective
 | **Ctrl+Z** | Undo the last action. |
 | **Ctrl+Y** | Redo the undone action. |
 | **Ctrl+Tab** | Switch between pages (dashboards, forms if available) in the report template. |
-| **Ctrl+Shift+N** | Add a new form to the report template. |
+| **Ctrl+Shift+N** | Add a new page to the report template. |
 | **Ctrl+Shift+F** | Add a new form to the report template. |
-| **Ctrl+Shift+I** | Add a new item to the report template. |
+| **Ctrl+Shift+I** | Add a new dashboard to the report template. |
 | **Ctrl+Shift+O** | Call the dialog window to select a previously saved report template page (*.pg file). |
 | **Ctrl+Shift+D** | Enable or disable the **"Data Dictionary"** panel. |
 | **Ctrl+Shift+L** | Enable or disable the **"Report Tree"** panel. |

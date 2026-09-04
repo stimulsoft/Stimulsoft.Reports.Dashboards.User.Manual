@@ -1,4 +1,4 @@
-## Report Designer
+# Report Designer
 
 > **Information**
 >
@@ -27,7 +27,7 @@ Additionally, the report designer includes:
 * [Component layout wizard](#PlacementWizard);
 * [Component drag-and-drop wizard](#DragAndDropWizard).
 
-**Status Bar**
+### Status Bar
 
 The Status Bar is located at the bottom of the Report Designer window and contains various control elements and commands.
 
@@ -52,14 +52,14 @@ The Status Bar is located at the bottom of the Report Designer window and contai
 
 ![](../images/img_9.png) A control element for adjusting the zoom level of the report page or dashboard;
 
-**Context menu**
+### Context menu
 
 The **Context** **Menu** is a menu that appears when the secondary button of an input device is clicked. This menu displays duplicate commands for managing the component or element under the cursor at the time of the menu activation. The availability and content of the context menu depend on the type of component or element.
 
 
 ![](../images/topics/Reports_Designer_3.png)
 
-**Components placement wizard**
+### Components placement wizard
 
 When dragging components from the dictionary, toolbox, or any other container onto bands in the report template, if the component's boundaries extend beyond the band’s borders, the **Components Placement Wizard** will be triggered. This wizard allows users to define the placement of the component within the current band.
 
@@ -73,7 +73,7 @@ When dragging components from the dictionary, toolbox, or any other container on
 
 ![](../images/img_3.png) Closes the **Components Placement Wizard** window.
 
-**Drag-and-Drop Wizard**
+### Drag-and-Drop Wizard
 
 When one text component is placed over another, the **Drag & Drop Wizard** is activated. This wizard allows users to choose how to arrange the content of the two components.
 

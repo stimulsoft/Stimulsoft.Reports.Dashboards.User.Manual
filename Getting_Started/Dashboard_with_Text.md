@@ -1,4 +1,4 @@
-## Dashboard with Text
+# Dashboard with Text
 
 To create a dashboard with the [Text](../Dashboards/Text.md) element, you should do the following:
 

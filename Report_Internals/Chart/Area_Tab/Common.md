@@ -1,4 +1,4 @@
-## Common
+# Common
 
 The Common tab contains settings related to the chart area.
 ![](../../../images/topics/Report_Internals.Chart.Area_Tab.Common_2.png)

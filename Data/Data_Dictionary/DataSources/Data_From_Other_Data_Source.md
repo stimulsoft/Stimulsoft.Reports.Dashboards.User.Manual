@@ -1,6 +1,6 @@
 ## Data From Other Data Source
 
-In the report generator you can create a data source based on existing data sources. The **Data from other Data Source** provides analogical features like the query to the database. When creating a data source using the visual interface, in the process of creating a data source, to perform sorting, grouping, filtering, and calculating of totals using aggregate functions. Consider the example of creating data from other data sources. Suppose there is a **Master-Detail** report, to which each category corresponds a number of products. The picture below shows a page of the **Master-Detail** report (shown partially):
+In the report generator you can create a data source based on existing data sources. The **Data from other Data Source** provides similar features like the query to the database. When creating a data source using the visual interface, in the process of creating a data source, to perform sorting, grouping, filtering, and calculating of totals using aggregate functions. Consider the example of creating data from other data sources. Suppose there is a **Master-Detail** report, to which each category corresponds a number of products. The picture below shows a page of the **Master-Detail** report (shown partially):
 
 
 ![](../../../images/topics/Data.Data_Dictionary.DataSources.Data_From_Other_Data_Source_1.png)
@@ -14,7 +14,7 @@ As can be seen from the picture above, the name of the category, product name (r
 As can be seen from the picture above, the process of creating data from other sources includes the following steps:
 
 
-![](../../../images/img_1.png) **Data Source**. On this stage, you must specify the Name of a new data source and its Alias. In our example, the alias name and the data source name is DataSource1. You should also select a data source on which to setup a new one. In this case, the selected data source Products. This step is optional.
+![](../../../images/img_1.png) **Data Source**. On this stage, you must specify the Name of a new data source and its Alias. In our example, the alias name and the data source name are DataSource1. You should also select a data source on which to setup a new one. In this case, the selected data source is Products. This step is optional.
 
 ![](../../../images/img_2.png) Sorting criteria are specified in the Sort step. On this stage you should specify the data column to be used for sorting, and to select the sorting direction. This step is optional.
 
@@ -29,7 +29,7 @@ As can be seen from the picture above, the process of creating data from other s
 
 As can be seen from the picture, this tab should indicate the following parameters:
 
-* Select the data column in the **Column** field that will be present in the new data source or from which data will be collected to calculate the aggregate. This field is mandatory. For example, the data column **UnitPrice** is selected. It contains data on the products prices.
+* Select the data column in the **Column** field that will be present in the new data source or from which data will be collected to calculate the aggregate. This field is mandatory. For example, the data column **UnitPrice** is selected. It contains data on the product prices.
 
 * The **Aggregate Function** menu is a list of aggregate functions that can be used to calculate the selected data columns. Aggregate functions can be omitted in this case, the data column will contain data, which are in the data column, which is the basic one. In this example, select the aggregate function **Sum**, which summarizes the data.
 

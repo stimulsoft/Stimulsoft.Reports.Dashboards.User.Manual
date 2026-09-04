@@ -1,6 +1,5 @@
 ## DownThenAcross Mode
 
-
 The **AcrossThenDown** mode has a weakness in that it is not always easy to read information on the page because the content is output from left to right and then down. It is often easier to read when columns are output using the DownThenAcross mode. In this mode the data is displayed in the first column and only when that is full is data shown in the second, and so on.
 
 

@@ -1,7 +1,6 @@
 ## Page Number
 
-
-Let see page numbering using the **PageNumber** system variable. When using this variable, the page number will be displayed on each page. Place where the page number is shown depends on which band is the text component, in expressions of what the system variable is used.
+Let's see page numbering using the **PageNumber** system variable. When using this variable, the page number will be displayed on each page. Place where the page number is shown depends on which band is the text component, in expressions of what the system variable is used.
 
 
 ![](../../images/topics/Report_Internals.Pagination.Page_Number_1.png)

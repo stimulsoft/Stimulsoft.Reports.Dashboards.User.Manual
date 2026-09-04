@@ -1,4 +1,4 @@
-## Join tables
+# Join tables
 
 Sometimes you need to join data tables when creating reports. You can do it using various ways. For example, create an SQL query for the data storage or a storage procedure. However, you can do it when creating a new data transformation.
 You can join tables with the help of the following methods:

@@ -1,4 +1,4 @@
-## Dot-Matrix
+# Dot-Matrix
 
 The Dot-Matrix viewer is designed to preview the report before printing it on a dot matrix printer. The Dot matrix printer is used to print only the text and characters of pseudographics. Accordingly, the viewer displays only the text and borders of objects as pseudographics characters.
 **Toolbar**
@@ -17,7 +17,7 @@ The picture below shows the toolbar of the Dot-matrix viewer:
 
 ![](../../images/img_4.png) Closes the Dot-matrix viewer dialog box.
 
-**Bar Options**
+### Bar Options
 
 The Options bar is grouped, and each group is located on a separate tab. The picture below shows the options bar:
 
@@ -68,6 +68,6 @@ This corresponds to using the **Pica** font of the printer (80 characters per li
 
 ![](../../images/img_11.png) Encoding is the encoding of the displayed text.
 
-![](../../images/img_12.png) The **Auto Refresh** parameter automatically updates the rendered report if there are any changes were applied to the settings.
+![](../../images/img_12.png) The **Auto Refresh** parameter automatically updates the rendered report if any changes were applied to the settings.
 
 ![](../../images/img_13.png) The **Refresh** button is used to update the rendered report manually.

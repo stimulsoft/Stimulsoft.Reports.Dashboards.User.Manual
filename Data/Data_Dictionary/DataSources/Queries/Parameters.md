@@ -1,6 +1,6 @@
 ## Parameters
 
-When creating a query it is possible to use the **Parameter** object. This object is designed to send additional conditions for selecting data into a query. For example, if you need a query to use a value entered by the user each time the query is executed, you can create a query using parameters. The **Parameter** object can only be used with **SQL** data sources. These data sources are typically have the **Text Query** field. To insert a parameter in the query, you must click the **New Parameter** button. The picture below shows the toolbar, on which the **New Parameter** button can be found:
+When creating a query it is possible to use the **Parameter** object. This object is designed to send additional conditions for selecting data into a query. For example, if you need a query to use a value entered by the user each time the query is executed, you can create a query using parameters. The **Parameter** object can only be used with **SQL** data sources. These data sources typically have the **Text Query** field. To insert a parameter in the query, you must click the **New Parameter** button. The picture below shows the toolbar, on which the **New Parameter** button can be found:
 
 
 ![](../../../../images/topics/Data.Data_Dictionary.DataSources.Queries.Parameters_1.png)
@@ -23,7 +23,7 @@ Each parameter has a property with which you can change its settings. The pictur
 
 ![](../../../../images/img_3.png) The **Size** property provides an opportunity to change the size of the type used in the parameter. Keep in mind that each type in the database has its own size. Therefore, when using a query, you must specify the correct type size. For some adapters, database size may be omitted, but generally if the size is not specified or is incorrect, then the queries using these parameters will be performed incorrectly.
 
-![](../../../../images/img_4.png) Use the **Type** property to change the parameter type. The values ​​of the properties are in the drop-down list, and are a list of types used in the parameters for a particular database. It should be noted that a list of types differs depending on the database.
+![](../../../../images/img_4.png) Use the **Type** property to change the parameter type. The values of the properties are in the drop-down list, and are a list of types used in the parameters for a particular database. It should be noted that a list of types differs depending on the database.
 
 
 Also, you must specify the parameter in the query. Here is an example of schematic position of parameters in the query:
@@ -68,7 +68,7 @@ To edit a parameter separately from the data source, select the **Parameter** in
 
 ![](../../../../images/img_6.png) The **Variable** tab. A variable is specified as a value of the parameter.
 
-**Using variable as SQL parameter**
+### Using variable as SQL parameter
 
 
 A variable can be specified as a value in the parameter. In this case, values of the variable will be the values of the parameter when requesting data. There are two ways to use a variable in a query as a parameter:

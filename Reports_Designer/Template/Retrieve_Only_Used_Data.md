@@ -1,4 +1,4 @@
-## Retrieve Only Used Data
+# Retrieve Only Used Data
 
 Sometimes it is enough to change the value of one property to significantly increase the speed the report rendering. When working with the report template, the data dictionary does not contain any real data. Data in the dictionary are located only as a description of the data structure. Execution of all queries and data transfer from the storage is carried out at the moment of the report rendering process. At this time, the entire structure of the dictionary is filled with real data. In other words, if 200 data sources are created in the dictionary then the actual data are transferred from the storage to all those sources. The more data to be transmitted from the storage to the dictionary, the longer is the time of the report rendering process. However, not always all data sources are used in the report. To significantly reduce the time of the report rendering getting only real data for data sources used in the report, you should set the **Retrieve Only Used Data** report property to **true**.
 

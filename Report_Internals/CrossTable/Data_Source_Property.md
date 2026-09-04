@@ -1,6 +1,5 @@
 ## Data Source Property
 
-
 Data are the base for cross table rendering. So the cross table rendering should be started from selecting the data source. The data source can be selected using the Data source.
 
 

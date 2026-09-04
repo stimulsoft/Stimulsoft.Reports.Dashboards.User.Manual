@@ -1,4 +1,4 @@
-## Reports
+# Reports
 
 This chapter will cover the following:
 
@@ -35,7 +35,7 @@ On the picture below you may find the basic elements of the report viewer.
 
 ![](../../images/img_5.png) The status bar of viewer.
 
-**Toolbar**
+### Toolbar
 
 The main toolbar locates commands to control the report. Below is the structure of the toolbar with the description of each command.
 
@@ -51,7 +51,6 @@ The main toolbar locates commands to control the report. Below is the structure 
 > **Information**
 >
 > A report file may contain only a report; only a dashboard; both a report and a dashboard.
->
 >
 > * If the report file contains only the report, then this report will be rendered and displayed in the report viewer.
 >
@@ -90,8 +89,7 @@ The main toolbar locates commands to control the report. Below is the structure 
 >
 > In addition to the above commands, other buttons may be displayed on the toolbar:
 >
->
-> * If the report contains editable fields, the **Editor** button will be displayed in the viewer. When you click this button, the edit mode of the report components will be activated.
+> If the report contains editable fields, the **Editor** button will be displayed in the viewer. When you click this button, the edit mode of the report components will be activated.
 >
 > * Commands are used to create, edit, delete, and customize pages of the rendered report.
 >
@@ -99,7 +97,7 @@ The main toolbar locates commands to control the report. Below is the structure 
 >
 > * The button is used to enable the [Dot-matrix mode](Dot-Matrix_Mode.md).
 
-**Status Bar**
+### Status Bar
 
 The status panel contains navigation controls in the report, report display modes, and its zoom.
 
@@ -125,7 +123,7 @@ The status panel contains navigation controls in the report, report display mode
 
 ![](../../images/img_7.png) The zoom control for the report.
 
-**Displaying Mode**
+### Displaying Mode
 
 The viewer for WinForms supports three modes of viewing pages:
 
@@ -138,7 +136,7 @@ The viewer for WinForms supports three modes of viewing pages:
 * ![](../../images/topics/Viewer.Reports_7.png)
  Multiple Pages.  In this mode as many pages in the selected zoom as they can fill the window of the viewer are shown. The picture below shows how this mode works.
 
-**Search Panel**
+### Search Panel
 
 The search panel is used to search for some text in the report. On the main toolbar, this option can be enabled by clicking the binocular icon. All controls for search are placed on a single panel.
 
@@ -158,7 +156,7 @@ The search panel is used to search for some text in the report. On the main tool
 
 ![](../../images/img_6.png) If the flag is set, then the search will be done considering the whole word.
 
-**Resources Panel**
+### Resources Panel
 
 You can display some resources which were added to the report in a separate panel in the viewer. To do this, when adding a resource in the report designer, select Available in the Viewer option. Then, click the Resources button in the viewer to display a panel with these resources.
 
@@ -167,7 +165,7 @@ You can display some resources which were added to the report in a separate pane
 
 Each resource in this panel can be viewed or saved.
 
-**Sending Report via E-Mail**
+### Sending Report via E-Mail
 
 Any rendered report can be sent via Email. Send a report via Email following the instruction below.
 
@@ -209,7 +207,7 @@ The list of keyboard shortcuts in the report viewer is as follows:
 | F5 | Set zoom of a report view - by page width |
 | Ctrl+G | Jump to page |
 | Shift+F2 | Enable the page view mode - one page |
-| Shift+F3 | Enable the page view mode - continues |
+| Shift+F3 | Enable the page view mode - continuous |
 | Shift+F4 | Enable the page view mode - some pages |
 | Esc | The button is used to exit the Full Screen mode. |
 | Alt+F4 | The buttons are used to close the window, including the full-screen view. |

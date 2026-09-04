@@ -1,16 +1,16 @@
-## Interlacing Horizontal
+# Interlacing Horizontal
 
-Interlacing Vertical is the process of filling every second vertical gap between the Y-axis values across the entire chart area. Horizontal filling can alternate with vertical filling.
+Interlacing Horizontal is the process of filling every second horizontal gap between the Y-axis values across the entire chart area. Horizontal filling can alternate with vertical filling.
 
 
 ![](../../../images/topics/Report_Internals.Chart.Area_Tab.Interlacing_Horizontal_1.png)
 
-To configure interlacing vertical in the chart area, you need:
+To configure interlacing horizontal in the chart area, you need:
 * In the component editor, navigate to the Area tab and select the Interlacing Horizontal section;
 * Set the required property values.
 
 
-Below is a table of properties used to configure interlacing vertical.
+Below is a table of properties used to configure interlacing horizontal.
 
 | **Name** | **Description** |
 | --- | --- |

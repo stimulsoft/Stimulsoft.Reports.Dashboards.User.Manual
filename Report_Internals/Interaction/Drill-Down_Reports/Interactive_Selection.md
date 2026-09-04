@@ -1,6 +1,5 @@
 ## Interactive Selection
 
-
 One of the drill-down types is the interactive selection. The Interactive Selection can be used to produce data detailing on the same page, on which the main data are placed. Creating a report with the interactive selection is possible using the **Interaction.Selection Enabled** property. Only a **Data Band** has this property. Consider the example of a report using the interactive selection. Open a report with the list of categories and products related to these categories. The picture shows a report template:
 
 

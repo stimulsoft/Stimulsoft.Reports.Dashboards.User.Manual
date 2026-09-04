@@ -1,6 +1,6 @@
-## Introduction
+# Introduction
 
-Welcome to the online version of the documentation Stimulsoft Reports. This part of documentation describes basic approaches in work with GUI. Here you can find the answers on all your questions, find out about main abilities, master the skills of working with the report designer, viewer and other utilities. Also you will learn how to use the components for designing reports, formatting, filtering, and creating styles for reports.
+Welcome to the online version of the documentation for Stimulsoft Reports. This part of documentation describes basic approaches to working with the GUI. Here you can find the answers to all your questions, find out about main abilities, master the skills of working with the report designer, viewer and other utilities. Also you will learn how to use the components for designing reports, formatting, filtering, and creating styles for reports.
 
 Welcome to **Stimulsoft**:
 
@@ -10,7 +10,7 @@ Welcome to **Stimulsoft**:
 
 [Information in Web and References]()
 
-[Evaluate Demo Version](http://web.stimulsoft.com)
+[Evaluate Demo Version](https://www.stimulsoft.com)
 
 [Features - Stimulsoft Reports Product Line](https://www.stimulsoft.com/en/documentation/online/user-manual/stimulsoft_reports_features_stimulsoft_reports_product_line.htm)
 

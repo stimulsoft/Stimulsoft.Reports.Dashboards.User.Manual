@@ -1,6 +1,5 @@
 ## List Output
 
-
 Render a report that prints a list. Put one **Data** band on a page. Using the **DataSource** property assign a data source to the band. Put **Text** components on the band. Make a reference to data fields in each component. For example:
 
 

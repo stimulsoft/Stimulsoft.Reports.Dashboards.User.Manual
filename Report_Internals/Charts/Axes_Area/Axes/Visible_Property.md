@@ -1,7 +1,6 @@
 ## Visible Property
 
-
-The **Visible** property is used to show X and Y axes. The picture below shows a chart with the **Visibility** property set to **true** (axes are visible):
+The **Visible** property is used to show X and Y axes. The picture below shows a chart with the **Visible** property set to **true** (axes are visible):
 
 
 ![](../../../../images/topics/Report_Internals.Charts.Axes_Area.Axes.Visible_Property_1.png)
@@ -19,6 +18,6 @@ The **Visible** property has the X axis and the Y axis. It is possible to hide/s
 ![](../../../../images/topics/Report_Internals.Charts.Axes_Area.Axes.Visible_Property_3.png)
 
 
-The **Visible** property has the top X axis and the right Y axis. It is possible a combination, for example, the top X axis and the left Y axis or the X axis and right Y axis or any other combinations.
+The **Visible** property has the top X axis and the right Y axis. It is possible to have any combination, for example, the top X axis and the left Y axis, or the X axis and right Y axis, or any other combination.
 
 By default the **Visible** property is set to **true**.

@@ -1,7 +1,6 @@
 ## Compatibility of Different Versions
 
-
-The **XLS** format is based on the BIFF8 specification. Full support of this format is realized starting with the Excel 9.0 (Excel 2000).
+The **XLS** format is based on the BIFF8 specification. Full support of this format is realized starting with Excel 9.0 (Excel 2000).
 
 
 **Excel 8.0 (Excel 97)**:

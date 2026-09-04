@@ -12,7 +12,7 @@ Cross-primitives include: **Vertical Line**, **Rectangle** and **Rounded Rectang
 2.2. Create a **New Data Source**;
 
 
-3. Create a report or load previously saved one. For our example we take a Simple List Report report, described in **Simple List Report** article.
+3. Create a report or load previously saved one. For our example we take a Simple List Report, described in **Simple List Report** article.
 
 
 ![](../images/topics/Getting_Started.Report_with_Cross-Primitives_1.png)

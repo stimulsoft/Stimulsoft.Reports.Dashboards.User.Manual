@@ -1,6 +1,5 @@
 ## ParentValue Property
 
-
 The **ParentValue** property is used to identify entries which will be the parent rows for the remaining rows in a report. Parent rows are rows which are placed on the top level of hierarchy and in which all other elements are included. The report must have at least one parent line, if the parent line is missing, the report cannot be rendered. The **ParentValue** property can take any value, which is an entry in the data column, which is listed as the **MasterKeyDataColumn**. For example, if the **MasterKeyDataColumn** property is the **ReportsTo** data column, then the value of the **ParentValue** property will be entries in this column. The picture below shows an example of the **EmployeeID**, **LastName**, **City**, **Region**, **ReportsTo** data columns of the **Employees** data source:
 
 

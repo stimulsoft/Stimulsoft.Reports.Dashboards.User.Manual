@@ -1,6 +1,5 @@
 ## Page Footer Band
 
-
 The Page Footer band is used to output information such as page numbers, dates, and company information at the bottom of a page. The Page Footer band is output at the bottom of every page of the report.  An unlimited number of Page Footer bands can be placed on a page.
 
 
@@ -9,13 +8,13 @@ The Page Footer band is used to output information such as page numbers, dates, 
 
 **Example**
 
-Create a new report and drop three bands on a page: a Page Footer band for the current page number and number of pages in the report, a Data band to output data and a Header band band to output data column headers. Drop a text component on the Page Footer band and enter the following expression in the Text Property Editor:
+Create a new report and drop three bands on a page: a Page Footer band for the current page number and number of pages in the report, a Data band to output data and a Header band to output data column headers. Drop a text component on the Page Footer band and enter the following expression in the Text Property Editor:
 
 
 {PageNofM}
 
 
-* **Note:** If you prefer instead of typing the expression it is possible to select it from the System Variables in the Expression Editor.
+* **Note:** If you prefer, instead of typing the expression, it is possible to select it from the System Variables in the Expression Editor.
 
 
 The result should look something like this:

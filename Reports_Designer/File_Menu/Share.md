@@ -1,4 +1,4 @@
-## Share
+# Share
 
 When designing reports, it often becomes necessary to provide access to it to other users. This can be done in various ways:
 
@@ -23,7 +23,7 @@ To use the remote access, it is necessary to:
 * Have a Stimulsoft account for the designer of reports. If you do not have an account, you may register it for free.
 
 
-The remote access can be set up form the **Share** dialog, which can be called by selecting the **Share** command from the **File** menu.
+The remote access can be set up from the **Share** dialog, which can be called by selecting the **Share** command from the **File** menu.
 
 
 > **Information**
@@ -50,7 +50,7 @@ Below is the menu for setting access to the report:
 * Select **Embed Code** to get the code for the HTML page with a link to this element. Also in this case, the field contains the **Copy** button (when you click it, the embed code is copied to the clipboard).
 * Select **QR Code** to display the QR code for reading. When this code is read, the link to the item will be automatically received.
 
-**Step-by-step instructions to set up share to a report**
+### Step-by-step instructions to set up share to a report
 
 
 **Step 1**: Run the report designer;

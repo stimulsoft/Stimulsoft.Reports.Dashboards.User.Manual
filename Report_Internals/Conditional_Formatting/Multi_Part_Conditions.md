@@ -1,7 +1,6 @@
 ## Multi Part Conditions
 
-
-In some cases, one comparison operation may not be sufficient to define the condition. To allow for this situation Stimulsoft Reports allows you to specify a multi part condition. The picture below shows the condition editor a two level multi part condition:
+In some cases, one comparison operation may not be sufficient to define the condition. To allow for this situation Stimulsoft Reports allows you to specify a multi part condition. The picture below shows the condition editor for a two level multi part condition:
 
 
 ![](../../images/topics/Report_Internals.Conditional_Formatting.Multi_Part_Conditions_1.png)

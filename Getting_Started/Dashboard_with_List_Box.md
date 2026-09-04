@@ -1,4 +1,4 @@
-## Dashboards with List Box
+# Dashboards with List Box
 
 To create a dashboard with the [List Box element](../Dashboards/Data_Filtering/List_Box.md), you should make the following actions:
 

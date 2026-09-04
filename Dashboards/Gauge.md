@@ -1,4 +1,4 @@
-## Gauge
+# Gauge
 
 **Gauge** is an element of the dashboard panel using which you can display the processed value from the data field.
 
@@ -25,9 +25,9 @@ You may adjust the **Gauge** element in its editor. To call the editor, you shou
 
 * Select the **Gauge** element, and, on the property panel, click the **Browse** button of the **Value** or **Series** properties.
 
-**Gauge Editor**
+### Gauge Editor
 
-In the this editor adjusts the gauge.
+This editor adjusts the gauge.
 
 
 ![](../images/topics/Dashboards.Gauge_2.png)

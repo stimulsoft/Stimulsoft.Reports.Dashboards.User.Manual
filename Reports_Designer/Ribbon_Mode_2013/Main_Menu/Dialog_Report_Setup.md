@@ -1,5 +1,4 @@
-## Dialog Report Setup
-
+# Dialog Report Setup
 
 If to select the **Options** item in the submenu of the **Report** group, then the **Report Setup** window is invoked that allows you to identify the basic information and report parameters. The picture below shows the **Report Setup** dialog:
 
@@ -27,7 +26,7 @@ The **Description** tab defines information of report parameters. The picture be
 As can be seen from the picture above, the **Description** tab is represented by three groups:
 
 ![](../../../images/topics/Reports_Designer.Ribbon_Mode_2013.Main_Menu.Dialog_Report_Setup_5.png)
- A group of names. In this group the **Name**) and **Alias** of a report are specified, as well as the **Author's** name of the report.
+ A group of names. In this group the **Name** and **Alias** of a report are specified, as well as the **Author's** name of the report.
 
 ![](../../../images/topics/Reports_Designer.Ribbon_Mode_2013.Main_Menu.Dialog_Report_Setup_6.png)
  A group of the report description. In this group the report description is defined.

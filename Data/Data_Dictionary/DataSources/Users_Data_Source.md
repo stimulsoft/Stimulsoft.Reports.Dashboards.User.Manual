@@ -1,4 +1,4 @@
-## Custom Data Sources
+# Custom Data Sources
 
 If you want to build a report based on the custom data then, in Stimulsoft Reports, you can create custom data based on custom data sources. To do this, you should select Data from User Sources in the New Data Source window, and in the next New Data Source dialog box, configure a custom data source. The picture below shows the form **New Data Source**:
 
@@ -18,7 +18,7 @@ Setting the data source is done using the following controls:
 
 ![](../../../images/img_5.png) The new calculated data column can be added to the data source using the **New Calculated Column** button.
 
-![](../../../images/img_6.png) The **Delete** button deletes the selected ![](../../../images/img_9.png) data column or deletes all data columns when the **Columns** tabs is selected.
+![](../../../images/img_6.png) The **Delete** button deletes the selected ![](../../../images/img_9.png) data column or deletes all data columns when the **Columns** tab is selected.
 
 ![](../../../images/img_7.png) Preview the query.
 

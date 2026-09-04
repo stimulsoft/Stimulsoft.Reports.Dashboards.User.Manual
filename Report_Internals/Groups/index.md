@@ -1,6 +1,5 @@
 ## Groups
 
-
 One of the main tasks when rendering reports is grouping the data. Grouping can be used both for the logical separation of data rows and to make a report look better. Two bands are used to create grouped reports: the **GroupHeader** band and the **GroupFooter** band.
 
 

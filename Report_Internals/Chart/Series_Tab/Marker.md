@@ -1,4 +1,4 @@
-## Marker
+# Marker
 
 A **Marker** is a graphical symbol used to display series values on a chart. Markers are available only for line-based charts, including Line, Area, Range, Scatter, Radar, and their variations.
 
