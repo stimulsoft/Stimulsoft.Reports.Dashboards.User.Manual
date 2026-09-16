@@ -102,6 +102,6 @@ To call the field menu in the preview, you should click on a header on this pane
 * The **Custom filter** allows you to set several filters with various logical operations.
 
 
-![](../../images/img_4.png) The command, which deletes all filters for the current field.
+![](../../images/img_4.png) The command that removes all filters from the current field.
 
-![](../../images/img_5.png) Values of the current field. One of data filtering tools. By default, all values and the **Select All** item are displayed as well as other values they are checked a box. However, you can check a box next to the values you need. As a result, only the values checked a box and rows related with them will be displayed in a new table. When selecting the **Remove Filter** command all values will be checked a box, it means they will be displayed.
+![](../../images/img_5.png) Values of the current field. This is one of the data filtering tools. By default, all values and the **Select All** item are displayed as well as other values they are checked a box. By default, all values, including the **Select All** item, are displayed and their checkboxes are selected. You can clear the checkboxes next to the values you do not need. As a result, only the selected values and the rows associated with them will be displayed in the new table. When you select the **Remove Filter** command, all values will be selected again and displayed.

@@ -36,7 +36,7 @@ The **Vertical Line**, **Horizontal Line**, **Rectangle** components are not gra
 >
 > All text components which contain text are rotated (the value of the Angle property is not 0) and converted to images. Besides, if the **ExportAsImage** property is set to **true****,** then the text components will also be converted to images.
 
-All components are joined with one rule - all of them will be converted as images. The **HTML** format does not allow passing an image in its body, and the report generator uses the cache of a page or the cache of a session for saving images. When a huge amount of calls to a report and multiple images in a report, there can be a huge amount of objects in the page cache or in the session cache. And these objects will take additional server memory. Therefore, it is better not to use many graphic objects. The **ServerTimeOut** property can be used to set the time of objects caching in the page cache or in the session cache.
+All of these elements share one common rule: they will all be displayed as images. Since the **HTML** format does not allow images to be embedded directly in its body, the report generator uses the page cache or session cache to store images.When a report is accessed frequently and contains a large number of graphical objects, the page or session cache may accumulate a significant number of objects. As a result, these objects will consume additional server memory. Therefore, it is recommended not to use an excessive number of graphical objects.The amount of time that objects remain in the page or session cache can be configured using the **ServerTimeOut** property.
 
 
 > **Information**

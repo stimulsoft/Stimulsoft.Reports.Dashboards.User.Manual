@@ -54,6 +54,6 @@ The table helps you to check which system parameters are necessary for using Sti
 
 > **Information**
 >
-> * - HTML5 components of the product support all web browsers. If we are saying of the Internet Explorer, then versions 9 and higher are supported.
+> * - The HTML5 components support Internet Explorer version 9 and higher.
 >
-> * - For any Stimulsoft product, we offer a tool to design reports and dashboards for Mac OS.
+> * - For all Stimulsoft products, we provide a tool for designing reports and dashboards on macOS.

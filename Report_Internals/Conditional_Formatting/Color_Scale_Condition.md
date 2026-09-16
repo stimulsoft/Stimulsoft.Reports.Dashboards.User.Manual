@@ -30,7 +30,7 @@ Add the **Color Scale Condition**. To do this, select a text component, for exam
 
 ![](../../images/img_5.png) The **Color** field. Used for a minimum color scale;
 
-![](../../images/img_6.png) The **Sample** field. Shows a color scale in the report how it will look like from minimum to medium and from medium to maximum. If you select the color scale 2-color scales, then in this field a color gradient from minimum to maximum will be displayed;
+![](../../images/img_6.png) The **Sample** field displays the color scale that will be used in the report, i.e., the color gradient from the minimum value to the average value and from the average value to the maximum value. If the 2-color scales type is selected, this field displays the color gradient from the minimum value to the maximum value.
 
 ![](../../images/img_7.png) A group of parameters (Type, Value, Color) of the medium color scale;
 

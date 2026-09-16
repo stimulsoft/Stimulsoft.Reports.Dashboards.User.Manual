@@ -1,6 +1,6 @@
 # Brush
 
-To fill background and text drawing you can use various brushes. Each **Brush** is a separate facture, which can be filled both with one color and several.
+To fill background and text drawing you can use various brushes. Each **Brush** is a separate texture, which can be filled both with one color and several.
 
 
 To change a brush you should:

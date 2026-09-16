@@ -8,7 +8,7 @@ Code 39 is a variable length symbology that can encode 44 characters. Code 39 is
 | **Length:** | Variable |
 | **Check digit:** | No, according to the specification; In practice - one, modulo-43 algorithm |
 
-The **Code 39** barcode can encode capital letters (A to Z), numbers (0 to 9) and a group of special characters. Each Code 39 bar code has a start/stop character represented by an asterisk (*). The barcode code does not contain the check character but can be added programmatically. Each character starts and stops with a 'dark bar' that consists of 5 dark and 4 bright bars. The ratio between narrow and wide bars may range from 2.2:1 to 3:1.
+The **Code 39** barcode can encode uppercase Latin letters (A to Z), digits (0 to 9), and a set of special characters. Each Code 39 barcode has a start/stop character represented by an asterisk (*). The barcode does not contain a check character, but one can be added programmatically. Each character starts and ends with a dark bar and consists of 5 dark and 4 light bars. The width ratio of narrow to wide bars can range from 2.2:1 to 3:1.
 
 
 Perhaps the main disadvantage of the **Code 39** barcode is its low data density. It requires more free space than **Code 128**, but the **Code 39** barcode is still widely used and can be identified by any barcode scanner.

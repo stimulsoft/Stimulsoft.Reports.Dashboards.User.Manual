@@ -115,14 +115,14 @@ The table below lists chart series types with brief descriptions.
 | ![](../../images/topics/Report_Internals.Charts_38.png) | **Stock** Another series for the financial chart, which displays market trends. |
 | **Treemap:** |  |
 | ![](../../images/topics/Report_Internals.Charts_39.png) | **TreemapA series is used to display a hierarchy of values. The chart area is the sum of all major values. This area will be split proportionally for each value of the first row. In turn, each part will be divided into proportional parts for each value of the second row, etc.** |
-| **** | **Heatmap** Uses a color gradient to represent values in a table format. Useful for density or distribution analysis. |
+| ![](../../images/Heatmap.png) | **Heatmap** Uses a color gradient to represent values in a table format. Useful for density or distribution analysis. |
 | **Histogram:** |  |
-| **** | **Histogram** Displays data distribution with vertical bars representing value frequency. |
+| ![](../../images/Histogram.png) | **Histogram** Displays data distribution with vertical bars representing value frequency. |
 | ![](../../images/topics/Report_Internals.Charts_40.png) | **ParetoApplies Pareto’s principle to values.** |
-| **** | **Ribbon** Represents data with horizontal ribbons for easy comparison. |
+| ![](../../images/Ribbon.png) | **Ribbon** Represents data with horizontal ribbons for easy comparison. |
 | **Pictorial:** |  |
 | ![](../../images/topics/Report_Internals.Charts_41.png) | **PictorialA series type that is used to display data as special set of icons.** |
-| **** | **Pictorial Stacked** Icons show total values with stacking for categories. |
+| ![](../../images/PictorialStacked.png) | **Pictorial Stacked** Icons show total values with stacking for categories. |
 | **Other:** |  |
 | ![](../../images/Sunburst.png) | **Sunburst** A hierarchical circular chart with nested data. |
 | ![](../../images/BoxAndWhisker.png) | **Box and Whisker** Displays data distribution with quartiles, median, and outliers. |

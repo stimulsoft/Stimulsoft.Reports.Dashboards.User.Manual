@@ -1,6 +1,6 @@
 ## Data From Other Data Source
 
-In the report generator you can create a data source based on existing data sources. The **Data from other Data Source** provides similar features like the query to the database. When creating a data source using the visual interface, in the process of creating a data source, to perform sorting, grouping, filtering, and calculating of totals using aggregate functions. Consider the example of creating data from other data sources. Suppose there is a **Master-Detail** report, to which each category corresponds a number of products. The picture below shows a page of the **Master-Detail** report (shown partially):
+In the report generator you can create a data source based on existing data sources. The **Data from other Data Source** provides similar features like the query to the database. When creating such a data source, the visual interface allows you to perform sorting, grouping, filtering, and calculate totals using aggregate functions during the data source creation process. Consider the example of creating data from other data sources. Suppose there is a **Master-Detail** report, to which each category corresponds a number of products. The picture below shows a page of the **Master-Detail** report (shown partially):
 
 
 ![](../../../images/topics/Data.Data_Dictionary.DataSources.Data_From_Other_Data_Source_1.png)

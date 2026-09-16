@@ -8,7 +8,7 @@ A **Pharmacode** barcode is used in the pharmaceutical industry as a packing con
 | **Length:** | Variable, 1..6 characters of a digit |
 | **Check digit:** | No |
 
-A **Pharmacode** barcode can represent only a single integer from 3 to 131070. All digits in the specified range make correct barcodes, but some of these barcodes can be unreadable because all barcodes are identical. So, the following digits should not be used:
+This barcode can encode a single integer from 3 to 131,070. All values within this range produce valid barcodes. However, some of these barcodes may be unreadable because all of their bars have the same width. Therefore, the following values should not be used:
 
 
 3, 6, 7, 14, 15, 30, 31, 62, 63, 126, 127, 254, 255, 510, 511, 1022, 1023, 2046, 2047, 4094, 4095, 8190, 8191, 16382, 16383, 32766, 32767, 65534, 65535, and 131070.

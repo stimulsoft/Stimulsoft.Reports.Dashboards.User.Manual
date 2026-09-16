@@ -1,16 +1,16 @@
 ## Direct Allocation on Page
 
-One of the options for placement of the "watermark" inscription is a direct placement on the page. This means that the direct placement of any component, which will be the "watermark" inscription on a page of a report template.
+One way to place a watermark is to position it directly on the page. This means placing any component that will serve as the watermark directly on the report template page. The image below shows a "watermark" created by directly placing a text component on the report template page.
 
 ![](../../images/topics/Report_Internals.Watermarks.Direct_Allocation_on_Page_1.png)
 
 
-The picture above shows the "watermark" by means of the direct placement a text component on a template of a page.
+Direct placement on a page allows text to be displayed in the background anywhere in the working area. When TextBox component is placed directly on a page, the page of the report template becomes its "owner".
 
-Direct placement on a page allows showing an inscription on the background but at any of the working space.
+To prevent a text component placed on a page from changing its "owner", i.e., from becoming an element of one of the bands placed on the page, set the Linked property.
 
-There is the **Linked** property. This **Linked** property may have two values: **true** and **false**.
+The **Linked** property can have two values: **true** and **false**.
 
-If the property is set to **false**, then the relation with "owner" is not fixed. In other words the "owner" is the report template item on which the **TextBox** component is placed.
+If the property is set to **false**, the relationship with the "owner" is not fixed. In this case, the "owner" is the report template element on which the **TextBox** component is currently located.
 
-If the property is set to **true**, then the relation with "owner" is fixed. In other words the **TextBox** component may change the position but it will be referred to the item on what it is fixed.
+If the property is set to **true**, the relationship with the "owner" is fixed. The **TextBox** component can be moved, but it remains associated with the element to which it was linked.

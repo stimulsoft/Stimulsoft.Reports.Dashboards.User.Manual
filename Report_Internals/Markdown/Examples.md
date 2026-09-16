@@ -2,25 +2,37 @@
 
 This chapter describes text formatting examples for the Markdown component.
 
-### Supported standard
+### Supported standard and extensions
 
-The component supports [CommonMark 0.31.2](https://spec.commonmark.org/0.31.2/) - the full official specification.
+The base syntax is the full official specification [CommonMark 0.31.2](https://spec.commonmark.org/0.31.2/). A brief overview of the supported formatting follows; the extensions on top of CommonMark are enabled by default. The name of each item is a link to the official description of its syntax.
+
+- [Code formatting](https://spec.commonmark.org/0.31.2/#fenced-code-blocks) - inline code ``code``, a fenced block of ````` (a language tag can be given) and an indented block of 4 spaces.
+- [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/) - tables, task list items, strikethrough, autolinks.
+- [Footnotes](https://michelf.ca/projects/php-markdown/extra/#footnotes) - references like `[^id]` with a definition later in the text.
+- [Definition lists](https://michelf.ca/projects/php-markdown/extra/#def-list) - a term and a definition indented under it.
+- [Highlight, superscript and subscript](https://pandoc.org/MANUAL.html#superscripts-and-subscripts) - `==text==`, `x^2^`, `H~2~O`.
+- [SmartyPants](https://daringfireball.net/projects/smartypants/) - typographic quotes, dashes and ellipsis.
+- [Obsidian-style callouts](https://help.obsidian.md/callouts) - `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, `> [!CAUTION]`.
+
+
+Each item is covered in detail with examples below.
 
 ### What you get from CommonMark
 
 - **Headings** - `# H1` / `## H2` / `### H3` / `#### H4` / `##### H5` / `###### H6`.
+- **Setext headings** - a line of text with `===` (level 1) or `---` (level 2) underneath it.
 - **Paragraphs** - blank line separates paragraphs. Hard break: two trailing spaces or `\` at line end.
 - **Emphasis** - `*italic*` → *italic*, `**bold**` → **bold**, `***both***` → ***both***.
-- **Inline code** - ``code`` → `code`.
-- **Fenced code block** - ````` opens / closes a block; the language tag is preserved as text.
-- **Indented code block** - start every line with 4 spaces (or a tab).
+- **Code formatting** - inline ``code`` → `code`; a fenced block of ````` or `~~~` (the language tag is preserved as text); an indented block - start every line with 4 spaces or a tab.
 - **Bulleted list** - `- item`, `* item` or `+ item`; indent for nesting.
 - **Ordered list** - `1. item`, `2. item` …; numbers don't have to be sequential.
 - **Links** -`[text](https://example.com)` → text, with optional `"title"`.
+- **Reference links** - `[text][id]` in the text and `[id]: https://example.com` on a line of its own.
 - **Images** - `![alt](https://example.com/pic.png)` on a line of its own.
 - **Blockquotes** - `> quoted line`; nest with `>> deeper`.
 - **Thematic break** - `---`, `***` or `___` on a line of its own.
 - **HTML entities** - `&copy;` → ©, `&mdash;` → -, `&amp;` → &.
+- **Raw HTML** - HTML blocks and inline tags are output as-is in a monospaced font; HTML markup is not interpreted.
 - **Backslash escapes** - `\*`, `\#`, `\_` … for literal punctuation.
 
 ### CommonMark - fenced code block
@@ -58,7 +70,7 @@ On top of CommonMark the component enables the [GitHub Flavored Markdown (GFM)](
 
 ### GFM - tables
 
-Pipe-delimited cells. The header row is required, separated from the body by a row of dashes. Trailing pipes are optional. Example:
+Pipe-delimited cells. The header row is required, separated from the body by a row of dashes. Trailing pipes are optional. Alignment markers in the separator row (`:---`, `:--:`, `---:`) are recognized but have no effect in the current version - cell content is left-aligned. Example:
 
 | Column A | Column B | Column C |
 
@@ -96,7 +108,7 @@ Beyond CommonMark and GFM the following extensions are enabled by default:
 - **Footnotes** - `text[^1]` with `[^1]: definition` later.
 - **Definition lists** - a term, then `:   definition` indented under it.
 - **Highlight** - `==marker==` → marker.
-- **Superscript** - `x^2^` → x2.
+- **Superscript** - `x^2^` or `x^(2)` → x2.
 - **Subscript** - `H~2~O` → H2O.
 - **SmartyPants** - `"text"` → “text”, `--` → –, `---` → -, `...` → ….
 - **Obsidian-style callouts** - `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, `> [!CAUTION]`.
@@ -146,7 +158,15 @@ Here is a footnote reference[^1] and another[^longnote].
 
 [^longnote]: Second footnote with more detail.
 
-**Here is a footnote reference[1] and another[2].**
+Here is a footnote reference[1] and another[2].
+
+The footnotes themselves are collected at the bottom of the component under a horizontal rule:
+
+___________________________________
+
+[1] First footnote.
+
+[2] Second footnote with more detail.
 
 ### Extension - definition list
 
@@ -161,9 +181,12 @@ Another term
 
 :  Definition of the other term.
 
-### Term
+In the report the colon itself is not shown: the term is displayed in bold, the definition is indented under it, and entries are separated by a blank line.
+
+**Term**
 
 Definition of the term.
+
 
 **Another term**
 

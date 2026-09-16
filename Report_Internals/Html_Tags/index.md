@@ -47,7 +47,7 @@ In the examples above the HTML tags are placed within the body of an expression 
 
 ### Available Tags
 
-There are few limitations  - most valid HTML style tags can be inserted, with the exception of ordered list and unordered list tags.  If you need to generate such lists you can use the Rich Text control or create the layout manually.
+There are a few limitations. Most HTML formatting tags are supported, except for ordered and unordered list tags. To create such lists, use the Rich Text component or create the layout manually.
 
 
 > **Information**
