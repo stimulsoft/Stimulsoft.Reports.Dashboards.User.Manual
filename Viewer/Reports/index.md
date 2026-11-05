@@ -148,13 +148,13 @@ The search panel is used to search for some text in the report. On the main tool
 
 ![](../../images/img_2.png) The field to put a text that should be found.
 
-![](../../images/img_3.png) The button to run the search.
+![](../../images/img_3.png) The **Find Next** button starts the search and moves the cursor through the list of found results from the beginning to the end.
 
-![](../../images/img_4.png) The button to run the search.
+![](../../images/img_4.png) The **Find Previous** button starts the search and moves the cursor through the list of found results from the end to the beginning.
 
-![](../../images/img_5.png) If the flag is set, then the search will be repeated considering the case.
+![](../../images/img_5.png) **Case-sensitive** **search option**. If the checkbox is selected, the search is case-sensitive. If the checkbox is cleared, the search is performed without regard to letter case.
 
-![](../../images/img_6.png) If the flag is set, then the search will be done considering the whole word.
+![](../../images/img_6.png) **Whole-word search option**. If the checkbox is selected, the search is performed for whole words only. If the checkbox is cleared, the search is performed without regard to word boundaries.
 
 ### Resources Panel
 

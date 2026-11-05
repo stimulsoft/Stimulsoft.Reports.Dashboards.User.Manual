@@ -1,4 +1,4 @@
-## Technical Support
+# Technical Support
 
 Users with active subscription and users who are evaluating the software (pre-sale) may get technical support.
 
@@ -12,7 +12,7 @@ For subscription, payment questions, send your questions [sales@stimulsoft.com](
 For other inquiries, please use the e-mail address: [info@stimulsoft.com](mailto:info@stimulsoft.com)
 
 
-If you have issues with our products, you may contact us through our feedback form at [http://www.stimulsoft.com/support.aspx](<%LINK_CAPTION%>)
+If you have issues with our products, you may contact us through our feedback form at [http://www.stimulsoft.com/support.aspx](http://www.stimulsoft.com/support.aspx)
 
 It is possible to send questions from the standard UI of the report designer. To do this, select the Help menu -&gt; Support.
 

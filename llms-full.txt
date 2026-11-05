@@ -229,7 +229,7 @@ For subscription, payment questions, send your questions [sales@stimulsoft.com](
 
 For other inquiries, please use the e-mail address: [info@stimulsoft.com](mailto:info@stimulsoft.com)
 
-If you have issues with our products, you may contact us through our feedback form at [http://www.stimulsoft.com/support.aspx](<%LINK_CAPTION%>)
+If you have issues with our products, you may contact us through our feedback form at [http://www.stimulsoft.com/support.aspx](http://www.stimulsoft.com/support.aspx)
 
 It is possible to send questions from the standard UI of the report designer. To do this, select the Help menu -&gt; Support.
 
@@ -1884,7 +1884,7 @@ To start creating reports and dashboards, you need to install the Stimulsoft rep
 * [Account registration and activation](../Introduction/Activation.md).
 
 **Installing from Stimulsoft website**
-**Step 1**: Go to the download page at [https://www.stimulsoft.com/en/downloads](<%LINK_CAPTION%>);
+**Step 1**: Go to the download page at [https://www.stimulsoft.com/en/downloads](https://www.stimulsoft.com/en/downloads);
 
 **Step 2**: Click the **Download for Windows** button on the site page;
 
@@ -1990,7 +1990,7 @@ The report designer is a tool for creating and editing reports and dashboards.
 
 ### Loading developer packages from Stimulsoft
 
-**Step 1**: Go to the download page at [https://www.stimulsoft.com/en/downloads](<%LINK_CAPTION%>);
+**Step 1**: Go to the download page at [https://www.stimulsoft.com/en/downloads](https://www.stimulsoft.com/en/downloads);
 
 **Step 2**: Scroll down until you reach the section **Packages for developers**;
 
@@ -4910,9 +4910,9 @@ Do the following steps to create a hierarchical report:
 
 7.8. Set the border color.
 
-8. Set the **KeyDataColum** property, select a data column on which an identification number of the data row will be assigned. In this case, select the **EmployeeID** data column:
+8. Set the **KeyDataColumn** property, select a data column on which an identification number of the data row will be assigned. In this case, select the **EmployeeID** data column:
 
-9. Set the **MasterKeyDataColum** property, select a data column on which the reference to the table's primary key of the parent entry will be specified. In this case, select the **ReportsTo** data column:
+9. Set the **MasterKeyDataColumn** property, select a data column on which the reference to the table's primary key of the parent entry will be specified. In this case, select the **ReportsTo** data column:
 
 10. Set the **Indent**  property, set an offset of the detail entry in relation to the parent one. In this example, the **Indent** property will be 20 units in the report (centimeters, inches, hundredths of inches, pixels);
 
@@ -17546,7 +17546,7 @@ On the next step, it is necessary to define the look of labels in the chart. By 
 
 > **Information**
 >
-> You should know that when you create a chart manually, without using the wizard, you can specify label look as the entire chart and its our look for each row of the label. When you create a chart using the wizard, you can only define the general form of signatures for the whole diagram, one type for all series of the chart.
+> When creating a chart manually, without using the wizard, you can configure the appearance of labels for the entire chart or separately for each series. When using the wizard, you can configure only one label style for all chart series.
 
 On the next step, it is necessary to define axes settings.
 
@@ -22006,7 +22006,7 @@ In cases, if such types of graphic analysis as **Color Scale**, **Sparkline**, *
 
 ### Card Layout
 
-When adding the first data field to the **Cards** element, for each value from a data column will be formed its own card. Next, if another data column will be added from the same source, its values will be added to existing cards as well as these data is compared in the source.
+When the first data field is added to the **Cards** element, a separate card will be created for each value in the data column. If another data column from the same data source is added, its values will be added to the existing cards according to how the data is mapped in the data source.
 
 If a data column will be added from another data source, its values will be added to existing cards if there is a connection between data sources. Otherwise, if there is no connection between data sources, for values from the second column data column will be formed their own cards.
 
@@ -22040,7 +22040,7 @@ The table contains name and description of the **Cards** element properties and 
 | Column Count | It allows you to define the number of columns in the element. By default, the property is set to 0, i.e. the number of columns for cards in element is counted automatically. |
 | Data Transformation | Customizes the data transformation of the current item. |
 | Orientation | It allows you to define the direction of filling the columns of the element with cards. If the property is set to the **Horizontal** value, the columns are first filled from left to right within the width of the element, and a transition to a new line is performed. If the property is set to the **Vertical**, the columns are first filled from top to bottom within the height of the element, and then a transition is made to a new column on the right. |
-| Back Color | It allows you to specify a background color for cards in an element. By default, the color from the style is used. Also, it’s worth taking into account that if the **Color for each** mode is enabled, the background color of the cards is defined by the value of the **Series Colors** property. |
+| Back Color | It allows you to specify a background color for cards in an element. By default, the color from the style is used. Also, it’s worth taking into account that if the **Color Each** mode is enabled, the background color of the cards is defined by the value of the **Series Colors** property. |
 | Border | A group of properties that allows you to customize the borders of the cards - color, sides, size, and style. |
 | Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
 | Series Colors | It allows you to define a collection of colors to generate unique background hues for cards in an element. This property is relevant if the Color each mode is enabled. |
@@ -23912,7 +23912,7 @@ In the **Tree View** editor, you can add items with data, set up the value selec
 
  The **Selection Mode** parameter. Specifies the number of simultaneously selected values of the element. A **Tree View** is one element or many elements.
 
- The **Show (All) Value** option. Enables the option to select all values in the **Tree View** element. If this option is enabled, the **Select (All) Value** value will be present in the Tree View element.
+ The **Show (All) Value** option allows users to select all values in the **Tree View** element. When enabled, **Select (All)** appears in the element.
 
  The **Show Blanks** parameter allows you to display or not to display blank values from a data source in the list of the values of the current element.
 
@@ -23986,7 +23986,7 @@ In the **Tree View Box** editor, you can add items with data, set up the value s
 
  The **Selection Mode** parameter. Specifies the number of simultaneously selected values of the element. A **Tree View Box** is one element or many elements.
 
- The **Show (All) Value** option. Enables the option to select all values in the **Tree View Box** element. If this option is enabled, the **Select (All) Value** value will be present in the Tree View Box element.
+ The **Show (All) Value** option allows users to select all values in the **Tree View Box** element. When enabled, **Select (All)** appears in the element.
 
  The **Show Blanks** parameter allows you to display or not to display blank values from a data source in the list of the values of the current element.
 
@@ -26823,9 +26823,9 @@ This panel contains commands for managing the Properties panel.
 
  A control containing commands for configuring the Properties panel:
 
-* The **Localize Property Grid** command enables or disables localization of property names. If enabled (checkbox checked), property names will be translated when the designer's interface language changes. If disabled (checkbox unchecked), property names will not be localized;
+* The **Localize Property Grid** command allows you to enable or disable localization of property names. If the command is enabled, i.e. the checkbox is selected, property names will also be translated when the designer interface language is changed. If the command is disabled, i.e. the checkbox is cleared, property names will not be localized.
 
-* The **Show Description** command enables or disables localization of property names. If enabled (checkbox checked), property names will be translated when the designer's interface language changes. If disabled (checkbox unchecked), property names will not be localized;
+* The **Show Description** command allows you to show or hide the description field for the selected property or event. If the command is enabled, i.e. the checkbox is selected, the description field will be displayed. If the command is disabled, i.e. the checkbox is cleared, the description field will not be displayed.
 * Commands for selecting the property table type: **Basic**, **Standard**, **Professional**. Depending on the selected type, the list of properties of the component or element will be minimal, standard or extended.
 
 ### Dictionary
@@ -27383,7 +27383,9 @@ Once the connection is established, depending on the type of the data source and
 
 Source: https://stimulsoft.github.io/Stimulsoft.Reports.Dashboards.User.Manual/Data/Data_Dictionary/DataSources/Queries/index.md
 
-**Queries** are text script forms, which are used to extract data from tables and make them available in the report generator. Queries is that they get data from database tables and create them on the basis of a temporary table. The data in the temporary table will be filtered, grouped, sorted and ordered, according to the query parameters. Then, the temporary table is passed to the report generator. Applying queries provides the ability to avoid duplication of data in tables and provides maximum flexibility for searching and displaying data in a database. Most of queries are used to fetch data from the database and transfer them to the report generator. Not all data source types support **SQL** queries. If the type of a data source supports **SQL** queries, the **New Data Source** dialog will display the **Text Query** with the query. The picture below shows a **New Data Source** dialog, where in the **Query Text** field a query for fetching is created.
+**Queries** are text-based scripts used to retrieve data from tables and provide it to the report generator. Queries retrieve data from database tables and use it to create a temporary table. The data in the temporary table is filtered, grouped, sorted, and ordered according to the query parameters. The temporary table is then passed to the report generator.
+
+Using queries makes it possible to avoid data duplication in tables and provides maximum flexibility when searching for and displaying data in the database. Queries are primarily used to retrieve data from a database and pass it to the report generator. Not all data source types support **SQL** queries. If a data source type supports **SQL** queries, the **New Data Source** window will display the **Query Text** field, where the query can be specified.The picture below shows a **New Data Source** dialog, where in the **Query Text** field a query for fetching is created.
 
  The **Name in Source** field. In this field, you can enter the name or you can click the
 
@@ -29284,13 +29286,13 @@ The search panel is used to search for some text in the report. On the main tool
 
  The field to put a text that should be found.
 
- The button to run the search.
+ The **Find Next** button starts the search and moves the cursor through the list of found results from the beginning to the end.
 
- The button to run the search.
+ The **Find Previous** button starts the search and moves the cursor through the list of found results from the end to the beginning.
 
- If the flag is set, then the search will be repeated considering the case.
+ **Case-sensitive** **search option**. If the checkbox is selected, the search is case-sensitive. If the checkbox is cleared, the search is performed without regard to letter case.
 
- If the flag is set, then the search will be done considering the whole word.
+ **Whole-word search option**. If the checkbox is selected, the search is performed for whole words only. If the checkbox is cleared, the search is performed without regard to word boundaries.
 
 ### Resources Panel
 

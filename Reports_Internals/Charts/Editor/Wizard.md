@@ -68,7 +68,7 @@ On the next step, it is necessary to define the look of labels in the chart. By 
 
 > **Information**
 >
-> You should know that when you create a chart manually, without using the wizard, you can specify label look as the entire chart and its our look for each row of the label. When you create a chart using the wizard, you can only define the general form of signatures for the whole diagram, one type for all series of the chart.
+> When creating a chart manually, without using the wizard, you can configure the appearance of labels for the entire chart or separately for each series. When using the wizard, you can configure only one label style for all chart series.
 
 On the next step, it is necessary to define axes settings.
 

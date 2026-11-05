@@ -40,7 +40,7 @@ In the **Tree View** editor, you can add items with data, set up the value selec
 
 ![](../../images/img_3.png) The **Selection Mode** parameter. Specifies the number of simultaneously selected values of the element. A **Tree View** is one element or many elements.
 
-![](../../images/img_4.png) The **Show (All) Value** option. Enables the option to select all values in the **Tree View** element. If this option is enabled, the **Select (All) Value** value will be present in the Tree View element.
+![](../../images/img_4.png) The **Show (All) Value** option allows users to select all values in the **Tree View** element. When enabled, **Select (All)** appears in the element.
 
 ![](../../images/img_5.png) The **Show Blanks** parameter allows you to display or not to display blank values from a data source in the list of the values of the current element.
 

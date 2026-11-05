@@ -51,9 +51,9 @@ This panel contains commands for managing the Properties panel.
 
 ![](../images/img_5.png) A control containing commands for configuring the Properties panel:
 
-* The **Localize Property Grid** command enables or disables localization of property names. If enabled (checkbox checked), property names will be translated when the designer's interface language changes. If disabled (checkbox unchecked), property names will not be localized;
+* The **Localize Property Grid** command allows you to enable or disable localization of property names. If the command is enabled, i.e. the checkbox is selected, property names will also be translated when the designer interface language is changed. If the command is disabled, i.e. the checkbox is cleared, property names will not be localized.
 
-* The **Show Description** command enables or disables localization of property names. If enabled (checkbox checked), property names will be translated when the designer's interface language changes. If disabled (checkbox unchecked), property names will not be localized;
+* The **Show Description** command allows you to show or hide the description field for the selected property or event. If the command is enabled, i.e. the checkbox is selected, the description field will be displayed. If the command is disabled, i.e. the checkbox is cleared, the description field will not be displayed.
 * Commands for selecting the property table type: **Basic**, **Standard**, **Professional**. Depending on the selected type, the list of properties of the component or element will be minimal, standard or extended.
 
 ### Dictionary

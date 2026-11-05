@@ -59,7 +59,7 @@ In cases, if such types of graphic analysis as **Color Scale**, **Sparkline**, *
 
 ### Card Layout
 
-When adding the first data field to the **Cards** element, for each value from a data column will be formed its own card. Next, if another data column will be added from the same source, its values will be added to existing cards as well as these data is compared in the source.
+When the first data field is added to the **Cards** element, a separate card will be created for each value in the data column. If another data column from the same data source is added, its values will be added to the existing cards according to how the data is mapped in the data source.
 
 
 ![](../images/topics/Dashboards.Cards_5.png)
@@ -117,7 +117,7 @@ The table contains name and description of the **Cards** element properties and 
 | Column Count | It allows you to define the number of columns in the element. By default, the property is set to 0, i.e. the number of columns for cards in element is counted automatically. |
 | Data Transformation | Customizes the data transformation of the current item. |
 | Orientation | It allows you to define the direction of filling the columns of the element with cards. If the property is set to the **Horizontal** value, the columns are first filled from left to right within the width of the element, and a transition to a new line is performed. If the property is set to the **Vertical**, the columns are first filled from top to bottom within the height of the element, and then a transition is made to a new column on the right. |
-| Back Color | It allows you to specify a background color for cards in an element. By default, the color from the style is used. Also, it’s worth taking into account that if the **Color for each** mode is enabled, the background color of the cards is defined by the value of the **Series Colors** property. |
+| Back Color | It allows you to specify a background color for cards in an element. By default, the color from the style is used. Also, it’s worth taking into account that if the **Color Each** mode is enabled, the background color of the cards is defined by the value of the **Series Colors** property. |
 | Border | A group of properties that allows you to customize the borders of the cards - color, sides, size, and style. |
 | Corner Radius | It allows you to define the rounding radius for the corners of an element on the dashboard. You can round each corner of the element separately: **Top - Left**, **Top - Right**, **Bottom - Right**, **Bottom - Left**. The property can be set to a value between 0 and 30, where 0 is no rounding angle and 30 is the maximum value of the rounding radius. |
 | Series Colors | It allows you to define a collection of colors to generate unique background hues for cards in an element. This property is relevant if the Color each mode is enabled. |

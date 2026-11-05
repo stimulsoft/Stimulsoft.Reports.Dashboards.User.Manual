@@ -59,13 +59,13 @@ Do the following steps to create a hierarchical report:
 ![](../images/topics/Getting_Started.Hierarchical_Report_3.png)
 
 
-8. Set the **KeyDataColum** property, select a data column on which an identification number of the data row will be assigned. In this case, select the **EmployeeID** data column:
+8. Set the **KeyDataColumn** property, select a data column on which an identification number of the data row will be assigned. In this case, select the **EmployeeID** data column:
 
 
 ![](../images/topics/Getting_Started.Hierarchical_Report_4.png)
 
 
-9. Set the **MasterKeyDataColum** property, select a data column on which the reference to the table's primary key of the parent entry will be specified. In this case, select the **ReportsTo** data column:
+9. Set the **MasterKeyDataColumn** property, select a data column on which the reference to the table's primary key of the parent entry will be specified. In this case, select the **ReportsTo** data column:
 
 
 ![](../images/topics/Getting_Started.Hierarchical_Report_5.png)

@@ -26,7 +26,7 @@ To start creating reports and dashboards, you need to install the Stimulsoft rep
 
 
 **Installing from Stimulsoft website**
-**Step 1**: Go to the download page at [https://www.stimulsoft.com/en/downloads](<%LINK_CAPTION%>);
+**Step 1**: Go to the download page at [https://www.stimulsoft.com/en/downloads](https://www.stimulsoft.com/en/downloads);
 
 
 **Step 2**: Click the **Download for Windows** button on the site page;
@@ -182,7 +182,7 @@ The report designer is a tool for creating and editing reports and dashboards.
 ### Loading developer packages from Stimulsoft
 
 
-**Step 1**: Go to the download page at [https://www.stimulsoft.com/en/downloads](<%LINK_CAPTION%>);
+**Step 1**: Go to the download page at [https://www.stimulsoft.com/en/downloads](https://www.stimulsoft.com/en/downloads);
 
 
 **Step 2**: Scroll down until you reach the section **Packages for developers**;
