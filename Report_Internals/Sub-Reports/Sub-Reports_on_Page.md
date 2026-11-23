@@ -1,4 +1,4 @@
-## Sub-Reports on Page
+# Sub-Reports on Page
 
 The **Sub-Report** component can be placed on any part of a page. The width of the nested page depends on the width of the **Sub-Report** component. The picture below shows a sample of the **Sub-Report** component and nested page:
 

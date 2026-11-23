@@ -1,4 +1,4 @@
-## Axes
+# Axes
 
 **Axes Area** has **X** and **Y** axes. The X axis, as a rule, is the axis of arguments, and the Y axis, is the axis of values.
 

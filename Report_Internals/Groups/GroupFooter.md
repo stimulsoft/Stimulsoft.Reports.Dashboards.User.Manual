@@ -1,4 +1,4 @@
-## GroupFooter
+# GroupFooter
 
 It is enough to place a text component with an aggregate function in a **Group Footer** to output footer by group. Also, the footer of a group may be placed in a **Group Header** **band**. For example, to count the number of rows in each group in a **Text** component the following expression can be used:
 

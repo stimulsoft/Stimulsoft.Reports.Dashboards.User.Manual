@@ -1,4 +1,4 @@
-## Report with Columns in Data Band
+# Report with Columns in Data Band
 
 Do the following steps to create a report with columns in DataBand:
 

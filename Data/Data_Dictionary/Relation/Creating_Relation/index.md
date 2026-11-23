@@ -1,4 +1,4 @@
-## Creating Relation
+# Creating Relation
 
 It is possible to create a relation between data sources in the data dictionary. To do this select the item **New Relation** in the context menu of a data source or from the menu **Actions**. The picture below shows a **New Relation** dialog:
 

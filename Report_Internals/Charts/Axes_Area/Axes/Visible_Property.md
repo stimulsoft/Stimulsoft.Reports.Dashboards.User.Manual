@@ -1,4 +1,4 @@
-## Visible Property
+# Visible Property
 
 The **Visible** property is used to show X and Y axes. The picture below shows a chart with the **Visible** property set to **true** (axes are visible):
 

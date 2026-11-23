@@ -1,4 +1,4 @@
-## Multi Part Conditions
+# Multi Part Conditions
 
 In some cases, one comparison operation may not be sufficient to define the condition. To allow for this situation Stimulsoft Reports allows you to specify a multi part condition. The picture below shows the condition editor for a two level multi part condition:
 

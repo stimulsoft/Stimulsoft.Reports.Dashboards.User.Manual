@@ -1,4 +1,4 @@
-## ISBN-13
+# ISBN-13
 
 On January 1, 2007, a new **ISBN** standard came into force, adding a fifth group of digits and once again extending the number, now to 13 digits. The change was required in order for the ISBN to be directly used as a standard product barcode. For this, the digits 978 or 979 were added to the beginning of the ISBN, and the checksum calculation algorithm was changed. All previously assigned ISBNs are unambiguously converted to new ones (978 + first 9 digits of the old ISBN + check digit calculated according to EAN-13).
 

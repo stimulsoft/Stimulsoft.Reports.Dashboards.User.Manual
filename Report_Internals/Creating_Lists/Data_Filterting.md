@@ -1,4 +1,4 @@
-## Data Filtering
+# Data Filtering
 
 When rendering a report, sometimes it is necessary to print rows of the data source which correspond to the definite condition. To select the necessary rows the data filtering is used. Data filtering is set using the **Filters** property of the **Data** band. In addition to the **Filters** property the **FilterOn** property can also be used. This property controls filter activity.
 

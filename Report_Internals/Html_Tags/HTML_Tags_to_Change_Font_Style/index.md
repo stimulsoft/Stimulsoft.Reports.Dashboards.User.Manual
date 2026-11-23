@@ -1,4 +1,4 @@
-## Formatting Tags
+# Formatting Tags
 
 The report generator supports nine tags for changing a font style: **&lt;b&gt;**, **&lt;i&gt;**, **&lt;u&gt;**, **&lt;s&gt;**, **&lt;sup&gt;,** **&lt;sub&gt;, &lt;strong&gt;, &lt;p&gt;, &lt;br&gt;**. These HTML tags are called formatting tags. These formatting tags can make text bold, italic, sub/superscripted, and more.
 

@@ -1,4 +1,4 @@
-## List
+# List
 
 The **List** variable provides the ability to place a list of values of any available data type. In contrast to the **Value** variable, in this case, when report rendering, the variable contains a list of values. The picture below shows the **New Variable** dialog with the selected **List** type:
 

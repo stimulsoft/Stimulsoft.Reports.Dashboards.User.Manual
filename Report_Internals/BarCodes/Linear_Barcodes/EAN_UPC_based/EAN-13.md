@@ -1,4 +1,4 @@
-## EAN-13
+# EAN-13
 
 The **EAN-13** barcode was created based on the UPC-A barcode as an extension of the EAN.UCC system used outside the USA. EAN-13 is the European version of UPC-A. The EAN-13 is a high density, fixed length continuous code. It is used primarily in trade, for labeling goods that will be sold through retail.
 

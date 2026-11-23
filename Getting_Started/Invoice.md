@@ -1,4 +1,4 @@
-## Invoice Report
+# Invoice Report
 
 The invoice is most often used in accounting for the tax (customs) control or in the international supply of goods. This document usually includes the cost of transportation, shipping operations, insurance, payment of export duties, as well as various taxes (fees), and more. If your activity requires constant creation of invoices, for optimization, time and cost savings, it is logical to assume that it is easier to create a document template. Using it, you change only the data, saving yourself from routine work to create the structure of the invoice and its design.
 

@@ -1,4 +1,4 @@
-## Top N
+# Top N
 
 Using the group of properties Top N you may highlight the maximum or minimum values in the chart, and the rest one group into a single value. Grouped value is a sum of all values that were not identified. Features offered by the group of properties Top N, can be applied in different cases: when the chart has many values but it is needed to allocate a certain amount of the maximum (minimum) ones or, for example, if you want the chart to display the difference between the maximum (minimum) values and set other values. Let's consider the properties of Top N in more detail.
 

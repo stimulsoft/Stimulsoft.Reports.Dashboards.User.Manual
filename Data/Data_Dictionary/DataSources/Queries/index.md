@@ -1,4 +1,4 @@
-## Queries
+# Queries
 
 **Queries** are text-based scripts used to retrieve data from tables and provide it to the report generator. Queries retrieve data from database tables and use it to create a temporary table. The data in the temporary table is filtered, grouped, sorted, and ordered according to the query parameters. The temporary table is then passed to the report generator.
 

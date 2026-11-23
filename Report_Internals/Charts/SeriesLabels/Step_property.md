@@ -1,4 +1,4 @@
-## Step Property
+# Step Property
 
 The **Step** property allows changing the step through what the Series Labels will be shown. By default, the **Step** property is set to **0**, so Series Labels will be shown on each Series. The picture below shows a chart with the **Step** property of Series Labels set to **0**:
 

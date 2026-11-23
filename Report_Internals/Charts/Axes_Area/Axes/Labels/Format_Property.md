@@ -1,4 +1,4 @@
-## Format Property
+# Format Property
 
 The **Format** property is used to format the contents of Labels. The full path to this property is **Area.Axis.Labels.Format.** This property has multiple values.
 

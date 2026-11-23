@@ -1,4 +1,4 @@
-## Print At Bottom Property
+# Print At Bottom Property
 
 Suppose there is a report in which data covers only one-third of the last page. The report summary is displayed after the data.
 

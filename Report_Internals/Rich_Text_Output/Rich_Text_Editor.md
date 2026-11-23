@@ -1,4 +1,4 @@
-## Rich Text Editor
+# Rich Text Editor
 
 The **RichText** component has a special editor. This editor can load and save the **RTF** text, change the font, size, color, paste expressions etc. With this editor you can edit the RTF text without using third-party editors. The editor is called by double-clicking on the RichText component. This editor contains the following tabs:
 

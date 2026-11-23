@@ -1,4 +1,4 @@
-## Empty Band Modes
+# Empty Band Modes
 
 The **Empty** band has only one special property - **SizeMode**. This property indicates the behavior of the Empty Band on the bottom of a page. There are 4 values of the property: **IncreaseLastRow**, **DecreaseLastRow**, **AlignFooterToBottom**, **AlignFooterToTop**.
 

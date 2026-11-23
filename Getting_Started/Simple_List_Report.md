@@ -1,4 +1,4 @@
-## Simple List Report
+# Simple List Report
 
 Do the following steps to create a simple list report:
 

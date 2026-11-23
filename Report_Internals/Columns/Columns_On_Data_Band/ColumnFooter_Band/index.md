@@ -1,4 +1,4 @@
-## Column Footer Band
+# Column Footer Band
 
 The Footer band is normally used to output data footers, but there is also a special **Column Footer** band. The Footer band is output once after the Data band and contains only one set of data.  The **Column Footer** band is also output only once, but the components on this band are repeated beneath every column. It is used only for the columns positioned on the Data band.
 

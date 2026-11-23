@@ -1,4 +1,4 @@
-## Page Footer Band
+# Page Footer Band
 
 The Page Footer band is used to output information such as page numbers, dates, and company information at the bottom of a page. The Page Footer band is output at the bottom of every page of the report.  An unlimited number of Page Footer bands can be placed on a page.
 

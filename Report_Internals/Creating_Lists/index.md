@@ -1,4 +1,4 @@
-## Creating Lists
+# Creating Lists
 
 Lists in a report can be output using three bands: **Header** 
 ![](../../images/topics/Report_Internals.Creating_Lists_1.png)

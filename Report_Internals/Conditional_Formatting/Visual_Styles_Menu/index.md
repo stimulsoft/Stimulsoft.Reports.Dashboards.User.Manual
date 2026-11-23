@@ -1,4 +1,4 @@
-## Visual Styles Menu
+# Visual Styles Menu
 
 It is possible to enable/disable visual styles of a component using the conditional formatting. Enabling/disabling visual styles can be done in the visual styles menu. This menu provides the ability to make choice of those visual styles of the component, which will be applied to it for triggering the condition. The picture below shows the menu of visual styles:
 

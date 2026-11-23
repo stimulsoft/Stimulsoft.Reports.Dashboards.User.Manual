@@ -1,4 +1,4 @@
-## Numerical Formatting
+# Numerical Formatting
 
 To display numeric values, it is recommended to use a numeric format. Below is a report with a list of products, their price, as well as key product and category. By default, all text components use a text format General without any formatting.
 

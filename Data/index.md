@@ -1,4 +1,4 @@
-## Data
+# Data
 
 This section provides information on using the data dictionary. The examples in this section show the processes of creating a database connection from the Report Designer, creating a data source to work with variables, and their use in reports.
 

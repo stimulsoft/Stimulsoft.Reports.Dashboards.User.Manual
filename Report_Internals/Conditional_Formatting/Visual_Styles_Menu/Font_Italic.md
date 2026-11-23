@@ -1,4 +1,4 @@
-## Font Italic
+# Font Italic
 
 Using conditional formatting it is possible to apply the italic font for the text component. The picture below shows a report page:
 

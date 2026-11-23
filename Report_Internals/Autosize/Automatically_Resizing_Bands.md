@@ -1,4 +1,4 @@
-## Automatically Resizing Bands
+# Automatically Resizing Bands
 
 Because bands are inherited from **Panels**, they change their size in the same way.  The size of the **Band** can be automatically changed depending on the size of components positioned on the band.
 

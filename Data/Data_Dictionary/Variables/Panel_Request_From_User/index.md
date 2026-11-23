@@ -1,4 +1,4 @@
-## Panel Request From User
+# Panel Request From User
 
 The **Request from user** panel contains parameters that determine the options available for user interaction when a variable is used in a report. Some parameters may be present or absent depending on the value selected in the **Data Source** field. The image below shows the **Request from user** panel, if in the **Data Source** field the **Data Columns** value is selected:
 

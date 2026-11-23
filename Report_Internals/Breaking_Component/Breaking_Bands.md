@@ -1,4 +1,4 @@
-## Breaking Bands
+# Breaking Bands
 
 How to use the **CanBreak** property of bands. The picture below shows two pages of a rendered report, which has 5 bands. The picture shows: the first and the second bands are output on the first page. The third band could not fit the bottom of the first page, so it was moved to the next page, along with the fourth and fifth bands.
 

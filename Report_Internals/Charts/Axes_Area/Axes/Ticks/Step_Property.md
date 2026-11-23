@@ -1,4 +1,4 @@
-## Step Property
+# Step Property
 
 The **Step** property is used to change the step between Ticks, the distance between neighbor Major ticks. By default, the value of the **Step** property is set to 0. The picture below shows an example of a chart with the Step is installed to the 0 default value.
 

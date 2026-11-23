@@ -1,4 +1,4 @@
-## HTML &lt;word-spacing&gt; Tag
+# HTML &lt;word-spacing&gt; Tag
 
 Using the **&lt;word-spacing&gt;** tag it is possible to define the space between each word. If the **&lt;text-align&gt;** tag with the **"justify"** value is used, then the **&lt;word-spacing&gt;** tag is ignored. This happens because the interval between words is already specified and a line of a text is aligned on both left and right sides. The example below shows how the **&lt;word-spacing&gt;** tag works:
 

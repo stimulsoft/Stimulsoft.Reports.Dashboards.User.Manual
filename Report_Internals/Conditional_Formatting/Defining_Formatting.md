@@ -1,4 +1,4 @@
-## Defining Formatting
+# Defining Formatting
 
 If the condition returns true when evaluated by the report engine the formatting of the component will be changed according to the design settings. Setting is carried out using the formatting panel. The picture below shows the components of the control panel:
 

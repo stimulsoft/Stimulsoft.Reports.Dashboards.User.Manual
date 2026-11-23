@@ -1,4 +1,4 @@
-## Export Modes
+# Export Modes
 
 There are three modes of export to HTML:
 

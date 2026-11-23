@@ -1,4 +1,4 @@
-## Code93
+# Code93
 
 The **Code 93** is a variable length symbology that can encode the complete 128 ASCII character set. This barcode was developed as an enhanced version of the Code 39 barcode. It has a higher density than either the Code 39 or the Code 128 barcode.
 

@@ -1,4 +1,4 @@
-## New Item Menu
+# New Item Menu
 
 Commands using which it is possible to add new items to the data dictionary of a report can be found in the **New Item** menu. The picture below shows the **New Item** drop down list:
 

@@ -1,4 +1,4 @@
-## Minimum Number Of Rows In Column
+# Minimum Number Of Rows In Column
 
 When using the Down Then Across column mode a situation could arise where there are too few rows available to output evenly in a report. In some cases it may be necessary not to distribute data rows equally across all columns for better visualization.
 

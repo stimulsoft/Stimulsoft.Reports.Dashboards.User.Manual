@@ -1,4 +1,4 @@
-## Nested Groups
+# Nested Groups
 
 When rendering grouped reports you may use more than one grouping to achieve the desired output, known as 'nesting'. For example, you might group Customers by location and then sub group them alphabetically. To achieve this style of report you should put the required number of **Group Header** bands before the **Data** **band** and ideally the same number of **Group Footer** bands immediately after it:
 

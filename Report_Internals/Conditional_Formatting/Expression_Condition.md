@@ -1,4 +1,4 @@
-## Expression Condition
+# Expression Condition
 
 When you choose to use an Expression condition you define a text expression that returns a boolean value. The value returned determines whether or not the formatting is applied. The configuration panel is shown below:
 

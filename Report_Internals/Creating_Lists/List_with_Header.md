@@ -1,4 +1,4 @@
-## List with Header
+# List with Header
 
 Usually, a name of a column is output over each column. To output data name or other information before data the special **Header** band is used. It is placed on a page before the **Data** band. There should not be any headers between the **Data** band and the **Header** band. On the picture below a sample of a report with one **Header** band and one **Data** band is shown.
 

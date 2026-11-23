@@ -1,4 +1,4 @@
-## Columns in Data Band
+# Columns in Data Band
 
 ### "Down Then Right" direction
 

@@ -1,4 +1,4 @@
-## Font Bold
+# Font Bold
 
 Using conditional formatting it is possible to apply the bold font for the text component. The picture below shows a report page:
 

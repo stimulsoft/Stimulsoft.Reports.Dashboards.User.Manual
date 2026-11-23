@@ -1,4 +1,4 @@
-## Report with Columns on Page
+# Report with Columns on Page
 
 Do the following steps to create a report with columns on a page:
 

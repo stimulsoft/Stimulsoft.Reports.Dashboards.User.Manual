@@ -1,4 +1,4 @@
-## Passwords and Access Permission
+# Passwords and Access Permission
 
 According to the PDF specification, it is possible to set the access and two passwords: the public password and the owner's password. If there are no passwords and everything is allowed to do with the document, then the document is not encrypted. If even one password is set or access is not allowed, then the document is encrypted.
 

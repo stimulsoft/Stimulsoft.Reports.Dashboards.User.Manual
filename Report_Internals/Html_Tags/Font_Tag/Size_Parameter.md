@@ -1,4 +1,4 @@
-## Size Attribute
+# Size Attribute
 
 The size attribute defines the size of the text in the font element in points. For example:
 

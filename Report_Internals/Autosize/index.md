@@ -1,4 +1,4 @@
-## Autosize
+# Autosize
 
 Automatic resizing of components is controlled by two properties available in report components: **CanGrow** and **CanShrink**.
 

@@ -1,4 +1,4 @@
-## Automatically Resizing Panels
+# Automatically Resizing Panels
 
 Because **Panels** are only containers and output no visual information in the report it may seem that the **CanGrow** and **CanShrink** properties have no relevance, but this is not the case.
 

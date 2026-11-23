@@ -1,4 +1,4 @@
-## QR Code
+# QR Code
 
 A **QR Code** (QR is the abbreviation for Quick Response) is a two-dimensional code, readable by QR scanners, mobile phones with a camera, and smartphones. It was created by Toyota subsidiary Denso-Wave in 1994.
 

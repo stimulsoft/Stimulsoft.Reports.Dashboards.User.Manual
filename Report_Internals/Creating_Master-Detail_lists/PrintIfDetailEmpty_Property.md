@@ -1,4 +1,4 @@
-## PrintifDetailEmpty Property
+# PrintifDetailEmpty Property
 
 The **PrintifDetailEmpty** property of the **DataBand** band is used in building **Master-Detail** reports. The picture below shows a template of a **Master-Detail** report.
 

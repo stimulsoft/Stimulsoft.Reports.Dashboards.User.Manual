@@ -1,4 +1,4 @@
-## Showing Totals
+# Showing Totals
 
 **Rows** and **Columns** of a cross-table have the **ShowTotal** property, which allows you to show or hide totals by rows and columns. If this property for **Rows** and **Columns** is set to **true**, then the totals by rows and columns are visually displayed. The picture below shows an example of a cross-table with visually displayed results:
 

@@ -1,4 +1,4 @@
-## System Variables
+# System Variables
 
 **Stimulsoft Reports** offers to use system variables in expressions. System variables are variables which provide information about the current status of a report. The following system variables are available:
 

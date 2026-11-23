@@ -1,4 +1,4 @@
-## Report with Sub-Report
+# Report with Sub-Report
 
 Do the following steps to create a sub-report:
 

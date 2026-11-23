@@ -1,4 +1,4 @@
-## Export Modes
+# Export Modes
 
 The export to the **RTF** format has 2 basic modes:
 

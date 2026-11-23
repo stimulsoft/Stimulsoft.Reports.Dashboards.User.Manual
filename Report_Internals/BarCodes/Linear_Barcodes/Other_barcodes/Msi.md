@@ -1,4 +1,4 @@
-## Msi
+# Msi
 
 The **Msi** barcode was developed by the MSI Data Corporation. It is based on the original Plessey symbology. That's why sometimes the **Msi** barcode is called the **Modified Plessey**. The basic implementation of the **Msi** barcode is used for warehouse shelves and inventory.
 

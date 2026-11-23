@@ -1,4 +1,4 @@
-## Columns on Page
+# Columns on Page
 
 It is possible to output data on a page in columns using the **Columns** property. By default this property is set to 0. Setting the value to 2 or more will cause the data to be output in columns. You will also need to set the **ColumnWidth** and **ColumnGaps** properties.
 

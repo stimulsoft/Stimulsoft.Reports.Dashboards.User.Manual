@@ -1,4 +1,4 @@
-## Conditions
+# Conditions
 
 If it is necessary to set the color of values in a chart, one can specify the condition. The **Conditions** property in the **Series Editor** is used to set up conditional formatting. The editor of conditions is called using this property. The picture below shows the main elements of the editor of conditions:
 

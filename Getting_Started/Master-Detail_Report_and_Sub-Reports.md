@@ -1,4 +1,4 @@
-## Master-Detail Report and Sub-Reports
+# Master-Detail Report and Sub-Reports
 
 Do the following steps to create a **Master-Detail** report with sub-reports:
 

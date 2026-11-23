@@ -1,4 +1,4 @@
-## Report with Segmented Pages
+# Report with Segmented Pages
 
 If data in a report should be placed on a single page by width or height, and a page size is small, you can add the required number of segments by width and/or height. In this case, one segment is a whole page and summary page consists of several segments across by width or height. To design a report with segmented pages, follow the steps below:
 

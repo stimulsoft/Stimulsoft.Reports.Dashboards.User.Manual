@@ -1,4 +1,4 @@
-## Hyperlink to Another Component in Report Using Interaction.Tag
+# Hyperlink to Another Component in Report Using Interaction.Tag
 
 In this case it is necessary to add two # symbols before a hyperlink. In this case the search is executed using the **Interaction.Tag** property of components (two # symbols in the text of a hyperlink are skipped). **Interaction.Tag** properties are not shown in the structure of a report. If one wants to make navigation without bookmarks showing in the structure of a report then one should use this way.
 

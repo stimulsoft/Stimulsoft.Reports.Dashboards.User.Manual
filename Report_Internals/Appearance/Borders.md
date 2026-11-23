@@ -1,4 +1,4 @@
-## Borders
+# Borders
 
 Each component has borders. Since all components in a report are a rectangular area on the page, each component has top, bottom, left and right border. When creating reports, component borders can be displayed or not displayed in a rendered report. Besides, you can display component shadows.
 

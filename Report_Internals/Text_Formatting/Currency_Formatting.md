@@ -1,4 +1,4 @@
-## Currency Formatting
+# Currency Formatting
 
 To display numeric values as a currency you should use the Currency format. This format is designed specifically to output monetary values.
 

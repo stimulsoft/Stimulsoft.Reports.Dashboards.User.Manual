@@ -1,4 +1,4 @@
-## Features
+# Features
 
 This list represents functionality and tools in report designers.
 

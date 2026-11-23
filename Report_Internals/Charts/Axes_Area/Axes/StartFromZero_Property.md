@@ -1,4 +1,4 @@
-## StartFromZero Property
+# StartFromZero Property
 
 By default, the **Start from Zero** property is set to **true**. Arguments are shown from the start to the end, regardless of the location of the chart. The picture below shows an example of a chart with the **Start from Zero** property set to **true** for the X and Y axes:
 

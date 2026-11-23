@@ -1,4 +1,4 @@
-## Master-Detail Report
+# Master-Detail Report
 
 Do the following steps to create a master-detail report:
 

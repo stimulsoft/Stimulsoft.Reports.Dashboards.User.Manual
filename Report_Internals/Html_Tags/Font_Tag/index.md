@@ -1,4 +1,4 @@
-## HTML &lt;font&gt; Tag
+# HTML &lt;font&gt; Tag
 
 The tag is used to add style, size, and color to a text expression. If there is no closing tag then all changed font characteristics will be applied from the beginning of the tag to the end of the text.
 

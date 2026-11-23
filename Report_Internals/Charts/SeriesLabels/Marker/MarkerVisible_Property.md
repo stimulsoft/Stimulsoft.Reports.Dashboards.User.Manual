@@ -1,4 +1,4 @@
-## MarkerVisible Property
+# MarkerVisible Property
 
 If the **MarkerVisible** property is set to true, then the **Marker** is shown. By default, the **MarkerVisible** property is set to **false** and Markers are not visible. The picture below shows a chart with the **MarkerVisible** property set to **false**:
 

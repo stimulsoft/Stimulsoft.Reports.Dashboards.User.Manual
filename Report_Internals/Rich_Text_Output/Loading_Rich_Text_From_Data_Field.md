@@ -1,4 +1,4 @@
-## Loading Rich Text From Data Field
+# Loading Rich Text From Data Field
 
 The **RichText** component can load the RTF text from the data field using the **DataColumn** property. To load the RTF text simply select a field from the data dictionary tree. When rendering, the report generator will automatically load the RTF text for you.
 

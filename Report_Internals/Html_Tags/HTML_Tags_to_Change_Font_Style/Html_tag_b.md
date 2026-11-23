@@ -1,4 +1,4 @@
-## HTML &lt;b&gt; Tag
+# HTML &lt;b&gt; Tag
 
 The **&lt;b&gt;** tag is used to define bold text. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
 

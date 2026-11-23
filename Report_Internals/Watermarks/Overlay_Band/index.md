@@ -1,4 +1,4 @@
-## Overlay Band
+# Overlay Band
 
 > **Important**
 >

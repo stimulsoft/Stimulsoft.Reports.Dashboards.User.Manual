@@ -1,4 +1,4 @@
-## Minor
+# Minor
 
 **Minor ticks** show the proportion of a single axis segment. **Minors ticks** have the following properties: **MinorCount**, **MinorLength**, **MinorVisible**.
 

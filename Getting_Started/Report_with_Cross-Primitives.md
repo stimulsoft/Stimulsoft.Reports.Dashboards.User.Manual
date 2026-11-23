@@ -1,4 +1,4 @@
-## Report with Cross-Primitives
+# Report with Cross-Primitives
 
 Cross-primitives include: **Vertical Line**, **Rectangle** and **Rounded Rectangle**. The start and end points of cross-primitives can be placed on different components of a report. To design a report with cross-primitives, follow the steps below:
 

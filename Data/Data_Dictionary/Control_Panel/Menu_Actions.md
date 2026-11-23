@@ -1,4 +1,4 @@
-## Actions Menu
+# Actions Menu
 
 In the **Actions** menu the main commands to control the data dictionary are located. The picture below shows this menu item:
 

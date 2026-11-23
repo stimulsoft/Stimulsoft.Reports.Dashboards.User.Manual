@@ -1,4 +1,4 @@
-## Automatically Resizing Text Component
+# Automatically Resizing Text Component
 
 The automatic resizing of text components behaves differently from other components. The **CanGrow** and **CanShrink** properties affect only the height of a text component and not the width. The example below shows an example of the **CanGrow** property causing the text height to change:
 

@@ -1,4 +1,4 @@
-## Barcodes
+# Barcodes
 
 A barcode is an optical machine-readable representation of data typically made up of parallel bars, varying in width, spacing, or height, which are read by barcode readers. In some cases, a line of digits can be placed under a barcode, which represents in human-readable form the data contained in the barcode. There are different ways to encode information, called bar code encoding or symbolics. Linear and two-dimensional symbolics are distinguished.
 

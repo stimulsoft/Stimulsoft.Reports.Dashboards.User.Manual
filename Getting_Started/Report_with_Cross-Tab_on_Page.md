@@ -1,4 +1,4 @@
-## Report with Cross-Tab on Page
+# Report with Cross-Tab on Page
 
 Do the following steps to create a report with the cross table:
 

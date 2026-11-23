@@ -1,4 +1,4 @@
-## Australia Post 4-State
+# Australia Post 4-State
 
 The **Australia Post 4-State** barcode is used in Australia for the purposes of sorting and directing letters.
 

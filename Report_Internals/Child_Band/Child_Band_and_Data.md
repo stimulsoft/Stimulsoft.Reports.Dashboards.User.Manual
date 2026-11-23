@@ -1,4 +1,4 @@
-## Child Band and Data
+# Child Band and Data
 
 How to output two bands on one data row? You can use the **Child** band. Create a new report. Put the **Data** band on a page. Put the **Child** band under the **Data** band.
 

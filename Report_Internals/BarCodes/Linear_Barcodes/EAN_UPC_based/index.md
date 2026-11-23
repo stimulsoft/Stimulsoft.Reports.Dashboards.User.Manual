@@ -1,4 +1,4 @@
-## EAN/UPC Barcodes
+# EAN/UPC Barcodes
 
 There are a lot of linear barcode specifications available, including many that are based on the EAN/UPC specification.
 

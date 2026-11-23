@@ -1,4 +1,4 @@
-## ODT
+# ODT
 
 Open Document Text (**ODT**) is the open document format for storing documents of the OpenOffice Writer, which is included into the OpenOffice.org package. OpenOffice.org is the open package of office applications created as an alternative to Microsoft Office. It was one of the first to support the new open OpenDocument format. It works on Microsoft Windows and UNIX systems: GNU/Linux, Mac OS X, FreeBSD, Solaris, Irix. OpenDocument Format (ODF) is the open file format for storing office documents, including text documents, spreadsheets, images, data bases, presentations. This format is based on the XML format.
 

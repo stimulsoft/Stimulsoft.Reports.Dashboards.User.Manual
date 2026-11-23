@@ -1,4 +1,4 @@
-## Report with Groups
+# Report with Groups
 
 Do the following steps to create a report with grouping:
 

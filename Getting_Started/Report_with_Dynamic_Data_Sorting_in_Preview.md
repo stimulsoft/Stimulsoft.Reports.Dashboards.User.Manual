@@ -1,4 +1,4 @@
-## Report with Dynamic Data Sorting in Preview
+# Report with Dynamic Data Sorting in Preview
 
 When designing a report, data used in a report are not always sorted in the order that is needed. In this case, the sorting can be done by means of the report generator. One way to sort the data is dynamic sorting. A report with dynamic data sorting in the preview window is an interactive report in which changing of dynamic data sorting is done by clicking the component, which dynamic sorting is enabled. Follow the steps below to render a report with dynamic data sorting in the preview window:
 

@@ -1,4 +1,4 @@
-## PrintOnEvenOddPages Property
+# PrintOnEvenOddPages Property
 
 The **PrintOnEvenOddPages** property is used to print headers and footers on even/odd pages, for **HeaderBands** and **FooterBands**.
 

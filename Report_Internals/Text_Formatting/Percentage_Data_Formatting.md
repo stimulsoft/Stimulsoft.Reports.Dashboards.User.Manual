@@ -1,4 +1,4 @@
-## Percentage Data Formatting
+# Percentage Data Formatting
 
 If the report uses the relative values, the current data can be output as a percentage text format. Consider the example of a report with relative values. Let's have a report that contains a list of products (standard format), their price (currency format) and the profitability index (number format).
 

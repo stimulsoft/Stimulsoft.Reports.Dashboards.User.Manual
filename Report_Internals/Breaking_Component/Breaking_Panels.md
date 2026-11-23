@@ -1,4 +1,4 @@
-## Breaking Panels
+# Breaking Panels
 
 Sometimes, in a report template, where the **Panel** is used, all data cannot fit one page. If the **CanBreak** property is set to **false**, then a report, may look like on the picture below.
 

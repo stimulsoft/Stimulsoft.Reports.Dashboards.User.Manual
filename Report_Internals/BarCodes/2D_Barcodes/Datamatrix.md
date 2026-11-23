@@ -1,4 +1,4 @@
-## Datamatrix
+# Datamatrix
 
 The **DataMatrix** barcode was created by the CiMatrix company to accommodate large amounts of information in a limited surface area. The allowed length depends on the selected barcode size (number of rows and columns). The physical dimensions of a barcode can vary widely: the barcode modulus value can vary from 1 mil to 14 inches (14,000 mil). The most popular applications for the Datamatrix are marking small items such as electronic components and printed circuit boards of electronic devices. Every **DataMatrix** is composed of two solid adjacent borders in an "L" shape (called the "finder pattern") and two other borders consisting of alternating dark and light "cells" or modules (called the "timing pattern"). Symbol sizes vary from 8×8 to 144×144. The **DataMatrix** is used to mark small products.
 

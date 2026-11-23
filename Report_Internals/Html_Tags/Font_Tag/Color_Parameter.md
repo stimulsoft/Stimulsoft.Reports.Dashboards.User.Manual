@@ -1,4 +1,4 @@
-## Color Attribute
+# Color Attribute
 
 The color parameter defines the color of the text in the font element. The color can be set in two ways:
 

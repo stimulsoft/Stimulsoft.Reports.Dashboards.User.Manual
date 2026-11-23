@@ -1,4 +1,4 @@
-## Vertical Alignment Property
+# Vertical Alignment Property
 
 The **VerticalAlignment** property is used to define the place of the "watermark" inscription which is output using the **Overlay** band. This property may have three values:
 

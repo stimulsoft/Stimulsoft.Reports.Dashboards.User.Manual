@@ -1,4 +1,4 @@
-## Table Mode
+# Table Mode
 
 In this mode, the entire report is converted into one large continuous table. Some objects may be modified during the conversion, but the resulting document is very convenient to edit.
 

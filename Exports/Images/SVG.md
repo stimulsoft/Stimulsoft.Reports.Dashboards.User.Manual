@@ -1,4 +1,4 @@
-## SVG
+# SVG
 
 **SVG** (Scalable Vector Graphics) is an XML-based file format for describing two-dimensional vector graphics, both static and dynamic. The **SVG** specification is an open standard that supports scripting and animation. An **SVG** image consists of graphical elements such as shapes, images, and text.
 

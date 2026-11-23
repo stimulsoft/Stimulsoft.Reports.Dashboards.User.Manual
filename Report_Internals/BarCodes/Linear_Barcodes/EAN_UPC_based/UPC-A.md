@@ -1,4 +1,4 @@
-## UPC-A
+# UPC-A
 
 **UPC-A** was the first barcode, created by Uniform Code Council, Inc. in 1973. The **UPC-A** barcode is an unbroken code with a fixed length and high density. It is used for tracking trade items in stores, and otherwise marking goods. It is used primarily in trade, for labeling goods that will be sold through retail.
 

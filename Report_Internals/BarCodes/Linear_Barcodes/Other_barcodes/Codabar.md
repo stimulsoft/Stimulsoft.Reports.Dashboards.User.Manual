@@ -1,4 +1,4 @@
-## Codabar
+# Codabar
 
 The **Codabar** is a simple linear barcode symbology developed in 1972. It can be called NW-7, USD-4, Code 2 of 7 (2 values of a bar length, 7 elements). It is frequently used in medicine (for example, blood bank forms).
 

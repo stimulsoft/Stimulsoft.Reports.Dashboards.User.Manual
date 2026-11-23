@@ -1,4 +1,4 @@
-## Skill Level
+# Skill Level
 
 > **Information**
 >

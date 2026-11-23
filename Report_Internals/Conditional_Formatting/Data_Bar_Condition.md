@@ -1,4 +1,4 @@
-## Data Bar Condition
+# Data Bar Condition
 
 The **Data Bar** condition provides an opportunity to visually display the dynamics of changing values of a data column. The **Data Bar** condition works following principles described below. All the values in the selected data column are analyzed, the minimum and maximum values are  determined. Minimum corresponds to 0 percent, maximum - 100 percent. When drawing each component, to which this condition is applied, a value from the selected data column will be specified. Then, the percentage of this value is calculated from the minimum to maximum range. Depending on the percentage, the **Data Bar** is rendered. If the value is close to the maximum, the greater length a data bar would be. If the value is close to or equal to a minimum value, the data bar will be almost unfilled. The picture below shows a report page:
 

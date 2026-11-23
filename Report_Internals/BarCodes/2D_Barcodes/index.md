@@ -1,4 +1,4 @@
-## 2D Barcodes
+# 2D Barcodes
 
 For many years, barcodes have been used as machine-readable identifiers for items. The main idea of the specialists was as follows: each label contains a unique serial number, encoded in the form of black and white stripes; this number serves as a key to the database, which contains detailed information. But many users needed to encode more information. They needed a barcode to act as a portable database, not a key to it.
 

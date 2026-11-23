@@ -1,4 +1,4 @@
-## Report with Chart on Page
+# Report with Chart on Page
 
 Do the following steps to create a report with charts:
 

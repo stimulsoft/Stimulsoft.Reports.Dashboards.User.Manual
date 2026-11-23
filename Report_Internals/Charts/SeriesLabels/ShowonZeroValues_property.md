@@ -1,4 +1,4 @@
-## ShowOnZeroValues Property
+# ShowOnZeroValues Property
 
 Sometimes, when designing charts, 0 values of series can be met. Series labels of zero values can be displayed. The **ShowOnZeroValues** property is used to show/hide these series labels. If the **ShowOnZeroValues** property is set to **false**, then series labels of zero values will be hidden. The picture below shows an example of a chart with a zero value and the **ShowOnZeroValues** property is set to **false**:
 

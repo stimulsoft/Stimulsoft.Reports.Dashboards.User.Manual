@@ -1,4 +1,4 @@
-## Lists One After Another
+# Lists One After Another
 
 Often it is necessary to output some lists one after another in a report. Stimulsoft Reports has no restrictions on it. All you have to do to render such a report is to place two **Data** bands with header and footer bands. For example.
 

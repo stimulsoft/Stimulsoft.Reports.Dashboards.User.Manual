@@ -1,4 +1,4 @@
-## Breaking Images
+# Breaking Images
 
 In some cases the **Image** does not fit on one page. So the image will be moved to the next page.
 

@@ -1,4 +1,4 @@
-## Using Dictionary Variables
+# Using Dictionary Variables
 
 You can create variables in the designer data dictionary, which can then be used in expressions. When you specify the name of a variable in the expression, the value of the variable will be included in the report. The syntax is simply the name of the variable surrounded by curly braces. For example, if you set the value of the variable to 5 and you enter the following expression:
 

@@ -1,4 +1,4 @@
-## Using Aliases in Expressions
+# Using Aliases in Expressions
 
 To make it easier to understand expressions in a report, you can use aliases instead of explicitly specifying the variable or data source and column details. For example, if you have a variable in the data dictionary called "MyVariable" and you have set its alias to "my best variable" you can reference that variable directly by Name or by Alias.
 

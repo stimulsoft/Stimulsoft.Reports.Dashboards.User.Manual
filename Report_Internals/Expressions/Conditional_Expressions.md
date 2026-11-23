@@ -1,4 +1,4 @@
-## Conditional Expressions
+# Conditional Expressions
 
 Conditional Expressions are not allowed in Stimulsoft Reports by default. However, there are two ways to force conditional behavior should you find it necessary to do so:
 

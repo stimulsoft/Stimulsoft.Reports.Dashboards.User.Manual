@@ -1,4 +1,4 @@
-## Columns Property
+# Columns Property
 
 The **Columns** property allows changing the number of columns vertically or horizontally depending on the value of the **Direction** property. The full path to this property is **Legend.Columns**. The picture below shows a sample of the Legend which markers are split into two horizontal columns (the **Direction** property is set to **Top to Bottom**):
 

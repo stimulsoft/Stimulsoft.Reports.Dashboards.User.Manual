@@ -1,4 +1,4 @@
-## Postnet
+# Postnet
 
 The **POSTNET** (POSTal Numeric Encoding Technique) barcode was developed by the United States Postal Service to encode ZIP-codes in letters for quick and reliable sorting with the help of the BCSs. It can encode ZIP, ZIP+4, and ZIP+4+2 postal codes.
 

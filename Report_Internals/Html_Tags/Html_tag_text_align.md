@@ -1,4 +1,4 @@
-## HTML &lt;text-align&gt; Tag
+# HTML &lt;text-align&gt; Tag
 
 The &lt;text-align&gt; tag specifies the horizontal alignment of an element with respect to the surrounding context in the text component. The tag supports four modes of alignment: **left**, **right**, **center,** and **justify**. For example, if you enter the following expression:
 

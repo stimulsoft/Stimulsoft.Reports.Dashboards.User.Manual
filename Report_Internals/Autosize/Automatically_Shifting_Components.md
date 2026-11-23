@@ -1,4 +1,4 @@
-## Automatically Shifting Components
+# Automatically Shifting Components
 
 Automatically changing the size of components can lead to a problem when rendering reports - what happens when a change in the size of one component has an adverse effect on another component in the report? For example, if the height of the first component is increased it could overlap a component placed below it.
 

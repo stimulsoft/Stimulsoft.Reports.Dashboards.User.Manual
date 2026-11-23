@@ -1,4 +1,4 @@
-## Tab Layout
+# Tab Layout
 
 The **Layout** tab is a section of the Ribbon in the report designer that contains commands for managing the placement of components on the page and elements on the dashboard.
 

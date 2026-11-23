@@ -1,4 +1,4 @@
-## Events And The GroupHeaderBand
+# Events And The GroupHeaderBand
 
 > **Important**
 >

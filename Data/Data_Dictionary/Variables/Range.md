@@ -1,4 +1,4 @@
-## Range
+# Range
 
 If using a variable of this type in the report, you can work with ranges of values. In this case, the variable will store a range of values. The picture below shows the New Variable dialog of the **Range** type:
 

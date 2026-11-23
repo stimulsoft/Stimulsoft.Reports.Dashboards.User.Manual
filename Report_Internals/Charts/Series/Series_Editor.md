@@ -1,4 +1,4 @@
-## Series Editor
+# Series Editor
 
 Setting the series includes a number of properties in the **Series Editor**, which is used to visually arrange the rows and change the advanced settings.
 

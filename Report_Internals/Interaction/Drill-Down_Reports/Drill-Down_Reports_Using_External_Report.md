@@ -1,4 +1,4 @@
-## Drill-Down Reports Using External Report
+# Drill-Down Reports Using External Report
 
 The drill-down report with another (external) report means an interactive report in which the main and detailed data are located in different reports. It is possible to create such a report using the **Interaction.Drill-Down Report** property. Consider the example of a Drill-Down Report using an external report. First, create a report with detailed data. This report will contain a list of products and their prices. Put the **Data Band** in the page of the report template with text components which contain expressions: **Products.ProductID**, **Products.ProductName** and **Products.UnitPrice**. For this band, you should select the data source **Products**. Also add the **Header Band**. The picture below shows a page template with detailed information:
 

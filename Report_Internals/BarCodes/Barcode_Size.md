@@ -1,4 +1,4 @@
-## Barcode Sizes
+# Barcode Sizes
 
 **Units**
 

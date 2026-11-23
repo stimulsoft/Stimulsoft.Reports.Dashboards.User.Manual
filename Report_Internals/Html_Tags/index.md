@@ -1,4 +1,4 @@
-## HTML Tags
+# HTML Tags
 
 Stimulsoft Reports has the ability to format text using standard HTML formatting tags. Sometimes it is necessary to make part of a text expression look Bold, Italic, or Underlined. For example you may wish to achieve something like this:
 

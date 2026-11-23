@@ -1,4 +1,4 @@
-## Controlling Exports
+# Controlling Exports
 
 The Tag property of each text box in a Data band can be specified with the following elements that control the export:
 

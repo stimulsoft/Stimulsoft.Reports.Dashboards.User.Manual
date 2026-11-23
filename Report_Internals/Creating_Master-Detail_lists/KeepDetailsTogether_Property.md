@@ -1,4 +1,4 @@
-## KeepDetails Property
+# KeepDetails Property
 
 Sometimes, when creating **Master-Detail** reports, a part of Details (subordinate entries) of the **Master-Detail** band will be on one page, while another part will be moved to the next page. This may happen due to the fact that all the detailed records will not fit one page. In this case, if it is still necessary to output the **Master** along with its details on one page, you can use the **KeepDetails** property. By default, this property is set to **false**.
 

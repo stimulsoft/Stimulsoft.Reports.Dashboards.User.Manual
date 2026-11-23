@@ -1,4 +1,4 @@
-## Sub-Reports on Data Band
+# Sub-Reports on Data Band
 
 The **Sub-Report** component can be placed on the **DataBand**. When rendering a report, the **Sub-Report** will be rendered as the item of the **DataBand**, so this component will be printed in each **DataBand**. The picture below shows the scheme of rendering of the sub-report when placing the **Sub-Report** component in the **DataBand**:
 

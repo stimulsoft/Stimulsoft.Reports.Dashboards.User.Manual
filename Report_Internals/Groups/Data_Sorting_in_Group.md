@@ -1,4 +1,4 @@
-## Data Sorting in Group
+# Data Sorting in Group
 
 When creating reports, you can sort both the data in a group and the groups themselves.
 

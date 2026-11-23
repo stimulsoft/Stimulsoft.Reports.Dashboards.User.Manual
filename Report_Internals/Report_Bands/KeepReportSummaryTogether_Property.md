@@ -1,4 +1,4 @@
-## KeepReportSummaryTogether Property
+# KeepReportSummaryTogether Property
 
 When printing, sometimes the last data row will be on one page and the report summary on the next one. The report will not look good.
 

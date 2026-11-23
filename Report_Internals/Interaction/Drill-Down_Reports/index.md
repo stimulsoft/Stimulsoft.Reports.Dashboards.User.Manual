@@ -1,4 +1,4 @@
-## Drill-Down Reports
+# Drill-Down Reports
 
 In Stimulsoft Reports it is possible to create an interactive report with detailing. The report detailing refers to additional interpretation of data in the report. Usually interpretation is done when you click on any item. After that, there occurs a detailed report rendering in a new tab in the viewer. The picture below shows the viewer window with detailed tabs:
 

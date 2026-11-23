@@ -1,4 +1,4 @@
-## Watermark Property
+# Watermark Property
 
 The **Watermark** property allows a user to output one image and one inscription on the background or foreground. The **Watermark** property has sub-properties to output watermarks.
 

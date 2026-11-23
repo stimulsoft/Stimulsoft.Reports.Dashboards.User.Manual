@@ -1,4 +1,4 @@
-## AutoWidthType Property
+# AutoWidthType Property
 
 The **AutoWidthType** property of a table indicates how the reporting tool will fix cells width after report rendering.
 

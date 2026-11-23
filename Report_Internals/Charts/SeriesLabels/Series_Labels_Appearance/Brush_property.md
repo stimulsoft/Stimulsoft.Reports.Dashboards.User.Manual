@@ -1,4 +1,4 @@
-## Brush Property
+# Brush Property
 
 The **Brush** property is used to fill a background type and color in Series Labels. To change the background color and appearance of a Series Label use the **Brush** property within the Object Inspector.
 

@@ -1,4 +1,4 @@
-## Key Length
+# Key Length
 
 The PDF Reference defines 40-bit, 128-bit, and 256-bit encryption. By default, a 40-bit key is used.
 

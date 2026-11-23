@@ -1,4 +1,4 @@
-## HTML &lt;u&gt; Tag
+# HTML &lt;u&gt; Tag
 
 The **&lt;u&gt;** tag is used to define underlined text. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
 

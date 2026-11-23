@@ -1,4 +1,4 @@
-## Report With Dynamic Collapsing in Preview
+# Report With Dynamic Collapsing in Preview
 
 The report with dynamic collapsing is an interactive report in what items can collapse/expand its contents by clicking the title of the block. To create a report with dynamic folding in the preview window, you should do the following:
 

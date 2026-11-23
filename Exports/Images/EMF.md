@@ -1,4 +1,4 @@
-## EMF
+# EMF
 
 **WMF** (Windows MetaFile) is a universal graphics file format on Microsoft Windows systems. This format was created by Microsoft and is an integral part of Windows because this file stores a list of function calls that have to be issued to the Windows graphics layer GDI to display an image on screen.
 

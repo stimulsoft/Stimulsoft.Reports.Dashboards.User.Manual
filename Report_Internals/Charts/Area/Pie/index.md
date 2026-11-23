@@ -1,4 +1,4 @@
-## Pie
+# Pie
 
 The **Pie** chart (or a circle graph) is a circular chart divided into sectors, illustrating proportion. Each Series is a part of a chart. In a pie chart, each sector is proportional to the quantity it represents. Together, the sectors create a full disk.
 

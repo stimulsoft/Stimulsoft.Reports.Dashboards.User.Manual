@@ -1,4 +1,4 @@
-## Through Lines Numbering in Master-Detail Reports
+# Through Lines Numbering in Master-Detail Reports
 
 Besides the **Line** system variable, there is also an additional **LineThrough** system variable for numbering the **Master-Detail** lists. What is the difference? The **LineThrough** system variable is used to output numbers using the continuous numbering. On the picture below the same report with continuous numbering is shown.
 

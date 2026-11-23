@@ -1,4 +1,4 @@
-## HTML &lt;sup&gt; Tag
+# HTML &lt;sup&gt; Tag
 
 The **&lt;sup&gt;** tag is used to define a superscripted text. Superscript text appears half a character above the baseline. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
 

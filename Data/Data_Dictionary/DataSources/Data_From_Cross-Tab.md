@@ -1,4 +1,4 @@
-## Data From Cross-Tab
+# Data From Cross-Tab
 
 In Stimulsoft Reports you can create a data source based on cross-table, i.e. you can create a new source, which columns will be columns of the rendered cross-table, and strings are the strings of the rendered cross-table. Consider an example of creating a data source based on the cross-table. The picture below shows a report page with the rendered cross-table:
 

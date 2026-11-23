@@ -1,4 +1,4 @@
-## FixedWidth Property
+# FixedWidth Property
 
 The **FixedWidth** property is used together with the **AutoWidth** property of a **Table** component. If a table changes the column size (depending on the **AutoWidth** property) then the **FixedWidth** property that is set to **true** does not allow these changes. The pictures below show samples of using this property. On the first picture the **FixedWidth** property is not used.
 

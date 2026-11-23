@@ -1,4 +1,4 @@
-## HTML &lt;p&gt; Tag
+# HTML &lt;p&gt; Tag
 
 The &lt;**p**&gt; tag defines a paragraph. It has an end tag. The example below shows how the &lt;**p**&gt; tag works:
 

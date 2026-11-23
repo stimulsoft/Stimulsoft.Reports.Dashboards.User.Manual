@@ -1,4 +1,4 @@
-## Limitations in Creating Relations
+# Limitations in Creating Relations
 
 When creating or using relations between data sources, the following restrictions are:
 

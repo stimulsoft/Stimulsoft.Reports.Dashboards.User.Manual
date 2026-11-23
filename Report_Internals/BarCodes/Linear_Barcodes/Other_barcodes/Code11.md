@@ -1,4 +1,4 @@
-## Code11
+# Code11
 
 The **Code 11** barcode was developed by **Intermec** in 1977. It is used in telecommunications.
 

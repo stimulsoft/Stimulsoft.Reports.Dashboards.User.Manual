@@ -1,4 +1,4 @@
-## Wizard Standard Report
+# Wizard Standard Report
 
 > **Important**
 >

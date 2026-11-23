@@ -1,4 +1,4 @@
-## ReportTitleBand Property
+# ReportTitleBand Property
 
 By default, the **Page Header** band is placed above the **Report Title** band:
 

@@ -1,4 +1,4 @@
-## Report with Primitives on Page
+# Report with Primitives on Page
 
 Primitives are: **Horizontal Line**, **Vertical Line**, **Rectangle** and **Rounded Rectangle**. Besides, you may use the **Shape** component. When placing a primitive on a page, the primitive will be rendered as a page item. To design a report with primitives on a page, follow the steps below:
 

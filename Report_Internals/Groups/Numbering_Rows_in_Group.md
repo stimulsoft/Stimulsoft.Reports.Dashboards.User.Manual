@@ -1,4 +1,4 @@
-## Numbering Rows In A Group
+# Numbering Rows In A Group
 
 If you wish to display line numbers within a group you should use the **Line** system variable.  The reference to this variable should be specified in the expression assigned to a text component placed on the group Data band.
 

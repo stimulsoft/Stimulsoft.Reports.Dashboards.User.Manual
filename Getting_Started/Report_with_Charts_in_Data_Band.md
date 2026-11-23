@@ -1,4 +1,4 @@
-## Report with Chart in Data Band
+# Report with Chart in Data Band
 
 Suppose a **Chart** component is placed on the page of the report, then, for a report, this component will be rendered as a page item. If the **Chart** component is placed in the **DataBand**, then, when rendering a report, this component will be rendered as part of the **DataBand**. Since the **Chart** component placed in the **DataBand**, is rendered as a part of the **DataBand**, and will be printed as many times as the **DataBand** will be output. An example of designing a report with a chart in the **DataBand** will be described below. In this example, the chart will graphically display the detailed data of the data source in the **DataBand**. Follow the steps below to render a report with the **Chart** in the  **DataBand**:
 

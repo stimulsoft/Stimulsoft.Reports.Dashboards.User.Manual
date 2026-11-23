@@ -1,4 +1,4 @@
-## Text In Cells Component
+# Text In Cells Component
 
 A text in cells is placed symbol-by-symbol (one symbol or a space - one cell). How the text will be output depends on the **RightToLeft** property. If it is set to **false**, then a text is output from left to right. The picture below shows a text sample in Arabic that is output from left to right:
 

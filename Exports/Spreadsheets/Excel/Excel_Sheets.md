@@ -1,4 +1,4 @@
-## Excel Sheets
+# Excel Sheets
 
 By default a report is exported as one table to one sheet of Excel. Maximal number of rows on a sheet is unlimited. It depends on the Excel version and is set using the **MaximumSheetHeight** static property (by default 65534, for Excel XP and Excel 2003). If the number of rows is more than the default then odd rows will be carried on the next sheet.
 

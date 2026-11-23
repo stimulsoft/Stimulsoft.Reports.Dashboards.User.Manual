@@ -1,4 +1,4 @@
-## Primitives
+# Primitives
 
 Primitives include: **Horizontal Line** and **Shape**. Cross-primitives include: **Vertical Line**, **Rectangle** and **Rounded Rectangle**. **Horizontal line** is a line in the horizontal plane, whose start and end points are located on the same component in a report. The picture below shows a report template with a list in which a **Horizontal Line** is located in the **HeaderBand**:
 

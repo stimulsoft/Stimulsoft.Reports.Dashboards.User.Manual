@@ -1,4 +1,4 @@
-## Date Formatting
+# Date Formatting
 
 If the report contains text components which output date in the rendered report then the Date formatting can be applied to this text component. The date format is selected from a set of specified formats - short format, long format, etc. In the applied format, except the ones with an asterisk (*), the order of elements does not change. For example, the report contains the list of products and OrderDate, RequiredDate, ShippedDate.
 

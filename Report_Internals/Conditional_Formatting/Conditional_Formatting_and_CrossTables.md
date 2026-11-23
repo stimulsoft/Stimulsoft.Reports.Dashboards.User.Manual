@@ -1,4 +1,4 @@
-## Conditional Formatting And Cross-Tables
+# Conditional Formatting And Cross-Tables
 
 The Cross Table condition editor has several differences from the standard condition editor. In particular there are significant differences when writing expressions within conditions, as it adds some special variables such as: **value, tag, tooltip,** and **hyperlink**.
 

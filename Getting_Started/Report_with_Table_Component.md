@@ -1,4 +1,4 @@
-## Report with Table Component
+# Report with Table Component
 
 Do the following steps to design a report with the **Table** component:
 

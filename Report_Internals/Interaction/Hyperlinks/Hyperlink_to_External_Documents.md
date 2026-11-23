@@ -1,4 +1,4 @@
-## Hyperlink to External Documents
+# Hyperlink to External Documents
 
 In this way any symbols to a hyperlink should not be added. The string of a hyperlink is directly sent to the OS for processing. For example, to start Notepad just write the following code:
 

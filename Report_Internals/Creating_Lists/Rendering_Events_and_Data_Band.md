@@ -1,4 +1,4 @@
-## Events and Data Band
+# Events and Data Band
 
 > **Important**
 >

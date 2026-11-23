@@ -1,4 +1,4 @@
-## Columns
+# Columns
 
 On a picture below you may see how the columns are positioned on a table.
 

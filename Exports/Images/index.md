@@ -1,4 +1,4 @@
-## Images
+# Images
 
 Export groups to graphic formats. All graphic formats can be divided into two types: bitmapped images and vector formats. Notice. At the current moment, the export of monochrome image is supported only to **BMP**, **GIF**, **PCX**, **PNG**, **TIFF** format. So the **DitheringType** property works only for these exports.
 

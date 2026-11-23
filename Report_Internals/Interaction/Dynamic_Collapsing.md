@@ -1,4 +1,4 @@
-## Dynamic Collapsing
+# Dynamic Collapsing
 
 Sometimes you need to show a report in a compact form. In **Stimulsoft Reports you can find** the ability to dynamically collapse information in the preview window. A report with dynamic collapsing is an interactive report, in which collapsing blocks can expand/collapse its contents clicking the block title. Dynamic collapsing is usually used in reports with grouping, Master-Detail, hierarchical reports. Dynamic collapsing can be multilevel. Consider an example of using dynamic collapsing in the report. Let's have a report that contains a list of products that are grouped by category. The picture below schematically showed the report with a multilevel collapsing:
 

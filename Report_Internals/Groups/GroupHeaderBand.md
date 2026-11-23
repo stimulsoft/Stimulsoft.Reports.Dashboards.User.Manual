@@ -1,4 +1,4 @@
-## GroupHeader Band
+# GroupHeader Band
 
 The Group header is created using the **Group Header** band, the basic band for rendering reports that use grouping. It is impossible to generate grouped reports without using a **Group Header** band.
 

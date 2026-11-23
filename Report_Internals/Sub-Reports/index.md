@@ -1,4 +1,4 @@
-## Sub-Reports
+# Sub-Reports
 
 The **Sub-Report** component is used to display another report in the current report. In this case, the sub-report will be displayed in the current report only within the **Sub-Report** component. In other words, when you render a report with **Sub-Report** components, the report engine will build all the nested reports and place them in these components.
 

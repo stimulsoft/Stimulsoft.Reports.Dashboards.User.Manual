@@ -1,4 +1,4 @@
-## Report with Multiple Pages in Template
+# Report with Multiple Pages in Template
 
 If you want to design a report, for example, with the cover page, the report template will consist of minimum two pages: the cover page and page with data. Creating a report with several pages in the template includes the following steps:
 

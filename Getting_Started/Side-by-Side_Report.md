@@ -1,4 +1,4 @@
-## Side-by-Side Report
+# Side-by-Side Report
 
 The **Side-by-side** report is a type of independent data lists, located side by side. Do the following steps to create such a report:
 

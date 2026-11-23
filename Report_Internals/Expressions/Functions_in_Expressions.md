@@ -1,4 +1,4 @@
-## Using Functions in Expressions
+# Using Functions in Expressions
 
 ### Built-In Functions
 

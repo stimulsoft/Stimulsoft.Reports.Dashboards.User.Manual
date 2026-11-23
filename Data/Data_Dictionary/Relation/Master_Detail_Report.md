@@ -1,4 +1,4 @@
-## Master-Detail Report
+# Master-Detail Report
 
 "From the detail via a relation to the master data source" scheme was used in the previous chapters (filtering, sorting, and showing information). When you render a Master-Detail report, a different scheme "from master to detail" is used, i.e. the relation works in reverse order. For example, DataBand1 is placed in the report template. This band contains a text component with reference to a data column, which contains the category names. Then, when rendering a report, you will see a list of categories. The picture below shows a report page with the names of categories:
 

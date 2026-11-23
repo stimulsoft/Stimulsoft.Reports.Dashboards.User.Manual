@@ -1,4 +1,4 @@
-## List with Footer
+# List with Footer
 
 Besides **Data** bands and **Headers** bands, **Footer** bands can be used. These bands are used to output total of data. The **Footer** band is placed after data are output. Different information is output in the band. For example, totals of a list, data, additional information. On the picture below a report template with the **Footer** band is shown.
 

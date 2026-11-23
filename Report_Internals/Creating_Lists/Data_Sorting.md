@@ -1,4 +1,4 @@
-## Data Sorting
+# Data Sorting
 
 Frequently data, which are used for the report rendering, are sorted in order that does not meet your requirements. In this case, it is possible to sort data using the abilities of Stimulsoft Reports. Sorting can be set for each **Data** band separately. To set sorting it is necessary to use the **Sort** property of the **Data** band. Using this property it is possible to call the editor of the **Data** band.
 

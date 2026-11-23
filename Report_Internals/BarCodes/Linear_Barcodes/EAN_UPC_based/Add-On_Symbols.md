@@ -1,4 +1,4 @@
-## Add-On Symbols
+# Add-On Symbols
 
 **Add-on Symbols** (barcodes) can be used in some applications together with the EAN-13, UPC-A, and UPC-E barcodes. Add-on Symbols may contain 2 or 5 additional digits and are usually placed to the right of the main barcode.
 

@@ -1,4 +1,4 @@
-## Plessey
+# Plessey
 
 A **Plessey** barcode was created by **Plessey** company in England on March 1971 with formal specification. The Plessey barcode was widely used in libraries, supermarkets, and production environments. A variant of the barcode known as Anker Code and appropriate scanners were provided by the ADS company.
 

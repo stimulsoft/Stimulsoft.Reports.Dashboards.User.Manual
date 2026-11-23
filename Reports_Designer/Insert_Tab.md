@@ -1,4 +1,4 @@
-## Tab Insert
+# Tab Insert
 
 The **Insert** tab is a section of the Ribbon in the report designer that contains commands for creating a new page, a new form, a new dashboard, as well as inserting report components or dashboard elements. It functions as an equivalent to the [Toolbox](#Toolbox) in the report designer and can be used alongside it or independently.
 

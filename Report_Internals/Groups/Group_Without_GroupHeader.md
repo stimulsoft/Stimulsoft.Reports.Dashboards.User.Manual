@@ -1,4 +1,4 @@
-## Groups Without A GroupHeader
+# Groups Without A GroupHeader
 
 In grouped reports it is usual to display both a group header and a group footer. However, what if you need to output only group footers without group headers?
 

@@ -1,4 +1,4 @@
-## Charts Properties
+# Charts Properties
 
 
 **Main Properties**

@@ -1,4 +1,4 @@
-## Compatibility of Different Versions
+# Compatibility of Different Versions
 
 The following minimum web browser versions are required for correct HTML export:
 

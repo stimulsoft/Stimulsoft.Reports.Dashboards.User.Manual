@@ -1,4 +1,4 @@
-## Vertical Alignment
+# Vertical Alignment
 
 Alignment vertically defines the position of content relatively to the top and bottom component border. Vertical alignment can be set by the top edge, in the center and by the bottom edge. To change vertical alignment you should use the **Vertical Alignment** property.
 

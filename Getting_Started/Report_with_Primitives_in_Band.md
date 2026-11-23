@@ -1,4 +1,4 @@
-## Report with Primitives in Band
+# Report with Primitives in Band
 
 Primitives are: **Horizontal Line**, **Vertical Line**, **Rectangle** and **Rounded Rectangle**. Besides, you may use the **Shape** component. When placing a primitive on a band, the primitive will be rendered on a page as many times as the band will be printed. To design a report with primitives on a band, follow the steps below:
 

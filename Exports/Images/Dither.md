@@ -1,4 +1,4 @@
-## Dither
+# Dither
 
 **Dither** is an intentionally applied form of noise, when processing digit signals. It is used in most often surfaces in the fields of digital audio and video. The following image shows (from left to right) original image and the result of export to monochrome image. There are three modes of **DitheringType**: **Ordered**, **FloydSteinberg**, **None**.
 

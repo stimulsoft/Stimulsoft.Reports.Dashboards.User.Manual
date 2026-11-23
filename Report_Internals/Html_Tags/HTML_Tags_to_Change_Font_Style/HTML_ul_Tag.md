@@ -1,4 +1,4 @@
-## HTML &lt;ul&gt; Tag
+# HTML &lt;ul&gt; Tag
 
 The &lt;ul&gt; tag inserts an unordered list, which is a block level element consisting of a sequence of items, usually displayed with a bullet on the left margin.
 

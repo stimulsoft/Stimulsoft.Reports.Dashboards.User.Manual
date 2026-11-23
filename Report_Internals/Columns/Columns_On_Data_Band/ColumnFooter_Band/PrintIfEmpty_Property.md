@@ -1,4 +1,4 @@
-## PrintIfEmpty Property
+# PrintIfEmpty Property
 
 If you want to ensure that the same number of column footers are shown as the number of columns on a page without considering the number of strings available you can use the **PrintIfEmpty** property of the **Column Footer** band. If you set this property to true, then one footer will be output for each column regardless of the amount of available data.
 

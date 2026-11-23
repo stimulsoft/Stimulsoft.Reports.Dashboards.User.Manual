@@ -1,4 +1,4 @@
-## Column Break
+# Column Break
 
 At the time of break one can only insert not only new pages but new columns. This can be done using the **NewColumnBefore** and **New Column After** properties. The logic of inserting new columns is the same as for the pages.
 

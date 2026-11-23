@@ -1,4 +1,4 @@
-## Font
+# Font
 
 Basic tool of transferring information in reports is text. There are two components in the Stimulsoft Reports which are able to set and output some text using various kinds of font, they are **Text** and **Rich Text. Font** for typing text is set using the Font property. You can type some text using various font types. A font type is specified using the **Font.Name** property. You can see three types of font in the image below.
 

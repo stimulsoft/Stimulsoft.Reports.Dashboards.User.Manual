@@ -1,4 +1,4 @@
-## Using Component Properties
+# Using Component Properties
 
 When creating expressions, you can use the properties of any component contained within a report.
 

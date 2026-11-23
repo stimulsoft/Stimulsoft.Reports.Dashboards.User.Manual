@@ -1,4 +1,4 @@
-## Headers, Footers and Master-Detail Reports
+# Headers, Footers and Master-Detail Reports
 
 The principle of using **HeaderBands** and **FooterBands** in **Master-Detail** reports is the same as in simple lists. All **HeaderBand1** bands, which are placed above the **DataBand1** bands, up to the next **DataBand2** band, belong to this **DataBand1** band. The **HeaderBand** is placed on the page above the **DataBand**, which outputs data rows. The **HeaderBand** always refers to any particular **DataBand**. Typically, this band is the first **DataBand**, which is located below the **HeaderBand**.
 

@@ -1,4 +1,4 @@
-## Binding Bottom Border of Component
+# Binding Bottom Border of Component
 
 Typically there will be more than one component on a band, as in the example shown  below:
 

@@ -1,4 +1,4 @@
-## Getting Started
+# Getting Started
 
 This section describes step-by-step approaches in designing reports and dashboards.
 

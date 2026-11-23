@@ -1,4 +1,4 @@
-## Standard Bands
+# Standard Bands
 
 Standard bands are the fundamental elements of any report. Please refer to the list below to see all the standard bands.
 

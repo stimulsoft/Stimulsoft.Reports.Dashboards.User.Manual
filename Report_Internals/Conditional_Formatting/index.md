@@ -1,4 +1,4 @@
-## Conditional Formatting
+# Conditional Formatting
 
 Conditional formatting allows you to change the design of components, depending on certain conditions. For each component in the record, you can set the conditions that define its formatting, such as font style, text color and background color. You can also hide or disable the component. For a component, you can set several conditions, i.e. appearance of the component may change in different ways depending on the conditions. Setting up conditional formatting is done using the properties of conditions (Conditions). Using this property is called the editor environment. The picture below shows the main elements of the editor of conditions:
 

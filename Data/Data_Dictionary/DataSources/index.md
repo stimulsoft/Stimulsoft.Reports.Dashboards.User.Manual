@@ -1,4 +1,4 @@
-## Data Sources
+# Data Sources
 
 The **Data Source** is a structural description of the data used for the report. The Data Source is like a program "layer" which provides data from the database and its conversion and to the report generator. In other words, the data source is a description of the methods, parameters, and data access methods.
 

@@ -1,4 +1,4 @@
-## AutoWidth Property
+# AutoWidth Property
 
 The **AutoWidth** property of a **Table** component indicates whether the reporting tool will fix the cells size after the report rendering.
 

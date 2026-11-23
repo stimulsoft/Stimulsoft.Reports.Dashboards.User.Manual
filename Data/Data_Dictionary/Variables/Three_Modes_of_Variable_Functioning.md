@@ -1,4 +1,4 @@
-## Three Modes of Variable Functioning
+# Three Modes of Variable Functioning
 
 Depending on the selected parameters the variable in the report can be operated in the following modes: autonomous, user (with selecting values), user (with inputting values). Let us consider these modes in more detail.
 

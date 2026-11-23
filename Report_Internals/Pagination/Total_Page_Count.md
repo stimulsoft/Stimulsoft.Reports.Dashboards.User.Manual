@@ -1,4 +1,4 @@
-## Total Page Count
+# Total Page Count
 
 The **TotalPageCount** system variable is used to output the total number of pages.
 

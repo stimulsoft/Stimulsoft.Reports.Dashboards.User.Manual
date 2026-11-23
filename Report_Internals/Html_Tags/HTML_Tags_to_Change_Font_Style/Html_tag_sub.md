@@ -1,4 +1,4 @@
-## HTML &lt;sub&gt; Tag
+# HTML &lt;sub&gt; Tag
 
 The &lt;**sub**&gt; tag defines subscripted text. Subscripted text appears half a character below the baseline. The example below shows how the **&lt;sub&gt;** tag works:
 

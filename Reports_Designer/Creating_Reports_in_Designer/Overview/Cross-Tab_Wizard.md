@@ -1,4 +1,4 @@
-## Wizard Cross-Tab
+# Wizard Cross-Tab
 
 The **Cross-Tab** wizard is used to create reports with cross-tab. The picture below shows the window of the **Cross-Tab** wizard.
 

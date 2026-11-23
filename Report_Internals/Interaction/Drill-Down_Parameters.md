@@ -1,4 +1,4 @@
-## Drill-Down Parameters
+# Drill-Down Parameters
 
 When you create an interactive report using **Drill-Down** relations, there is a possibility in the report generator to specify the parameters to be passed from the main report to the detailed one. For example, you can pass a parameter to be used for filtering data in a detailed report. Also, you can initialize properties (**Report Alias**, **Report Title**, **Report Description**) of the detailing a report by specifying them in the parameters of the detailed report. Suppose there is an interactive report that contains the category names and details of products related to these categories. Let's make each detailed tab have the category name by which it is opened. To do this, change the values of properties for the group **Drill-Down Parameter**:
 

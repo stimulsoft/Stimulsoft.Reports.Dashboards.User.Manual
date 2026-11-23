@@ -1,4 +1,4 @@
-## Report with Empty Band
+# Report with Empty Band
 
 The **EmptyBand** is used to fill free space at the bottom of a page. This tutorial describes how to create a report with the **EmptyBand**:
 

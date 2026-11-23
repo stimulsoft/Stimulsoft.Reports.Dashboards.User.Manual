@@ -1,4 +1,4 @@
-## Page Header Band
+# Page Header Band
 
 The Page Header band is used to output information such as page numbers, dates, and company information at the top of a page. The Page Header band is output at the top of every page of the report.  An unlimited number of Page Header bands can be placed on a page.
 

@@ -1,4 +1,4 @@
-## Expressions
+# Expressions
 
 Expressions are a crucial part of Stimulsoft Reports - without them, it would not be possible to produce any reports at all. An expression is a combination of one or more of the following:
 

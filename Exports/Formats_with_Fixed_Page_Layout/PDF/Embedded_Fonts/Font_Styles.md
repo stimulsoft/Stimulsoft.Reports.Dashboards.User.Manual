@@ -1,4 +1,4 @@
-## Font Styles
+# Font Styles
 
 There is one peculiarity of the export: all fonts for embedding to PDF files should be installed in the system. And for each font style a single font file should be installed.
 

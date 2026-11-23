@@ -1,4 +1,4 @@
-## Creating Master-Detail Lists
+# Creating Master-Detail Lists
 
 > **Information**
 >

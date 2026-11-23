@@ -1,4 +1,4 @@
-## Angle Property
+# Angle Property
 
 The **Angle** property is used to change the inclination of **Labels**. Specifies the angle, in degrees. The **Angle** property is set separately for each axis. The full path to this property is **Area.Axis.Labels.Angle**. By default, the value of the **Angle** property is set to **0.** So **Labels** are placed as it is shown on the picture below:
 

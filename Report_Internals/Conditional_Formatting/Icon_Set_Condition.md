@@ -1,4 +1,4 @@
-## Icon Set Condition
+# Icon Set Condition
 
 The **Icon Set** condition is used to identify the component with an icon to which a condition is applied. The **Icon Set** works the following way. The minimum and maximum values for all values in the selected data column are defined first. All calculated values are in the range from 0 to 100 percent. A group of icons is selected. Then, the condition and boundary values (for example 33 per cent and 67 per cent) for each icon are set. If, for example, a group of three icons is selected, each of these selected icons have a subrange. In this case, each of the icons has subrange in 33 percent (from 0 to 33, from 33 to 67, from 67 to 100). This allows you to mark a component with an appropriate icon depending on the value. The picture below shows a report page:
 

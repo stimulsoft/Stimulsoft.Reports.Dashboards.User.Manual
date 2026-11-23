@@ -1,4 +1,4 @@
-## Parameters
+# Parameters
 
 When creating a query it is possible to use the **Parameter** object. This object is designed to send additional conditions for selecting data into a query. For example, if you need a query to use a value entered by the user each time the query is executed, you can create a query using parameters. The **Parameter** object can only be used with **SQL** data sources. These data sources typically have the **Text Query** field. To insert a parameter in the query, you must click the **New Parameter** button. The picture below shows the toolbar, on which the **New Parameter** button can be found:
 

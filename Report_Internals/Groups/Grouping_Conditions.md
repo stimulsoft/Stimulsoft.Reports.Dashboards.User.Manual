@@ -1,4 +1,4 @@
-## Grouping Conditions
+# Grouping Conditions
 
 To create a report with grouping it is necessary to define a condition by which the records can be grouped. This condition will be used to divide the data rows into suitable groups, and is set using the Condition property of the Group Header band.
 

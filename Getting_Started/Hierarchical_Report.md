@@ -1,4 +1,4 @@
-## Hierarchical Report
+# Hierarchical Report
 
 Do the following steps to create a hierarchical report:
 

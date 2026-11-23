@@ -1,9 +1,12 @@
-title: Stimulsoft Reports Documentation
-description:
+title: "Stimulsoft Reports User Manual"
+description: "End-user guide for Stimulsoft Reports and Dashboards. Explains the report designer and viewer UI, creating and formatting reports, working with charts, cross-tabs, maps, dashboards, data connections, and export options."
 baseurl: "/Stimulsoft.Reports.Dashboards.User.Manual"
-url: "https://stimulsoft.github.io"
+url: "https://docs.stimulsoft.com"
 sidebar_title: "Reports and Dashboards"
 exclude_from_menu: ["Out_Of_Date"]
+product_name: "Stimulsoft Reports and Dashboards"
+product_url: "https://www.stimulsoft.com/en/products/reports"
+designer_url: "https://designer.stimulsoft.com/"
 
 plugins:
   - jekyll-relative-links

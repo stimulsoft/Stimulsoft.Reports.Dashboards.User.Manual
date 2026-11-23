@@ -1,4 +1,4 @@
-## ITF-14
+# ITF-14
 
 The **ITF-14** barcode was developed to encode a Global Trade Item Number. In comparison with the EAN/UPC barcodes, the ITF barcode has the nominal size of (152*44mm) and lower requirements for the printing surface. Therefore, it can be printed not only on a label but directly onto a packing carton.
 

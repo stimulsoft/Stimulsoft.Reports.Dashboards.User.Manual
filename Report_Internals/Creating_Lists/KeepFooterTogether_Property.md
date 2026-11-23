@@ -1,4 +1,4 @@
-## KeepFooterTogether Property
+# KeepFooterTogether Property
 
 The **KeepFooterTogether** property is used to print a list so as to output data row together with totals of data. If the property is **true,** then totals will be printed with the last row of data. If total cannot be placed after the last page printing, then it is output on the current page. If there is not enough free space to output totals, then it is carried over on the next page. On the picture below a sample of a report with the **KeepFooterTogether** property set to **false** is shown.
 

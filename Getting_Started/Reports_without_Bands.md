@@ -1,4 +1,4 @@
-## Report without Bands
+# Report without Bands
 
 If it is necessary to display data from only one entry of the data source or data from variables or other data sources that are not lists, the report can be created without the bands. In this case, components are placed directly on a report page.
 

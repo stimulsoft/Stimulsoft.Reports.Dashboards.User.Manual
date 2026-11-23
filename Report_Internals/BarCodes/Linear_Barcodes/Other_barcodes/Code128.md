@@ -1,4 +1,4 @@
-## Code128
+# Code128
 
 The **Code128** barcode was developed in 1981. It is a variable length, high density, alphanumeric symbology. It allows to display the 128 characters of ASCII and it is effective for digits. Information can be encoded using three sets of symbols, respectively, four types of bar codes are distinguished: **Code128a**, **Code128b**, **Code128c**, and **Code128auto** (automatically switches between **Code128a**, **Code128b**, **Code128c** barcodes to encode ASCII values). A distinctive feature of the "c" character set is the ability to encode one hundred pairs of numbers, which allows twice the recording density when encoding digital data.
 

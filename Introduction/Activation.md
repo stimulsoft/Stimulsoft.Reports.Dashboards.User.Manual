@@ -1,4 +1,4 @@
-## Activation
+# Activation
 
 ### Trial version
 

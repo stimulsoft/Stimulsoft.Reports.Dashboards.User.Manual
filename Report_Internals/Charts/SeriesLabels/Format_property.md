@@ -1,4 +1,4 @@
-## Format Property
+# Format Property
 
 The **Format** property is used to format the contents of Series Labels. This property has multiple values.
 

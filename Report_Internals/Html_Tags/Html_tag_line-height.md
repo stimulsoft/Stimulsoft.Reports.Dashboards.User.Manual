@@ -1,4 +1,4 @@
-## HTML &lt;line-height&gt; Tag
+# HTML &lt;line-height&gt; Tag
 
 The **&lt;line-height&gt;** tag sets the height of the text line. The tag is set as the multiplier for the basic line height. By default the value of the **&lt;line-height&gt;** tag is 1. The example below shows how this tag works:
 

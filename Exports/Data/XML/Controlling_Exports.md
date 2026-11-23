@@ -1,4 +1,4 @@
-## Controlling Exports
+# Controlling Exports
 
 The following elements can be specified in the Tag property to control export to XML:
 

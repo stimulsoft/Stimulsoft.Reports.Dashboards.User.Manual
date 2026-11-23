@@ -1,4 +1,4 @@
-## Calculating Values in Expressions
+# Calculating Values in Expressions
 
 An expression can contain many different types of variables as well as functions and field values from databases. These various parts can be combined to calculate a value to be printed or displayed within a report.
 

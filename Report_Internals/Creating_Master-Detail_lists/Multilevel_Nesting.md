@@ -1,4 +1,4 @@
-## Multilevel Nesting
+# Multilevel Nesting
 
 The logic of building Master-Detail reports with more than 2 nesting levels is the same as the logic of building simple Master-Detail reports. For each Detail band the **MasterComponent** and **DataRelation** properties are set. For example, it is necessary to render a report in what there are four nesting levels. The first level is **countries**, the second - **regions**, the third - **cities**, the fourth - **quarters**. In this case one should place **Data** bands one on another on a page for each data source. Set the **MasterComponent** of the second band on the band **countries**. This property for the third band will indicate the **regions** band. For the last band **quarters** - will indicate on the **cities** band.
 

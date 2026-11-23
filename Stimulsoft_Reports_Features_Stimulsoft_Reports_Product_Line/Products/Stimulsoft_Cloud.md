@@ -1,4 +1,4 @@
-## Stimulsoft Cloud
+# Stimulsoft Cloud
 
 Please see the clear and transparent list of the main differences across [Stimulsoft Cloud subscriptions](https://www.stimulsoft.com/en/online-store#cloud/cloud). All resources available in subscriptions are calculated on a monthly basis. From your account, you can view the remaining amount of resources. Upon reaching one of the limits, the corresponding functionality will be unavailable, all other functionality will be available in accordance with their limits. You may switch between subscriptions and upgrade or downgrade your monthly plan.
 

@@ -1,4 +1,4 @@
-## Royal Mail 4-state
+# Royal Mail 4-state
 
 The **Royal Mail 4-state** barcode is used for the automated mail sorting process. Encoding is carried out in alphanumeric format (0-9, A-Z). There are 38 valid characters in the entire character set:
 

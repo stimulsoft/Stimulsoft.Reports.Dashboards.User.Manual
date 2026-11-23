@@ -1,4 +1,4 @@
-## Text Quality
+# Text Quality
 
 The StiText component and components, inherited from it, have the **TextQuality** property. This property allows selecting/displaying the quality of the text. The property may have one of three values:
 

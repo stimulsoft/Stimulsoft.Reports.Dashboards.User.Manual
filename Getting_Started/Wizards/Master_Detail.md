@@ -1,4 +1,4 @@
-## Wizard Master-Detail Report
+# Wizard Master-Detail Report
 
 > **Important**
 >

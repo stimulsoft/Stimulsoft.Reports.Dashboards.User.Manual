@@ -1,4 +1,4 @@
-## Assigning Expression
+# Assigning Expression
 
 Using conditional formatting it is possible, in a text component, to change the text, replace its textual expression on a text expression, specified in the condition. The picture below shows a report page:
 

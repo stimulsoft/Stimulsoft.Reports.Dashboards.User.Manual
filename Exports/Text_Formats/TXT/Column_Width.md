@@ -1,4 +1,4 @@
-## Column Width
+# Column Width
 
 When exporting to the text format, all coordinates and sizes of objects are recalculated to get the text appearance the same as it is in a report. You can control the conversion by changing the zoom coefficients of ZoomX and ZoomY. The width of the columns of the output text is proportional to the width of the initial report. If you want to change the column width, it is possible to use the following methods:
 

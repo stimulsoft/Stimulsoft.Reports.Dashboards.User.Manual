@@ -1,4 +1,4 @@
-## CutPieList Property
+# CutPieList Property
 
 The Pie chart represents an opportunity to display the contribution of each value to a total while emphasizing individual values. To select a segment in a pie chart and pull it out, it is necessary, in the **Series Editor**, to specify values for the **Distance** and **CutPieList** properties of a series. The **Distance** property indicates the distance from the center of the chart to the nearest point of the pull out segment. The **CutPieList** property has a list of series to be pulled out, separated with **';'**. The picture below shows an example of a pie chart, with the second slice of the first series pulled out. The distance is 60-hundredths of inches:
 

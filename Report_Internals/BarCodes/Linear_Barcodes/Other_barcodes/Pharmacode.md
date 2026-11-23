@@ -1,4 +1,4 @@
-## Pharmacode
+# Pharmacode
 
 A **Pharmacode** barcode is used in the pharmaceutical industry as a packing control system. The Pharmacode barcode is most commonly found on the packaging of pharmaceutical products, usually on the hinged lid of the box.
 

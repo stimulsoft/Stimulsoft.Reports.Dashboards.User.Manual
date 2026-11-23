@@ -1,4 +1,4 @@
-## Headers and Footers
+# Headers and Footers
 
 Depending on the value of the **Use Page Headers and Footers** property a report is exported in the following way:
 

@@ -1,4 +1,4 @@
-## Direct Allocation on Page
+# Direct Allocation on Page
 
 One way to place a watermark is to position it directly on the page. This means placing any component that will serve as the watermark directly on the report template page. The image below shows a "watermark" created by directly placing a text component on the report template page.
 

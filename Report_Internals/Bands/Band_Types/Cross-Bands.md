@@ -1,4 +1,4 @@
-## Cross-Bands
+# Cross-Bands
 
 Cross-bands must be placed on a standard band, and thus cannot be directly placed on a page or a container. They are used to enable the rendering of complex cross-reports.
 

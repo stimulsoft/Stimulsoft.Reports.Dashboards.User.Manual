@@ -1,4 +1,4 @@
-## Showing Information
+# Showing Information
 
 Stimulsoft Reports tools can display data from a bound data source. For example, data from columns are displayed in a report: **ProductName**, **UnitPrice**, **UnitsInStock** of the data source **Products**. The picture below shows a page of the report:
 

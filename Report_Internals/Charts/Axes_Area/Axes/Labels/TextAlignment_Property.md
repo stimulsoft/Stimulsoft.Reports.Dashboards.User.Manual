@@ -1,4 +1,4 @@
-## TextAlignment Property
+# TextAlignment Property
 
 The **TextAlignment** property is used to align labels on the chart or by Y axis. The full path to this property is **Area.Axis.Labels.TextAlignment**. If the **TextAlignment** property set to **Left**, then labels are aligned by the chart edge. The picture below shows an example of a chart with the **TextAlignment** property set to **Left**:
 

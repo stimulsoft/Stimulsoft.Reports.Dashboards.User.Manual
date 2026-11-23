@@ -1,4 +1,4 @@
-## Barcode Comparison Table
+# Barcode Comparison Table
 
 The table below shows the list of linear barcodes supported by Stimulsoft Reports.
 

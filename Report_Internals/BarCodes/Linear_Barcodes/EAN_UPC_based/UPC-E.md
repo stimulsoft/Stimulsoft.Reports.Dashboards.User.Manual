@@ -1,4 +1,4 @@
-## UPC-E
+# UPC-E
 
 A **UPC-E** is a smaller seven digit UPC symbology for number system 0. For **UPC-E** barcodes, normally 6 digits are specified and the barcode calculates the seventh check digit. It can only be used to write a 12-digit identification code that starts with zero and contains a sequence of four or five zeros at specific positions (see General EAN.UCC Specifications for details). In accordance with the rules from the specification, a 12-digit code is converted into an 8-digit one, which is written into the barcode. In Stimulsoft Reports, this place is simplified - an 8-digit code must be submitted as data, and the check digit is not checked.
 

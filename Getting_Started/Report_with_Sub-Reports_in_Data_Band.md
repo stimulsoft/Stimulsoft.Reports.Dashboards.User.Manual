@@ -1,4 +1,4 @@
-## Report with Sub-Reports in Data Band
+# Report with Sub-Reports in Data Band
 
 Do the following steps to create a simple list report:
 

@@ -1,4 +1,4 @@
-## Angle Property
+# Angle Property
 
 The **Angle** property allows changing the inclination angle of Series Labels. By default, this property is set to **0** (Series Labels is not inclined). The picture below shows the situation when the **Angle** property is set to **0**:
 

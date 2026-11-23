@@ -1,4 +1,4 @@
-## Font Name
+# Font Name
 
 Using conditional formatting it is possible to change the font of a text component. The picture below shows a report page:
 

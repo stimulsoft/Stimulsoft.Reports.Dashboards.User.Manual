@@ -1,4 +1,4 @@
-## Panels
+# Panels
 
 > **Important**
 >

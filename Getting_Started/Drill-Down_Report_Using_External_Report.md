@@ -1,4 +1,4 @@
-## Drill-Down Report Using External Report
+# Drill-Down Report Using External Report
 
 Drill-Down report using external report is an interactive report in what detailed data are placed in an external report and the relationship between master and detailed data in reports is organized using the **Interaction.Drill-Down Report** property. Follow the steps below to design the report:
 

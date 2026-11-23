@@ -1,4 +1,4 @@
-## Header and Footer Combinations
+# Header and Footer Combinations
 
 When outputting headers and footers for columns on a page  it is very important to consider the order in which the bands will be output on the page.
 

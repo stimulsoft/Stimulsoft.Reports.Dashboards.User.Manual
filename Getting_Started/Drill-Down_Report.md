@@ -1,4 +1,4 @@
-## Drill-Down Report
+# Drill-Down Report
 
 A Drill-Down report is an interactive report in what blocks can collapse/expand its content by clicking on the block title. Follow the steps below to create a report with dynamic folding in the preview window:
 

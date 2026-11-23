@@ -1,4 +1,4 @@
-## Sequentially Numbered Pages
+# Sequentially Numbered Pages
 
 Sequential numbering (numbering without taking into account the **ResetPageNumber** property) set the **SystemVariables**:
 

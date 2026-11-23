@@ -1,4 +1,4 @@
-## Reports with Contents
+# Reports with Contents
 
 Sometimes it is necessary to create a report with contents. In this case you should create the report structure first and then create the report on the whole. But there is a question. How to output page numbers, because at the moment, when contents rendering, numbers of pages, which elements of contents refer to, are unknown. Use the anchor in this case. The **AddAnchor** method is used for creating an anchor. When creating an anchor, the report generator saves the current page and compares it with the specified anchor. For example:
 

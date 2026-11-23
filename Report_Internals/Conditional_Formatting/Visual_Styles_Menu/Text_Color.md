@@ -1,4 +1,4 @@
-## Text Color
+# Text Color
 
 Using conditional formatting it is possible to apply the color for the text component. The picture below shows a report page:
 

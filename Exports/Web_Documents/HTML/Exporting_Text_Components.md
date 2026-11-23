@@ -1,4 +1,4 @@
-## Exporting Text Components
+# Exporting Text Components
 
 When exporting reports to the **HTML** format, it is necessary to take the following features of this format into consideration:
 

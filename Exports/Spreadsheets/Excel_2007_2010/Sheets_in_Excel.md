@@ -1,4 +1,4 @@
-## Sheets in Excel
+# Sheets in Excel
 
 By default a report is exported as one table to one Excel sheet. Maximal number of rows on a sheet is limited. It depends on the version of Excel and is set using the **MaximumSheetHeight** static property (by default 1048574 for Excel 2007). If rows are too many then redundant rows will be output on the next sheet. Also it is possible to export each page of a report to a single sheet of Excel. To do this, it is necessary to set the **ExportEachPageToSheet** property to **true**.
 

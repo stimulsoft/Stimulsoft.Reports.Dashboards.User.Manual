@@ -1,4 +1,4 @@
-## Ticks
+# Ticks
 
 **Ticks** are horizontal (for the Y axis) and vertical (for the X axis) lines, which visually show the unit interval and the proportion of segments. Under the **Ticks** labels are displayed. The picture below shows a chart with ticks:
 

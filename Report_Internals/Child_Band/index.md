@@ -1,4 +1,4 @@
-## Child Band
+# Child Band
 
 The **Child** band can be used in tandem with other bands. It can be placed after any band on a page, including after the Header band or the Group Header band.  It allows the parent band to be effectively extended whilst the child can behave differently, for example having a different background color.
 

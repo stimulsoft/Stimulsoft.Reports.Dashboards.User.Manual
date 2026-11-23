@@ -1,4 +1,4 @@
-## Enabling Component
+# Enabling Component
 
 Using conditional formatting it is possible to show/hide the text component. The picture below shows a report page:
 

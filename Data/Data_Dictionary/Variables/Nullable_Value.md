@@ -1,4 +1,4 @@
-## Nullable Value
+# Nullable Value
 
 The **Nullable Value** variable provides the ability to place simple values and values equal to **null**. If it is necessary to return a **null** value in the report, then when using a variable of another type, a report compilation error occurs. The picture below shows the **New Variable** dialog of the **Nullable Value**:
 

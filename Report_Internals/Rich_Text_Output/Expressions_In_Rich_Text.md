@@ -1,4 +1,4 @@
-## Expressions In Rich Text
+# Expressions In Rich Text
 
 The RTF text is an expression in the **RichText** component. There are no significant differences between working with expressions in the **RichText** component and other text components.
 

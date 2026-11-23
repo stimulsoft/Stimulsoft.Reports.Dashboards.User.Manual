@@ -1,4 +1,4 @@
-## ResetPageNumber Property
+# ResetPageNumber Property
 
 The numbering of the pages of the report begins with the number 1 and is defined consistently for each page built by the report.
 

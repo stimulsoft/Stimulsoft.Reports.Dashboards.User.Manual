@@ -1,4 +1,4 @@
-## CellType Property
+# CellType Property
 
 There are different types of cells can be placed In the Table component. They are a text, an image, a check, and a rich text.
 

@@ -1,4 +1,4 @@
-## GroupLine System Variable
+# GroupLine System Variable
 
 Numbering of groups in the report generator is defined by the **GroupLine** system variable. Group numbering starts with 1. The picture below shows an example of a report with numbering of groups:
 

@@ -1,4 +1,4 @@
-## Cross-Tab Report in Data Band
+# Cross-Tab Report in Data Band
 
 If the **Cross-Tab** component is placed in the **DataBand**, then when designing a report, this component will be constructed as part of the **DataBand**. Because the **Cross-Tab** component placed in the **DataBand** is designed as an element of the **DataBand**, then, when designing a report, this component will be printed as many times as the **DataBand**. Consider an example of building a report with the **Cross-Tab** in the **DataBand**. In this example, **Cross-Tab** will display the detailed entries in the **Master-Detail** report. Do the following steps to build a report with the **Cross-Tab** in the **DataBand**:
 

@@ -1,4 +1,4 @@
-## Creating Data Source
+# Creating Data Source
 
 Consider an example of creating a new data source. It is worth noting that before you can create a data source, you must setup a connection. If there is no connection, then go to Dictionary, select the **New Data Source** command in the **New Item** menu:
 

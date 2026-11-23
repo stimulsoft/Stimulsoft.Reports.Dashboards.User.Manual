@@ -1,4 +1,4 @@
-## Wizard Label Report
+# Wizard Label Report
 
 The **Label Report** wizard is used to create reports which have labels. The picture below shows a window of the **Label Report** wizard:
 

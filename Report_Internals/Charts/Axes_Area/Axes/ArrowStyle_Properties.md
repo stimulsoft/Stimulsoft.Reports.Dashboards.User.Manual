@@ -1,4 +1,4 @@
-## ArrowStyle Property
+# ArrowStyle Property
 
 Each axis has its own direction. The direction is identified with marker (usually it is an arrow). To change the arrow style, use the **Arrow Style** property of an axis**.** The path to this property is **Area.Axes.ArrowStyle**. On the picture below the sample of a rendered chart with the **ArrowStyle** property set to the **None** default value:
 

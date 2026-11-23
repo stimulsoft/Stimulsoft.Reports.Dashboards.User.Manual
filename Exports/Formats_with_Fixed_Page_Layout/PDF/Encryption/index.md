@@ -1,4 +1,4 @@
-## Encryption
+# Encryption
 
 A PDF document can be encoded to protect the content from unauthorized access. A user may set the following parameters of encryption. The Document Security is a set of parameters with which you can protect documents from unauthorized access to them:
 

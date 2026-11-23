@@ -1,4 +1,4 @@
-## Value Condition
+# Value Condition
 
 If you use a Value condition you will need to set the condition using a special format which consists of three elements:
 

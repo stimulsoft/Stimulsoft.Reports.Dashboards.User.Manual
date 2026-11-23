@@ -1,4 +1,4 @@
-## PrintAtBottom Property
+# PrintAtBottom Property
 
 **HeaderBand** and **FooterBand** have the **PrintAtBottom** property.
 

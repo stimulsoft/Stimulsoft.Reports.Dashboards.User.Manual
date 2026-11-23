@@ -1,4 +1,4 @@
-## Back Color
+# Back Color
 
 Using conditional formatting it is possible to apply the background color for the text component. The picture below shows a report page:
 

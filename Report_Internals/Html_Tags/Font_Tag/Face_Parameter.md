@@ -1,4 +1,4 @@
-## Face Attribute
+# Face Attribute
 
 The face attribute defines the name of the font of the text within the font element. To use this attribute you must specify the font name. If the font is not found, then the font of the text component or the previous font specified in the tag is used.
 

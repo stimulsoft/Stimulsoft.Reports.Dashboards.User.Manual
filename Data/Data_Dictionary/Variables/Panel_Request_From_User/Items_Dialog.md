@@ -1,4 +1,4 @@
-## Items Dialog
+# Items Dialog
 
 In the **Items** dialog you can create, delete, edit items (values, expressions). This window is invoked when clicking the **Editor** in the **Variables** dialog. The picture below shows the **Items** dialog:
 

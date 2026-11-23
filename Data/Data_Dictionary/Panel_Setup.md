@@ -1,4 +1,4 @@
-## Panel Setup
+# Panel Setup
 
 The panel (see the picture below) contains controls that provide an opportunity to change auxiliary parameters of the data dictionary.
 

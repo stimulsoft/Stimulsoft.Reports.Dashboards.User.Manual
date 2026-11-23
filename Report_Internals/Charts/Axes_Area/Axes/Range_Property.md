@@ -1,4 +1,4 @@
-## Range Property
+# Range Property
 
 The **Range** property is used to display the specified section of a chart. So a part of the chart within the specified values will be shown. The picture below shows a chart with the Range property set to the X-axis from 2 to 4:
 

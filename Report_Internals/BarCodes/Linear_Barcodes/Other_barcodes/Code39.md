@@ -1,4 +1,4 @@
-## Code39
+# Code39
 
 Code 39 is a variable length symbology that can encode 44 characters. Code 39 is the most popular symbology in the non-retail world and is used extensively in manufacturing, military, and medicine applications. In addition, this code is used by most car manufacturers as a code to mark a car model and its parts.
 

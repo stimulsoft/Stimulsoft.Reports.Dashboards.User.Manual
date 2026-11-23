@@ -1,4 +1,4 @@
-## Font Underlined
+# Font Underlined
 
 Using conditional formatting it is possible to apply the underlined font for the text component. The picture below shows a report page:
 

@@ -1,4 +1,4 @@
-## Relation
+# Relation
 
 Relation is created between data sources and defines how should data from these sources be bind. When creating a relation, keys which play a role of data columns, are indicated. As a result, a relation is a connection between data sources on the basis of one or more key data columns. The Relation provides the ability to filter, sort, display data when accessing the same data source via a relation from another data source. Let's review the following example. The picture below shows two data sources - **Categories** and **Products** (partially):
 

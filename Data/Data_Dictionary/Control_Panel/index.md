@@ -1,4 +1,4 @@
-## Control Panel
+# Control Panel
 
 The basic elements to control the data dictionary can be found on the control panel. The picture below shows the control panel:
 

@@ -1,4 +1,4 @@
-## Series Labels
+# Series Labels
 
 The location series labels, in the pie chart, depends on the value of the **SeriesLabels** property. This property may take the following values: None, Inside End, Center, Outside, Two Columns.
 

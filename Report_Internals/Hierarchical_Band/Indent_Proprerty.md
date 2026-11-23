@@ -1,4 +1,4 @@
-## Indent Property
+# Indent Property
 
 To visualize the hierarchy of a report you need to change a value of the **Indent** property. The value of the **Indent** property is the distance at which an entry in the hierarchy, relative to the previous level of the tree, will be moved. If the **Indent** property is set to 0, then the indent will not be performed. The picture below shows an example of a rendered hierarchical report with the indent of 0:
 

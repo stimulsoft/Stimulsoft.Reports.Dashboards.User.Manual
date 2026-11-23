@@ -1,4 +1,4 @@
-## Using Data Fields
+# Using Data Fields
 
 Values from data sources can be used in expressions. To reference a field from the data source you must provide a string representation of the field. The syntax of the reference is simple - you give the name of the data source and the field name separated by a decimal point or full-stop character, surrounded by curly braces:
 

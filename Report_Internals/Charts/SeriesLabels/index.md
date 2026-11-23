@@ -1,4 +1,4 @@
-## Series Labels
+# Series Labels
 
 **Series Labels** is an information block which displays the value of each series. The picture below shows an example of a chart, with Series Labels:
 

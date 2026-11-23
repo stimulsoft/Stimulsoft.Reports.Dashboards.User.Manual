@@ -1,4 +1,4 @@
-## Text Expressions
+# Text Expressions
 
 The simplest expressions are Text expressions. For example:
 

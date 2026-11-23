@@ -1,4 +1,4 @@
-## Data Output
+# Data Output
 
 To obtain a structured list in a report as a tree, you must follow these steps:
 

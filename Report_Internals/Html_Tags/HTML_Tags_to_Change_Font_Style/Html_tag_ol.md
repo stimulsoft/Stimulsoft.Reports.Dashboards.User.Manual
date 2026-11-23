@@ -1,4 +1,4 @@
-## HTML &lt;ol&gt; Tag
+# HTML &lt;ol&gt; Tag
 
 The &lt;ol&gt; tag inserts an ordered list, which is a block level element consisting of a sequence of numbered items, usually displayed with a number on the left margin.
 

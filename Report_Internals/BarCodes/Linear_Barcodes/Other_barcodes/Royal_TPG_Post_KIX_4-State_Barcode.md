@@ -1,4 +1,4 @@
-## Royal TPG Post KIX 4-State
+# Royal TPG Post KIX 4-State
 
 This symbology is used by Royal Dutch TPG Post (Netherlands) for Postal code and automatic mail sorting. It provides information about the address of the receiver. This symbology encodes alpha-numeric characters (0-9, A-Z). The barcode is also known as Royal TNT Post Kix, Dutch KIX 4-State Barcode, Kix Barcode, TPG KIX, Klantenindex Barcode, TPGPOST KIX.
 

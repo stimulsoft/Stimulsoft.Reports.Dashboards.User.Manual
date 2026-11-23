@@ -1,4 +1,4 @@
-## Master-Detail Report with Table
+# Master-Detail Report with Table
 
 Do the following steps to design a **Master-Detail** report with the **Table** component:
 

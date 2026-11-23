@@ -1,4 +1,4 @@
-## Band Types
+# Band Types
 
 There are many bands in Stimulsoft Reports, each with its own unique capabilities. All bands can be categorized into one of two types: standard bands and cross bands.
 

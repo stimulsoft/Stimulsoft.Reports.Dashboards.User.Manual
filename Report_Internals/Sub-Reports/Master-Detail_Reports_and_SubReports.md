@@ -1,4 +1,4 @@
-## Master-Detail Reports and Sub-Reports
+# Master-Detail Reports and Sub-Reports
 
 You can build a Master-Detail report using the Sub-Report component in several ways:
 

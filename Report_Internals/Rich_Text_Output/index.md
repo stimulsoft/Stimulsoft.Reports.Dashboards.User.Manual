@@ -1,4 +1,4 @@
-## Rich Text
+# Rich Text
 
 Stimulsoft Reports allows users to include **Rich Text** formatted (**RTF**) text in reports, without any limitations.
 

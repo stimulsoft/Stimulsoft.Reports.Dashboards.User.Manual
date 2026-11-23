@@ -1,4 +1,4 @@
-## Wizard Chart
+# Wizard Chart
 
 The **Chart** wizard is used to create reports with charts. The picture below shows a window of the **Chart** wizard.
 

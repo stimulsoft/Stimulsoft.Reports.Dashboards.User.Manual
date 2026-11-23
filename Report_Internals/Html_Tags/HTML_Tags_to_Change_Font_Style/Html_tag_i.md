@@ -1,4 +1,4 @@
-## HTML &lt;i&gt; Tag
+# HTML &lt;i&gt; Tag
 
 The **&lt;i&gt;** tag is used to define italic text. The tag can be used in combination with other tags to change the text style. For example, if you enter the following expression:
 

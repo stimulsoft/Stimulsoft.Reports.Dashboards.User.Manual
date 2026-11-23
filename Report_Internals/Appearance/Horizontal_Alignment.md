@@ -1,4 +1,4 @@
-## Horizontal Alignment
+# Horizontal Alignment
 
 Some components allow you to set alignment of their content in relation to their sizes horizontally. For example, the **Text**, the **Image** components. Horizontal alignment defines the design of content and can be carried out by the left edge, the right edge, in the center or width (only for some text). To change alignment you can use the **Horizontal Alignment** component property.
 

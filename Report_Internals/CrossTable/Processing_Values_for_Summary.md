@@ -1,4 +1,4 @@
-## Processing Values for Summary
+# Processing Values for Summary
 
 The **Cross-Tab** has the **SummaryValues** property, which allows you to display the total number of values of the cross-table, considering or not considering 0 and/or null values. The **SummaryValues** property can take one of three values; depending on the value of the property, a different number of values will be displayed as a result. Values of the **SummaryValues** property and their description are described in the table below:
 

@@ -1,4 +1,4 @@
-## JAN-13
+# JAN-13
 
 A **JAN-13** barcode is another name for an EAN-13  barcode dedicated for use only in Japan. The first two digits should be 45 or 49 which indicate Japan.
 

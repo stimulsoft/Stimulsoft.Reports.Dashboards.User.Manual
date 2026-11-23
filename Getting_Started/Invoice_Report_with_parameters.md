@@ -1,4 +1,4 @@
-## Invoice Report With Parameters
+# Invoice Report With Parameters
 
 Do the following steps to create an invoice with parameters:
 

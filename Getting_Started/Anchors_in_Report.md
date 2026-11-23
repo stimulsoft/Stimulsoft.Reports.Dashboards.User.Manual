@@ -1,4 +1,4 @@
-## Anchors in Report
+# Anchors in Report
 
 > **Important**
 >

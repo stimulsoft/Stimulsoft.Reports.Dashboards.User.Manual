@@ -1,4 +1,4 @@
-## Connection
+# Connection
 
 The **Connection** object of the data dictionary describes the report parameters that are used to retrieve data from the database. Stimulsoft Reports supports many types of connection object. All types can be divided into two groups: built-in ones that are included into the report generator, and external data adapters that can be downloaded from our website [Database Packs](https://www.stimulsoft.com/en/downloads/database-packs). These packs can be used only for the reporting tools of the product line [Stimulsoft Reports](https://www.stimulsoft.com/en/products/net).
 
